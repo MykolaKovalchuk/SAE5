@@ -1,0 +1,1416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPageSourceImage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="panelBottomRight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonColors.Name" xml:space="preserve">
+    <value>buttonColors</value>
+  </data>
+  <data name="upDownHeight.ToolTip" xml:space="preserve">
+    <value>Scheme height</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPagePreview.Name" xml:space="preserve">
+    <value>tabPagePreview</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;comboBoxColorsSubstitute.Name" xml:space="preserve">
+    <value>comboBoxColorsSubstitute</value>
+  </data>
+  <data name="ribbonLeft.OrbDropDown.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="splitContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>892, 543</value>
+  </data>
+  <data name="buttonRotateCW.Text" xml:space="preserve">
+    <value>Rotate Right</value>
+  </data>
+  <data name="&gt;&gt;comboBoxResizeFilter.Name" xml:space="preserve">
+    <value>comboBoxResizeFilter</value>
+  </data>
+  <data name="panelBottomRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;buttonRotateCCW.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelBottomRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabPreview.Name" xml:space="preserve">
+    <value>ribbonTabPreview</value>
+  </data>
+  <data name="ribbonPanelSymbolsSelect.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="ribbonTabPreview.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="tabControlRight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="buttonWhiteSymbols.Text" xml:space="preserve">
+    <value>White Symbols</value>
+  </data>
+  <data name="&gt;&gt;buttonHalfTone.Name" xml:space="preserve">
+    <value>buttonHalfTone</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelAdvImage.Name" xml:space="preserve">
+    <value>ribbonPanelAdvImage</value>
+  </data>
+  <data name="&gt;&gt;tabPageResultImage.Name" xml:space="preserve">
+    <value>tabPageResultImage</value>
+  </data>
+  <data name="buttonRotateCCW.Text" xml:space="preserve">
+    <value>Rotate Left</value>
+  </data>
+  <data name="tabControlLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 120</value>
+  </data>
+  <data name="&gt;&gt;checkBoxLines.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonCheckBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonLeft.Parent" xml:space="preserve">
+    <value>splitContainer.Panel1</value>
+  </data>
+  <data name="&gt;&gt;upDownStitchesPerUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonUpDown, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="buttonStitches.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="scrollControlSymbols.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="buttonNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 5</value>
+  </data>
+  <data name="ribbonRight.OrbDropDown.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;ribbonRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Ribbon, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="upDownStitchesPerUnit.Text" xml:space="preserve">
+    <value>Fits</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;imageBoxSource.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPageSymbols.Name" xml:space="preserve">
+    <value>tabPageSymbols</value>
+  </data>
+  <data name="checkBoxLetters.Text" xml:space="preserve">
+    <value>Letters</value>
+  </data>
+  <data name="buttonStitches.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;tabPageSymbols.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 39</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="splitContainer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;tabPageSourceImage.Parent" xml:space="preserve">
+    <value>tabControlLeft</value>
+  </data>
+  <data name="ribbonRight.OrbDropDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ribbonLeft.OrbDropDown.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonNext.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;tabControlRight.Name" xml:space="preserve">
+    <value>tabControlRight</value>
+  </data>
+  <data name="buttonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 39</value>
+  </data>
+  <data name="checkBoxLetters.ToolTip" xml:space="preserve">
+    <value>Include letters</value>
+  </data>
+  <data name="&gt;&gt;imageBoxSource.Name" xml:space="preserve">
+    <value>imageBoxSource</value>
+  </data>
+  <data name="&gt;&gt;buttonStitches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ribbonLeft.OrbDropDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="tabControlLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 423</value>
+  </data>
+  <data name="&gt;&gt;scrollControlSymbols.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSymbols.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonCheckBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="upDownHeight.Text" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator3.Name" xml:space="preserve">
+    <value>ribbonSeparator3</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelAdvImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="checkBoxSymbols.Text" xml:space="preserve">
+    <value>Symbols</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabResultImage.Name" xml:space="preserve">
+    <value>ribbonTabResultImage</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelCrop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;checkBoxEnsureBlackAndWhite.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonCheckBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelTransform.Name" xml:space="preserve">
+    <value>ribbonPanelTransform</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ribbonPanelTransform.Text" xml:space="preserve">
+    <value>Transform</value>
+  </data>
+  <data name="tabPageResultImage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;comboBoxKit.Name" xml:space="preserve">
+    <value>comboBoxKit</value>
+  </data>
+  <data name="buttonNext.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="buttonColors.Text" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelSize.Name" xml:space="preserve">
+    <value>ribbonPanelSize</value>
+  </data>
+  <data name="comboBoxResizeFilter.ToolTip" xml:space="preserve">
+    <value>Filter used to smoothe image when resizing it</value>
+  </data>
+  <data name="&gt;&gt;comboBoxKit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonComboBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ribbonLeft.QuickAccessToolbar.ToolTipImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tabPageSymbols.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Name" xml:space="preserve">
+    <value>splitContainer</value>
+  </data>
+  <data name="buttonClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;buttonNext.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonLoad.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDigits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonCheckBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ribbonLeft.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="comboBoxKit.Text" xml:space="preserve">
+    <value>Kit</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedNo.Name" xml:space="preserve">
+    <value>labelSelectedNo</value>
+  </data>
+  <data name="tabControlRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>446, 423</value>
+  </data>
+  <data name="&gt;&gt;buttonCm.Name" xml:space="preserve">
+    <value>buttonCm</value>
+  </data>
+  <data name="ribbonRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>446, 120</value>
+  </data>
+  <data name="&gt;&gt;buttonCross.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ribbonTabAdvanced.Text" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="&gt;&gt;imageBoxSource.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.ZoomImageBox, Ravlyk.Drawing.WinForms, Version=2.0.1.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonNext.Parent" xml:space="preserve">
+    <value>panelBottomRight</value>
+  </data>
+  <data name="upDownDither.ToolTip" xml:space="preserve">
+    <value>Level of mixing different color stitches to soften overall color differences of whole image. 0-no dithering, 10-maximum level.</value>
+  </data>
+  <data name="checkBoxLines.Text" xml:space="preserve">
+    <value>Lines</value>
+  </data>
+  <data name="ribbonPanelColors.Text" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator1.Name" xml:space="preserve">
+    <value>ribbonSeparator1</value>
+  </data>
+  <data name="ribbonPanelAdvImage.Text" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="&gt;&gt;buttonColorSymbols.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="buttonCm.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonRight.OrbDropDown.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="splitContainer.SplitterWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSymbols.Name" xml:space="preserve">
+    <value>comboBoxSymbols</value>
+  </data>
+  <data name="&gt;&gt;buttonFlipH.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDigits.Name" xml:space="preserve">
+    <value>checkBoxDigits</value>
+  </data>
+  <data name="checkBoxFixAspect.Text" xml:space="preserve">
+    <value>Fix aspect</value>
+  </data>
+  <data name="buttonRandom.ToolTip" xml:space="preserve">
+    <value>Select random symbols</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ribbonRight.Name" xml:space="preserve">
+    <value>ribbonRight</value>
+  </data>
+  <data name="panelBottom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="buttonRect.ToolTip" xml:space="preserve">
+    <value>Crop image with rectangular area</value>
+  </data>
+  <data name="tabControlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelSymbolsSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="upDownMaxColors.ToolTip" xml:space="preserve">
+    <value>Reduce colors count in image to this number. Actual number can be less.</value>
+  </data>
+  <data name="ribbonRight.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonCancel.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;tabPageSymbols.Parent" xml:space="preserve">
+    <value>tabControlRight</value>
+  </data>
+  <data name="&gt;&gt;buttonWhiteSymbols.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;panelBottom.Name" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="buttonInches.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;tabPagePreview.Parent" xml:space="preserve">
+    <value>tabControlRight</value>
+  </data>
+  <data name="labelSelectedNo.Text" xml:space="preserve">
+    <value>Selected 0 of 0</value>
+  </data>
+  <data name="comboBoxResizeFilter.Text" xml:space="preserve">
+    <value>Smoothing filter</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelSheme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPageResultImage.Parent" xml:space="preserve">
+    <value>tabControlRight</value>
+  </data>
+  <data name="buttonInches.ToolTip" xml:space="preserve">
+    <value>Specifies scheme size in inches</value>
+  </data>
+  <data name="imageBoxSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="tabPageSourceImage.Text" xml:space="preserve">
+    <value>Source Image</value>
+  </data>
+  <data name="buttonInches.Text" xml:space="preserve">
+    <value>Inch</value>
+  </data>
+  <data name="panelBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelImage.Name" xml:space="preserve">
+    <value>ribbonPanelImage</value>
+  </data>
+  <data name="ribbonRight.OrbDropDown.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonLeft.QuickAccessToolbar.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;checkBoxEnsureBlackAndWhite.Name" xml:space="preserve">
+    <value>checkBoxEnsureBlackAndWhite</value>
+  </data>
+  <data name="&gt;&gt;upDownWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonUpDown, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ribbonRight.OrbDropDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;buttonRotateCW.Name" xml:space="preserve">
+    <value>buttonRotateCW</value>
+  </data>
+  <data name="tabPageResultImage.Text" xml:space="preserve">
+    <value>Result Image</value>
+  </data>
+  <data name="checkBoxLines.ToolTip" xml:space="preserve">
+    <value>Show grid lines</value>
+  </data>
+  <data name="buttonInches.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;buttonClear.Name" xml:space="preserve">
+    <value>buttonClear</value>
+  </data>
+  <data name="panelBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabSymbols.Name" xml:space="preserve">
+    <value>ribbonTabSymbols</value>
+  </data>
+  <data name="checkBoxEnsureBlackAndWhite.Text" xml:space="preserve">
+    <value>Add black and white colors</value>
+  </data>
+  <data name="&gt;&gt;panelBottomRight.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControlLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ribbonPanelAdvColor.Text" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="&gt;&gt;checkBoxLetters.Name" xml:space="preserve">
+    <value>checkBoxLetters</value>
+  </data>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 5</value>
+  </data>
+  <data name="splitContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tabControlLeft.Name" xml:space="preserve">
+    <value>tabControlLeft</value>
+  </data>
+  <data name="buttonFlipH.ToolTip" xml:space="preserve">
+    <value>Flip image horizontally (left to right)</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonLabel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonFlipH.Name" xml:space="preserve">
+    <value>buttonFlipH</value>
+  </data>
+  <data name="ribbonLeft.OrbDropDown.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="buttonSymbols.Text" xml:space="preserve">
+    <value>Symbols</value>
+  </data>
+  <data name="buttonLoad.ToolTip" xml:space="preserve">
+    <value>Open a dialog to select a source image to transform into pattern scheme</value>
+  </data>
+  <data name="&gt;&gt;scrollControlGridPreview.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ribbonRight.QuickAccessToolbar.ToolTip" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonInches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonRandom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scrollControlGridPreview.Name" xml:space="preserve">
+    <value>scrollControlGridPreview</value>
+  </data>
+  <data name="ribbonLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPagePreview.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ribbonLeft.OrbDropDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 447</value>
+  </data>
+  <data name="&gt;&gt;imageBoxSource.Parent" xml:space="preserve">
+    <value>tabPageSourceImage</value>
+  </data>
+  <data name="ribbonRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;imageBoxResult.Name" xml:space="preserve">
+    <value>imageBoxResult</value>
+  </data>
+  <data name="buttonArc.Text" xml:space="preserve">
+    <value>Arc</value>
+  </data>
+  <data name="comboBoxSymbols.Text" xml:space="preserve">
+    <value>Symbols</value>
+  </data>
+  <data name="tabPageResultImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 397</value>
+  </data>
+  <data name="comboBoxUnits.ToolTip" xml:space="preserve">
+    <value>Specifies units for measuring result scheme sizes</value>
+  </data>
+  <data name="ribbonRight.OrbDropDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="panelBottomRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 52</value>
+  </data>
+  <data name="ribbonPanelSize.Text" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="tabControlRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 120</value>
+  </data>
+  <data name="buttonNext.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextBeforeImage</value>
+  </data>
+  <data name="ribbonRight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;buttonNext.Name" xml:space="preserve">
+    <value>buttonNext</value>
+  </data>
+  <data name="ribbonPanelSymbols.Text" xml:space="preserve">
+    <value>Symbols</value>
+  </data>
+  <data name="scrollControlSymbols.Size" type="System.Drawing.Size, System.Drawing">
+    <value>434, 393</value>
+  </data>
+  <data name="&gt;&gt;panelBottom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ribbonTabSymbols.Text" xml:space="preserve">
+    <value>Symbols</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.Name" xml:space="preserve">
+    <value>splitContainer.Panel1</value>
+  </data>
+  <data name="ribbonLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="checkBoxSymbols.ToolTip" xml:space="preserve">
+    <value>Include symbols</value>
+  </data>
+  <data name="buttonHalfTone.Text" xml:space="preserve">
+    <value>Half Tone</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelColors.Name" xml:space="preserve">
+    <value>ribbonPanelColors</value>
+  </data>
+  <data name="scrollControlGridPreview.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabControlLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="imageBoxSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 393</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelSymbolsSelect.Name" xml:space="preserve">
+    <value>ribbonPanelSymbolsSelect</value>
+  </data>
+  <data name="checkBoxDigits.Text" xml:space="preserve">
+    <value>Digits</value>
+  </data>
+  <data name="&gt;&gt;comboBoxUnits.Name" xml:space="preserve">
+    <value>comboBoxUnits</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelSheme.Name" xml:space="preserve">
+    <value>ribbonPanelSheme</value>
+  </data>
+  <data name="&gt;&gt;ribbonLeft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="buttonNext.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="buttonFull.Text" xml:space="preserve">
+    <value>Full</value>
+  </data>
+  <data name="tabPageSymbols.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 397</value>
+  </data>
+  <data name="tabPagePreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 397</value>
+  </data>
+  <data name="scrollControlGridPreview.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;upDownDither.Name" xml:space="preserve">
+    <value>upDownDither</value>
+  </data>
+  <data name="&gt;&gt;panelBottomRight.Name" xml:space="preserve">
+    <value>panelBottomRight</value>
+  </data>
+  <data name="tabControlRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ribbonRight.Parent" xml:space="preserve">
+    <value>splitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;buttonArc.Name" xml:space="preserve">
+    <value>buttonArc</value>
+  </data>
+  <data name="ribbonTabResultImage.Text" xml:space="preserve">
+    <value>Result Image</value>
+  </data>
+  <data name="checkBoxDigits.ToolTip" xml:space="preserve">
+    <value>Include digits</value>
+  </data>
+  <data name="ribbonPanelSheme.Text" xml:space="preserve">
+    <value>Scheme</value>
+  </data>
+  <data name="comboBoxSymbols.ToolTip" xml:space="preserve">
+    <value>Symbols font to be used in pattern scheme</value>
+  </data>
+  <data name="&gt;&gt;tabPageSourceImage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ribbonPanelCrop.Text" xml:space="preserve">
+    <value>Crop</value>
+  </data>
+  <data name="scrollControlGridPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>434, 393</value>
+  </data>
+  <data name="upDownDither.Text" xml:space="preserve">
+    <value>Dither level</value>
+  </data>
+  <data name="&gt;&gt;buttonHalfTone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="buttonNext.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer</value>
+  </data>
+  <data name="&gt;&gt;buttonSymbols.Name" xml:space="preserve">
+    <value>buttonSymbols</value>
+  </data>
+  <data name="upDownStitchesPerUnit.ToolTip" xml:space="preserve">
+    <value>Specifies how many stitches can fit per selected length unit</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFixAspect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonCheckBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelAdvColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPageSourceImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ribbonRight.OrbDropDown.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPagePreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPagePreview.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="tabPageResultImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;imageBoxResult.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.ZoomImageBox, Ravlyk.Drawing.WinForms, Version=2.0.1.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="comboBoxUnits.Text" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="&gt;&gt;upDownMaxColors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonUpDown, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;upDownStitchesPerUnit.Name" xml:space="preserve">
+    <value>upDownStitchesPerUnit</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scrollControlSymbols.Name" xml:space="preserve">
+    <value>scrollControlSymbols</value>
+  </data>
+  <data name="splitContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;scrollControlSymbols.Parent" xml:space="preserve">
+    <value>tabPageSymbols</value>
+  </data>
+  <data name="buttonNext.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPageResultImage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="upDownCellSize.ToolTip" xml:space="preserve">
+    <value>Scheme cell size</value>
+  </data>
+  <data name="panelBottomRight.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBoxColorsSubstitute.Text" xml:space="preserve">
+    <value>Substitute type</value>
+  </data>
+  <data name="&gt;&gt;scrollControlGridPreview.Parent" xml:space="preserve">
+    <value>tabPagePreview</value>
+  </data>
+  <data name="splitContainer.Panel1MinSize" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="&gt;&gt;buttonFull.Name" xml:space="preserve">
+    <value>buttonFull</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonArc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="buttonStitches.ToolTip" xml:space="preserve">
+    <value>Specifies scheme size in stitches</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabResultImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabControlRight.Parent" xml:space="preserve">
+    <value>splitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;comboBoxResizeFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonComboBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelAdvColor.Name" xml:space="preserve">
+    <value>ribbonPanelAdvColor</value>
+  </data>
+  <data name="ribbonLeft.OrbDropDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelSymbols.Name" xml:space="preserve">
+    <value>ribbonPanelSymbols</value>
+  </data>
+  <data name="&gt;&gt;buttonFull.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="buttonStitches.Text" xml:space="preserve">
+    <value>Stitch</value>
+  </data>
+  <data name="&gt;&gt;buttonRotateCCW.Name" xml:space="preserve">
+    <value>buttonRotateCCW</value>
+  </data>
+  <data name="scrollControlSymbols.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonLoad.Text" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="&gt;&gt;tabControlLeft.Parent" xml:space="preserve">
+    <value>splitContainer.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ribbonLeft.Name" xml:space="preserve">
+    <value>ribbonLeft</value>
+  </data>
+  <data name="scrollControlGridPreview.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="ribbonRight.QuickAccessToolbar.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;scrollControlGridPreview.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.ScrollControl, Ravlyk.Drawing.WinForms, Version=2.0.1.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="imageBoxResult.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;buttonCross.Name" xml:space="preserve">
+    <value>buttonCross</value>
+  </data>
+  <data name="ribbonLeft.QuickAccessToolbar.ToolTip" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonColorSymbols.Name" xml:space="preserve">
+    <value>buttonColorSymbols</value>
+  </data>
+  <data name="ribbonPanelImage.Text" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="&gt;&gt;upDownHeight.Name" xml:space="preserve">
+    <value>upDownHeight</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator4.Name" xml:space="preserve">
+    <value>ribbonSeparator4</value>
+  </data>
+  <data name="imageBoxSource.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPageSymbols.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;buttonColors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;upDownWidth.Name" xml:space="preserve">
+    <value>upDownWidth</value>
+  </data>
+  <data name="&gt;&gt;buttonFlipV.Name" xml:space="preserve">
+    <value>buttonFlipV</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabAdvanced.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonRotateCW.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPagePreview.Text" xml:space="preserve">
+    <value>Scheme Preview</value>
+  </data>
+  <data name="checkBoxEnsureBlackAndWhite.ToolTip" xml:space="preserve">
+    <value>Ensure that there are threads of black and white colors in reduced colors palette</value>
+  </data>
+  <data name="&gt;&gt;ribbonRight.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabSourceImage.Name" xml:space="preserve">
+    <value>ribbonTabSourceImage</value>
+  </data>
+  <data name="&gt;&gt;buttonWhiteSymbols.Name" xml:space="preserve">
+    <value>buttonWhiteSymbols</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFixAspect.Name" xml:space="preserve">
+    <value>checkBoxFixAspect</value>
+  </data>
+  <data name="panelBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>892, 52</value>
+  </data>
+  <data name="buttonCancel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelColors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="scrollControlSymbols.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabPageSourceImage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="buttonFlipV.ToolTip" xml:space="preserve">
+    <value>Flip image vertically (upside down)</value>
+  </data>
+  <data name="ribbonRight.OrbDropDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 447</value>
+  </data>
+  <data name="upDownCellSize.Text" xml:space="preserve">
+    <value>Cell</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer</value>
+  </data>
+  <data name="&gt;&gt;buttonInches.Name" xml:space="preserve">
+    <value>buttonInches</value>
+  </data>
+  <data name="buttonCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;tabPagePreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxRulers.Name" xml:space="preserve">
+    <value>checkBoxRulers</value>
+  </data>
+  <data name="buttonNext.Text" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="&gt;&gt;upDownHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonUpDown, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonRect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonStitches.Name" xml:space="preserve">
+    <value>buttonStitches</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageBoxResult.Parent" xml:space="preserve">
+    <value>tabPageResultImage</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>WizardUserControl</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabSymbols.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSymbols.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonComboBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPageSymbols.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="buttonFlipV.Text" xml:space="preserve">
+    <value>Flip Vertical</value>
+  </data>
+  <data name="&gt;&gt;tabPageResultImage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxColorsSubstitute.ToolTip" xml:space="preserve">
+    <value>Colors comparison and substitution mode</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSymbols.Name" xml:space="preserve">
+    <value>checkBoxSymbols</value>
+  </data>
+  <data name="ribbonRight.QuickAccessToolbar.ToolTipImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;checkBoxLines.Name" xml:space="preserve">
+    <value>checkBoxLines</value>
+  </data>
+  <data name="buttonRotateCCW.ToolTip" xml:space="preserve">
+    <value>Rotate image counter-clockwise</value>
+  </data>
+  <data name="tabPageResultImage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboBoxColorsSubstitute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonComboBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ribbonLeft.OrbDropDown.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="checkBoxFixAspect.ToolTip" xml:space="preserve">
+    <value>Fix source aspect ratio when changing sizes</value>
+  </data>
+  <data name="&gt;&gt;buttonLoad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPageSourceImage.Name" xml:space="preserve">
+    <value>tabPageSourceImage</value>
+  </data>
+  <data name="ribbonRight.OrbDropDown.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonCancel.Name" xml:space="preserve">
+    <value>buttonCancel</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="imageBoxSource.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;checkBoxLetters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonCheckBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="buttonCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabControlLeft.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.875pt</value>
+  </data>
+  <data name="&gt;&gt;imageBoxResult.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonCm.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonLeft.OrbDropDown.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tabPageSourceImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 397</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabAdvanced.Name" xml:space="preserve">
+    <value>ribbonTabAdvanced</value>
+  </data>
+  <data name="buttonCross.Text" xml:space="preserve">
+    <value>Stitches Preview</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.FlatButton, Ravlyk.Drawing.WinForms, Version=2.0.1.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="checkBoxRulers.Text" xml:space="preserve">
+    <value>Rulers</value>
+  </data>
+  <data name="tabPagePreview.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tabPageSourceImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="scrollControlSymbols.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="tabPageSymbols.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelTransform.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="upDownWidth.ToolTip" xml:space="preserve">
+    <value>Scheme width</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>892, 595</value>
+  </data>
+  <data name="tabPageSourceImage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonInches.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="upDownMaxColors.Text" xml:space="preserve">
+    <value>Max Colors</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelSymbols.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="buttonCm.Text" xml:space="preserve">
+    <value>Cm</value>
+  </data>
+  <data name="ribbonLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;scrollControlSymbols.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.ScrollControl, Ravlyk.Drawing.WinForms, Version=2.0.1.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabSourceImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPageSymbols.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonStitches.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="panelBottomRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 0</value>
+  </data>
+  <data name="&gt;&gt;upDownMaxColors.Name" xml:space="preserve">
+    <value>upDownMaxColors</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator2.Name" xml:space="preserve">
+    <value>ribbonSeparator2</value>
+  </data>
+  <data name="ribbonRight.OrbDropDown.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonArc.ToolTip" xml:space="preserve">
+    <value>Crop image with elliptic area</value>
+  </data>
+  <data name="ribbonTabSourceImage.Text" xml:space="preserve">
+    <value>Source Image</value>
+  </data>
+  <data name="upDownWidth.Text" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="&gt;&gt;tabControlLeft.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.TabControlWoTabs, Ravlyk.Drawing.WinForms, Version=2.0.1.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="buttonClear.ToolTip" xml:space="preserve">
+    <value>Clear all selection</value>
+  </data>
+  <data name="splitContainer.Panel2MinSize" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="imageBoxResult.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="buttonRotateCW.ToolTip" xml:space="preserve">
+    <value>Rotate image clockwise</value>
+  </data>
+  <data name="&gt;&gt;tabControlRight.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.TabControlWoTabs, Ravlyk.Drawing.WinForms, Version=2.0.1.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="buttonCm.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonLeft.OrbDropDown.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="buttonColorSymbols.Text" xml:space="preserve">
+    <value>Colored Symbols</value>
+  </data>
+  <data name="imageBoxResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="ribbonLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 120</value>
+  </data>
+  <data name="buttonCm.ToolTip" xml:space="preserve">
+    <value>Specifies scheme size in centimetres</value>
+  </data>
+  <data name="&gt;&gt;tabControlLeft.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelCrop.Name" xml:space="preserve">
+    <value>ribbonPanelCrop</value>
+  </data>
+  <data name="buttonRandom.Text" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="checkBoxRulers.ToolTip" xml:space="preserve">
+    <value>Show rulers with rows and columns numbers</value>
+  </data>
+  <data name="buttonNext.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;buttonLoad.Name" xml:space="preserve">
+    <value>buttonLoad</value>
+  </data>
+  <data name="ribbonLeft.OrbDropDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tabPageResultImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;upDownCellSize.Name" xml:space="preserve">
+    <value>upDownCellSize</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.Name" xml:space="preserve">
+    <value>splitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;buttonFlipV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ribbonRight.OrbDropDown.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControlRight.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ribbonLeft.OrbDropDown.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;panelBottomRight.Parent" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="&gt;&gt;panelBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonRect.Name" xml:space="preserve">
+    <value>buttonRect</value>
+  </data>
+  <data name="comboBoxKit.ToolTip" xml:space="preserve">
+    <value>Threads kit (colors palette) which will be used for embroidery</value>
+  </data>
+  <data name="scrollControlGridPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="&gt;&gt;buttonSymbols.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="panelBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 543</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Parent" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="ribbonRight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="ribbonLeft.OrbDropDown.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="imageBoxResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>434, 393</value>
+  </data>
+  <data name="tabPagePreview.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="splitContainer.SplitterDistance" type="System.Int32, mscorlib">
+    <value>438</value>
+  </data>
+  <data name="tabPageSymbols.Text" xml:space="preserve">
+    <value>Symbols</value>
+  </data>
+  <data name="ribbonLeft.OrbDropDown.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;upDownCellSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonUpDown, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;comboBoxUnits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonComboBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonNext.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.FlatButton, Ravlyk.Drawing.WinForms, Version=2.0.1.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;checkBoxRulers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonCheckBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Ribbon, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ribbonRight.OrbDropDown.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonCm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="buttonRect.Text" xml:space="preserve">
+    <value>Rect</value>
+  </data>
+  <data name="tabControlRight.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="buttonFlipH.Text" xml:space="preserve">
+    <value>Flip Horizontal</value>
+  </data>
+  <data name="&gt;&gt;upDownDither.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonUpDown, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonRandom.Name" xml:space="preserve">
+    <value>buttonRandom</value>
+  </data>
+  <data name="buttonCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="ribbonRight.OrbDropDown.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

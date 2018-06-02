@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FF5ACB03-4A97-4CC3-A5B2-1C7788C70257}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Ravlyk.SAE.Drawing</RootNamespace>
+    <AssemblyName>Ravlyk.SAE.Drawing</AssemblyName>
+    <ReleaseVersion>5.0.1.32</ReleaseVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CodedImage.cs" />
+    <Compile Include="CodedPaletteOrderExtensions.cs" />
+    <Compile Include="Export\ExcelExporter.cs" />
+    <Compile Include="Painters\BasePainter.cs" />
+    <Compile Include="Painters\EmfPainter.cs" />
+    <Compile Include="Painters\GdiPainter.cs" />
+    <Compile Include="Painters\IndexedImagePainter.cs" />
+    <Compile Include="Painters\IPainter.cs" />
+    <Compile Include="Painters\PdfSharpPainter.cs" />
+    <Compile Include="Properties\GridPainterSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>GridPainterSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Grid\CrossPainter.cs" />
+    <Compile Include="Grid\PatternGridPainter.cs" />
+    <Compile Include="Processor\Controllers\ImageSymbolsController.cs" />
+    <Compile Include="Processor\Controllers\PaletteController.cs" />
+    <Compile Include="Processor\IImageProvider.cs" />
+    <Compile Include="Processor\Manipulators\ImageInplaceManipulator.cs" />
+    <Compile Include="Processor\Manipulators\ImageSymbolsManipulator.cs" />
+    <Compile Include="Processor\VisualControllers\VisualPrintPreviewController.cs" />
+    <Compile Include="Processor\VisualControllers\VisualScrollableController.cs" />
+    <Compile Include="Processor\VisualControllers\VisualBoxedController.cs" />
+    <Compile Include="Processor\VisualControllers\VisualController.cs" />
+    <Compile Include="Processor\VisualControllers\VisualPatternGridController.cs" />
+    <Compile Include="Processor\VisualControllers\VisualSymbolsController.cs" />
+    <Compile Include="Processor\VisualControllers\VisualZoomController.cs" />
+    <Compile Include="Processor\VisualControllers\VisualZoomCropController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CodedColor.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\SAEWizardSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>SAEWizardSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Serialization\ColorSerializer.cs" />
+    <Compile Include="Serialization\ImageSerializer.cs" />
+    <Compile Include="Serialization\PaletteCsvImporter.cs" />
+    <Compile Include="Serialization\PaletteSerializer.cs" />
+    <Compile Include="Serialization\XmlSerialization.cs" />
+    <Compile Include="CodedPalette.cs" />
+    <Compile Include="UndoRedo\UndoRedoAction.cs" />
+    <Compile Include="UndoRedo\UndoRedoActionAddColor.cs" />
+    <Compile Include="UndoRedo\UndoRedoActionChangeColorAttributes.cs" />
+    <Compile Include="UndoRedo\UndoRedoActionChangePixelColor.cs" />
+    <Compile Include="UndoRedo\UndoRedoActionRemoveColor.cs" />
+    <Compile Include="UndoRedo\UndoRedoProvider.cs" />
+    <Compile Include="Processor\SAEWizard.cs" />
+    <Compile Include="Processor\Manipulators\ImageColorsManipulator.cs" />
+    <Compile Include="Processor\Manipulators\ImageCropManipulator.cs" />
+    <Compile Include="Processor\Manipulators\ImageManipulator.cs" />
+    <Compile Include="Processor\Manipulators\ImageRotateManipulator.cs" />
+    <Compile Include="Processor\Manipulators\ImageSizeManipulator.cs" />
+    <Compile Include="Processor\Controllers\ImageController.cs" />
+    <Compile Include="Processor\Controllers\ImageRotateController.cs" />
+    <Compile Include="Processor\Controllers\ImageCropController.cs" />
+    <Compile Include="Processor\Controllers\ImageSizeController.cs" />
+    <Compile Include="Processor\Controllers\ImageColorsController.cs" />
+    <Compile Include="Processor\Manipulators\ImageSetterManipulator.cs" />
+    <Compile Include="Processor\Controllers\ImageSetterController.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\..\Ravlyk.Adopted\OpenXmlPackaging\Ravlyk.Adopted.OpenXmlPackaging.csproj">
+      <Project>{dad3387a-470a-4484-9427-a8c8faec6c0f}</Project>
+      <Name>Ravlyk.Adopted.OpenXmlPackaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ravlyk.Adopted\PdfSharp\Ravlyk.Adopted.PdfSharp.csproj">
+      <Project>{5384ce57-1f94-4d22-860d-2e9c1ac12ddf}</Project>
+      <Name>Ravlyk.Adopted.PdfSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ravlyk.Adopted\Ravlyk.Adopted.TrueTypeSharp\Ravlyk.Adopted.TrueTypeSharp.csproj">
+      <Project>{B722113F-1252-4BE1-9D43-6BC82B3E37D1}</Project>
+      <Name>Ravlyk.Adopted.TrueTypeSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ravlyk\Ravlyk.Drawing.ImageProcessor\Ravlyk.Drawing.ImageProcessor.csproj">
+      <Project>{5887536A-1AF1-4D42-ACF9-1E41EEC1C9B5}</Project>
+      <Name>Ravlyk.Drawing.ImageProcessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ravlyk\Ravlyk.Drawing\Ravlyk.Drawing.csproj">
+      <Project>{846AA919-E96F-46F3-973B-60F5ADBF8F42}</Project>
+      <Name>Ravlyk.Drawing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ravlyk\Ravlyk.Common\Ravlyk.Common.csproj">
+      <Project>{5C554A7E-24F7-46DA-B65D-4FC4CB132547}</Project>
+      <Name>Ravlyk.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.ru.resx" />
+    <EmbeddedResource Include="Properties\Resources.uk.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\GridPainterSettings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>GridPainterSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\SAEWizardSettings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>SAEWizardSettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+</Project>

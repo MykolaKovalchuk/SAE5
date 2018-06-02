@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF50B1CD-E3AA-4C48-A068-BDEC21035FC1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Ravlyk.Drawing.ImageProcessor.Test</RootNamespace>
+    <AssemblyName>Ravlyk.Drawing.ImageProcessor.Test</AssemblyName>
+    <ReleaseVersion>5.0.1.32</ReleaseVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="ImageCopierTest.cs" />
+    <Compile Include="ImagePainterTest.cs" />
+    <Compile Include="ImageResamplerTest.cs" />
+    <Compile Include="ImageShifterTest.cs" />
+    <Compile Include="Utilities\ColorDistanceTest.cs" />
+    <Compile Include="Utilities\PaletteOrderExtensionsTest.cs" />
+    <Compile Include="Utilities\PaletteQuickColorSearcherTest.cs" />
+    <Compile Include="ImageCropperTest.cs" />
+    <Compile Include="ImageRotatorTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Ravlyk\Ravlyk.Common\Ravlyk.Common.csproj">
+      <Project>{5C554A7E-24F7-46DA-B65D-4FC4CB132547}</Project>
+      <Name>Ravlyk.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ravlyk\Ravlyk.Drawing\Ravlyk.Drawing.csproj">
+      <Project>{846AA919-E96F-46F3-973B-60F5ADBF8F42}</Project>
+      <Name>Ravlyk.Drawing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ravlyk\Ravlyk.Drawing.ImageProcessor\Ravlyk.Drawing.ImageProcessor.csproj">
+      <Project>{5887536A-1AF1-4D42-ACF9-1E41EEC1C9B5}</Project>
+      <Name>Ravlyk.Drawing.ImageProcessor</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

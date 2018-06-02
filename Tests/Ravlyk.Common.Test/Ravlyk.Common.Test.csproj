@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C2CC703-469D-49B0-AEEF-7CB2638AC22D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Ravlyk.Common.Test</RootNamespace>
+    <AssemblyName>Ravlyk.Common.Test</AssemblyName>
+    <ReleaseVersion>5.0.1.32</ReleaseVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DisposableActionTest.cs" />
+    <Compile Include="Points\PointTest.cs" />
+    <Compile Include="Points\RectangleTest.cs" />
+    <Compile Include="Points\SizeTest.cs" />
+    <Compile Include="UndoRedo\UndoRedoActionTest.cs" />
+    <Compile Include="UndoRedo\UndoRedoProviderTest.cs" />
+    <Compile Include="UndoRedo\UndoRedoStepTest.cs" />
+    <Compile Include="DisposableLockTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Ravlyk\Ravlyk.Common\Ravlyk.Common.csproj">
+      <Project>{5C554A7E-24F7-46DA-B65D-4FC4CB132547}</Project>
+      <Name>Ravlyk.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+</Project>

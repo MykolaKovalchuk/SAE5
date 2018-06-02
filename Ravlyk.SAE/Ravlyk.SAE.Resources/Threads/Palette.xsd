@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="PALETTE">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="NAME" type="xs:string"/>
+				<xs:element name="SYMBOLS_FONT" type="xs:string" minOccurs="0"/>
+				<xs:element name="COLOR" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CODE" type="xs:string"/>
+							<xs:element name="NAME" type="xs:string"/>
+							<xs:element name="SYMBOL" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:minLength value="1"/>
+										<xs:maxLength value="1"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="ALPHA" type="RGB_VALUE" minOccurs="0"/>
+							<xs:element name="RED" type="RGB_VALUE"/>
+							<xs:element name="GREEN" type="RGB_VALUE"/>
+							<xs:element name="BLUE" type="RGB_VALUE"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="RGB_VALUE">
+		<xs:restriction base="xs:short">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="255"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

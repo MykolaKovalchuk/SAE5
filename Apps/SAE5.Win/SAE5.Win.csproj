@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F7223C73-8B04-4588-A3FA-2F24262DB0B4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ravlyk.SAE5.WinForms</RootNamespace>
+    <AssemblyName>SAE5</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>5.0.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>thimble.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.Ribbon35">
+      <HintPath>..\..\Ravlyk.UI\System.Windows.Forms.Ribbon\obj\Debug\System.Windows.Forms.Ribbon35.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppInfo.cs" />
+    <Compile Include="Dialogs\AboutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\AboutDialog.Designer.cs">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\InputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\InputDialog.Designer.cs">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\OpitonsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\OpitonsDialog.Designer.cs">
+      <DependentUpon>OpitonsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\RegisterDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\RegisterDialog.Designer.cs">
+      <DependentUpon>RegisterDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\SymbolsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\SymbolsDialog.Designer.cs">
+      <DependentUpon>SymbolsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ThreadsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ThreadsDialog.Designer.cs">
+      <DependentUpon>ThreadsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ThreadsManagementDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ThreadsManagementDialog.Designer.cs">
+      <DependentUpon>ThreadsManagementDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\UpdateDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\UpdateDialog.Designer.cs">
+      <DependentUpon>UpdateDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrationHelper.cs" />
+    <Compile Include="Properties\SettingsExtension.cs" />
+    <Compile Include="UserControls\HomeUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\HomeUserControl.Designer.cs">
+      <DependentUpon>HomeUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ICanClose.cs" />
+    <Compile Include="UserControls\PaletteListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\PaletteUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PaletteUserControl.Designer.cs">
+      <DependentUpon>PaletteUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PrintUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PrintUserControl.Designer.cs">
+      <DependentUpon>PrintUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SchemeUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SchemeUserControl.Designer.cs">
+      <DependentUpon>SchemeUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\WizardUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\WizardUserControl.Designer.cs">
+      <DependentUpon>WizardUserControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dialogs\AboutDialog.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\AboutDialog.ru.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\AboutDialog.uk.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\InputDialog.resx">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\InputDialog.ru.resx">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\InputDialog.uk.resx">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\OpitonsDialog.resx">
+      <DependentUpon>OpitonsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\OpitonsDialog.ru.resx">
+      <DependentUpon>OpitonsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\OpitonsDialog.uk.resx">
+      <DependentUpon>OpitonsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\RegisterDialog.resx">
+      <DependentUpon>RegisterDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\RegisterDialog.ru.resx">
+      <DependentUpon>RegisterDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\RegisterDialog.uk.resx">
+      <DependentUpon>RegisterDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SymbolsDialog.resx">
+      <DependentUpon>SymbolsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SymbolsDialog.ru.resx">
+      <DependentUpon>SymbolsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SymbolsDialog.uk.resx">
+      <DependentUpon>SymbolsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ThreadsDialog.resx">
+      <DependentUpon>ThreadsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ThreadsDialog.ru.resx">
+      <DependentUpon>ThreadsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ThreadsDialog.uk.resx">
+      <DependentUpon>ThreadsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ThreadsManagementDialog.resx">
+      <DependentUpon>ThreadsManagementDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ThreadsManagementDialog.ru.resx">
+      <DependentUpon>ThreadsManagementDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ThreadsManagementDialog.uk.resx">
+      <DependentUpon>ThreadsManagementDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\UpdateDialog.resx">
+      <DependentUpon>UpdateDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\UpdateDialog.ru.resx">
+      <DependentUpon>UpdateDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\UpdateDialog.uk.resx">
+      <DependentUpon>UpdateDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.ru.resx" />
+    <EmbeddedResource Include="Properties\Resources.uk.resx" />
+    <EmbeddedResource Include="UserControls\HomeUserControl.resx">
+      <DependentUpon>HomeUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\HomeUserControl.ru.resx">
+      <DependentUpon>HomeUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\HomeUserControl.uk.resx">
+      <DependentUpon>HomeUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PaletteUserControl.resx">
+      <DependentUpon>PaletteUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PaletteUserControl.ru.resx">
+      <DependentUpon>PaletteUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PaletteUserControl.uk.resx">
+      <DependentUpon>PaletteUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PrintUserControl.resx">
+      <DependentUpon>PrintUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SchemeUserControl.resx">
+      <DependentUpon>SchemeUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SchemeUserControl.ru.resx">
+      <DependentUpon>SchemeUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SchemeUserControl.uk.resx">
+      <DependentUpon>SchemeUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\WizardUserControl.resx">
+      <DependentUpon>WizardUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\WizardUserControl.ru.resx">
+      <DependentUpon>WizardUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\WizardUserControl.uk.resx">
+      <DependentUpon>WizardUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Ravlyk.Adopted\PdfSharp\Ravlyk.Adopted.PdfSharp.csproj">
+      <Project>{5384ce57-1f94-4d22-860d-2e9c1ac12ddf}</Project>
+      <Name>Ravlyk.Adopted.PdfSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ravlyk.Adopted\Ravlyk.Adopted.TrueTypeSharp\Ravlyk.Adopted.TrueTypeSharp.csproj">
+      <Project>{b722113f-1252-4be1-9d43-6bc82b3e37d1}</Project>
+      <Name>Ravlyk.Adopted.TrueTypeSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ravlyk.SAE\Ravlyk.SAE.Drawing\Ravlyk.SAE.Drawing.csproj">
+      <Project>{ff5acb03-4a97-4cc3-a5b2-1c7788c70257}</Project>
+      <Name>Ravlyk.SAE.Drawing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ravlyk.SAE\Ravlyk.SAE.Resources\Ravlyk.SAE.Resources.csproj">
+      <Project>{e0e75fe8-a1df-4287-b351-f55d3722a2c1}</Project>
+      <Name>Ravlyk.SAE.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ravlyk.UI\Ravlyk.Drawing.WinForms\Ravlyk.Drawing.WinForms.csproj">
+      <Project>{b03f57fa-ff3a-4a48-bad9-2b44c57adacf}</Project>
+      <Name>Ravlyk.Drawing.WinForms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ravlyk\Ravlyk.Common\Ravlyk.Common.csproj">
+      <Project>{5c554a7e-24f7-46da-b65d-4fc4cb132547}</Project>
+      <Name>Ravlyk.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ravlyk\Ravlyk.Drawing.ImageProcessor\Ravlyk.Drawing.ImageProcessor.csproj">
+      <Project>{5887536a-1af1-4d42-acf9-1e41eec1c9b5}</Project>
+      <Name>Ravlyk.Drawing.ImageProcessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Ravlyk\Ravlyk.Drawing\Ravlyk.Drawing.csproj">
+      <Project>{846aa919-e96f-46f3-973b-60f5adbf8f42}</Project>
+      <Name>Ravlyk.Drawing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Register\Ravlyk.Drawing.Tif\Ravlyk.Drawing.Tif.csproj">
+      <Project>{1e084efa-5e72-4f97-80af-78d71f4d0d24}</Project>
+      <Name>Ravlyk.Drawing.Tif</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit Image-100.png" />
+    <None Include="Resources\Open Folder-100.png" />
+    <None Include="Resources\Rotate Left-24.png" />
+    <None Include="Resources\Rotate Right-24.png" />
+    <None Include="Resources\Flip Horizontal-24.png" />
+    <None Include="Resources\Flip Vertical-24.png" />
+    <None Include="Resources\Rectangle Stroked-24.png" />
+    <None Include="Resources\Circle-24.png" />
+    <None Include="Resources\Previous-24.png" />
+    <None Include="Resources\Next-24.png" />
+    <None Include="Resources\Dice-24.png" />
+    <None Include="Resources\Delete-24.png" />
+    <None Include="Resources\Save-48.png" />
+    <None Include="Resources\Print-48.png" />
+    <None Include="Resources\Web-24.png" />
+    <None Include="Resources\Feedback-24.png" />
+    <None Include="Resources\Facebook-24.png" />
+    <None Include="Resources\Twitter-24.png" />
+    <None Include="Resources\LinkedIn-24.png" />
+    <None Include="Resources\Key-24.png" />
+    <None Include="Resources\Home-48.png" />
+    <None Include="Resources\Return-32.png" />
+    <None Include="Resources\Page-32.png" />
+    <None Include="Resources\Preview-32.png" />
+    <None Include="Resources\Print-32.png" />
+    <None Include="Resources\Return-24.png" />
+    <None Include="Resources\Advance-24.png" />
+    <None Include="Resources\Open-32.png" />
+    <None Include="Resources\SaveAs-24.png" />
+    <None Include="Resources\Downloading-24.png" />
+    <None Include="Resources\SchemeSymbols-25.png" />
+    <None Include="Resources\SchemeColoredSymbols-25.png" />
+    <None Include="Resources\SchemeColors-25.png" />
+    <None Include="Resources\SchemeCross-25.png" />
+    <None Include="Resources\SchemeFull-25.png" />
+    <None Include="Resources\SchemeHalfTones-25.png" />
+    <None Include="Resources\SchemeWhiteSymbols-25.png" />
+    <None Include="Resources\Globe32.png" />
+    <None Include="Resources\USA24.png" />
+    <None Include="Resources\Ru24.png" />
+    <None Include="Resources\Ua24.png" />
+    <None Include="Resources\PDF32.png" />
+    <None Include="Resources\PDF24.png" />
+    <None Include="Resources\Undo24.png" />
+    <None Include="Resources\Redo24.png" />
+    <None Include="Resources\Hand24.png" />
+    <None Include="Resources\PencilTip24.png" />
+    <None Include="Resources\FillColor24.png" />
+    <None Include="Resources\Checked24.png" />
+    <None Include="Resources\Checked16.png" />
+    <None Include="Resources\Unchecked16.png" />
+    <None Include="Resources\Palette24.png" />
+    <None Include="Resources\Trash24.png" />
+    <None Include="Resources\Plus24.png" />
+    <None Include="Resources\ColorJoin24.png" />
+    <None Include="Resources\Checkmark24.png" />
+    <None Include="Resources\BankCard24.png" />
+    <None Include="Resources\Key32.png" />
+    <None Include="Resources\Home32.png" />
+    <None Include="Resources\Save32.png" />
+    <None Include="Resources\Save24.png" />
+    <None Include="Resources\Door16.png" />
+    <None Include="Resources\Info32.png" />
+    <None Include="Resources\Support32.png" />
+    <None Include="Resources\SoftwareBox32.png" />
+    <None Include="Resources\Refresh24.png" />
+    <None Include="Resources\PNG24.png" />
+    <None Include="Resources\JPG24.png" />
+    <None Include="Resources\Image24.png" />
+    <None Include="Resources\EditImage48.png" />
+    <None Include="Resources\Open16.png" />
+    <None Include="Resources\Refresh32.png" />
+    <None Include="Resources\AddFile32.png" />
+    <None Include="Resources\Copy32.png" />
+    <None Include="Resources\Trash32.png" />
+    <None Include="Resources\Import32.png" />
+    <None Include="Resources\Export32.png" />
+    <None Include="Resources\Plus32.png" />
+    <None Include="Resources\Bobbin24.png" />
+    <None Include="Resources\SaveB48.png" />
+    <None Include="Resources\Copy24.png" />
+    <None Include="Resources\Cut24.png" />
+    <None Include="Resources\Paste24.png" />
+    <None Include="Resources\Select24.png" />
+    <None Include="Resources\Title.png" />
+    <None Include="Resources\Palette32.png" />
+    <None Include="Resources\Page16.png" />
+    <None Include="Resources\ImageFile24.png" />
+    <None Include="Resources\Xls24.png" />
+    <Content Include="thimble.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>"c:\Program Files (x86)\Windows Kits\10\bin\x64\signtool.exe" sign /a /s MY /n "Mykola Kovalchuk" /fd sha256 /tr http://sha256timestamp.ws.symantec.com/sha256/timestamp /td sha256 /as /v "$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

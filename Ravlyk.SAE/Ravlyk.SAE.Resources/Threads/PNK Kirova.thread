@@ -1,0 +1,3847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PALETTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Palette.xsd">
+  <NAME>PNK Kirova</NAME>
+  <COLOR>
+    <CODE>0101</CODE>
+    <NAME>PNK Kirova 0101</NAME>
+    <RED>255</RED>
+    <GREEN>255</GREEN>
+    <BLUE>255</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0104</CODE>
+    <NAME>PNK Kirova 0104</NAME>
+    <RED>220</RED>
+    <GREEN>214</GREEN>
+    <BLUE>198</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0102</CODE>
+    <NAME>PNK Kirova 0102</NAME>
+    <RED>220</RED>
+    <GREEN>217</GREEN>
+    <BLUE>203</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0103</CODE>
+    <NAME>PNK Kirova 0103</NAME>
+    <RED>216</RED>
+    <GREEN>209</GREEN>
+    <BLUE>190</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0200</CODE>
+    <NAME>PNK Kirova 0200</NAME>
+    <RED>228</RED>
+    <GREEN>225</GREEN>
+    <BLUE>194</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0202</CODE>
+    <NAME>PNK Kirova 0202</NAME>
+    <RED>218</RED>
+    <GREEN>220</GREEN>
+    <BLUE>153</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0206</CODE>
+    <NAME>PNK Kirova 0206</NAME>
+    <RED>223</RED>
+    <GREEN>220</GREEN>
+    <BLUE>112</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0207</CODE>
+    <NAME>PNK Kirova 0207</NAME>
+    <RED>226</RED>
+    <GREEN>217</GREEN>
+    <BLUE>51</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0209</CODE>
+    <NAME>PNK Kirova 0209</NAME>
+    <RED>229</RED>
+    <GREEN>207</GREEN>
+    <BLUE>0</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0208</CODE>
+    <NAME>PNK Kirova 0208</NAME>
+    <RED>223</RED>
+    <GREEN>198</GREEN>
+    <BLUE>0</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0300</CODE>
+    <NAME>PNK Kirova 0300</NAME>
+    <RED>221</RED>
+    <GREEN>213</GREEN>
+    <BLUE>159</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0301</CODE>
+    <NAME>PNK Kirova 0301</NAME>
+    <RED>223</RED>
+    <GREEN>211</GREEN>
+    <BLUE>129</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0303</CODE>
+    <NAME>PNK Kirova 0303</NAME>
+    <RED>228</RED>
+    <GREEN>205</GREEN>
+    <BLUE>86</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0305</CODE>
+    <NAME>PNK Kirova 0305</NAME>
+    <RED>229</RED>
+    <GREEN>190</GREEN>
+    <BLUE>32</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0304</CODE>
+    <NAME>PNK Kirova 0304</NAME>
+    <RED>217</RED>
+    <GREEN>187</GREEN>
+    <BLUE>95</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0402</CODE>
+    <NAME>PNK Kirova 0402</NAME>
+    <RED>218</RED>
+    <GREEN>189</GREEN>
+    <BLUE>116</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0404</CODE>
+    <NAME>PNK Kirova 0404</NAME>
+    <RED>210</RED>
+    <GREEN>170</GREEN>
+    <BLUE>81</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0306</CODE>
+    <NAME>PNK Kirova 0306</NAME>
+    <RED>208</RED>
+    <GREEN>165</GREEN>
+    <BLUE>54</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0501</CODE>
+    <NAME>PNK Kirova 0501</NAME>
+    <RED>226</RED>
+    <GREEN>219</GREEN>
+    <BLUE>179</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0502</CODE>
+    <NAME>PNK Kirova 0502</NAME>
+    <RED>230</RED>
+    <GREEN>219</GREEN>
+    <BLUE>164</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0504</CODE>
+    <NAME>PNK Kirova 0504</NAME>
+    <RED>226</RED>
+    <GREEN>204</GREEN>
+    <BLUE>126</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0506</CODE>
+    <NAME>PNK Kirova 0506</NAME>
+    <RED>227</RED>
+    <GREEN>198</GREEN>
+    <BLUE>104</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0508</CODE>
+    <NAME>PNK Kirova 0508</NAME>
+    <RED>222</RED>
+    <GREEN>183</GREEN>
+    <BLUE>77</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0510</CODE>
+    <NAME>PNK Kirova 0510</NAME>
+    <RED>223</RED>
+    <GREEN>170</GREEN>
+    <BLUE>46</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0512</CODE>
+    <NAME>PNK Kirova 0512</NAME>
+    <RED>207</RED>
+    <GREEN>147</GREEN>
+    <BLUE>64</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0600</CODE>
+    <NAME>PNK Kirova 0600</NAME>
+    <RED>226</RED>
+    <GREEN>207</GREEN>
+    <BLUE>180</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0602</CODE>
+    <NAME>PNK Kirova 0602</NAME>
+    <RED>223</RED>
+    <GREEN>195</GREEN>
+    <BLUE>165</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0604</CODE>
+    <NAME>PNK Kirova 0604</NAME>
+    <RED>227</RED>
+    <GREEN>176</GREEN>
+    <BLUE>124</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0606</CODE>
+    <NAME>PNK Kirova 0606</NAME>
+    <RED>226</RED>
+    <GREEN>145</GREEN>
+    <BLUE>78</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0607</CODE>
+    <NAME>PNK Kirova 0607</NAME>
+    <RED>226</RED>
+    <GREEN>143</GREEN>
+    <BLUE>48</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0608</CODE>
+    <NAME>PNK Kirova 0608</NAME>
+    <RED>226</RED>
+    <GREEN>133</GREEN>
+    <BLUE>51</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0710</CODE>
+    <NAME>PNK Kirova 0710</NAME>
+    <RED>217</RED>
+    <GREEN>119</GREEN>
+    <BLUE>51</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0711</CODE>
+    <NAME>PNK Kirova 0711</NAME>
+    <RED>208</RED>
+    <GREEN>106</GREEN>
+    <BLUE>33</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0713</CODE>
+    <NAME>PNK Kirova 0713</NAME>
+    <RED>189</RED>
+    <GREEN>94</GREEN>
+    <BLUE>20</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0712</CODE>
+    <NAME>PNK Kirova 0712</NAME>
+    <RED>201</RED>
+    <GREEN>92</GREEN>
+    <BLUE>54</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0716</CODE>
+    <NAME>PNK Kirova 0716</NAME>
+    <RED>180</RED>
+    <GREEN>59</GREEN>
+    <BLUE>51</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0701</CODE>
+    <NAME>PNK Kirova 0701</NAME>
+    <RED>230</RED>
+    <GREEN>189</GREEN>
+    <BLUE>170</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0702</CODE>
+    <NAME>PNK Kirova 0702</NAME>
+    <RED>232</RED>
+    <GREEN>177</GREEN>
+    <BLUE>144</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0704</CODE>
+    <NAME>PNK Kirova 0704</NAME>
+    <RED>228</RED>
+    <GREEN>150</GREEN>
+    <BLUE>109</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0706</CODE>
+    <NAME>PNK Kirova 0706</NAME>
+    <RED>226</RED>
+    <GREEN>137</GREEN>
+    <BLUE>79</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0709</CODE>
+    <NAME>PNK Kirova 0709</NAME>
+    <RED>209</RED>
+    <GREEN>108</GREEN>
+    <BLUE>63</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0800</CODE>
+    <NAME>PNK Kirova 0800</NAME>
+    <RED>229</RED>
+    <GREEN>176</GREEN>
+    <BLUE>161</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0801</CODE>
+    <NAME>PNK Kirova 0801</NAME>
+    <RED>229</RED>
+    <GREEN>176</GREEN>
+    <BLUE>163</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0802</CODE>
+    <NAME>PNK Kirova 0802</NAME>
+    <RED>221</RED>
+    <GREEN>151</GREEN>
+    <BLUE>131</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0804</CODE>
+    <NAME>PNK Kirova 0804</NAME>
+    <RED>213</RED>
+    <GREEN>118</GREEN>
+    <BLUE>107</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0806</CODE>
+    <NAME>PNK Kirova 0806</NAME>
+    <RED>200</RED>
+    <GREEN>99</GREEN>
+    <BLUE>88</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0808</CODE>
+    <NAME>PNK Kirova 0808</NAME>
+    <RED>203</RED>
+    <GREEN>91</GREEN>
+    <BLUE>82</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0810</CODE>
+    <NAME>PNK Kirova 0810</NAME>
+    <RED>186</RED>
+    <GREEN>65</GREEN>
+    <BLUE>60</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0811</CODE>
+    <NAME>PNK Kirova 0811</NAME>
+    <RED>172</RED>
+    <GREEN>53</GREEN>
+    <BLUE>54</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0902</CODE>
+    <NAME>PNK Kirova 0902</NAME>
+    <RED>171</RED>
+    <GREEN>58</GREEN>
+    <BLUE>75</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0904</CODE>
+    <NAME>PNK Kirova 0904</NAME>
+    <RED>162</RED>
+    <GREEN>46</GREEN>
+    <BLUE>57</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0905</CODE>
+    <NAME>PNK Kirova 0905</NAME>
+    <RED>159</RED>
+    <GREEN>38</GREEN>
+    <BLUE>59</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0906</CODE>
+    <NAME>PNK Kirova 0906</NAME>
+    <RED>161</RED>
+    <GREEN>36</GREEN>
+    <BLUE>51</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0908</CODE>
+    <NAME>PNK Kirova 0908</NAME>
+    <RED>138</RED>
+    <GREEN>46</GREEN>
+    <BLUE>61</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1001</CODE>
+    <NAME>PNK Kirova 1001</NAME>
+    <RED>234</RED>
+    <GREEN>225</GREEN>
+    <BLUE>227</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1002</CODE>
+    <NAME>PNK Kirova 1002</NAME>
+    <RED>223</RED>
+    <GREEN>203</GREEN>
+    <BLUE>207</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1004</CODE>
+    <NAME>PNK Kirova 1004</NAME>
+    <RED>224</RED>
+    <GREEN>188</GREEN>
+    <BLUE>193</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1006</CODE>
+    <NAME>PNK Kirova 1006</NAME>
+    <RED>222</RED>
+    <GREEN>167</GREEN>
+    <BLUE>180</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1008</CODE>
+    <NAME>PNK Kirova 1008</NAME>
+    <RED>204</RED>
+    <GREEN>143</GREEN>
+    <BLUE>158</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1010</CODE>
+    <NAME>PNK Kirova 1010</NAME>
+    <RED>214</RED>
+    <GREEN>130</GREEN>
+    <BLUE>152</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1012</CODE>
+    <NAME>PNK Kirova 1012</NAME>
+    <RED>207</RED>
+    <GREEN>121</GREEN>
+    <BLUE>131</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1011</CODE>
+    <NAME>PNK Kirova 1011</NAME>
+    <RED>212</RED>
+    <GREEN>124</GREEN>
+    <BLUE>123</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1013</CODE>
+    <NAME>PNK Kirova 1013</NAME>
+    <RED>204</RED>
+    <GREEN>94</GREEN>
+    <BLUE>100</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1014</CODE>
+    <NAME>PNK Kirova 1014</NAME>
+    <RED>198</RED>
+    <GREEN>76</GREEN>
+    <BLUE>87</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0907</CODE>
+    <NAME>PNK Kirova 0907</NAME>
+    <RED>143</RED>
+    <GREEN>59</GREEN>
+    <BLUE>66</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1102</CODE>
+    <NAME>PNK Kirova 1102</NAME>
+    <RED>220</RED>
+    <GREEN>204</GREEN>
+    <BLUE>207</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1005</CODE>
+    <NAME>PNK Kirova 1005</NAME>
+    <RED>211</RED>
+    <GREEN>176</GREEN>
+    <BLUE>190</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1104</CODE>
+    <NAME>PNK Kirova 1104</NAME>
+    <RED>212</RED>
+    <GREEN>158</GREEN>
+    <BLUE>184</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1106</CODE>
+    <NAME>PNK Kirova 1106</NAME>
+    <RED>201</RED>
+    <GREEN>118</GREEN>
+    <BLUE>157</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1108</CODE>
+    <NAME>PNK Kirova 1108</NAME>
+    <RED>200</RED>
+    <GREEN>96</GREEN>
+    <BLUE>142</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1110</CODE>
+    <NAME>PNK Kirova 1110</NAME>
+    <RED>184</RED>
+    <GREEN>64</GREEN>
+    <BLUE>115</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1112</CODE>
+    <NAME>PNK Kirova 1112</NAME>
+    <RED>155</RED>
+    <GREEN>34</GREEN>
+    <BLUE>103</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7500</CODE>
+    <NAME>PNK Kirova 7500</NAME>
+    <RED>213</RED>
+    <GREEN>188</GREEN>
+    <BLUE>183</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7501</CODE>
+    <NAME>PNK Kirova 7501</NAME>
+    <RED>217</RED>
+    <GREEN>187</GREEN>
+    <BLUE>183</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7506</CODE>
+    <NAME>PNK Kirova 7506</NAME>
+    <RED>174</RED>
+    <GREEN>86</GREEN>
+    <BLUE>105</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7509</CODE>
+    <NAME>PNK Kirova 7509</NAME>
+    <RED>130</RED>
+    <GREEN>34</GREEN>
+    <BLUE>56</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>0909</CODE>
+    <NAME>PNK Kirova 0909</NAME>
+    <RED>127</RED>
+    <GREEN>39</GREEN>
+    <BLUE>57</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1200</CODE>
+    <NAME>PNK Kirova 1200</NAME>
+    <RED>135</RED>
+    <GREEN>39</GREEN>
+    <BLUE>65</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1201</CODE>
+    <NAME>PNK Kirova 1201</NAME>
+    <RED>122</RED>
+    <GREEN>37</GREEN>
+    <BLUE>56</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1204</CODE>
+    <NAME>PNK Kirova 1204</NAME>
+    <RED>102</RED>
+    <GREEN>37</GREEN>
+    <BLUE>48</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1502</CODE>
+    <NAME>PNK Kirova 1502</NAME>
+    <RED>195</RED>
+    <GREEN>127</GREEN>
+    <BLUE>157</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1504</CODE>
+    <NAME>PNK Kirova 1504</NAME>
+    <RED>186</RED>
+    <GREEN>114</GREEN>
+    <BLUE>144</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1506</CODE>
+    <NAME>PNK Kirova 1506</NAME>
+    <RED>163</RED>
+    <GREEN>83</GREEN>
+    <BLUE>117</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1507</CODE>
+    <NAME>PNK Kirova 1507</NAME>
+    <RED>155</RED>
+    <GREEN>72</GREEN>
+    <BLUE>100</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1511</CODE>
+    <NAME>PNK Kirova 1511</NAME>
+    <RED>118</RED>
+    <GREEN>42</GREEN>
+    <BLUE>61</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7802</CODE>
+    <NAME>PNK Kirova 7802</NAME>
+    <RED>196</RED>
+    <GREEN>158</GREEN>
+    <BLUE>170</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7804</CODE>
+    <NAME>PNK Kirova 7804</NAME>
+    <RED>175</RED>
+    <GREEN>116</GREEN>
+    <BLUE>143</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1508</CODE>
+    <NAME>PNK Kirova 1508</NAME>
+    <RED>152</RED>
+    <GREEN>84</GREEN>
+    <BLUE>109</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1510</CODE>
+    <NAME>PNK Kirova 1510</NAME>
+    <RED>128</RED>
+    <GREEN>60</GREEN>
+    <BLUE>88</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1303</CODE>
+    <NAME>PNK Kirova 1303</NAME>
+    <RED>86</RED>
+    <GREEN>47</GREEN>
+    <BLUE>59</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1402</CODE>
+    <NAME>PNK Kirova 1402</NAME>
+    <RED>218</RED>
+    <GREEN>202</GREEN>
+    <BLUE>206</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1404</CODE>
+    <NAME>PNK Kirova 1404</NAME>
+    <RED>198</RED>
+    <GREEN>135</GREEN>
+    <BLUE>176</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1406</CODE>
+    <NAME>PNK Kirova 1406</NAME>
+    <RED>191</RED>
+    <GREEN>121</GREEN>
+    <BLUE>166</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1408</CODE>
+    <NAME>PNK Kirova 1408</NAME>
+    <RED>184</RED>
+    <GREEN>96</GREEN>
+    <BLUE>152</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1410</CODE>
+    <NAME>PNK Kirova 1410</NAME>
+    <RED>166</RED>
+    <GREEN>80</GREEN>
+    <BLUE>140</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1411</CODE>
+    <NAME>PNK Kirova 1411</NAME>
+    <RED>139</RED>
+    <GREEN>47</GREEN>
+    <BLUE>105</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1412</CODE>
+    <NAME>PNK Kirova 1412</NAME>
+    <RED>115</RED>
+    <GREEN>49</GREEN>
+    <BLUE>87</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1206</CODE>
+    <NAME>PNK Kirova 1206</NAME>
+    <RED>108</RED>
+    <GREEN>34</GREEN>
+    <BLUE>72</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1208</CODE>
+    <NAME>PNK Kirova 1208</NAME>
+    <RED>100</RED>
+    <GREEN>29</GREEN>
+    <BLUE>56</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1802</CODE>
+    <NAME>PNK Kirova 1802</NAME>
+    <RED>173</RED>
+    <GREEN>143</GREEN>
+    <BLUE>161</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1804</CODE>
+    <NAME>PNK Kirova 1804</NAME>
+    <RED>164</RED>
+    <GREEN>125</GREEN>
+    <BLUE>145</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1806</CODE>
+    <NAME>PNK Kirova 1806</NAME>
+    <RED>134</RED>
+    <GREEN>86</GREEN>
+    <BLUE>110</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1808</CODE>
+    <NAME>PNK Kirova 1808</NAME>
+    <RED>117</RED>
+    <GREEN>61</GREEN>
+    <BLUE>84</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1909</CODE>
+    <NAME>PNK Kirova 1909</NAME>
+    <RED>105</RED>
+    <GREEN>65</GREEN>
+    <BLUE>70</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2001</CODE>
+    <NAME>PNK Kirova 2001</NAME>
+    <RED>162</RED>
+    <GREEN>135</GREEN>
+    <BLUE>158</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2003</CODE>
+    <NAME>PNK Kirova 2003</NAME>
+    <RED>126</RED>
+    <GREEN>87</GREEN>
+    <BLUE>118</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2005</CODE>
+    <NAME>PNK Kirova 2005</NAME>
+    <RED>91</RED>
+    <GREEN>53</GREEN>
+    <BLUE>81</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2006</CODE>
+    <NAME>PNK Kirova 2006</NAME>
+    <RED>63</RED>
+    <GREEN>38</GREEN>
+    <BLUE>57</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1702</CODE>
+    <NAME>PNK Kirova 1702</NAME>
+    <RED>205</RED>
+    <GREEN>176</GREEN>
+    <BLUE>200</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1704</CODE>
+    <NAME>PNK Kirova 1704</NAME>
+    <RED>191</RED>
+    <GREEN>149</GREEN>
+    <BLUE>187</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1706</CODE>
+    <NAME>PNK Kirova 1706</NAME>
+    <RED>178</RED>
+    <GREEN>127</GREEN>
+    <BLUE>172</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1708</CODE>
+    <NAME>PNK Kirova 1708</NAME>
+    <RED>159</RED>
+    <GREEN>96</GREEN>
+    <BLUE>152</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1710</CODE>
+    <NAME>PNK Kirova 1710</NAME>
+    <RED>137</RED>
+    <GREEN>73</GREEN>
+    <BLUE>133</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1712</CODE>
+    <NAME>PNK Kirova 1712</NAME>
+    <RED>120</RED>
+    <GREEN>57</GREEN>
+    <BLUE>112</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1714</CODE>
+    <NAME>PNK Kirova 1714</NAME>
+    <RED>78</RED>
+    <GREEN>45</GREEN>
+    <BLUE>65</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1902</CODE>
+    <NAME>PNK Kirova 1902</NAME>
+    <RED>193</RED>
+    <GREEN>173</GREEN>
+    <BLUE>180</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1904</CODE>
+    <NAME>PNK Kirova 1904</NAME>
+    <RED>175</RED>
+    <GREEN>147</GREEN>
+    <BLUE>157</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1906</CODE>
+    <NAME>PNK Kirova 1906</NAME>
+    <RED>156</RED>
+    <GREEN>126</GREEN>
+    <BLUE>139</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1908</CODE>
+    <NAME>PNK Kirova 1908</NAME>
+    <RED>142</RED>
+    <GREEN>107</GREEN>
+    <BLUE>120</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1910</CODE>
+    <NAME>PNK Kirova 1910</NAME>
+    <RED>105</RED>
+    <GREEN>71</GREEN>
+    <BLUE>86</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1302</CODE>
+    <NAME>PNK Kirova 1302</NAME>
+    <RED>103</RED>
+    <GREEN>62</GREEN>
+    <BLUE>77</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1304</CODE>
+    <NAME>PNK Kirova 1304</NAME>
+    <RED>78</RED>
+    <GREEN>48</GREEN>
+    <BLUE>59</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7902</CODE>
+    <NAME>PNK Kirova 7902</NAME>
+    <RED>187</RED>
+    <GREEN>174</GREEN>
+    <BLUE>184</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7904</CODE>
+    <NAME>PNK Kirova 7904</NAME>
+    <RED>171</RED>
+    <GREEN>156</GREEN>
+    <BLUE>167</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7906</CODE>
+    <NAME>PNK Kirova 7906</NAME>
+    <RED>131</RED>
+    <GREEN>105</GREEN>
+    <BLUE>121</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7908</CODE>
+    <NAME>PNK Kirova 7908</NAME>
+    <RED>105</RED>
+    <GREEN>77</GREEN>
+    <BLUE>91</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2102</CODE>
+    <NAME>PNK Kirova 2102</NAME>
+    <RED>207</RED>
+    <GREEN>192</GREEN>
+    <BLUE>204</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2104</CODE>
+    <NAME>PNK Kirova 2104</NAME>
+    <RED>199</RED>
+    <GREEN>177</GREEN>
+    <BLUE>202</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2106</CODE>
+    <NAME>PNK Kirova 2106</NAME>
+    <RED>161</RED>
+    <GREEN>127</GREEN>
+    <BLUE>175</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2108</CODE>
+    <NAME>PNK Kirova 2108</NAME>
+    <RED>140</RED>
+    <GREEN>96</GREEN>
+    <BLUE>147</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2110</CODE>
+    <NAME>PNK Kirova 2110</NAME>
+    <RED>120</RED>
+    <GREEN>70</GREEN>
+    <BLUE>128</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2112</CODE>
+    <NAME>PNK Kirova 2112</NAME>
+    <RED>103</RED>
+    <GREEN>55</GREEN>
+    <BLUE>111</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2002</CODE>
+    <NAME>PNK Kirova 2002</NAME>
+    <RED>156</RED>
+    <GREEN>126</GREEN>
+    <BLUE>160</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2004</CODE>
+    <NAME>PNK Kirova 2004</NAME>
+    <RED>104</RED>
+    <GREEN>79</GREEN>
+    <BLUE>114</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2202</CODE>
+    <NAME>PNK Kirova 2202</NAME>
+    <RED>183</RED>
+    <GREEN>167</GREEN>
+    <BLUE>198</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2203</CODE>
+    <NAME>PNK Kirova 2203</NAME>
+    <RED>171</RED>
+    <GREEN>148</GREEN>
+    <BLUE>186</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2204</CODE>
+    <NAME>PNK Kirova 2204</NAME>
+    <RED>154</RED>
+    <GREEN>128</GREEN>
+    <BLUE>175</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2206</CODE>
+    <NAME>PNK Kirova 2206</NAME>
+    <RED>133</RED>
+    <GREEN>103</GREEN>
+    <BLUE>155</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2208</CODE>
+    <NAME>PNK Kirova 2208</NAME>
+    <RED>114</RED>
+    <GREEN>86</GREEN>
+    <BLUE>141</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2210</CODE>
+    <NAME>PNK Kirova 2210</NAME>
+    <RED>93</RED>
+    <GREEN>64</GREEN>
+    <BLUE>125</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2212</CODE>
+    <NAME>PNK Kirova 2212</NAME>
+    <RED>79</RED>
+    <GREEN>54</GREEN>
+    <BLUE>107</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2214</CODE>
+    <NAME>PNK Kirova 2214</NAME>
+    <RED>78</RED>
+    <GREEN>49</GREEN>
+    <BLUE>101</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8003</CODE>
+    <NAME>PNK Kirova 8003</NAME>
+    <RED>117</RED>
+    <GREEN>112</GREEN>
+    <BLUE>166</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8004</CODE>
+    <NAME>PNK Kirova 8004</NAME>
+    <RED>99</RED>
+    <GREEN>89</GREEN>
+    <BLUE>146</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2302</CODE>
+    <NAME>PNK Kirova 2302</NAME>
+    <RED>184</RED>
+    <GREEN>177</GREEN>
+    <BLUE>201</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2304</CODE>
+    <NAME>PNK Kirova 2304</NAME>
+    <RED>157</RED>
+    <GREEN>146</GREEN>
+    <BLUE>188</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2306</CODE>
+    <NAME>PNK Kirova 2306</NAME>
+    <RED>135</RED>
+    <GREEN>124</GREEN>
+    <BLUE>174</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2308</CODE>
+    <NAME>PNK Kirova 2308</NAME>
+    <RED>105</RED>
+    <GREEN>87</GREEN>
+    <BLUE>143</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2310</CODE>
+    <NAME>PNK Kirova 2310</NAME>
+    <RED>81</RED>
+    <GREEN>65</GREEN>
+    <BLUE>118</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2312</CODE>
+    <NAME>PNK Kirova 2312</NAME>
+    <RED>65</RED>
+    <GREEN>51</GREEN>
+    <BLUE>104</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2402</CODE>
+    <NAME>PNK Kirova 2402</NAME>
+    <RED>191</RED>
+    <GREEN>191</GREEN>
+    <BLUE>205</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2404</CODE>
+    <NAME>PNK Kirova 2404</NAME>
+    <RED>136</RED>
+    <GREEN>141</GREEN>
+    <BLUE>180</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2406</CODE>
+    <NAME>PNK Kirova 2406</NAME>
+    <RED>113</RED>
+    <GREEN>117</GREEN>
+    <BLUE>168</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2408</CODE>
+    <NAME>PNK Kirova 2408</NAME>
+    <RED>84</RED>
+    <GREEN>89</GREEN>
+    <BLUE>144</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2410</CODE>
+    <NAME>PNK Kirova 2410</NAME>
+    <RED>70</RED>
+    <GREEN>72</GREEN>
+    <BLUE>130</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8210</CODE>
+    <NAME>PNK Kirova 8210</NAME>
+    <RED>38</RED>
+    <GREEN>44</GREEN>
+    <BLUE>93</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2403</CODE>
+    <NAME>PNK Kirova 2403</NAME>
+    <RED>171</RED>
+    <GREEN>178</GREEN>
+    <BLUE>201</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2405</CODE>
+    <NAME>PNK Kirova 2405</NAME>
+    <RED>131</RED>
+    <GREEN>140</GREEN>
+    <BLUE>177</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8207</CODE>
+    <NAME>PNK Kirova 8207</NAME>
+    <RED>60</RED>
+    <GREEN>68</GREEN>
+    <BLUE>118</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2412</CODE>
+    <NAME>PNK Kirova 2412</NAME>
+    <RED>52</RED>
+    <GREEN>59</GREEN>
+    <BLUE>105</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2414</CODE>
+    <NAME>PNK Kirova 2414</NAME>
+    <RED>49</RED>
+    <GREEN>47</GREEN>
+    <BLUE>77</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2415</CODE>
+    <NAME>PNK Kirova 2415</NAME>
+    <RED>52</RED>
+    <GREEN>50</GREEN>
+    <BLUE>71</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8201</CODE>
+    <NAME>PNK Kirova 8201</NAME>
+    <RED>155</RED>
+    <GREEN>171</GREEN>
+    <BLUE>195</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8206</CODE>
+    <NAME>PNK Kirova 8206</NAME>
+    <RED>118</RED>
+    <GREEN>132</GREEN>
+    <BLUE>175</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2407</CODE>
+    <NAME>PNK Kirova 2407</NAME>
+    <RED>87</RED>
+    <GREEN>94</GREEN>
+    <BLUE>147</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8208</CODE>
+    <NAME>PNK Kirova 8208</NAME>
+    <RED>73</RED>
+    <GREEN>85</GREEN>
+    <BLUE>136</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2411</CODE>
+    <NAME>PNK Kirova 2411</NAME>
+    <RED>28</RED>
+    <GREEN>47</GREEN>
+    <BLUE>104</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2413</CODE>
+    <NAME>PNK Kirova 2413</NAME>
+    <RED>45</RED>
+    <GREEN>53</GREEN>
+    <BLUE>103</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2602</CODE>
+    <NAME>PNK Kirova 2602</NAME>
+    <RED>195</RED>
+    <GREEN>206</GREEN>
+    <BLUE>216</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2604</CODE>
+    <NAME>PNK Kirova 2604</NAME>
+    <RED>165</RED>
+    <GREEN>181</GREEN>
+    <BLUE>196</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2606</CODE>
+    <NAME>PNK Kirova 2606</NAME>
+    <RED>131</RED>
+    <GREEN>153</GREEN>
+    <BLUE>185</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2608</CODE>
+    <NAME>PNK Kirova 2608</NAME>
+    <RED>100</RED>
+    <GREEN>122</GREEN>
+    <BLUE>166</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2507</CODE>
+    <NAME>PNK Kirova 2507</NAME>
+    <RED>84</RED>
+    <GREEN>112</GREEN>
+    <BLUE>160</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2610</CODE>
+    <NAME>PNK Kirova 2610</NAME>
+    <RED>68</RED>
+    <GREEN>91</GREEN>
+    <BLUE>145</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2612</CODE>
+    <NAME>PNK Kirova 2612</NAME>
+    <RED>57</RED>
+    <GREEN>70</GREEN>
+    <BLUE>115</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2614</CODE>
+    <NAME>PNK Kirova 2614</NAME>
+    <RED>42</RED>
+    <GREEN>58</GREEN>
+    <BLUE>97</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8102</CODE>
+    <NAME>PNK Kirova 8102</NAME>
+    <RED>122</RED>
+    <GREEN>135</GREEN>
+    <BLUE>168</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8103</CODE>
+    <NAME>PNK Kirova 8103</NAME>
+    <RED>111</RED>
+    <GREEN>121</GREEN>
+    <BLUE>158</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8104</CODE>
+    <NAME>PNK Kirova 8104</NAME>
+    <RED>85</RED>
+    <GREEN>96</GREEN>
+    <BLUE>141</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8105</CODE>
+    <NAME>PNK Kirova 8105</NAME>
+    <RED>73</RED>
+    <GREEN>83</GREEN>
+    <BLUE>120</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2702</CODE>
+    <NAME>PNK Kirova 2702</NAME>
+    <RED>178</RED>
+    <GREEN>195</GREEN>
+    <BLUE>210</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2704</CODE>
+    <NAME>PNK Kirova 2704</NAME>
+    <RED>165</RED>
+    <GREEN>193</GREEN>
+    <BLUE>215</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3102</CODE>
+    <NAME>PNK Kirova 3102</NAME>
+    <RED>148</RED>
+    <GREEN>186</GREEN>
+    <BLUE>205</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3104</CODE>
+    <NAME>PNK Kirova 3104</NAME>
+    <RED>108</RED>
+    <GREEN>160</GREEN>
+    <BLUE>193</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8402</CODE>
+    <NAME>PNK Kirova 8402</NAME>
+    <RED>87</RED>
+    <GREEN>148</GREEN>
+    <BLUE>191</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3106</CODE>
+    <NAME>PNK Kirova 3106</NAME>
+    <RED>78</RED>
+    <GREEN>144</GREEN>
+    <BLUE>180</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3011</CODE>
+    <NAME>PNK Kirova 3011</NAME>
+    <RED>24</RED>
+    <GREEN>119</GREEN>
+    <BLUE>164</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2501</CODE>
+    <NAME>PNK Kirova 2501</NAME>
+    <RED>162</RED>
+    <GREEN>185</GREEN>
+    <BLUE>206</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2502</CODE>
+    <NAME>PNK Kirova 2502</NAME>
+    <RED>151</RED>
+    <GREEN>178</GREEN>
+    <BLUE>204</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2504</CODE>
+    <NAME>PNK Kirova 2504</NAME>
+    <RED>117</RED>
+    <GREEN>148</GREEN>
+    <BLUE>186</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2506</CODE>
+    <NAME>PNK Kirova 2506</NAME>
+    <RED>99</RED>
+    <GREEN>132</GREEN>
+    <BLUE>177</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2508</CODE>
+    <NAME>PNK Kirova 2508</NAME>
+    <RED>77</RED>
+    <GREEN>114</GREEN>
+    <BLUE>164</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8406</CODE>
+    <NAME>PNK Kirova 8406</NAME>
+    <RED>37</RED>
+    <GREEN>99</GREEN>
+    <BLUE>160</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2706</CODE>
+    <NAME>PNK Kirova 2706</NAME>
+    <RED>126</RED>
+    <GREEN>167</GREEN>
+    <BLUE>208</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2708</CODE>
+    <NAME>PNK Kirova 2708</NAME>
+    <RED>83</RED>
+    <GREEN>131</GREEN>
+    <BLUE>188</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2710</CODE>
+    <NAME>PNK Kirova 2710</NAME>
+    <RED>64</RED>
+    <GREEN>115</GREEN>
+    <BLUE>179</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2712</CODE>
+    <NAME>PNK Kirova 2712</NAME>
+    <RED>42</RED>
+    <GREEN>104</GREEN>
+    <BLUE>162</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2714</CODE>
+    <NAME>PNK Kirova 2714</NAME>
+    <RED>35</RED>
+    <GREEN>83</GREEN>
+    <BLUE>152</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3202</CODE>
+    <NAME>PNK Kirova 3202</NAME>
+    <RED>145</RED>
+    <GREEN>182</GREEN>
+    <BLUE>205</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3204</CODE>
+    <NAME>PNK Kirova 3204</NAME>
+    <RED>98</RED>
+    <GREEN>148</GREEN>
+    <BLUE>187</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3206</CODE>
+    <NAME>PNK Kirova 3206</NAME>
+    <RED>77</RED>
+    <GREEN>126</GREEN>
+    <BLUE>169</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8310</CODE>
+    <NAME>PNK Kirova 8310</NAME>
+    <RED>82</RED>
+    <GREEN>116</GREEN>
+    <BLUE>152</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8312</CODE>
+    <NAME>PNK Kirova 8312</NAME>
+    <RED>69</RED>
+    <GREEN>104</GREEN>
+    <BLUE>143</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8314</CODE>
+    <NAME>PNK Kirova 8314</NAME>
+    <RED>31</RED>
+    <GREEN>55</GREEN>
+    <BLUE>89</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2802</CODE>
+    <NAME>PNK Kirova 2802</NAME>
+    <RED>184</RED>
+    <GREEN>194</GREEN>
+    <BLUE>202</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2804</CODE>
+    <NAME>PNK Kirova 2804</NAME>
+    <RED>154</RED>
+    <GREEN>169</GREEN>
+    <BLUE>187</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2806</CODE>
+    <NAME>PNK Kirova 2806</NAME>
+    <RED>123</RED>
+    <GREEN>141</GREEN>
+    <BLUE>164</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2808</CODE>
+    <NAME>PNK Kirova 2808</NAME>
+    <RED>94</RED>
+    <GREEN>113</GREEN>
+    <BLUE>137</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2810</CODE>
+    <NAME>PNK Kirova 2810</NAME>
+    <RED>75</RED>
+    <GREEN>94</GREEN>
+    <BLUE>119</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2812</CODE>
+    <NAME>PNK Kirova 2812</NAME>
+    <RED>50</RED>
+    <GREEN>69</GREEN>
+    <BLUE>95</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2814</CODE>
+    <NAME>PNK Kirova 2814</NAME>
+    <RED>41</RED>
+    <GREEN>56</GREEN>
+    <BLUE>79</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8302</CODE>
+    <NAME>PNK Kirova 8302</NAME>
+    <RED>181</RED>
+    <GREEN>193</GREEN>
+    <BLUE>199</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2902</CODE>
+    <NAME>PNK Kirova 2902</NAME>
+    <RED>139</RED>
+    <GREEN>161</GREEN>
+    <BLUE>178</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2904</CODE>
+    <NAME>PNK Kirova 2904</NAME>
+    <RED>70</RED>
+    <GREEN>100</GREEN>
+    <BLUE>127</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2906</CODE>
+    <NAME>PNK Kirova 2906</NAME>
+    <RED>56</RED>
+    <GREEN>84</GREEN>
+    <BLUE>112</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2908</CODE>
+    <NAME>PNK Kirova 2908</NAME>
+    <RED>34</RED>
+    <GREEN>62</GREEN>
+    <BLUE>86</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8300</CODE>
+    <NAME>PNK Kirova 8300</NAME>
+    <RED>217</RED>
+    <GREEN>219</GREEN>
+    <BLUE>215</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3002</CODE>
+    <NAME>PNK Kirova 3002</NAME>
+    <RED>189</RED>
+    <GREEN>214</GREEN>
+    <BLUE>212</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3004</CODE>
+    <NAME>PNK Kirova 3004</NAME>
+    <RED>147</RED>
+    <GREEN>201</GREEN>
+    <BLUE>209</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3008</CODE>
+    <NAME>PNK Kirova 3008</NAME>
+    <RED>95</RED>
+    <GREEN>173</GREEN>
+    <BLUE>195</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3010</CODE>
+    <NAME>PNK Kirova 3010</NAME>
+    <RED>41</RED>
+    <GREEN>136</GREEN>
+    <BLUE>163</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3300</CODE>
+    <NAME>PNK Kirova 3300</NAME>
+    <RED>191</RED>
+    <GREEN>211</GREEN>
+    <BLUE>215</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3302</CODE>
+    <NAME>PNK Kirova 3302</NAME>
+    <RED>171</RED>
+    <GREEN>199</GREEN>
+    <BLUE>203</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3100</CODE>
+    <NAME>PNK Kirova 3100</NAME>
+    <RED>167</RED>
+    <GREEN>192</GREEN>
+    <BLUE>204</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3403</CODE>
+    <NAME>PNK Kirova 3403</NAME>
+    <RED>116</RED>
+    <GREEN>152</GREEN>
+    <BLUE>166</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3304</CODE>
+    <NAME>PNK Kirova 3304</NAME>
+    <RED>78</RED>
+    <GREEN>124</GREEN>
+    <BLUE>157</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3306</CODE>
+    <NAME>PNK Kirova 3306</NAME>
+    <RED>61</RED>
+    <GREEN>111</GREEN>
+    <BLUE>138</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>2701</CODE>
+    <NAME>PNK Kirova 2701</NAME>
+    <RED>176</RED>
+    <GREEN>192</GREEN>
+    <BLUE>200</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3401</CODE>
+    <NAME>PNK Kirova 3401</NAME>
+    <RED>159</RED>
+    <GREEN>184</GREEN>
+    <BLUE>187</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3402</CODE>
+    <NAME>PNK Kirova 3402</NAME>
+    <RED>122</RED>
+    <GREEN>154</GREEN>
+    <BLUE>159</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3404</CODE>
+    <NAME>PNK Kirova 3404</NAME>
+    <RED>94</RED>
+    <GREEN>127</GREEN>
+    <BLUE>136</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3408</CODE>
+    <NAME>PNK Kirova 3408</NAME>
+    <RED>65</RED>
+    <GREEN>98</GREEN>
+    <BLUE>104</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3406</CODE>
+    <NAME>PNK Kirova 3406</NAME>
+    <RED>62</RED>
+    <GREEN>106</GREEN>
+    <BLUE>124</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3410</CODE>
+    <NAME>PNK Kirova 3410</NAME>
+    <RED>58</RED>
+    <GREEN>98</GREEN>
+    <BLUE>116</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3502</CODE>
+    <NAME>PNK Kirova 3502</NAME>
+    <RED>187</RED>
+    <GREEN>211</GREEN>
+    <BLUE>206</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3504</CODE>
+    <NAME>PNK Kirova 3504</NAME>
+    <RED>152</RED>
+    <GREEN>189</GREEN>
+    <BLUE>184</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3506</CODE>
+    <NAME>PNK Kirova 3506</NAME>
+    <RED>121</RED>
+    <GREEN>173</GREEN>
+    <BLUE>170</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3508</CODE>
+    <NAME>PNK Kirova 3508</NAME>
+    <RED>98</RED>
+    <GREEN>162</GREEN>
+    <BLUE>161</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3510</CODE>
+    <NAME>PNK Kirova 3510</NAME>
+    <RED>68</RED>
+    <GREEN>141</GREEN>
+    <BLUE>141</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3514</CODE>
+    <NAME>PNK Kirova 3514</NAME>
+    <RED>47</RED>
+    <GREEN>122</GREEN>
+    <BLUE>123</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3600</CODE>
+    <NAME>PNK Kirova 3600</NAME>
+    <RED>165</RED>
+    <GREEN>188</GREEN>
+    <BLUE>191</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3602</CODE>
+    <NAME>PNK Kirova 3602</NAME>
+    <RED>104</RED>
+    <GREEN>143</GREEN>
+    <BLUE>142</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3606</CODE>
+    <NAME>PNK Kirova 3606</NAME>
+    <RED>78</RED>
+    <GREEN>116</GREEN>
+    <BLUE>116</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3608</CODE>
+    <NAME>PNK Kirova 3608</NAME>
+    <RED>61</RED>
+    <GREEN>103</GREEN>
+    <BLUE>96</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3607</CODE>
+    <NAME>PNK Kirova 3607</NAME>
+    <RED>52</RED>
+    <GREEN>94</GREEN>
+    <BLUE>95</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4204</CODE>
+    <NAME>PNK Kirova 4204</NAME>
+    <RED>46</RED>
+    <GREEN>64</GREEN>
+    <BLUE>62</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8502</CODE>
+    <NAME>PNK Kirova 8502</NAME>
+    <RED>155</RED>
+    <GREEN>184</GREEN>
+    <BLUE>168</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8504</CODE>
+    <NAME>PNK Kirova 8504</NAME>
+    <RED>135</RED>
+    <GREEN>170</GREEN>
+    <BLUE>153</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8506</CODE>
+    <NAME>PNK Kirova 8506</NAME>
+    <RED>84</RED>
+    <GREEN>111</GREEN>
+    <BLUE>92</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3907</CODE>
+    <NAME>PNK Kirova 3907</NAME>
+    <RED>106</RED>
+    <GREEN>141</GREEN>
+    <BLUE>110</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3913</CODE>
+    <NAME>PNK Kirova 3913</NAME>
+    <RED>80</RED>
+    <GREEN>111</GREEN>
+    <BLUE>84</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3912</CODE>
+    <NAME>PNK Kirova 3912</NAME>
+    <RED>74</RED>
+    <GREEN>102</GREEN>
+    <BLUE>69</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4102</CODE>
+    <NAME>PNK Kirova 4102</NAME>
+    <RED>174</RED>
+    <GREEN>206</GREEN>
+    <BLUE>192</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4104</CODE>
+    <NAME>PNK Kirova 4104</NAME>
+    <RED>119</RED>
+    <GREEN>173</GREEN>
+    <BLUE>149</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4103</CODE>
+    <NAME>PNK Kirova 4103</NAME>
+    <RED>97</RED>
+    <GREEN>158</GREEN>
+    <BLUE>131</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3610</CODE>
+    <NAME>PNK Kirova 3610</NAME>
+    <RED>49</RED>
+    <GREEN>108</GREEN>
+    <BLUE>95</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4106</CODE>
+    <NAME>PNK Kirova 4106</NAME>
+    <RED>129</RED>
+    <GREEN>178</GREEN>
+    <BLUE>142</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3906</CODE>
+    <NAME>PNK Kirova 3906</NAME>
+    <RED>110</RED>
+    <GREEN>160</GREEN>
+    <BLUE>112</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4107</CODE>
+    <NAME>PNK Kirova 4107</NAME>
+    <RED>72</RED>
+    <GREEN>127</GREEN>
+    <BLUE>83</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4108</CODE>
+    <NAME>PNK Kirova 4108</NAME>
+    <RED>72</RED>
+    <GREEN>122</GREEN>
+    <BLUE>90</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4110</CODE>
+    <NAME>PNK Kirova 4110</NAME>
+    <RED>49</RED>
+    <GREEN>105</GREEN>
+    <BLUE>75</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4111</CODE>
+    <NAME>PNK Kirova 4111</NAME>
+    <RED>46</RED>
+    <GREEN>94</GREEN>
+    <BLUE>59</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4112</CODE>
+    <NAME>PNK Kirova 4112</NAME>
+    <RED>47</RED>
+    <GREEN>85</GREEN>
+    <BLUE>65</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3901</CODE>
+    <NAME>PNK Kirova 3901</NAME>
+    <RED>191</RED>
+    <GREEN>211</GREEN>
+    <BLUE>180</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3902</CODE>
+    <NAME>PNK Kirova 3902</NAME>
+    <RED>162</RED>
+    <GREEN>196</GREEN>
+    <BLUE>164</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3904</CODE>
+    <NAME>PNK Kirova 3904</NAME>
+    <RED>148</RED>
+    <GREEN>183</GREEN>
+    <BLUE>136</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3908</CODE>
+    <NAME>PNK Kirova 3908</NAME>
+    <RED>99</RED>
+    <GREEN>140</GREEN>
+    <BLUE>79</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3910</CODE>
+    <NAME>PNK Kirova 3910</NAME>
+    <RED>82</RED>
+    <GREEN>122</GREEN>
+    <BLUE>67</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4109</CODE>
+    <NAME>PNK Kirova 4109</NAME>
+    <RED>70</RED>
+    <GREEN>115</GREEN>
+    <BLUE>66</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3914</CODE>
+    <NAME>PNK Kirova 3914</NAME>
+    <RED>61</RED>
+    <GREEN>88</GREEN>
+    <BLUE>56</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4002</CODE>
+    <NAME>PNK Kirova 4002</NAME>
+    <RED>202</RED>
+    <GREEN>210</GREEN>
+    <BLUE>166</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4004</CODE>
+    <NAME>PNK Kirova 4004</NAME>
+    <RED>181</RED>
+    <GREEN>196</GREEN>
+    <BLUE>148</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4005</CODE>
+    <NAME>PNK Kirova 4005</NAME>
+    <RED>156</RED>
+    <GREEN>176</GREEN>
+    <BLUE>129</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4006</CODE>
+    <NAME>PNK Kirova 4006</NAME>
+    <RED>135</RED>
+    <GREEN>157</GREEN>
+    <BLUE>100</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4010</CODE>
+    <NAME>PNK Kirova 4010</NAME>
+    <RED>113</RED>
+    <GREEN>134</GREEN>
+    <BLUE>76</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8806</CODE>
+    <NAME>PNK Kirova 8806</NAME>
+    <RED>86</RED>
+    <GREEN>110</GREEN>
+    <BLUE>66</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8604</CODE>
+    <NAME>PNK Kirova 8604</NAME>
+    <RED>148</RED>
+    <GREEN>169</GREEN>
+    <BLUE>128</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8606</CODE>
+    <NAME>PNK Kirova 8606</NAME>
+    <RED>121</RED>
+    <GREEN>139</GREEN>
+    <BLUE>108</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3702</CODE>
+    <NAME>PNK Kirova 3702</NAME>
+    <RED>86</RED>
+    <GREEN>100</GREEN>
+    <BLUE>82</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3704</CODE>
+    <NAME>PNK Kirova 3704</NAME>
+    <RED>76</RED>
+    <GREEN>94</GREEN>
+    <BLUE>77</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3800</CODE>
+    <NAME>PNK Kirova 3800</NAME>
+    <RED>109</RED>
+    <GREEN>128</GREEN>
+    <BLUE>110</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3802</CODE>
+    <NAME>PNK Kirova 3802</NAME>
+    <RED>93</RED>
+    <GREEN>110</GREEN>
+    <BLUE>93</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3804</CODE>
+    <NAME>PNK Kirova 3804</NAME>
+    <RED>72</RED>
+    <GREEN>85</GREEN>
+    <BLUE>69</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3805</CODE>
+    <NAME>PNK Kirova 3805</NAME>
+    <RED>63</RED>
+    <GREEN>80</GREEN>
+    <BLUE>56</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3807</CODE>
+    <NAME>PNK Kirova 3807</NAME>
+    <RED>47</RED>
+    <GREEN>63</GREEN>
+    <BLUE>47</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3806</CODE>
+    <NAME>PNK Kirova 3806</NAME>
+    <RED>55</RED>
+    <GREEN>72</GREEN>
+    <BLUE>62</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4202</CODE>
+    <NAME>PNK Kirova 4202</NAME>
+    <RED>49</RED>
+    <GREEN>65</GREEN>
+    <BLUE>54</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3808</CODE>
+    <NAME>PNK Kirova 3808</NAME>
+    <RED>48</RED>
+    <GREEN>62</GREEN>
+    <BLUE>60</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4802</CODE>
+    <NAME>PNK Kirova 4802</NAME>
+    <RED>208</RED>
+    <GREEN>210</GREEN>
+    <BLUE>153</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4500</CODE>
+    <NAME>PNK Kirova 4500</NAME>
+    <RED>185</RED>
+    <GREEN>181</GREEN>
+    <BLUE>103</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4501</CODE>
+    <NAME>PNK Kirova 4501</NAME>
+    <RED>171</RED>
+    <GREEN>174</GREEN>
+    <BLUE>117</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4502</CODE>
+    <NAME>PNK Kirova 4502</NAME>
+    <RED>156</RED>
+    <GREEN>158</GREEN>
+    <BLUE>84</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4504</CODE>
+    <NAME>PNK Kirova 4504</NAME>
+    <RED>128</RED>
+    <GREEN>130</GREEN>
+    <BLUE>76</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4902</CODE>
+    <NAME>PNK Kirova 4902</NAME>
+    <RED>202</RED>
+    <GREEN>218</GREEN>
+    <BLUE>138</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4904</CODE>
+    <NAME>PNK Kirova 4904</NAME>
+    <RED>186</RED>
+    <GREEN>209</GREEN>
+    <BLUE>90</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4806</CODE>
+    <NAME>PNK Kirova 4806</NAME>
+    <RED>138</RED>
+    <GREEN>150</GREEN>
+    <BLUE>56</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4503</CODE>
+    <NAME>PNK Kirova 4503</NAME>
+    <RED>128</RED>
+    <GREEN>142</GREEN>
+    <BLUE>77</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4008</CODE>
+    <NAME>PNK Kirova 4008</NAME>
+    <RED>118</RED>
+    <GREEN>133</GREEN>
+    <BLUE>60</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>3909</CODE>
+    <NAME>PNK Kirova 3909</NAME>
+    <RED>127</RED>
+    <GREEN>153</GREEN>
+    <BLUE>68</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8802</CODE>
+    <NAME>PNK Kirova 8802</NAME>
+    <RED>111</RED>
+    <GREEN>145</GREEN>
+    <BLUE>58</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4402</CODE>
+    <NAME>PNK Kirova 4402</NAME>
+    <RED>153</RED>
+    <GREEN>162</GREEN>
+    <BLUE>128</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4404</CODE>
+    <NAME>PNK Kirova 4404</NAME>
+    <RED>126</RED>
+    <GREEN>138</GREEN>
+    <BLUE>97</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4406</CODE>
+    <NAME>PNK Kirova 4406</NAME>
+    <RED>121</RED>
+    <GREEN>125</GREEN>
+    <BLUE>84</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4408</CODE>
+    <NAME>PNK Kirova 4408</NAME>
+    <RED>87</RED>
+    <GREEN>86</GREEN>
+    <BLUE>55</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4306</CODE>
+    <NAME>PNK Kirova 4306</NAME>
+    <RED>73</RED>
+    <GREEN>85</GREEN>
+    <BLUE>60</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4308</CODE>
+    <NAME>PNK Kirova 4308</NAME>
+    <RED>58</RED>
+    <GREEN>67</GREEN>
+    <BLUE>48</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4702</CODE>
+    <NAME>PNK Kirova 4702</NAME>
+    <RED>207</RED>
+    <GREEN>214</GREEN>
+    <BLUE>111</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4704</CODE>
+    <NAME>PNK Kirova 4704</NAME>
+    <RED>193</RED>
+    <GREEN>207</GREEN>
+    <BLUE>95</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4706</CODE>
+    <NAME>PNK Kirova 4706</NAME>
+    <RED>172</RED>
+    <GREEN>195</GREEN>
+    <BLUE>71</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4707</CODE>
+    <NAME>PNK Kirova 4707</NAME>
+    <RED>157</RED>
+    <GREEN>179</GREEN>
+    <BLUE>53</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4708</CODE>
+    <NAME>PNK Kirova 4708</NAME>
+    <RED>127</RED>
+    <GREEN>147</GREEN>
+    <BLUE>41</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4804</CODE>
+    <NAME>PNK Kirova 4804</NAME>
+    <RED>192</RED>
+    <GREEN>189</GREEN>
+    <BLUE>100</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4805</CODE>
+    <NAME>PNK Kirova 4805</NAME>
+    <RED>145</RED>
+    <GREEN>138</GREEN>
+    <BLUE>53</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4505</CODE>
+    <NAME>PNK Kirova 4505</NAME>
+    <RED>122</RED>
+    <GREEN>115</GREEN>
+    <BLUE>51</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4506</CODE>
+    <NAME>PNK Kirova 4506</NAME>
+    <RED>115</RED>
+    <GREEN>110</GREEN>
+    <BLUE>62</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4508</CODE>
+    <NAME>PNK Kirova 4508</NAME>
+    <RED>81</RED>
+    <GREEN>81</GREEN>
+    <BLUE>51</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4510</CODE>
+    <NAME>PNK Kirova 4510</NAME>
+    <RED>66</RED>
+    <GREEN>66</GREEN>
+    <BLUE>42</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8702</CODE>
+    <NAME>PNK Kirova 8702</NAME>
+    <RED>161</RED>
+    <GREEN>161</GREEN>
+    <BLUE>113</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8704</CODE>
+    <NAME>PNK Kirova 8704</NAME>
+    <RED>131</RED>
+    <GREEN>130</GREEN>
+    <BLUE>82</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8706</CODE>
+    <NAME>PNK Kirova 8706</NAME>
+    <RED>104</RED>
+    <GREEN>104</GREEN>
+    <BLUE>60</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4602</CODE>
+    <NAME>PNK Kirova 4602</NAME>
+    <RED>175</RED>
+    <GREEN>177</GREEN>
+    <BLUE>142</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4604</CODE>
+    <NAME>PNK Kirova 4604</NAME>
+    <RED>135</RED>
+    <GREEN>141</GREEN>
+    <BLUE>98</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4608</CODE>
+    <NAME>PNK Kirova 4608</NAME>
+    <RED>110</RED>
+    <GREEN>120</GREEN>
+    <BLUE>77</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4609</CODE>
+    <NAME>PNK Kirova 4609</NAME>
+    <RED>102</RED>
+    <GREEN>107</GREEN>
+    <BLUE>58</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4803</CODE>
+    <NAME>PNK Kirova 4803</NAME>
+    <RED>194</RED>
+    <GREEN>183</GREEN>
+    <BLUE>106</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8904</CODE>
+    <NAME>PNK Kirova 8904</NAME>
+    <RED>167</RED>
+    <GREEN>158</GREEN>
+    <BLUE>82</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8906</CODE>
+    <NAME>PNK Kirova 8906</NAME>
+    <RED>147</RED>
+    <GREEN>138</GREEN>
+    <BLUE>53</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>4304</CODE>
+    <NAME>PNK Kirova 4304</NAME>
+    <RED>143</RED>
+    <GREEN>143</GREEN>
+    <BLUE>115</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5102</CODE>
+    <NAME>PNK Kirova 5102</NAME>
+    <RED>140</RED>
+    <GREEN>136</GREEN>
+    <BLUE>107</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5104</CODE>
+    <NAME>PNK Kirova 5104</NAME>
+    <RED>111</RED>
+    <GREEN>107</GREEN>
+    <BLUE>79</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5200</CODE>
+    <NAME>PNK Kirova 5200</NAME>
+    <RED>163</RED>
+    <GREEN>150</GREEN>
+    <BLUE>108</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5201</CODE>
+    <NAME>PNK Kirova 5201</NAME>
+    <RED>144</RED>
+    <GREEN>131</GREEN>
+    <BLUE>89</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5202</CODE>
+    <NAME>PNK Kirova 5202</NAME>
+    <RED>132</RED>
+    <GREEN>116</GREEN>
+    <BLUE>72</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5203</CODE>
+    <NAME>PNK Kirova 5203</NAME>
+    <RED>117</RED>
+    <GREEN>99</GREEN>
+    <BLUE>54</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5204</CODE>
+    <NAME>PNK Kirova 5204</NAME>
+    <RED>100</RED>
+    <GREEN>89</GREEN>
+    <BLUE>56</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8900</CODE>
+    <NAME>PNK Kirova 8900</NAME>
+    <RED>208</RED>
+    <GREEN>195</GREEN>
+    <BLUE>148</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>8901</CODE>
+    <NAME>PNK Kirova 8901</NAME>
+    <RED>198</RED>
+    <GREEN>183</GREEN>
+    <BLUE>128</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5301</CODE>
+    <NAME>PNK Kirova 5301</NAME>
+    <RED>179</RED>
+    <GREEN>161</GREEN>
+    <BLUE>84</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5302</CODE>
+    <NAME>PNK Kirova 5302</NAME>
+    <RED>130</RED>
+    <GREEN>107</GREEN>
+    <BLUE>43</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5303</CODE>
+    <NAME>PNK Kirova 5303</NAME>
+    <RED>142</RED>
+    <GREEN>121</GREEN>
+    <BLUE>62</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5304</CODE>
+    <NAME>PNK Kirova 5304</NAME>
+    <RED>120</RED>
+    <GREEN>110</GREEN>
+    <BLUE>56</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5306</CODE>
+    <NAME>PNK Kirova 5306</NAME>
+    <RED>110</RED>
+    <GREEN>89</GREEN>
+    <BLUE>52</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5000</CODE>
+    <NAME>PNK Kirova 5000</NAME>
+    <RED>216</RED>
+    <GREEN>205</GREEN>
+    <BLUE>156</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5001</CODE>
+    <NAME>PNK Kirova 5001</NAME>
+    <RED>188</RED>
+    <GREEN>171</GREEN>
+    <BLUE>96</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5002</CODE>
+    <NAME>PNK Kirova 5002</NAME>
+    <RED>177</RED>
+    <GREEN>153</GREEN>
+    <BLUE>84</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5004</CODE>
+    <NAME>PNK Kirova 5004</NAME>
+    <RED>164</RED>
+    <GREEN>129</GREEN>
+    <BLUE>51</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7302</CODE>
+    <NAME>PNK Kirova 7302</NAME>
+    <RED>215</RED>
+    <GREEN>193</GREEN>
+    <BLUE>108</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7306</CODE>
+    <NAME>PNK Kirova 7306</NAME>
+    <RED>204</RED>
+    <GREEN>166</GREEN>
+    <BLUE>48</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7308</CODE>
+    <NAME>PNK Kirova 7308</NAME>
+    <RED>188</RED>
+    <GREEN>150</GREEN>
+    <BLUE>42</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7310</CODE>
+    <NAME>PNK Kirova 7310</NAME>
+    <RED>181</RED>
+    <GREEN>137</GREEN>
+    <BLUE>38</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5006</CODE>
+    <NAME>PNK Kirova 5006</NAME>
+    <RED>178</RED>
+    <GREEN>130</GREEN>
+    <BLUE>28</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5901</CODE>
+    <NAME>PNK Kirova 5901</NAME>
+    <RED>214</RED>
+    <GREEN>197</GREEN>
+    <BLUE>158</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5903</CODE>
+    <NAME>PNK Kirova 5903</NAME>
+    <RED>190</RED>
+    <GREEN>154</GREEN>
+    <BLUE>102</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5905</CODE>
+    <NAME>PNK Kirova 5905</NAME>
+    <RED>172</RED>
+    <GREEN>132</GREEN>
+    <BLUE>73</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5907</CODE>
+    <NAME>PNK Kirova 5907</NAME>
+    <RED>141</RED>
+    <GREEN>100</GREEN>
+    <BLUE>48</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5911</CODE>
+    <NAME>PNK Kirova 5911</NAME>
+    <RED>108</RED>
+    <GREEN>73</GREEN>
+    <BLUE>47</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9101</CODE>
+    <NAME>PNK Kirova 9101</NAME>
+    <RED>188</RED>
+    <GREEN>165</GREEN>
+    <BLUE>109</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9102</CODE>
+    <NAME>PNK Kirova 9102</NAME>
+    <RED>156</RED>
+    <GREEN>133</GREEN>
+    <BLUE>78</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9104</CODE>
+    <NAME>PNK Kirova 9104</NAME>
+    <RED>137</RED>
+    <GREEN>110</GREEN>
+    <BLUE>62</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9106</CODE>
+    <NAME>PNK Kirova 9106</NAME>
+    <RED>119</RED>
+    <GREEN>94</GREEN>
+    <BLUE>50</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5502</CODE>
+    <NAME>PNK Kirova 5502</NAME>
+    <RED>209</RED>
+    <GREEN>179</GREEN>
+    <BLUE>117</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5504</CODE>
+    <NAME>PNK Kirova 5504</NAME>
+    <RED>187</RED>
+    <GREEN>149</GREEN>
+    <BLUE>86</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5506</CODE>
+    <NAME>PNK Kirova 5506</NAME>
+    <RED>157</RED>
+    <GREEN>112</GREEN>
+    <BLUE>59</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9000</CODE>
+    <NAME>PNK Kirova 9000</NAME>
+    <RED>242</RED>
+    <GREEN>222</GREEN>
+    <BLUE>204</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6300</CODE>
+    <NAME>PNK Kirova 6300</NAME>
+    <RED>213</RED>
+    <GREEN>191</GREEN>
+    <BLUE>169</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5802</CODE>
+    <NAME>PNK Kirova 5802</NAME>
+    <RED>198</RED>
+    <GREEN>169</GREEN>
+    <BLUE>133</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5803</CODE>
+    <NAME>PNK Kirova 5803</NAME>
+    <RED>211</RED>
+    <GREEN>176</GREEN>
+    <BLUE>133</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5804</CODE>
+    <NAME>PNK Kirova 5804</NAME>
+    <RED>194</RED>
+    <GREEN>160</GREEN>
+    <BLUE>126</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5806</CODE>
+    <NAME>PNK Kirova 5806</NAME>
+    <RED>171</RED>
+    <GREEN>125</GREEN>
+    <BLUE>86</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5808</CODE>
+    <NAME>PNK Kirova 5808</NAME>
+    <RED>158</RED>
+    <GREEN>110</GREEN>
+    <BLUE>75</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5810</CODE>
+    <NAME>PNK Kirova 5810</NAME>
+    <RED>121</RED>
+    <GREEN>76</GREEN>
+    <BLUE>54</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5812</CODE>
+    <NAME>PNK Kirova 5812</NAME>
+    <RED>78</RED>
+    <GREEN>36</GREEN>
+    <BLUE>26</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5902</CODE>
+    <NAME>PNK Kirova 5902</NAME>
+    <RED>211</RED>
+    <GREEN>190</GREEN>
+    <BLUE>156</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5904</CODE>
+    <NAME>PNK Kirova 5904</NAME>
+    <RED>191</RED>
+    <GREEN>161</GREEN>
+    <BLUE>129</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5906</CODE>
+    <NAME>PNK Kirova 5906</NAME>
+    <RED>159</RED>
+    <GREEN>121</GREEN>
+    <BLUE>91</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5910</CODE>
+    <NAME>PNK Kirova 5910</NAME>
+    <RED>129</RED>
+    <GREEN>89</GREEN>
+    <BLUE>64</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5912</CODE>
+    <NAME>PNK Kirova 5912</NAME>
+    <RED>91</RED>
+    <GREEN>61</GREEN>
+    <BLUE>49</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6514</CODE>
+    <NAME>PNK Kirova 6514</NAME>
+    <RED>76</RED>
+    <GREEN>53</GREEN>
+    <BLUE>46</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5401</CODE>
+    <NAME>PNK Kirova 5401</NAME>
+    <RED>219</RED>
+    <GREEN>183</GREEN>
+    <BLUE>116</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5402</CODE>
+    <NAME>PNK Kirova 5402</NAME>
+    <RED>211</RED>
+    <GREEN>166</GREEN>
+    <BLUE>99</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5404</CODE>
+    <NAME>PNK Kirova 5404</NAME>
+    <RED>199</RED>
+    <GREEN>145</GREEN>
+    <BLUE>79</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5405</CODE>
+    <NAME>PNK Kirova 5405</NAME>
+    <RED>204</RED>
+    <GREEN>143</GREEN>
+    <BLUE>82</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5406</CODE>
+    <NAME>PNK Kirova 5406</NAME>
+    <RED>196</RED>
+    <GREEN>129</GREEN>
+    <BLUE>76</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5408</CODE>
+    <NAME>PNK Kirova 5408</NAME>
+    <RED>184</RED>
+    <GREEN>109</GREEN>
+    <BLUE>61</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7402</CODE>
+    <NAME>PNK Kirova 7402</NAME>
+    <RED>228</RED>
+    <GREEN>163</GREEN>
+    <BLUE>113</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7406</CODE>
+    <NAME>PNK Kirova 7406</NAME>
+    <RED>190</RED>
+    <GREEN>108</GREEN>
+    <BLUE>61</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7410</CODE>
+    <NAME>PNK Kirova 7410</NAME>
+    <RED>160</RED>
+    <GREEN>68</GREEN>
+    <BLUE>49</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1602</CODE>
+    <NAME>PNK Kirova 1602</NAME>
+    <RED>219</RED>
+    <GREEN>179</GREEN>
+    <BLUE>158</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1604</CODE>
+    <NAME>PNK Kirova 1604</NAME>
+    <RED>194</RED>
+    <GREEN>128</GREEN>
+    <BLUE>96</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1606</CODE>
+    <NAME>PNK Kirova 1606</NAME>
+    <RED>186</RED>
+    <GREEN>106</GREEN>
+    <BLUE>75</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1608</CODE>
+    <NAME>PNK Kirova 1608</NAME>
+    <RED>175</RED>
+    <GREEN>94</GREEN>
+    <BLUE>61</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1610</CODE>
+    <NAME>PNK Kirova 1610</NAME>
+    <RED>185</RED>
+    <GREEN>107</GREEN>
+    <BLUE>80</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1612</CODE>
+    <NAME>PNK Kirova 1612</NAME>
+    <RED>160</RED>
+    <GREEN>84</GREEN>
+    <BLUE>61</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1614</CODE>
+    <NAME>PNK Kirova 1614</NAME>
+    <RED>136</RED>
+    <GREEN>68</GREEN>
+    <BLUE>50</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9006</CODE>
+    <NAME>PNK Kirova 9006</NAME>
+    <RED>132</RED>
+    <GREEN>69</GREEN>
+    <BLUE>62</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>1616</CODE>
+    <NAME>PNK Kirova 1616</NAME>
+    <RED>114</RED>
+    <GREEN>49</GREEN>
+    <BLUE>42</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5602</CODE>
+    <NAME>PNK Kirova 5602</NAME>
+    <RED>193</RED>
+    <GREEN>144</GREEN>
+    <BLUE>139</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5604</CODE>
+    <NAME>PNK Kirova 5604</NAME>
+    <RED>183</RED>
+    <GREEN>130</GREEN>
+    <BLUE>121</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5605</CODE>
+    <NAME>PNK Kirova 5605</NAME>
+    <RED>155</RED>
+    <GREEN>95</GREEN>
+    <BLUE>96</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5606</CODE>
+    <NAME>PNK Kirova 5606</NAME>
+    <RED>142</RED>
+    <GREEN>79</GREEN>
+    <BLUE>78</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7602</CODE>
+    <NAME>PNK Kirova 7602</NAME>
+    <RED>193</RED>
+    <GREEN>132</GREEN>
+    <BLUE>139</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7606</CODE>
+    <NAME>PNK Kirova 7606</NAME>
+    <RED>148</RED>
+    <GREEN>71</GREEN>
+    <BLUE>81</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5610</CODE>
+    <NAME>PNK Kirova 5610</NAME>
+    <RED>123</RED>
+    <GREEN>63</GREEN>
+    <BLUE>59</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9008</CODE>
+    <NAME>PNK Kirova 9008</NAME>
+    <RED>116</RED>
+    <GREEN>50</GREEN>
+    <BLUE>45</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5601</CODE>
+    <NAME>PNK Kirova 5601</NAME>
+    <RED>197</RED>
+    <GREEN>166</GREEN>
+    <BLUE>154</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5603</CODE>
+    <NAME>PNK Kirova 5603</NAME>
+    <RED>177</RED>
+    <GREEN>140</GREEN>
+    <BLUE>134</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5702</CODE>
+    <NAME>PNK Kirova 5702</NAME>
+    <RED>180</RED>
+    <GREEN>148</GREEN>
+    <BLUE>145</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5704</CODE>
+    <NAME>PNK Kirova 5704</NAME>
+    <RED>156</RED>
+    <GREEN>120</GREEN>
+    <BLUE>114</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5708</CODE>
+    <NAME>PNK Kirova 5708</NAME>
+    <RED>116</RED>
+    <GREEN>81</GREEN>
+    <BLUE>85</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5709</CODE>
+    <NAME>PNK Kirova 5709</NAME>
+    <RED>98</RED>
+    <GREEN>57</GREEN>
+    <BLUE>54</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6301</CODE>
+    <NAME>PNK Kirova 6301</NAME>
+    <RED>202</RED>
+    <GREEN>175</GREEN>
+    <BLUE>154</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6302</CODE>
+    <NAME>PNK Kirova 6302</NAME>
+    <RED>175</RED>
+    <GREEN>136</GREEN>
+    <BLUE>120</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6304</CODE>
+    <NAME>PNK Kirova 6304</NAME>
+    <RED>158</RED>
+    <GREEN>115</GREEN>
+    <BLUE>96</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6306</CODE>
+    <NAME>PNK Kirova 6306</NAME>
+    <RED>163</RED>
+    <GREEN>112</GREEN>
+    <BLUE>87</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6200</CODE>
+    <NAME>PNK Kirova 6200</NAME>
+    <RED>207</RED>
+    <GREEN>192</GREEN>
+    <BLUE>176</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6202</CODE>
+    <NAME>PNK Kirova 6202</NAME>
+    <RED>191</RED>
+    <GREEN>164</GREEN>
+    <BLUE>135</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6204</CODE>
+    <NAME>PNK Kirova 6204</NAME>
+    <RED>155</RED>
+    <GREEN>120</GREEN>
+    <BLUE>95</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6206</CODE>
+    <NAME>PNK Kirova 6206</NAME>
+    <RED>147</RED>
+    <GREEN>112</GREEN>
+    <BLUE>89</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6100</CODE>
+    <NAME>PNK Kirova 6100</NAME>
+    <RED>197</RED>
+    <GREEN>191</GREEN>
+    <BLUE>171</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6102</CODE>
+    <NAME>PNK Kirova 6102</NAME>
+    <RED>182</RED>
+    <GREEN>166</GREEN>
+    <BLUE>139</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6106</CODE>
+    <NAME>PNK Kirova 6106</NAME>
+    <RED>156</RED>
+    <GREEN>132</GREEN>
+    <BLUE>102</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6012</CODE>
+    <NAME>PNK Kirova 6012</NAME>
+    <RED>132</RED>
+    <GREEN>103</GREEN>
+    <BLUE>77</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6508</CODE>
+    <NAME>PNK Kirova 6508</NAME>
+    <RED>107</RED>
+    <GREEN>83</GREEN>
+    <BLUE>59</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6513</CODE>
+    <NAME>PNK Kirova 6513</NAME>
+    <RED>78</RED>
+    <GREEN>59</GREEN>
+    <BLUE>47</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5711</CODE>
+    <NAME>PNK Kirova 5711</NAME>
+    <RED>69</RED>
+    <GREEN>50</GREEN>
+    <BLUE>42</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6001</CODE>
+    <NAME>PNK Kirova 6001</NAME>
+    <RED>198</RED>
+    <GREEN>188</GREEN>
+    <BLUE>164</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6002</CODE>
+    <NAME>PNK Kirova 6002</NAME>
+    <RED>172</RED>
+    <GREEN>159</GREEN>
+    <BLUE>139</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6004</CODE>
+    <NAME>PNK Kirova 6004</NAME>
+    <RED>152</RED>
+    <GREEN>136</GREEN>
+    <BLUE>113</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6006</CODE>
+    <NAME>PNK Kirova 6006</NAME>
+    <RED>140</RED>
+    <GREEN>121</GREEN>
+    <BLUE>95</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6007</CODE>
+    <NAME>PNK Kirova 6007</NAME>
+    <RED>117</RED>
+    <GREEN>101</GREEN>
+    <BLUE>81</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6511</CODE>
+    <NAME>PNK Kirova 6511</NAME>
+    <RED>87</RED>
+    <GREEN>75</GREEN>
+    <BLUE>57</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6515</CODE>
+    <NAME>PNK Kirova 6515</NAME>
+    <RED>86</RED>
+    <GREEN>70</GREEN>
+    <BLUE>56</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6104</CODE>
+    <NAME>PNK Kirova 6104</NAME>
+    <RED>169</RED>
+    <GREEN>152</GREEN>
+    <BLUE>121</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6203</CODE>
+    <NAME>PNK Kirova 6203</NAME>
+    <RED>169</RED>
+    <GREEN>150</GREEN>
+    <BLUE>127</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6008</CODE>
+    <NAME>PNK Kirova 6008</NAME>
+    <RED>139</RED>
+    <GREEN>115</GREEN>
+    <BLUE>89</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6207</CODE>
+    <NAME>PNK Kirova 6207</NAME>
+    <RED>136</RED>
+    <GREEN>115</GREEN>
+    <BLUE>85</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6509</CODE>
+    <NAME>PNK Kirova 6509</NAME>
+    <RED>108</RED>
+    <GREEN>86</GREEN>
+    <BLUE>60</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6400</CODE>
+    <NAME>PNK Kirova 6400</NAME>
+    <RED>220</RED>
+    <GREEN>215</GREEN>
+    <BLUE>202</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6401</CODE>
+    <NAME>PNK Kirova 6401</NAME>
+    <RED>182</RED>
+    <GREEN>171</GREEN>
+    <BLUE>162</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6402</CODE>
+    <NAME>PNK Kirova 6402</NAME>
+    <RED>168</RED>
+    <GREEN>152</GREEN>
+    <BLUE>145</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6404</CODE>
+    <NAME>PNK Kirova 6404</NAME>
+    <RED>153</RED>
+    <GREEN>135</GREEN>
+    <BLUE>123</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6406</CODE>
+    <NAME>PNK Kirova 6406</NAME>
+    <RED>123</RED>
+    <GREEN>107</GREEN>
+    <BLUE>95</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6501</CODE>
+    <NAME>PNK Kirova 6501</NAME>
+    <RED>192</RED>
+    <GREEN>178</GREEN>
+    <BLUE>156</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6502</CODE>
+    <NAME>PNK Kirova 6502</NAME>
+    <RED>183</RED>
+    <GREEN>168</GREEN>
+    <BLUE>149</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6504</CODE>
+    <NAME>PNK Kirova 6504</NAME>
+    <RED>152</RED>
+    <GREEN>130</GREEN>
+    <BLUE>115</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6506</CODE>
+    <NAME>PNK Kirova 6506</NAME>
+    <RED>132</RED>
+    <GREEN>110</GREEN>
+    <BLUE>99</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6510</CODE>
+    <NAME>PNK Kirova 6510</NAME>
+    <RED>105</RED>
+    <GREEN>83</GREEN>
+    <BLUE>59</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6512</CODE>
+    <NAME>PNK Kirova 6512</NAME>
+    <RED>91</RED>
+    <GREEN>72</GREEN>
+    <BLUE>65</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>5710</CODE>
+    <NAME>PNK Kirova 5710</NAME>
+    <RED>70</RED>
+    <GREEN>53</GREEN>
+    <BLUE>53</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6516</CODE>
+    <NAME>PNK Kirova 6516</NAME>
+    <RED>56</RED>
+    <GREEN>45</GREEN>
+    <BLUE>44</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6602</CODE>
+    <NAME>PNK Kirova 6602</NAME>
+    <RED>176</RED>
+    <GREEN>167</GREEN>
+    <BLUE>145</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6604</CODE>
+    <NAME>PNK Kirova 6604</NAME>
+    <RED>150</RED>
+    <GREEN>140</GREEN>
+    <BLUE>116</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6606</CODE>
+    <NAME>PNK Kirova 6606</NAME>
+    <RED>140</RED>
+    <GREEN>131</GREEN>
+    <BLUE>107</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6608</CODE>
+    <NAME>PNK Kirova 6608</NAME>
+    <RED>131</RED>
+    <GREEN>122</GREEN>
+    <BLUE>99</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6600</CODE>
+    <NAME>PNK Kirova 6600</NAME>
+    <RED>180</RED>
+    <GREEN>178</GREEN>
+    <BLUE>169</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6601</CODE>
+    <NAME>PNK Kirova 6601</NAME>
+    <RED>164</RED>
+    <GREEN>162</GREEN>
+    <BLUE>152</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6708</CODE>
+    <NAME>PNK Kirova 6708</NAME>
+    <RED>111</RED>
+    <GREEN>106</GREEN>
+    <BLUE>94</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6712</CODE>
+    <NAME>PNK Kirova 6712</NAME>
+    <RED>80</RED>
+    <GREEN>70</GREEN>
+    <BLUE>59</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6700</CODE>
+    <NAME>PNK Kirova 6700</NAME>
+    <RED>193</RED>
+    <GREEN>193</GREEN>
+    <BLUE>182</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6702</CODE>
+    <NAME>PNK Kirova 6702</NAME>
+    <RED>165</RED>
+    <GREEN>165</GREEN>
+    <BLUE>150</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6704</CODE>
+    <NAME>PNK Kirova 6704</NAME>
+    <RED>145</RED>
+    <GREEN>149</GREEN>
+    <BLUE>135</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6706</CODE>
+    <NAME>PNK Kirova 6706</NAME>
+    <RED>135</RED>
+    <GREEN>138</GREEN>
+    <BLUE>122</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7002</CODE>
+    <NAME>PNK Kirova 7002</NAME>
+    <RED>173</RED>
+    <GREEN>178</GREEN>
+    <BLUE>179</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6801</CODE>
+    <NAME>PNK Kirova 6801</NAME>
+    <RED>182</RED>
+    <GREEN>182</GREEN>
+    <BLUE>171</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6802</CODE>
+    <NAME>PNK Kirova 6802</NAME>
+    <RED>163</RED>
+    <GREEN>166</GREEN>
+    <BLUE>162</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6804</CODE>
+    <NAME>PNK Kirova 6804</NAME>
+    <RED>131</RED>
+    <GREEN>135</GREEN>
+    <BLUE>130</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6806</CODE>
+    <NAME>PNK Kirova 6806</NAME>
+    <RED>98</RED>
+    <GREEN>98</GREEN>
+    <BLUE>95</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6808</CODE>
+    <NAME>PNK Kirova 6808</NAME>
+    <RED>90</RED>
+    <GREEN>91</GREEN>
+    <BLUE>85</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7000</CODE>
+    <NAME>PNK Kirova 7000</NAME>
+    <RED>232</RED>
+    <GREEN>235</GREEN>
+    <BLUE>232</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7001</CODE>
+    <NAME>PNK Kirova 7001</NAME>
+    <RED>165</RED>
+    <GREEN>162</GREEN>
+    <BLUE>165</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7004</CODE>
+    <NAME>PNK Kirova 7004</NAME>
+    <RED>106</RED>
+    <GREEN>107</GREEN>
+    <BLUE>117</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7003</CODE>
+    <NAME>PNK Kirova 7003</NAME>
+    <RED>136</RED>
+    <GREEN>139</GREEN>
+    <BLUE>152</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7006</CODE>
+    <NAME>PNK Kirova 7006</NAME>
+    <RED>145</RED>
+    <GREEN>155</GREEN>
+    <BLUE>163</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7008</CODE>
+    <NAME>PNK Kirova 7008</NAME>
+    <RED>82</RED>
+    <GREEN>82</GREEN>
+    <BLUE>97</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7102</CODE>
+    <NAME>PNK Kirova 7102</NAME>
+    <RED>188</RED>
+    <GREEN>192</GREEN>
+    <BLUE>192</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7104</CODE>
+    <NAME>PNK Kirova 7104</NAME>
+    <RED>162</RED>
+    <GREEN>171</GREEN>
+    <BLUE>180</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7106</CODE>
+    <NAME>PNK Kirova 7106</NAME>
+    <RED>142</RED>
+    <GREEN>152</GREEN>
+    <BLUE>161</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7108</CODE>
+    <NAME>PNK Kirova 7108</NAME>
+    <RED>130</RED>
+    <GREEN>141</GREEN>
+    <BLUE>153</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7110</CODE>
+    <NAME>PNK Kirova 7110</NAME>
+    <RED>91</RED>
+    <GREEN>96</GREEN>
+    <BLUE>100</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7112</CODE>
+    <NAME>PNK Kirova 7112</NAME>
+    <RED>73</RED>
+    <GREEN>79</GREEN>
+    <BLUE>84</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7114</CODE>
+    <NAME>PNK Kirova 7114</NAME>
+    <RED>61</RED>
+    <GREEN>68</GREEN>
+    <BLUE>79</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6902</CODE>
+    <NAME>PNK Kirova 6902</NAME>
+    <RED>179</RED>
+    <GREEN>188</GREEN>
+    <BLUE>193</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6904</CODE>
+    <NAME>PNK Kirova 6904</NAME>
+    <RED>150</RED>
+    <GREEN>162</GREEN>
+    <BLUE>176</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6906</CODE>
+    <NAME>PNK Kirova 6906</NAME>
+    <RED>123</RED>
+    <GREEN>138</GREEN>
+    <BLUE>156</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6908</CODE>
+    <NAME>PNK Kirova 6908</NAME>
+    <RED>82</RED>
+    <GREEN>96</GREEN>
+    <BLUE>115</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>6910</CODE>
+    <NAME>PNK Kirova 6910</NAME>
+    <RED>65</RED>
+    <GREEN>74</GREEN>
+    <BLUE>86</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7201</CODE>
+    <NAME>PNK Kirova 7201</NAME>
+    <RED>169</RED>
+    <GREEN>176</GREEN>
+    <BLUE>182</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7202</CODE>
+    <NAME>PNK Kirova 7202</NAME>
+    <RED>153</RED>
+    <GREEN>158</GREEN>
+    <BLUE>161</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7203</CODE>
+    <NAME>PNK Kirova 7203</NAME>
+    <RED>119</RED>
+    <GREEN>125</GREEN>
+    <BLUE>132</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7204</CODE>
+    <NAME>PNK Kirova 7204</NAME>
+    <RED>115</RED>
+    <GREEN>118</GREEN>
+    <BLUE>125</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7206</CODE>
+    <NAME>PNK Kirova 7206</NAME>
+    <RED>89</RED>
+    <GREEN>93</GREEN>
+    <BLUE>102</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7208</CODE>
+    <NAME>PNK Kirova 7208</NAME>
+    <RED>74</RED>
+    <GREEN>75</GREEN>
+    <BLUE>83</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7210</CODE>
+    <NAME>PNK Kirova 7210</NAME>
+    <RED>54</RED>
+    <GREEN>54</GREEN>
+    <BLUE>60</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7212</CODE>
+    <NAME>PNK Kirova 7212</NAME>
+    <RED>54</RED>
+    <GREEN>59</GREEN>
+    <BLUE>65</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>7214</CODE>
+    <NAME>PNK Kirova 7214</NAME>
+    <RED>35</RED>
+    <GREEN>36</GREEN>
+    <BLUE>38</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9220</CODE>
+    <NAME>PNK Kirova 9220</NAME>
+    <RED>226</RED>
+    <GREEN>118</GREEN>
+    <BLUE>122</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9222</CODE>
+    <NAME>PNK Kirova 9222</NAME>
+    <RED>206</RED>
+    <GREEN>87</GREEN>
+    <BLUE>90</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9224</CODE>
+    <NAME>PNK Kirova 9224</NAME>
+    <RED>180</RED>
+    <GREEN>0</GREEN>
+    <BLUE>50</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9226</CODE>
+    <NAME>PNK Kirova 9226</NAME>
+    <RED>197</RED>
+    <GREEN>102</GREEN>
+    <BLUE>128</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9228</CODE>
+    <NAME>PNK Kirova 9228</NAME>
+    <RED>183</RED>
+    <GREEN>59</GREEN>
+    <BLUE>109</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9230</CODE>
+    <NAME>PNK Kirova 9230</NAME>
+    <RED>112</RED>
+    <GREEN>28</GREEN>
+    <BLUE>64</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9232</CODE>
+    <NAME>PNK Kirova 9232</NAME>
+    <RED>95</RED>
+    <GREEN>39</GREEN>
+    <BLUE>59</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9234</CODE>
+    <NAME>PNK Kirova 9234</NAME>
+    <RED>201</RED>
+    <GREEN>126</GREEN>
+    <BLUE>138</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9236</CODE>
+    <NAME>PNK Kirova 9236</NAME>
+    <RED>185</RED>
+    <GREEN>102</GREEN>
+    <BLUE>117</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9238</CODE>
+    <NAME>PNK Kirova 9238</NAME>
+    <RED>95</RED>
+    <GREEN>39</GREEN>
+    <BLUE>61</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9240</CODE>
+    <NAME>PNK Kirova 9240</NAME>
+    <RED>198</RED>
+    <GREEN>107</GREEN>
+    <BLUE>134</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9242</CODE>
+    <NAME>PNK Kirova 9242</NAME>
+    <RED>151</RED>
+    <GREEN>70</GREEN>
+    <BLUE>85</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9244</CODE>
+    <NAME>PNK Kirova 9244</NAME>
+    <RED>160</RED>
+    <GREEN>53</GREEN>
+    <BLUE>119</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9306</CODE>
+    <NAME>PNK Kirova 9306</NAME>
+    <RED>107</RED>
+    <GREEN>76</GREEN>
+    <BLUE>84</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9248</CODE>
+    <NAME>PNK Kirova 9248</NAME>
+    <RED>106</RED>
+    <GREEN>127</GREEN>
+    <BLUE>160</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9250</CODE>
+    <NAME>PNK Kirova 9250</NAME>
+    <RED>39</RED>
+    <GREEN>59</GREEN>
+    <BLUE>84</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9252</CODE>
+    <NAME>PNK Kirova 9252</NAME>
+    <RED>39</RED>
+    <GREEN>43</GREEN>
+    <BLUE>59</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9254</CODE>
+    <NAME>PNK Kirova 9254</NAME>
+    <RED>140</RED>
+    <GREEN>175</GREEN>
+    <BLUE>194</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9256</CODE>
+    <NAME>PNK Kirova 9256</NAME>
+    <RED>112</RED>
+    <GREEN>147</GREEN>
+    <BLUE>175</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9258</CODE>
+    <NAME>PNK Kirova 9258</NAME>
+    <RED>64</RED>
+    <GREEN>112</GREEN>
+    <BLUE>157</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9262</CODE>
+    <NAME>PNK Kirova 9262</NAME>
+    <RED>98</RED>
+    <GREEN>159</GREEN>
+    <BLUE>163</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9264</CODE>
+    <NAME>PNK Kirova 9264</NAME>
+    <RED>0</RED>
+    <GREEN>107</GREEN>
+    <BLUE>130</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9266</CODE>
+    <NAME>PNK Kirova 9266</NAME>
+    <RED>122</RED>
+    <GREEN>163</GREEN>
+    <BLUE>194</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9268</CODE>
+    <NAME>PNK Kirova 9268</NAME>
+    <RED>0</RED>
+    <GREEN>128</GREEN>
+    <BLUE>175</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9270</CODE>
+    <NAME>PNK Kirova 9270</NAME>
+    <RED>80</RED>
+    <GREEN>152</GREEN>
+    <BLUE>129</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9272</CODE>
+    <NAME>PNK Kirova 9272</NAME>
+    <RED>0</RED>
+    <GREEN>138</GREEN>
+    <BLUE>119</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9276</CODE>
+    <NAME>PNK Kirova 9276</NAME>
+    <RED>149</RED>
+    <GREEN>178</GREEN>
+    <BLUE>160</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9278</CODE>
+    <NAME>PNK Kirova 9278</NAME>
+    <RED>72</RED>
+    <GREEN>114</GREEN>
+    <BLUE>95</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9280</CODE>
+    <NAME>PNK Kirova 9280</NAME>
+    <RED>68</RED>
+    <GREEN>107</GREEN>
+    <BLUE>90</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9286</CODE>
+    <NAME>PNK Kirova 9286</NAME>
+    <RED>78</RED>
+    <GREEN>111</GREEN>
+    <BLUE>98</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9292</CODE>
+    <NAME>PNK Kirova 9292</NAME>
+    <RED>66</RED>
+    <GREEN>84</GREEN>
+    <BLUE>50</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9282</CODE>
+    <NAME>PNK Kirova 9282</NAME>
+    <RED>157</RED>
+    <GREEN>173</GREEN>
+    <BLUE>164</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9274</CODE>
+    <NAME>PNK Kirova 9274</NAME>
+    <RED>53</RED>
+    <GREEN>129</GREEN>
+    <BLUE>111</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9284</CODE>
+    <NAME>PNK Kirova 9284</NAME>
+    <RED>145</RED>
+    <GREEN>153</GREEN>
+    <BLUE>130</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9288</CODE>
+    <NAME>PNK Kirova 9288</NAME>
+    <RED>56</RED>
+    <GREEN>68</GREEN>
+    <BLUE>70</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9290</CODE>
+    <NAME>PNK Kirova 9290</NAME>
+    <RED>89</RED>
+    <GREEN>118</GREEN>
+    <BLUE>50</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9294</CODE>
+    <NAME>PNK Kirova 9294</NAME>
+    <RED>220</RED>
+    <GREEN>207</GREEN>
+    <BLUE>160</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9296</CODE>
+    <NAME>PNK Kirova 9296</NAME>
+    <RED>173</RED>
+    <GREEN>158</GREEN>
+    <BLUE>116</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9298</CODE>
+    <NAME>PNK Kirova 9298</NAME>
+    <RED>164</RED>
+    <GREEN>143</GREEN>
+    <BLUE>93</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9300</CODE>
+    <NAME>PNK Kirova 9300</NAME>
+    <RED>98</RED>
+    <GREEN>98</GREEN>
+    <BLUE>66</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9202</CODE>
+    <NAME>PNK Kirova 9202</NAME>
+    <RED>207</RED>
+    <GREEN>137</GREEN>
+    <BLUE>122</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9204</CODE>
+    <NAME>PNK Kirova 9204</NAME>
+    <RED>191</RED>
+    <GREEN>122</GREEN>
+    <BLUE>109</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9206</CODE>
+    <NAME>PNK Kirova 9206</NAME>
+    <RED>174</RED>
+    <GREEN>102</GREEN>
+    <BLUE>92</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9208</CODE>
+    <NAME>PNK Kirova 9208</NAME>
+    <RED>205</RED>
+    <GREEN>135</GREEN>
+    <BLUE>107</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9210</CODE>
+    <NAME>PNK Kirova 9210</NAME>
+    <RED>159</RED>
+    <GREEN>80</GREEN>
+    <BLUE>46</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9212</CODE>
+    <NAME>PNK Kirova 9212</NAME>
+    <RED>144</RED>
+    <GREEN>72</GREEN>
+    <BLUE>46</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9214</CODE>
+    <NAME>PNK Kirova 9214</NAME>
+    <RED>214</RED>
+    <GREEN>153</GREEN>
+    <BLUE>134</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9216</CODE>
+    <NAME>PNK Kirova 9216</NAME>
+    <RED>155</RED>
+    <GREEN>56</GREEN>
+    <BLUE>50</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9218</CODE>
+    <NAME>PNK Kirova 9218</NAME>
+    <RED>143</RED>
+    <GREEN>61</GREEN>
+    <BLUE>56</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9304</CODE>
+    <NAME>PNK Kirova 9304</NAME>
+    <RED>131</RED>
+    <GREEN>92</GREEN>
+    <BLUE>68</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9308</CODE>
+    <NAME>PNK Kirova 9308</NAME>
+    <RED>80</RED>
+    <GREEN>59</GREEN>
+    <BLUE>53</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9310</CODE>
+    <NAME>PNK Kirova 9310</NAME>
+    <RED>162</RED>
+    <GREEN>156</GREEN>
+    <BLUE>143</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9312</CODE>
+    <NAME>PNK Kirova 9312</NAME>
+    <RED>101</RED>
+    <GREEN>93</GREEN>
+    <BLUE>84</BLUE>
+  </COLOR>
+  <COLOR>
+    <CODE>9314</CODE>
+    <NAME>PNK Kirova 9314</NAME>
+    <RED>82</RED>
+    <GREEN>74</GREEN>
+    <BLUE>70</BLUE>
+  </COLOR>
+</PALETTE>

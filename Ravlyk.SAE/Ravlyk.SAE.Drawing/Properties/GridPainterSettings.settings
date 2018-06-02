@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Ravlyk.SAE.Drawing.Properties" GeneratedClassName="GridPainterSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CellSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">16</Value>
+    </Setting>
+    <Setting Name="ShowRulers" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowLines" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LineArgb" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">176, 232, 232</Value>
+    </Setting>
+    <Setting Name="Line10Argb" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">40, 136, 232</Value>
+    </Setting>
+    <Setting Name="PaintMode" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PrintCellSize" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">3.0</Value>
+    </Setting>
+    <Setting Name="NumbersArgb" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">SteelBlue</Value>
+    </Setting>
+    <Setting Name="Line5Argb" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">108, 184, 232</Value>
+    </Setting>
+    <Setting Name="Line10DoubleWidth" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PaletteOrderMode" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SelectionArgb1" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">192, 255, 255</Value>
+    </Setting>
+    <Setting Name="SelectionArgb2" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Blue</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

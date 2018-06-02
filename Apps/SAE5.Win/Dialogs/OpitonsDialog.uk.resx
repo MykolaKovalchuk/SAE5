@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Налаштування параметрів програми</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAABOJJREFUeF7t
+        m1loHVUYx1P3fUN9cMMFRQRFER8UUV9UVBQVgxrNnZnYXjAaRKxWyZzhuNDkzjlJIOJDfVDRJxUp+mQR
+        F4JLRdSKYPsgxCIufXApIq2aGP/fzZeaO/e7y0zSM3cu9wd/SO6c8/X735x9Tvt69OjR4SysCZ7YeJKv
+        Ji/0wvg6P7KDpcjcVlLm8iE9dXZZ6yO4YPdQ0uNn+KFZ5yvzBvQ7tNBIgTIfj4xMH8pVi00Q2eth6v2k
+        yYYK40/u0dPHcPXiEoxOXOFH5iPRZCN1g/mhxypHo6k/Lxpspm4wjwHtHJjZUWeulbrBPJr86TDzY525
+        VuoG8+XypoP90H4qGmymrhnwVPykaLCZusX8YGjOgqG/6gw2U7eYJ1KP+N1kfnC9OdJX8Z+iUUn7wfzA
+        42PH84/u8cLKLaJRWdtW23x1H6HMDP/qHqz0nkqYbCgMlG9ytVWhFNkbEHcvtEdrfQB/7BYvNC8sN9lC
+        P9EukKuuCC8yNyEema/GXqsrp/Ejt2AAfGkpibYUmmu4ambQ6m5GrJpZp6TNRfzYLUhmfHkibWgLV80E
+        Flu3IsbfiZgLnrKXchG3YN9+bzKZVgpCewdXTwXM3476dear0vZ8LuYWanpiQs31C536cIi2oC/NU+Yf
+        IVZV5Q3jx3JRt/RrfQgSkP8qzbX9Pj15AodpShDFdzYzj3XIz1w0HzCwfSkn1lyYQb729diZHEbEi+K7
+        UXYuWTeht7h4PmQ6/Phfu1H/UWpJHG4fPL60Mk+ryxGukg+BsmvFxFIITfx7LJTWL7UIT8UlfD6fLCdo
+        Prc1wBLUR4XEVqJfoXbMk97mNPIDf7lNQmJORCfOnEY+oJ8+KCXmSFs5jXzwlR0WknKmoVF7JafiHmxD
+        H8Do/a+UmBvZFzkV92DaeUhOyo1oxvD11HGcjlvwV98gJeVQc96ovYrTcUuaw4/9JS+0j3A6LllYg398
+        KpmMY81R1+OE3NHf/9qBNOAICaXVb9DOxGftasbX8cWckjt8rQ/DTmuzkFBavUuxKGZZ2xOpDwdhfD8G
+        s2c9Zd+j3ZxQ5weMNy/nttCh/TWS+CCRVBbNtHPbg06L6bYIHWzktrdfYkhXTsG3/5VgJq220qtyDlsM
+        Am0vQOJZ++pybcv1hUUWsKm5GonTTkwylEY7BrU5mcMWAyQ9AKV7wSlrZ+7787SgvyvBSBbtwlx9Loft
+        fOgaGk01gpEs2l1SE5dw6M5n8ZKi+TBhIqv24otc8RsfZ1TnW2VnBSNZNE8vLDh054M+eiNWYH8IRjLK
+        DnPozmdxjk9xmaGFvMhs5NBFADs6+RbXdjpX59XfOuhzoUyd0Ipe4cDFgF8p15gIlPlCa30QF9kHzL2T
+        LLtctIGha3FcvBjA7KuCmQF+XIMf2WuFslUhzje5HUetBCT/bdIMBrDL+HENJT1xXn3Zqna1epfXsYh7
+        bvR5flwD9uBeXVll9tB/ZuAixcMLzWf1puzssH7uKC5Spf/hycPxTGgtcncpDDA7JphaPGJWZoJuXAXK
+        VvDzd8ufk4LIPMNhigv1XZjJcJEh3rxaN7typ1EraCS6wJDsIoWGr7O0uQGys3QJmqt2D3Q666n4aZhs
+        dPgxh3XAdCHn+jSURidPhdm76J4fBsLXaaCjXR0tiblIjx49ehSUvr7/ANYIlHSDAMLBAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="buttonReset.Text" xml:space="preserve">
+    <value>Відновити</value>
+  </data>
+  <data name="buttonOk.Text" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Відмінити</value>
+  </data>
+  <data name="checkBoxCheckForUpdates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 17</value>
+  </data>
+  <data name="checkBoxCheckForUpdates.Text" xml:space="preserve">
+    <value>Перевіряти наявність оновлень під час старту програми</value>
+  </data>
+  <data name="tabPageGeneral.Text" xml:space="preserve">
+    <value>Загальне</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Колір 1:</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Колір 2:</value>
+  </data>
+  <data name="groupBoxSelectionRectColors.Text" xml:space="preserve">
+    <value>Виділення</value>
+  </data>
+  <data name="checkBoxLine10Double.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 104</value>
+  </data>
+  <data name="checkBoxLine10Double.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
+  </data>
+  <data name="checkBoxLine10Double.Text" xml:space="preserve">
+    <value>Подвійна шинина</value>
+  </data>
+  <data name="buttonNumbersArgb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 132</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 13</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Колір номерів лінійок:</value>
+  </data>
+  <data name="buttonLine5Argb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 48</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Колір 5х ліній:</value>
+  </data>
+  <data name="buttonLine10Argb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 90</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Колір 10х ліній:</value>
+  </data>
+  <data name="buttonLineArgb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 7</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Колір ліній:</value>
+  </data>
+  <data name="tabPageGrid.Text" xml:space="preserve">
+    <value>Схема вишивки</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 13</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Місце зберігання наборів ниток користувача:</value>
+  </data>
+  <data name="tabPageThreads.Text" xml:space="preserve">
+    <value>Набори ниток</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Параметри</value>
+  </data>
+</root>

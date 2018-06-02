@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Ravlyk.SAE.Drawing.Properties" GeneratedClassName="SAEWizardSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ResizeWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="ResizeHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="PaletteName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DMC</Value>
+    </Setting>
+    <Setting Name="MaxColors" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="KeepAspect" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DitherLevel" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ColorComparisonType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Visual</Value>
+    </Setting>
+    <Setting Name="ResizeFilterType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Lanczos3</Value>
+    </Setting>
+    <Setting Name="EnsureBlackAndWhiteColors" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SymbolsFontName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ravlyk.Znaky.2</Value>
+    </Setting>
+    <Setting Name="SymbolsFontIncludeNumbers" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SymbolsFontIncludeLetters" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SymbolsFontIncludeSymbols" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SymbolsFontLastUsedSymbols" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

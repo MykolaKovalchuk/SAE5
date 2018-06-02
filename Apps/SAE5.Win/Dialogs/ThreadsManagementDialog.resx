@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 120</value>
+  </data>
+  <metadata name="ColumnPaletteName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColumnPaletteName.HeaderText" xml:space="preserve">
+    <value>Threads Kit Name</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ColumnPaletteName.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <metadata name="ColumnIsSystem.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColumnIsSystem.HeaderText" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="ColumnIsSystem.ToolTipText" xml:space="preserve">
+    <value>System palettes cannot be edited or deleted</value>
+  </data>
+  <data name="ColumnIsSystem.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="gridViewPalettes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridViewPalettes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gridViewPalettes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 441</value>
+  </data>
+  <data name="gridViewPalettes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gridViewPalettes.Name" xml:space="preserve">
+    <value>gridViewPalettes</value>
+  </data>
+  <data name="&gt;&gt;gridViewPalettes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridViewPalettes.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;gridViewPalettes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainer1.Panel1MinSize" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <metadata name="ColumnCode.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColumnCode.HeaderText" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="ColumnCode.MinimumWidth" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <metadata name="ColumnName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColumnName.HeaderText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ColumnName.MinimumWidth" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="ColumnName.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <metadata name="ColumnColor.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColumnColor.HeaderText" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="ColumnColor.MinimumWidth" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="ColumnColor.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <metadata name="ColumnSelectColor.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColumnSelectColor.HeaderText" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ColumnSelectColor.MinimumWidth" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="ColumnSelectColor.Width" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="gridViewThreads.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridViewThreads.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gridViewThreads.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 441</value>
+  </data>
+  <data name="gridViewThreads.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gridViewThreads.Name" xml:space="preserve">
+    <value>gridViewThreads</value>
+  </data>
+  <data name="&gt;&gt;gridViewThreads.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridViewThreads.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;gridViewThreads.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer1.Panel2MinSize" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 441</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>350</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ribbonThreads.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="ribbonThreads.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonThreads.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="ribbonThreads.OrbDropDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonThreads.OrbDropDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 447</value>
+  </data>
+  <data name="ribbonThreads.OrbDropDown.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ribbonThreads.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 120</value>
+  </data>
+  <data name="ribbonThreads.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="buttonSaveAll.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonSaveAll.Text" xml:space="preserve">
+    <value>Save All</value>
+  </data>
+  <data name="buttonSaveAll.ToolTip" xml:space="preserve">
+    <value>Save all changes to files</value>
+  </data>
+  <data name="buttonCancelAll.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonCancelAll.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="buttonCancelAll.ToolTip" xml:space="preserve">
+    <value>Cancel all changes and reset to previous values</value>
+  </data>
+  <data name="buttonUserPalettesLocation.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonUserPalettesLocation.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="buttonUserPalettesLocation.ToolTip" xml:space="preserve">
+    <value>Configure location where user thread kits should be stored</value>
+  </data>
+  <data name="ribbonPanelFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="buttonAddPalette.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonAddPalette.Text" xml:space="preserve">
+    <value>New Palette</value>
+  </data>
+  <data name="buttonAddPalette.ToolTip" xml:space="preserve">
+    <value>Create new palette</value>
+  </data>
+  <data name="buttonCopyPalette.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonCopyPalette.Text" xml:space="preserve">
+    <value>Copy Palette</value>
+  </data>
+  <data name="buttonCopyPalette.ToolTip" xml:space="preserve">
+    <value>Create new palette by copying selected</value>
+  </data>
+  <data name="buttonDeletePalette.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonDeletePalette.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="buttonDeletePalette.ToolTip" xml:space="preserve">
+    <value>Delete selected palette</value>
+  </data>
+  <data name="buttonImportPalette.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonImportPalette.Text" xml:space="preserve">
+    <value>Import File</value>
+  </data>
+  <data name="buttonImportPalette.ToolTip" xml:space="preserve">
+    <value>Import palette from a file</value>
+  </data>
+  <data name="buttonExportPalette.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonExportPalette.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="buttonExportPalette.ToolTip" xml:space="preserve">
+    <value>Export selected palette to a file</value>
+  </data>
+  <data name="ribbonPanelPalette.Text" xml:space="preserve">
+    <value>Palettes</value>
+  </data>
+  <data name="buttonCopyThread.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonCopyThread.Text" xml:space="preserve">
+    <value>Import Thread</value>
+  </data>
+  <data name="buttonCopyThread.ToolTip" xml:space="preserve">
+    <value>Import thread from other palette</value>
+  </data>
+  <data name="ribbonPanelThreads.Text" xml:space="preserve">
+    <value>Threads</value>
+  </data>
+  <data name="ribbonTabThreads.Text" xml:space="preserve">
+    <value>Threads</value>
+  </data>
+  <data name="&gt;&gt;ribbonThreads.Name" xml:space="preserve">
+    <value>ribbonThreads</value>
+  </data>
+  <data name="&gt;&gt;ribbonThreads.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Ribbon, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonThreads.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonThreads.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 561</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAQAAEABAAoAQAANgAAABAQAAABAAgAaAUAAF4BAAAgIAAAAQAYAKgMAADGBgAAKAAAABAA
+        AAAgAAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPGyMAFio5ACYvMwAZO1MAJlRwAE9N
+        TAApbJQAWniLADiGrgBUkK8AaqnIAKqsrQC7y9UAz9zlAP///wAAAAAAAAAAAAAAAAAMEV4AAAAAyDBH
+        l+AADGESJHmZoAYSRFVFmZmsZFVVdUeZl7xnVVd1R5qZuld3d5VXWpmqVXd3d1hJl5qHd3mXSiSXesdX
+        d5dJUHeY5Xd3d1WRJ5wNVVVVdXcUXgAA7u7t3FXAAAAAAAAAAAAAAAAAAAAAAP//GlL/gxpS/AEaUuAB
+        GlKAABpSAAAaUgAAGlIAABpSAAAaUgAAGlIAABpSAAAaUoAAGlLwARpS//8aUv//GlIoAAAAEAAAACAA
+        AAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8eHAAHFygAFR4hAAgdMgAZIykACyc9ABgn
+        MgAYKDEAGzA/ACYvMwBBPz4AGTREAB03RQAQMkoAHTtRAB0/UwAQO1gAET1dACU1QQAfQVgAG0BcACVJ
+        XgAeSGIAHktmABlNawAcTmsAGk1tAB1ScQAdVHQAHFJ4ACNLYgAgTGYAIE9rACFQbgApVW4AIlRwACpU
+        cQAmWXYAKlhyAChYdgAoW3oALl56AClffQA2XHcAM2N6AD9iegBMTU0AUE1MABxagwAfXIAAHl+IABVe
+        kAAlW4EAJl6AACldgQAgYYMAJ2GEAClggQArZYYALGWFACRiigAhY44AJmWPAChiiAApZYoALGaIACxn
+        jQAvaIgALGqMAC5tjQAwZ4YAO26KACNqkgAmbZYAKmqQACptlgAtbZcAIG2dACttmgAsb5oALnObAC11
+        mgApc54AK3WfADNzmAAxdJkAO3edAD95nwAqcaAALHiiACh7qgAyeqIANXmjAD19pwAxfKkAN36pAEBr
+        hgBeeIgARXWWAG18gwA3gqcANIOpADSBrQA3ha4APIGpADmFqgA4h7MAPYixAD2NsQBlg5gAf4+ZAHuR
+        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
+</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>640, 400</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Threads Management</value>
+  </data>
+  <data name="&gt;&gt;ColumnPaletteName.Name" xml:space="preserve">
+    <value>ColumnPaletteName</value>
+  </data>
+  <data name="&gt;&gt;ColumnPaletteName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnIsSystem.Name" xml:space="preserve">
+    <value>ColumnIsSystem</value>
+  </data>
+  <data name="&gt;&gt;ColumnIsSystem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabThreads.Name" xml:space="preserve">
+    <value>ribbonTabThreads</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabThreads.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelFile.Name" xml:space="preserve">
+    <value>ribbonPanelFile</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonSaveAll.Name" xml:space="preserve">
+    <value>buttonSaveAll</value>
+  </data>
+  <data name="&gt;&gt;buttonSaveAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonCancelAll.Name" xml:space="preserve">
+    <value>buttonCancelAll</value>
+  </data>
+  <data name="&gt;&gt;buttonCancelAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator3.Name" xml:space="preserve">
+    <value>ribbonSeparator3</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonUserPalettesLocation.Name" xml:space="preserve">
+    <value>buttonUserPalettesLocation</value>
+  </data>
+  <data name="&gt;&gt;buttonUserPalettesLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelPalette.Name" xml:space="preserve">
+    <value>ribbonPanelPalette</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelPalette.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonAddPalette.Name" xml:space="preserve">
+    <value>buttonAddPalette</value>
+  </data>
+  <data name="&gt;&gt;buttonAddPalette.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonCopyPalette.Name" xml:space="preserve">
+    <value>buttonCopyPalette</value>
+  </data>
+  <data name="&gt;&gt;buttonCopyPalette.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonDeletePalette.Name" xml:space="preserve">
+    <value>buttonDeletePalette</value>
+  </data>
+  <data name="&gt;&gt;buttonDeletePalette.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator2.Name" xml:space="preserve">
+    <value>ribbonSeparator2</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonImportPalette.Name" xml:space="preserve">
+    <value>buttonImportPalette</value>
+  </data>
+  <data name="&gt;&gt;buttonImportPalette.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonExportPalette.Name" xml:space="preserve">
+    <value>buttonExportPalette</value>
+  </data>
+  <data name="&gt;&gt;buttonExportPalette.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelThreads.Name" xml:space="preserve">
+    <value>ribbonPanelThreads</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelThreads.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonCopyThread.Name" xml:space="preserve">
+    <value>buttonCopyThread</value>
+  </data>
+  <data name="&gt;&gt;buttonCopyThread.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ColumnCode.Name" xml:space="preserve">
+    <value>ColumnCode</value>
+  </data>
+  <data name="&gt;&gt;ColumnCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnName.Name" xml:space="preserve">
+    <value>ColumnName</value>
+  </data>
+  <data name="&gt;&gt;ColumnName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnColor.Name" xml:space="preserve">
+    <value>ColumnColor</value>
+  </data>
+  <data name="&gt;&gt;ColumnColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnSelectColor.Name" xml:space="preserve">
+    <value>ColumnSelectColor</value>
+  </data>
+  <data name="&gt;&gt;ColumnSelectColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewButtonColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ThreadsManagementDialog</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

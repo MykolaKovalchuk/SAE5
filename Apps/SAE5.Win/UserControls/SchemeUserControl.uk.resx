@@ -1,0 +1,1042 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ribbonTabHome.Text" xml:space="preserve">
+    <value>Головна</value>
+  </data>
+  <data name="ribbonTabView.Text" xml:space="preserve">
+    <value>Вигляд</value>
+  </data>
+  <data name="ribbonTabThreads.Text" xml:space="preserve">
+    <value>Нитки</value>
+  </data>
+  <data name="ribbonTabDraw.Text" xml:space="preserve">
+    <value>Малювати</value>
+  </data>
+  <data name="ribbonPanelPrintSettings.Text" xml:space="preserve">
+    <value>Параметри</value>
+  </data>
+  <data name="ribbonPanelPreview.Text" xml:space="preserve">
+    <value>Перегляд</value>
+  </data>
+  <data name="ribbonPanelPrintPrint.Text" xml:space="preserve">
+    <value>Друк</value>
+  </data>
+  <data name="ribbonTabPrint.Text" xml:space="preserve">
+    <value>Друк</value>
+  </data>
+  <data name="ribbonOrbMenuItemHome.Text" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="ribbonOrbMenuItemHome.ToolTip" xml:space="preserve">
+    <value>Повернутись до стартового екрану</value>
+  </data>
+  <data name="ribbonOrbMenuItemSave.Text" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="ribbonButtonOrbSave.Text" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="ribbonButtonOrbSave.ToolTip" xml:space="preserve">
+    <value>Зберегти схему вишивки</value>
+  </data>
+  <data name="ribbonButtonOrbSaveAs.Text" xml:space="preserve">
+    <value>Зберегти як</value>
+  </data>
+  <data name="ribbonButtonOrbSaveAs.ToolTip" xml:space="preserve">
+    <value>Зберегти схему у новий файл або у іншому форматі</value>
+  </data>
+  <data name="ribbonButtonOrbPng.Text" xml:space="preserve">
+    <value>Збреренти схему як PNG зображення</value>
+  </data>
+  <data name="ribbonButtonOrbPng.ToolTip" xml:space="preserve">
+    <value>Зберегти схему вишивання та таблицю кольрів у файлах зображення PNG (таблиця кольорів буде мати розширення .Colors.png)</value>
+  </data>
+  <data name="ribbonButtonOrbJpg.Text" xml:space="preserve">
+    <value>Зберегти схему як JPG зображення</value>
+  </data>
+  <data name="ribbonButtonOrbJpg.ToolTip" xml:space="preserve">
+    <value>Зберегти схему вишивання та таблицю кольрів у файлах зображення JPG (таблиця кольорів буде мати розширення .Colors.jpg)</value>
+  </data>
+  <data name="ribbonButtonOrbEmf.Text" xml:space="preserve">
+    <value>Зберегти схему як EMF зображення</value>
+  </data>
+  <data name="ribbonButtonOrbEmf.ToolTip" xml:space="preserve">
+    <value>Зберегти схему вишивання та таблицю кольрів у файлах зображення EMF (таблиця кольорів буде мати розширення .Colors.emf)</value>
+  </data>
+  <data name="ribbonButtonOrbThumbnail.Text" xml:space="preserve">
+    <value>Зберегти мініатюру як PNG зображення</value>
+  </data>
+  <data name="ribbonButtonOrbThumbnail.ToolTip" xml:space="preserve">
+    <value>Зберегти зображення мініатюри у форматі PNG</value>
+  </data>
+  <data name="ribbonButtonOrbPdf.Text" xml:space="preserve">
+    <value>Зберегти у PDF</value>
+  </data>
+  <data name="ribbonButtonOrbPdf.ToolTip" xml:space="preserve">
+    <value>Показати опції та перегляд для збереження схеми вишивання у PDF документ</value>
+  </data>
+  <data name="ribbonButtonOrbXls.Text" xml:space="preserve">
+    <value>Експорт у Excel</value>
+  </data>
+  <data name="ribbonButtonOrbXls.ToolTip" xml:space="preserve">
+    <value>Експорт схеми у документ Excel</value>
+  </data>
+  <data name="ribbonOrbMenuItemPrint.Text" xml:space="preserve">
+    <value>Перегляд друку</value>
+  </data>
+  <data name="ribbonOrbMenuItemPrint.ToolTip" xml:space="preserve">
+    <value>Відкрити попередній перегляд друку схеми</value>
+  </data>
+  <data name="ribbonMenuManagePalettes.Text" xml:space="preserve">
+    <value>Набори ниток</value>
+  </data>
+  <data name="ribbonMenuManagePalettes.ToolTip" xml:space="preserve">
+    <value>Редагування наборів ниток (палітр кольорів)</value>
+  </data>
+  <data name="ribbonMenuItemLanguage.Text" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="ribbonOrbMenuItemOptions.Text" xml:space="preserve">
+    <value>Параметри</value>
+  </data>
+  <data name="ribbonOrbMenuItemOptions.ToolTip" xml:space="preserve">
+    <value>Відкрити діалог налаштування параметрів програми</value>
+  </data>
+  <data name="ribbonOrbMenuItemCheckForUpdates.Text" xml:space="preserve">
+    <value>Перевірити оновлення</value>
+  </data>
+  <data name="ribbonMenuRegister.Text" xml:space="preserve">
+    <value>Реєстрація</value>
+  </data>
+  <data name="ribbonMenuRegister.ToolTip" xml:space="preserve">
+    <value>Відкрити форму для введення реєстраційного ключа, та інформації як купити продукт</value>
+  </data>
+  <data name="ribbonOrbMenuItemAbout.Text" xml:space="preserve">
+    <value>Про програму</value>
+  </data>
+  <data name="ribbonOrbOptionButtonExit.Text" xml:space="preserve">
+    <value>Вихід</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonHome.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonHome.Text" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="buttonHome.ToolTip" xml:space="preserve">
+    <value>Повернутись до стартового екрану</value>
+  </data>
+  <data name="buttonBackToWizard.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonBackToWizard.Text" xml:space="preserve">
+    <value>&lt;Майстер</value>
+  </data>
+  <data name="buttonBackToWizard.ToolTip" xml:space="preserve">
+    <value>Повернутися до Майстра щоб змінити параметри генерації цієї схеми вишивки</value>
+  </data>
+  <data name="ribbonPanelScheme.Text" xml:space="preserve">
+    <value>Схема</value>
+  </data>
+  <data name="buttonSave.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonSave.Text" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="buttonSave.ToolTip" xml:space="preserve">
+    <value>Зберегти схему у файл</value>
+  </data>
+  <data name="buttonSaveAs.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonSaveAs.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonSaveAs.Text" xml:space="preserve">
+    <value>Зберегти як</value>
+  </data>
+  <data name="buttonSaveAs.ToolTip" xml:space="preserve">
+    <value>Зберегти схему у новий файл або у іншому форматі</value>
+  </data>
+  <data name="buttonPdfPreview.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonPdfPreview.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonPdfPreview.Text" xml:space="preserve">
+    <value>Зберегти у PDF</value>
+  </data>
+  <data name="buttonPdfPreview.ToolTip" xml:space="preserve">
+    <value>Показати опції та перегляд для збереження схеми вишивання у PDF документ</value>
+  </data>
+  <data name="ribbonPanelPrint.Text" xml:space="preserve">
+    <value>Друк</value>
+  </data>
+  <data name="buttonPrint.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonPrint.Text" xml:space="preserve">
+    <value>Перегляд</value>
+  </data>
+  <data name="buttonPrint.ToolTip" xml:space="preserve">
+    <value>Відкрити попередній перегляд друку схеми</value>
+  </data>
+  <data name="ribbonPanelGrid.Text" xml:space="preserve">
+    <value>Схема</value>
+  </data>
+  <data name="buttonViewSymbols.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonViewSymbols.Text" xml:space="preserve">
+    <value>Символи</value>
+  </data>
+  <data name="buttonViewDark.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonViewDark.Text" xml:space="preserve">
+    <value>Білі символи</value>
+  </data>
+  <data name="buttonViewColoredSymbols.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonViewColoredSymbols.Text" xml:space="preserve">
+    <value>Кольорові символи</value>
+  </data>
+  <data name="buttonViewHalfTone.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonViewHalfTone.Text" xml:space="preserve">
+    <value>Напівтона</value>
+  </data>
+  <data name="buttonViewFull.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonViewFull.Text" xml:space="preserve">
+    <value>Повний</value>
+  </data>
+  <data name="buttonViewColors.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonViewColors.Text" xml:space="preserve">
+    <value>Кольори</value>
+  </data>
+  <data name="buttonViewCross.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonViewCross.Text" xml:space="preserve">
+    <value>Хрестики</value>
+  </data>
+  <data name="upDownGridCellSize.Text" xml:space="preserve">
+    <value>Розмір клітинки</value>
+  </data>
+  <data name="upDownGridCellSize.ToolTip" xml:space="preserve">
+    <value>Розмір клітинки схеми</value>
+  </data>
+  <data name="checkBoxGridRulers.Text" xml:space="preserve">
+    <value>Показувати номера</value>
+  </data>
+  <data name="checkBoxGridRulers.ToolTip" xml:space="preserve">
+    <value>Показувати номера стрічок та стовбців схеми</value>
+  </data>
+  <data name="checkBoxGridLines.Text" xml:space="preserve">
+    <value>Показувати лінії</value>
+  </data>
+  <data name="checkBoxGridLines.ToolTip" xml:space="preserve">
+    <value>Показувати лінії схеми</value>
+  </data>
+  <data name="ribbonPanelUndo2.Text" xml:space="preserve">
+    <value>Відміна</value>
+  </data>
+  <data name="buttonUndo2.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonUndo2.Text" xml:space="preserve">
+    <value>Відмінити</value>
+  </data>
+  <data name="buttonRedo2.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonRedo2.Text" xml:space="preserve">
+    <value>Повторити</value>
+  </data>
+  <data name="ribbonPanelThreadsVisibility.Text" xml:space="preserve">
+    <value>Показати</value>
+  </data>
+  <data name="buttonThreadsShowAll.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonThreadsShowAll.Text" xml:space="preserve">
+    <value>Показати усе</value>
+  </data>
+  <data name="buttonThreadsShowAll.ToolTip" xml:space="preserve">
+    <value>Показати клітинки усіх кольорів ниток</value>
+  </data>
+  <data name="buttonThreadsHideAll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonThreadsHideAll.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonThreadsHideAll.Text" xml:space="preserve">
+    <value>Сховати усе</value>
+  </data>
+  <data name="buttonThreadsHideAll.ToolTip" xml:space="preserve">
+    <value>Сховати клітинки усіх кольорів ниток</value>
+  </data>
+  <data name="buttonThreadsShowSelected.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonThreadsShowSelected.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonThreadsShowSelected.Text" xml:space="preserve">
+    <value>Показати обране</value>
+  </data>
+  <data name="buttonThreadsShowSelected.ToolTip" xml:space="preserve">
+    <value>Показати клітинки обраних кольорів ниток</value>
+  </data>
+  <data name="buttonThreadsHideSelected.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonThreadsHideSelected.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonThreadsHideSelected.Text" xml:space="preserve">
+    <value>Сховати обране</value>
+  </data>
+  <data name="buttonThreadsHideSelected.ToolTip" xml:space="preserve">
+    <value>Сховати клітинки обраних кольорів ниток</value>
+  </data>
+  <data name="ribbonPanelChangeThread.Text" xml:space="preserve">
+    <value>Нитка</value>
+  </data>
+  <data name="buttonChangeThreadSymbol.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonChangeThreadSymbol.Text" xml:space="preserve">
+    <value>Змінити символ</value>
+  </data>
+  <data name="buttonChangeThreadSymbol.ToolTip" xml:space="preserve">
+    <value>Змінити символ для позначення кольору обраної нитки</value>
+  </data>
+  <data name="buttonChangeThreadColor.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonChangeThreadColor.Text" xml:space="preserve">
+    <value>Змінити колір</value>
+  </data>
+  <data name="buttonChangeThreadColor.ToolTip" xml:space="preserve">
+    <value>Змінити усі клітинки кольору обраної нитки на схемі на колір нової нитки</value>
+  </data>
+  <data name="buttonAddThread.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonAddThread.Text" xml:space="preserve">
+    <value>Додати нитку</value>
+  </data>
+  <data name="buttonAddThread.ToolTip" xml:space="preserve">
+    <value>Додати нову нитку до робочого набору</value>
+  </data>
+  <data name="buttonRemoveThread.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonRemoveThread.Text" xml:space="preserve">
+    <value>Прибрати нитку</value>
+  </data>
+  <data name="buttonRemoveThread.ToolTip" xml:space="preserve">
+    <value>Прибрати обрану нитку що не використовується</value>
+  </data>
+  <data name="ribbonPanelThreads.Text" xml:space="preserve">
+    <value>Нитки</value>
+  </data>
+  <data name="buttonMergeThreads.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAs5JREFUSEvl
+        lW9IE3Ech5cVLn0h5KuVTBRlVqRluJrzDzh1Oa3mMAzqXmlqGEFCbwxfRQRpHCVooVK9KHHgtmJj601c
+        t/KqNx61F53RIYWV8zCOdhHS+e1+426e+xOzehN94Hkzbs8Dd9vvNP/PlvK7dIv6DixSdxATrAd08sd/
+        tnf6c5awvhOXxCEJQEQsRoVQpL4CjzTst8iXb2wTJZ7+yeJ7lCJOEoiycnQ3BScK+uWvpTckHzd4AEEX
+        XKRTBhoqaGgvhCjpRtRyxG3DNPNZ3ykmCYiiw8DEAulEek1+y+Wyh5Q6gCAKB8n4wDdrOblOjujLpeDa
+        ltTPpNsUwLsr/dB7yEdf3+NhlMCEwc19yO/hlcBXi5FfPV7ExcSndzIwnEHDTQ1I4LIucZI8hAIyYp/R
+        R47u8nAo8qBojFAC322lRFSM6Tm4qiUlqSjLESFZt35d1QGdSq6GHyj3EWMGj/A2/zwr1Few0r0WYCCH
+        gFENrxKvcUuT+D/pqQxgSeQxzpj87PDe+94fZ3d4YWQTm1SsMKrBZO3aah0+rLbVB6mobvOz+644vUuv
+        S7xAall4kgkpIbSJgWpHQJdMXNPq4w0XZomtk18Em7uNvfPSykK4UoBXeYQk4xPkCDIr+VFS2+oNqeRi
+        eWeQ3HZ3mds8FYHS6WGixW2HwaAN5udrCFgyA3wycvBiOylJxZicyEz+kNFq7F4cyc3tj+ickY8MEiOy
+        nAtcs9vOK4Ebz5r41bCZi0YQ78sYeJpNy5HUP1PTyceWvEtzlCJWqHL1kUiuBBDP39SRsYDCXDEFM9m/
+        PvwypoR+tTzXSTOSWIwPDAVt4spiFbMuEDandx6pI42uU7QiVwcQrtlGesNyZShS4HRRanl8ALG8UEVt
+        WK6swd1hOeK24y2uY6H4wFCwOTRINuHjM4d/74UTP+u0QyfFMOneYzhp/TuvzH9gGs1Pa4zMu9kT1/oA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonMergeThreads.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAs5JREFUSEvl
+        lW9IE3Ech5cVLn0h5KuVTBRlVqRluJrzDzh1Oa3mMAzqXmlqGEFCbwxfRQRpHCVooVK9KHHgtmJj601c
+        t/KqNx61F53RIYWV8zCOdhHS+e1+426e+xOzehN94Hkzbs8Dd9vvNP/PlvK7dIv6DixSdxATrAd08sd/
+        tnf6c5awvhOXxCEJQEQsRoVQpL4CjzTst8iXb2wTJZ7+yeJ7lCJOEoiycnQ3BScK+uWvpTckHzd4AEEX
+        XKRTBhoqaGgvhCjpRtRyxG3DNPNZ3ykmCYiiw8DEAulEek1+y+Wyh5Q6gCAKB8n4wDdrOblOjujLpeDa
+        ltTPpNsUwLsr/dB7yEdf3+NhlMCEwc19yO/hlcBXi5FfPV7ExcSndzIwnEHDTQ1I4LIucZI8hAIyYp/R
+        R47u8nAo8qBojFAC322lRFSM6Tm4qiUlqSjLESFZt35d1QGdSq6GHyj3EWMGj/A2/zwr1Few0r0WYCCH
+        gFENrxKvcUuT+D/pqQxgSeQxzpj87PDe+94fZ3d4YWQTm1SsMKrBZO3aah0+rLbVB6mobvOz+644vUuv
+        S7xAall4kgkpIbSJgWpHQJdMXNPq4w0XZomtk18Em7uNvfPSykK4UoBXeYQk4xPkCDIr+VFS2+oNqeRi
+        eWeQ3HZ3mds8FYHS6WGixW2HwaAN5udrCFgyA3wycvBiOylJxZicyEz+kNFq7F4cyc3tj+ickY8MEiOy
+        nAtcs9vOK4Ebz5r41bCZi0YQ78sYeJpNy5HUP1PTyceWvEtzlCJWqHL1kUiuBBDP39SRsYDCXDEFM9m/
+        PvwypoR+tTzXSTOSWIwPDAVt4spiFbMuEDandx6pI42uU7QiVwcQrtlGesNyZShS4HRRanl8ALG8UEVt
+        WK6swd1hOeK24y2uY6H4wFCwOTRINuHjM4d/74UTP+u0QyfFMOneYzhp/TuvzH9gGs1Pa4zMu9kT1/oA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonMergeThreads.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonMergeThreads.Text" xml:space="preserve">
+    <value>Об'єднати</value>
+  </data>
+  <data name="buttonMergeThreads.ToolTip" xml:space="preserve">
+    <value>Замінити усі обрані нитки однією ниткою</value>
+  </data>
+  <data name="ribbonPanelPalettes.Text" xml:space="preserve">
+    <value>Палітри</value>
+  </data>
+  <data name="buttonManagePalettes.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonManagePalettes.Text" xml:space="preserve">
+    <value>Набори ниток</value>
+  </data>
+  <data name="buttonManagePalettes.ToolTip" xml:space="preserve">
+    <value>Редагування наборів ниток (палітр кольорів)</value>
+  </data>
+  <data name="ribbonPanelUndo.Text" xml:space="preserve">
+    <value>Відміна</value>
+  </data>
+  <data name="buttonUndo.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonUndo.Text" xml:space="preserve">
+    <value>Відмінити</value>
+  </data>
+  <data name="buttonRedo.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonRedo.Text" xml:space="preserve">
+    <value>Повторити</value>
+  </data>
+  <data name="ribbonPanelMode.Text" xml:space="preserve">
+    <value>Режим</value>
+  </data>
+  <data name="buttonDrawNone.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonDrawNone.Text" xml:space="preserve">
+    <value>Рука</value>
+  </data>
+  <data name="buttonDrawNone.ToolTip" xml:space="preserve">
+    <value>Використовуйте мишку щоб пересовувати схему вишивання</value>
+  </data>
+  <data name="buttonDrawPencil.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonDrawPencil.Text" xml:space="preserve">
+    <value>Олівець</value>
+  </data>
+  <data name="buttonDrawPencil.ToolTip" xml:space="preserve">
+    <value>Зафарбовує окремі клітинки схеми обраним кольором</value>
+  </data>
+  <data name="buttonDrawFill.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonDrawFill.Text" xml:space="preserve">
+    <value>Заповнити</value>
+  </data>
+  <data name="buttonDrawFill.ToolTip" xml:space="preserve">
+    <value>Заповняє обраним кольором облать із сусідніх клітинок з однаковим кольором</value>
+  </data>
+  <data name="buttonDrawSelect.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonDrawSelect.Text" xml:space="preserve">
+    <value>Виділити</value>
+  </data>
+  <data name="buttonDrawSelect.ToolTip" xml:space="preserve">
+    <value>Виділити прямокутну частину схеми</value>
+  </data>
+  <data name="buttonDrawSelectAll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonDrawSelectAll.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonDrawSelectAll.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonDrawSelectAll.Text" xml:space="preserve">
+    <value>Виділити усе</value>
+  </data>
+  <data name="buttonDrawSelectAll.ToolTip" xml:space="preserve">
+    <value>Виділити усю схему</value>
+  </data>
+  <data name="ribbonPanelSelect.Text" xml:space="preserve">
+    <value>Копіювання</value>
+  </data>
+  <data name="buttonCut.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonCut.Text" xml:space="preserve">
+    <value>Вирізати</value>
+  </data>
+  <data name="buttonCut.ToolTip" xml:space="preserve">
+    <value>Вирізати виділену частину зі схеми у буфер обміну</value>
+  </data>
+  <data name="buttonCopy.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonCopy.Text" xml:space="preserve">
+    <value>Копіювати</value>
+  </data>
+  <data name="buttonCopy.ToolTip" xml:space="preserve">
+    <value>Скопіювати виділену частину схеми у буфер обміну</value>
+  </data>
+  <data name="buttonPaste.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonPaste.Text" xml:space="preserve">
+    <value>Вставити</value>
+  </data>
+  <data name="buttonPaste.ToolTip" xml:space="preserve">
+    <value>Вставити частину схеми з буферу обміну</value>
+  </data>
+  <data name="buttonPrintBack.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonPrintBack.Text" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="buttonPrintBack.ToolTip" xml:space="preserve">
+    <value>Повернутись до попереднього екрану</value>
+  </data>
+  <data name="comboBoxPrinter.Text" xml:space="preserve">
+    <value>Принтер</value>
+  </data>
+  <data name="comboBoxPrinter.ToolTip" xml:space="preserve">
+    <value>Принтер для друку</value>
+  </data>
+  <data name="upDownPrintCellSize.Text" xml:space="preserve">
+    <value>Розмір клітинки</value>
+  </data>
+  <data name="upDownPrintCellSize.ToolTip" xml:space="preserve">
+    <value>Розмір клітинки схеми для друку, міліметрів</value>
+  </data>
+  <data name="comboBoxCellSizeUnits.Text" xml:space="preserve">
+    <value>Міра</value>
+  </data>
+  <data name="comboBoxCellSizeUnits.ToolTip" xml:space="preserve">
+    <value>Встановлює одиницю виміру друкованої клітинки схеми</value>
+  </data>
+  <data name="buttonPrintCellSizeMm.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonPrintCellSizeMm.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonPrintCellSizeMm.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonPrintCellSizeMm.ToolTip" xml:space="preserve">
+    <value>Встановлює розмір клітинки у мілліметрах</value>
+  </data>
+  <data name="buttonPrintCellSizeInch.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonPrintCellSizeInch.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonPrintCellSizeInch.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonPrintCellSizeInch.ToolTip" xml:space="preserve">
+    <value>Встановлює розмір клітинки у дюймах</value>
+  </data>
+  <data name="buttonPageSettings.Text" xml:space="preserve">
+    <value>Параметри Сторінки</value>
+  </data>
+  <data name="buttonPageSettings.ToolTip" xml:space="preserve">
+    <value>Відкрити діалог для вибору розміру сторінки, орієнтації та полів</value>
+  </data>
+  <data name="buttonPreview.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonPreview.Text" xml:space="preserve">
+    <value>Переглянути</value>
+  </data>
+  <data name="buttonPreview.ToolTip" xml:space="preserve">
+    <value>Показати печатний результат на екрані</value>
+  </data>
+  <data name="upDownPreviewPage.Text" xml:space="preserve">
+    <value>Сторінка</value>
+  </data>
+  <data name="upDownPreviewPage.ToolTip" xml:space="preserve">
+    <value>Номір сторінки для перегляду</value>
+  </data>
+  <data name="comboBoxPreviewZoom.Text" xml:space="preserve">
+    <value>Маштаб</value>
+  </data>
+  <data name="comboBoxPreviewZoom.ToolTip" xml:space="preserve">
+    <value>Маштаб перегляду, "Авто" покаже цілу сторінку</value>
+  </data>
+  <data name="ribbonButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton1.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton1.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton2.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton2.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton3.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton3.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton4.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton4.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton5.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton5.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton6.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton6.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton7.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton7.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton8.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton8.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton9.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton9.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonSaveToPdf.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonSaveToPdf.Text" xml:space="preserve">
+    <value>Зберегти у PDF</value>
+  </data>
+  <data name="buttonSaveToPdf.ToolTip" xml:space="preserve">
+    <value>Зберегти схему вишивання у PDF документ</value>
+  </data>
+  <data name="buttonPrintPrint.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonPrintPrint.Text" xml:space="preserve">
+    <value>Друкувати</value>
+  </data>
+  <data name="buttonPrintPrint.ToolTip" xml:space="preserve">
+    <value>Надрукувати усі або обрані сторінки на вказаному принтері</value>
+  </data>
+</root>

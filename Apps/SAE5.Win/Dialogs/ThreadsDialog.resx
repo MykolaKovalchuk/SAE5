@@ -1,0 +1,1073 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBoxDifference.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="&gt;&gt;imageListThreadsUsage.Name" xml:space="preserve">
+    <value>imageListThreadsUsage</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="radioButtonVisual.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 67</value>
+  </data>
+  <data name="&gt;&gt;columnImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelTop.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelReplacedThread.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 52</value>
+  </data>
+  <data name="labelReplacedThread.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="radioButtonVisual.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="&gt;&gt;radioButtonVisual.Parent" xml:space="preserve">
+    <value>groupBoxColorComparisonMode</value>
+  </data>
+  <data name="&gt;&gt;paletteListView.Name" xml:space="preserve">
+    <value>paletteListView</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="panelBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 423</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;panelBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelDifference.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 79</value>
+  </data>
+  <data name="labelHint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 36</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelHint.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="pictureBoxReplacedThread.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBoxUsedThread.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 19</value>
+  </data>
+  <data name="radioButtonVisual.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pictureBoxReplacedThread.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 48</value>
+  </data>
+  <data name="radioButtonExact.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="panelTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="radioButtonVisual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 22</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        Ro1AAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="pictureBoxDifference.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="columnName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="&gt;&gt;radioButtonVisual.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBoxReplacedThread.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="&gt;&gt;panelInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonOk.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboBoxKit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxReplacedThread.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;paletteListView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBoxUsedThread.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="columnColor.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Threads</value>
+  </data>
+  <data name="panelButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="radioButtonVisual.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxDifference.Parent" xml:space="preserve">
+    <value>groupBoxLegend</value>
+  </data>
+  <data name="labelDifference.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panelBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>587, 60</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLegend.Parent" xml:space="preserve">
+    <value>panelLegend</value>
+  </data>
+  <data name="buttonOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 11</value>
+  </data>
+  <data name="&gt;&gt;buttonOk.Parent" xml:space="preserve">
+    <value>panelButtons</value>
+  </data>
+  <data name="paletteListView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 343</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxUsedThread.Name" xml:space="preserve">
+    <value>pictureBoxUsedThread</value>
+  </data>
+  <data name="buttonCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="columnCode.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="pictureBoxUsedThread.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAaZJREFUOE+t
+        krtLQmEYh53qODQURIVDjVGBF4oEyy5IgQ0NZUM1dCMJMug2aEEtpeih22IRSWAReYF0sIRKz4maGqK2
+        lqbG/oAI+vW98OGFYxHUAy/I8fm+731/vKp/A+niWchC6FfFXH4sC+SiXkjCPaRi/FzMYS4/lo9N1Nft
+        HlYjcqJBKlqB+0Qlni41eJRqcCfXIinr4LvtaeC6Esdxy/JKwoK1q274bqyZ8spWuK+64E52Yi5stnNd
+        iSPY6loImzFzZII9YMTobhOGtg2w+bSZ6vfqbFxX0ufTDgxuGTDib4L9wAgHu2g+ZIYz1oHVcwvWr7ux
+        GG0Xua5kMdK2kds6jUIjOc86MMcumg6aMLFvnOK6krG95skx1vbwjgEDYrZt+k3f6D9yuK6EbqdX6DV6
+        tVCg1CXXldB8NCfNS3PT/JQD5UG5UD6UE9eVUMK5iY9vNsC1Xw/xVAt/TI/ARSOW4pbCS0TcRcr1D/Ey
+        vCZL8J4SMtv3IanxJpXiRa7Cc0qj43o+bEU9TP7Mruy3xRzBw49lQUptRLrI9qtiLj/2V1SqLzF1Vttt
+        MmuRAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxReplacedThread.Parent" xml:space="preserve">
+    <value>groupBoxLegend</value>
+  </data>
+  <data name="panelInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAQAAEABAAoAQAANgAAABAQAAABAAgAaAUAAF4BAAAgIAAAAQAYAKgMAADGBgAAKAAAABAA
+        AAAgAAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPGyMAFio5ACYvMwAZO1MAJlRwAE9N
+        TAApbJQAWniLADiGrgBUkK8AaqnIAKqsrQC7y9UAz9zlAP///wAAAAAAAAAAAAAAAAAMEV4AAAAAyDBH
+        l+AADGESJHmZoAYSRFVFmZmsZFVVdUeZl7xnVVd1R5qZuld3d5VXWpmqVXd3d1hJl5qHd3mXSiSXesdX
+        d5dJUHeY5Xd3d1WRJ5wNVVVVdXcUXgAA7u7t3FXAAAAAAAAAAAAAAAAAAAAAAP//GlL/gxpS/AEaUuAB
+        GlKAABpSAAAaUgAAGlIAABpSAAAaUgAAGlIAABpSAAAaUoAAGlLwARpS//8aUv//GlIoAAAAEAAAACAA
+        AAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8eHAAHFygAFR4hAAgdMgAZIykACyc9ABgn
+        MgAYKDEAGzA/ACYvMwBBPz4AGTREAB03RQAQMkoAHTtRAB0/UwAQO1gAET1dACU1QQAfQVgAG0BcACVJ
+        XgAeSGIAHktmABlNawAcTmsAGk1tAB1ScQAdVHQAHFJ4ACNLYgAgTGYAIE9rACFQbgApVW4AIlRwACpU
+        cQAmWXYAKlhyAChYdgAoW3oALl56AClffQA2XHcAM2N6AD9iegBMTU0AUE1MABxagwAfXIAAHl+IABVe
+        kAAlW4EAJl6AACldgQAgYYMAJ2GEAClggQArZYYALGWFACRiigAhY44AJmWPAChiiAApZYoALGaIACxn
+        jQAvaIgALGqMAC5tjQAwZ4YAO26KACNqkgAmbZYAKmqQACptlgAtbZcAIG2dACttmgAsb5oALnObAC11
+        mgApc54AK3WfADNzmAAxdJkAO3edAD95nwAqcaAALHiiACh7qgAyeqIANXmjAD19pwAxfKkAN36pAEBr
+        hgBeeIgARXWWAG18gwA3gqcANIOpADSBrQA3ha4APIGpADmFqgA4h7MAPYixAD2NsQBlg5gAf4+ZAHuR
+        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
+</value>
+  </data>
+  <data name="labelDifference.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="pictureBoxReplacedThread.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 19</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelDifference.Text" xml:space="preserve">
+    <value>Difference from replaced color</value>
+  </data>
+  <data name="pictureBoxUsedThread.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="&gt;&gt;panelTop.Name" xml:space="preserve">
+    <value>panelTop</value>
+  </data>
+  <data name="&gt;&gt;comboBoxKit.Parent" xml:space="preserve">
+    <value>panelInfo</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureBoxDifference.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelUsedThread.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;buttonOk.Name" xml:space="preserve">
+    <value>buttonOk</value>
+  </data>
+  <data name="&gt;&gt;panelLegend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 80</value>
+  </data>
+  <data name="&gt;&gt;comboBoxKit.Name" xml:space="preserve">
+    <value>comboBoxKit</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelReplacedThread.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnImage.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelBottom.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Parent" xml:space="preserve">
+    <value>panelButtons</value>
+  </data>
+  <data name="&gt;&gt;labelHint.Parent" xml:space="preserve">
+    <value>panelTop</value>
+  </data>
+  <data name="panelBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="labelReplacedThread.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="labelHint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;columnName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonOk.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;labelHint.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonOk.Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Name" xml:space="preserve">
+    <value>buttonCancel</value>
+  </data>
+  <data name="pictureBoxUsedThread.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelReplacedThread.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDifference.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelHint.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonOk.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="panelTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupBoxLegend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExact.Name" xml:space="preserve">
+    <value>radioButtonExact</value>
+  </data>
+  <data name="paletteListView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ThreadsDialog</value>
+  </data>
+  <data name="panelLegend.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;panelInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBoxUsedThread.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="labelUsedThread.Text" xml:space="preserve">
+    <value>Already used thread</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;imageListThreadsUsage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExact.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>600, 400</value>
+  </data>
+  <data name="labelUsedThread.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="columnName.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;panelLegend.Parent" xml:space="preserve">
+    <value>panelInfo</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLegend.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelUsedThread.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureBoxDifference.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 79</value>
+  </data>
+  <data name="groupBoxLegend.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panelTop</value>
+  </data>
+  <data name="panelTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>587, 80</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 11</value>
+  </data>
+  <data name="comboBoxKit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="&gt;&gt;labelUsedThread.Name" xml:space="preserve">
+    <value>labelUsedThread</value>
+  </data>
+  <data name="&gt;&gt;labelDifference.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelButtons.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelInfo</value>
+  </data>
+  <data name="panelLegend.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelHint.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonOk.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxReplacedThread.Name" xml:space="preserve">
+    <value>pictureBoxReplacedThread</value>
+  </data>
+  <data name="pictureBoxDifference.Text" xml:space="preserve">
+    <value>&lt;&gt;</value>
+  </data>
+  <data name="panelTop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;panelButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonOk.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLegend.Name" xml:space="preserve">
+    <value>groupBoxLegend</value>
+  </data>
+  <data name="&gt;&gt;labelDifference.Parent" xml:space="preserve">
+    <value>groupBoxLegend</value>
+  </data>
+  <data name="imageListThreadsUsage.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADC
+        CAAAAk1TRnQBSQFMAgEBAgEAAaABAAGwAQABEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/0MAAfYKGwH2NAABGgo4
+        ARoGAAEbAeMFFwHjARsmAAH0AjcFOAFYAfQGAAH/ARcB/wUAAfYBFwH/JQABGwVQAVECVwHzBwABFwEA
+        ARoBAAEaAQABGgEAARcmAAEIAlcBVgVQARsHAAEXAQABFwEAARcBAAEXAQABFyYAAfECUAJWBFcBCAcA
+        ARcBAAEXAQABFwEAARcBAAEXJgAB8QhQAfEHAAEXAQABFwEAARcBAAEXAQABFyYAAQgEVwJWAlAB8QcA
+        ARcBAAEXAQABFwEAARcBAAEXJgABGwVQAVYCVwEIBwABFwEAARcBAAEXAQABFwEAARcmAAHwCFABGwcA
+        ARcHAAEXJgABvAFWB1cB8QYAAfQBFwcaARcB9CUAAfQCUQExBVgB9AYAAfQCGgKUARoClAIaAfQkAAEb
+        AXoIOAF6ARsIAAH0AxcB9CcAARoKmgEacgABQgFNAT4HAAE+AwABKAMAAUADAAEQAwABAQEAAQEFAAGA
+        FwAD/wEABP8EAAHAAQMC/wQAAcABAwHwAQcEAAHgAQcC4wQAAeABBwH1AVcEAAHgAQcB9QFXBAAB4AEH
+        AfUBVwQAAeABBwH1AVcEAAHgAQcB9QFXBAAB4AEHAfUBVwQAAeABBwL3BAAB4AEHAeABAwQAAeABBwHg
+        AQMEAAHAAQMB/AEfBAABwAEDAv8EAAT/GgAL
+</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.FlatButton, Ravlyk.Drawing.WinForms, Version=2.0.1.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;labelDifference.Name" xml:space="preserve">
+    <value>labelDifference</value>
+  </data>
+  <data name="&gt;&gt;paletteListView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;columnColor.Name" xml:space="preserve">
+    <value>columnColor</value>
+  </data>
+  <data name="panelButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 60</value>
+  </data>
+  <data name="panelInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLegend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 39</value>
+  </data>
+  <data name="panelButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 0</value>
+  </data>
+  <data name="pictureBoxDifference.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="radioButtonExact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="columnDifference.Text" xml:space="preserve">
+    <value>&lt;&gt;</value>
+  </data>
+  <data name="&gt;&gt;labelReplacedThread.Name" xml:space="preserve">
+    <value>labelReplacedThread</value>
+  </data>
+  <data name="&gt;&gt;labelHint.Name" xml:space="preserve">
+    <value>labelHint</value>
+  </data>
+  <data name="panelButtons.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="&gt;&gt;radioButtonVisual.Name" xml:space="preserve">
+    <value>radioButtonVisual</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 39</value>
+  </data>
+  <data name="&gt;&gt;panelButtons.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="paletteListView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;panelButtons.Parent" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxDifference.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonOk.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.FlatButton, Ravlyk.Drawing.WinForms, Version=2.0.1.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxDifference.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelUsedThread.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelDifference.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;groupBoxColorComparisonMode.Name" xml:space="preserve">
+    <value>groupBoxColorComparisonMode</value>
+  </data>
+  <data name="labelHint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.875pt, style=Bold</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelReplacedThread.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDifference.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 13</value>
+  </data>
+  <data name="pictureBoxReplacedThread.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="panelLegend.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="columnDifference.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;panelButtons.Name" xml:space="preserve">
+    <value>panelButtons</value>
+  </data>
+  <data name="pictureBoxReplacedThread.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAIJJREFUOE9j
+        GLzgpbeNy3Mfm89A/B9Eg/hQKdzgua+tPVBxPRTvh2J0dj1IHVQLKoAaALIRZgg2/B+nASAAUgBlYgWE
+        5OEKCNE4wagBKArrcdC4Dfjv4MACUvA8wEEBKoQCnnlZyYPkQeqgQpjgmbdtDFDRa7BBmPg1SB6qdFAA
+        BgYAR8Shxw9XuwEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="radioButtonExact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 45</value>
+  </data>
+  <data name="labelHint.Text" xml:space="preserve">
+    <value>Select new thread instead of replaced</value>
+  </data>
+  <data name="labelUsedThread.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Palette:</value>
+  </data>
+  <data name="&gt;&gt;columnImage.Name" xml:space="preserve">
+    <value>columnImage</value>
+  </data>
+  <data name="pictureBoxDifference.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBoxColorComparisonMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="paletteListView.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="pictureBoxUsedThread.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 21</value>
+  </data>
+  <data name="panelTop.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="buttonCancel.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="buttonCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;columnName.Name" xml:space="preserve">
+    <value>columnName</value>
+  </data>
+  <data name="radioButtonExact.Text" xml:space="preserve">
+    <value>Exact</value>
+  </data>
+  <data name="groupBoxLegend.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonVisual.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButtonExact.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupBoxLegend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 104</value>
+  </data>
+  <data name="&gt;&gt;groupBoxColorComparisonMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelLegend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 113</value>
+  </data>
+  <data name="&gt;&gt;labelHint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="columnDifference.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExact.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="panelBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 15</value>
+  </data>
+  <data name="columnCode.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="labelUsedThread.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxReplacedThread.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBoxColorComparisonMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 78</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxDifference.Name" xml:space="preserve">
+    <value>pictureBoxDifference</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExact.Parent" xml:space="preserve">
+    <value>groupBoxColorComparisonMode</value>
+  </data>
+  <data name="paletteListView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 80</value>
+  </data>
+  <data name="labelReplacedThread.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="&gt;&gt;panelLegend.Name" xml:space="preserve">
+    <value>panelLegend</value>
+  </data>
+  <data name="columnColor.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="groupBoxLegend.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="labelReplacedThread.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;columnCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxUsedThread.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;comboBoxKit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxUsedThread.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelInfo.Name" xml:space="preserve">
+    <value>panelInfo</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>587, 483</value>
+  </data>
+  <data name="&gt;&gt;labelUsedThread.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBoxColorComparisonMode.Parent" xml:space="preserve">
+    <value>panelInfo</value>
+  </data>
+  <data name="comboBoxKit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;columnCode.Name" xml:space="preserve">
+    <value>columnCode</value>
+  </data>
+  <data name="panelLegend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 230</value>
+  </data>
+  <data name="&gt;&gt;labelReplacedThread.Parent" xml:space="preserve">
+    <value>groupBoxLegend</value>
+  </data>
+  <data name="buttonOk.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="buttonOk.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButtonVisual.Text" xml:space="preserve">
+    <value>Visual</value>
+  </data>
+  <data name="groupBoxColorComparisonMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 58</value>
+  </data>
+  <data name="&gt;&gt;panelBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panelBottom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="radioButtonExact.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBoxKit.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelDifference.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnDifference.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBoxReplacedThread.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelHint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 13</value>
+  </data>
+  <data name="groupBoxLegend.Text" xml:space="preserve">
+    <value>Legend</value>
+  </data>
+  <data name="&gt;&gt;columnColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelUsedThread.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 25</value>
+  </data>
+  <data name="panelInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="comboBoxKit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 21</value>
+  </data>
+  <data name="groupBoxColorComparisonMode.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxUsedThread.Parent" xml:space="preserve">
+    <value>groupBoxLegend</value>
+  </data>
+  <data name="&gt;&gt;panelTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelLegend.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="columnImage.Width" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="panelInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 343</value>
+  </data>
+  <data name="labelReplacedThread.Text" xml:space="preserve">
+    <value>Replaced thread</value>
+  </data>
+  <data name="&gt;&gt;labelUsedThread.Parent" xml:space="preserve">
+    <value>groupBoxLegend</value>
+  </data>
+  <data name="groupBoxColorComparisonMode.Text" xml:space="preserve">
+    <value>Color difference mode</value>
+  </data>
+  <data name="&gt;&gt;panelBottom.Name" xml:space="preserve">
+    <value>panelBottom</value>
+  </data>
+  <data name="&gt;&gt;columnDifference.Name" xml:space="preserve">
+    <value>columnDifference</value>
+  </data>
+  <data name="&gt;&gt;paletteListView.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.PaletteListView, SAE5, Version=5.0.3.18, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="buttonOk.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imageListThreadsUsage.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

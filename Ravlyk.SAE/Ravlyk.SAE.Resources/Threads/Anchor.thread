@@ -1,0 +1,3091 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PALETTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Palette.xsd">
+	<NAME>Anchor</NAME>
+	<COLOR>
+		<CODE>1</CODE>
+		<NAME>White Bright</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>2</CODE>
+		<NAME>White</NAME>
+		<RED>250</RED>
+		<GREEN>250</GREEN>
+		<BLUE>250</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>6</CODE>
+		<NAME>Peach VY LT</NAME>
+		<RED>255</RED>
+		<GREEN>194</GREEN>
+		<BLUE>177</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>8</CODE>
+		<NAME>Peach LT</NAME>
+		<RED>253</RED>
+		<GREEN>172</GREEN>
+		<BLUE>144</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>9</CODE>
+		<NAME>Coral VY LT</NAME>
+		<RED>236</RED>
+		<GREEN>136</GREEN>
+		<BLUE>125</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>10</CODE>
+		<NAME>Coral LT</NAME>
+		<RED>233</RED>
+		<GREEN>124</GREEN>
+		<BLUE>117</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>11</CODE>
+		<NAME>Coral Med</NAME>
+		<RED>216</RED>
+		<GREEN>87</GREEN>
+		<BLUE>79</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>13</CODE>
+		<NAME>Coral DK</NAME>
+		<RED>182</RED>
+		<GREEN>8</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>19</CODE>
+		<NAME>Pink Bright Ultra VY</NAME>
+		<RED>174</RED>
+		<GREEN>26</GREEN>
+		<BLUE>60</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>20</CODE>
+		<NAME>Garnet LT</NAME>
+		<RED>153</RED>
+		<GREEN>17</GREEN>
+		<BLUE>46</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>22</CODE>
+		<NAME>Garnet</NAME>
+		<RED>126</RED>
+		<GREEN>5</GREEN>
+		<BLUE>32</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>23</CODE>
+		<NAME>Baby Pink VY LT</NAME>
+		<RED>253</RED>
+		<GREEN>200</GREEN>
+		<BLUE>201</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>24</CODE>
+		<NAME>Baby Pink LT</NAME>
+		<RED>251</RED>
+		<GREEN>168</GREEN>
+		<BLUE>171</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>25</CODE>
+		<NAME>Baby Pink</NAME>
+		<RED>236</RED>
+		<GREEN>158</GREEN>
+		<BLUE>174</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>26</CODE>
+		<NAME>Baby Pink Med</NAME>
+		<RED>242</RED>
+		<GREEN>124</GREEN>
+		<BLUE>136</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>27</CODE>
+		<NAME>Baby Pink DK</NAME>
+		<RED>235</RED>
+		<GREEN>89</GREEN>
+		<BLUE>110</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>28</CODE>
+		<NAME>Baby Pink VY DK</NAME>
+		<RED>219</RED>
+		<GREEN>62</GREEN>
+		<BLUE>86</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>29</CODE>
+		<NAME>Baby Pink Ultra VY D</NAME>
+		<RED>195</RED>
+		<GREEN>30</GREEN>
+		<BLUE>55</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>31</CODE>
+		<NAME>Pink Bright LT</NAME>
+		<RED>238</RED>
+		<GREEN>124</GREEN>
+		<BLUE>141</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>33</CODE>
+		<NAME>Pink Bright</NAME>
+		<RED>250</RED>
+		<GREEN>121</GREEN>
+		<BLUE>149</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>35</CODE>
+		<NAME>Pink Bright DK</NAME>
+		<RED>206</RED>
+		<GREEN>64</GREEN>
+		<BLUE>96</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>36</CODE>
+		<NAME>Pink Bright VY LT</NAME>
+		<RED>240</RED>
+		<GREEN>146</GREEN>
+		<BLUE>160</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>38</CODE>
+		<NAME>Dusty Pink</NAME>
+		<RED>182</RED>
+		<GREEN>71</GREEN>
+		<BLUE>88</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>39</CODE>
+		<NAME>Dusty Pink DK</NAME>
+		<RED>136</RED>
+		<GREEN>46</GREEN>
+		<BLUE>60</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>40</CODE>
+		<NAME>Rose</NAME>
+		<RED>239</RED>
+		<GREEN>112</GREEN>
+		<BLUE>138</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>41</CODE>
+		<NAME>Rose DK</NAME>
+		<RED>198</RED>
+		<GREEN>78</GREEN>
+		<BLUE>103</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>42</CODE>
+		<NAME>Rose VY DK</NAME>
+		<RED>187</RED>
+		<GREEN>64</GREEN>
+		<BLUE>89</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>43</CODE>
+		<NAME>Garnet Med</NAME>
+		<RED>136</RED>
+		<GREEN>38</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>44</CODE>
+		<NAME>Garnet DK</NAME>
+		<RED>130</RED>
+		<GREEN>45</GREEN>
+		<BLUE>60</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>45</CODE>
+		<NAME>Garnet VY DK</NAME>
+		<RED>111</RED>
+		<GREEN>37</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>46</CODE>
+		<NAME>Christmas Red LT</NAME>
+		<RED>211</RED>
+		<GREEN>36</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>47</CODE>
+		<NAME>Christmas Red</NAME>
+		<RED>165</RED>
+		<GREEN>28</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>48</CODE>
+		<NAME>Pink VY LT</NAME>
+		<RED>253</RED>
+		<GREEN>188</GREEN>
+		<BLUE>209</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>49</CODE>
+		<NAME>Pink LT</NAME>
+		<RED>244</RED>
+		<GREEN>174</GREEN>
+		<BLUE>197</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>50</CODE>
+		<NAME>Pink</NAME>
+		<RED>255</RED>
+		<GREEN>159</GREEN>
+		<BLUE>188</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>52</CODE>
+		<NAME>Pink DK</NAME>
+		<RED>252</RED>
+		<GREEN>125</GREEN>
+		<BLUE>163</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>54</CODE>
+		<NAME>Pink VY DK</NAME>
+		<RED>225</RED>
+		<GREEN>82</GREEN>
+		<BLUE>125</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>55</CODE>
+		<NAME>Pink Mauve LT</NAME>
+		<RED>249</RED>
+		<GREEN>156</GREEN>
+		<BLUE>200</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>57</CODE>
+		<NAME>Pink Mauve Med DK</NAME>
+		<RED>210</RED>
+		<GREEN>74</GREEN>
+		<BLUE>138</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>59</CODE>
+		<NAME>Pink Mauve Ultra VY</NAME>
+		<RED>141</RED>
+		<GREEN>1</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>60</CODE>
+		<NAME>Cerise Ultra VY LT</NAME>
+		<RED>221</RED>
+		<GREEN>156</GREEN>
+		<BLUE>180</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62</CODE>
+		<NAME>Cerise LT</NAME>
+		<RED>195</RED>
+		<GREEN>76</GREEN>
+		<BLUE>132</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>63</CODE>
+		<NAME>Cerise</NAME>
+		<RED>163</RED>
+		<GREEN>44</GREEN>
+		<BLUE>100</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>65</CODE>
+		<NAME>Cerise Ultra VY DK</NAME>
+		<RED>114</RED>
+		<GREEN>25</GREEN>
+		<BLUE>68</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>66</CODE>
+		<NAME>Dusty Plum LT</NAME>
+		<RED>240</RED>
+		<GREEN>139</GREEN>
+		<BLUE>187</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>68</CODE>
+		<NAME>Dusty Plum Med</NAME>
+		<RED>172</RED>
+		<GREEN>57</GREEN>
+		<BLUE>111</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>69</CODE>
+		<NAME>Dusty Plum Med DK</NAME>
+		<RED>112</RED>
+		<GREEN>0</GREEN>
+		<BLUE>64</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>70</CODE>
+		<NAME>Dusty Plum VY DK</NAME>
+		<RED>73</RED>
+		<GREEN>0</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72</CODE>
+		<NAME>Dusty Plum Ultra VY</NAME>
+		<RED>54</RED>
+		<GREEN>1</GREEN>
+		<BLUE>30</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>73</CODE>
+		<NAME>Plum Ultra VY LT</NAME>
+		<RED>255</RED>
+		<GREEN>197</GREEN>
+		<BLUE>215</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>74</CODE>
+		<NAME>Plum VY LT</NAME>
+		<RED>239</RED>
+		<GREEN>161</GREEN>
+		<BLUE>187</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>75</CODE>
+		<NAME>Plum LT</NAME>
+		<RED>230</RED>
+		<GREEN>139</GREEN>
+		<BLUE>168</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>76</CODE>
+		<NAME>Plum Med LT</NAME>
+		<RED>163</RED>
+		<GREEN>70</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>77</CODE>
+		<NAME>Plum Med</NAME>
+		<RED>151</RED>
+		<GREEN>52</GREEN>
+		<BLUE>94</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>78</CODE>
+		<NAME>Plum Med DK</NAME>
+		<RED>128</RED>
+		<GREEN>41</GREEN>
+		<BLUE>78</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>85</CODE>
+		<NAME>Mauve VY LT</NAME>
+		<RED>255</RED>
+		<GREEN>172</GREEN>
+		<BLUE>233</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>86</CODE>
+		<NAME>Mauve Med LT</NAME>
+		<RED>234</RED>
+		<GREEN>123</GREEN>
+		<BLUE>206</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>87</CODE>
+		<NAME>Mauve</NAME>
+		<RED>195</RED>
+		<GREEN>75</GREEN>
+		<BLUE>153</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>88</CODE>
+		<NAME>Mauve Med</NAME>
+		<RED>157</RED>
+		<GREEN>47</GREEN>
+		<BLUE>110</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>89</CODE>
+		<NAME>Mauve DK</NAME>
+		<RED>125</RED>
+		<GREEN>7</GREEN>
+		<BLUE>77</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>90</CODE>
+		<NAME>Purple LT</NAME>
+		<RED>193</RED>
+		<GREEN>151</GREEN>
+		<BLUE>181</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>92</CODE>
+		<NAME>Purple Med</NAME>
+		<RED>146</RED>
+		<GREEN>76</GREEN>
+		<BLUE>137</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>94</CODE>
+		<NAME>Purple DK</NAME>
+		<RED>112</RED>
+		<GREEN>12</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>95</CODE>
+		<NAME>Violet Ultra VY LT</NAME>
+		<RED>217</RED>
+		<GREEN>187</GREEN>
+		<BLUE>221</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>96</CODE>
+		<NAME>Violet VY LT</NAME>
+		<RED>201</RED>
+		<GREEN>140</GREEN>
+		<BLUE>184</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>97</CODE>
+		<NAME>Violet LT</NAME>
+		<RED>168</RED>
+		<GREEN>104</GREEN>
+		<BLUE>150</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>98</CODE>
+		<NAME>Violet Med LT</NAME>
+		<RED>151</RED>
+		<GREEN>82</GREEN>
+		<BLUE>132</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>99</CODE>
+		<NAME>Violet Med DK</NAME>
+		<RED>124</RED>
+		<GREEN>57</GREEN>
+		<BLUE>105</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>100</CODE>
+		<NAME>Violet DK</NAME>
+		<RED>100</RED>
+		<GREEN>45</GREEN>
+		<BLUE>85</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>101</CODE>
+		<NAME>Violet VY DK</NAME>
+		<RED>75</RED>
+		<GREEN>20</GREEN>
+		<BLUE>59</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>102</CODE>
+		<NAME>Lavender Ultra VY DK</NAME>
+		<RED>49</RED>
+		<GREEN>3</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>103</CODE>
+		<NAME>Purple VY LT</NAME>
+		<RED>242</RED>
+		<GREEN>215</GREEN>
+		<BLUE>234</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>108</CODE>
+		<NAME>Lavender VY LT</NAME>
+		<RED>181</RED>
+		<GREEN>142</GREEN>
+		<BLUE>195</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>109</CODE>
+		<NAME>Lavender LT</NAME>
+		<RED>155</RED>
+		<GREEN>105</GREEN>
+		<BLUE>172</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>110</CODE>
+		<NAME>Lavender Med</NAME>
+		<RED>124</RED>
+		<GREEN>74</GREEN>
+		<BLUE>141</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>111</CODE>
+		<NAME>Lavender DK</NAME>
+		<RED>93</RED>
+		<GREEN>44</GREEN>
+		<BLUE>110</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>112</CODE>
+		<NAME>Lavender VY DK</NAME>
+		<RED>66</RED>
+		<GREEN>31</GREEN>
+		<BLUE>78</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>117</CODE>
+		<NAME>Blue Violet VY LT</NAME>
+		<RED>182</RED>
+		<GREEN>195</GREEN>
+		<BLUE>229</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>118</CODE>
+		<NAME>Blue Violet LT</NAME>
+		<RED>129</RED>
+		<GREEN>117</GREEN>
+		<BLUE>173</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>119</CODE>
+		<NAME>Blue Violet DK</NAME>
+		<RED>83</RED>
+		<GREEN>56</GREEN>
+		<BLUE>114</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>120</CODE>
+		<NAME>Blue Purple VY LT</NAME>
+		<RED>191</RED>
+		<GREEN>207</GREEN>
+		<BLUE>233</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>121</CODE>
+		<NAME>Blue Purple LT</NAME>
+		<RED>104</RED>
+		<GREEN>110</GREEN>
+		<BLUE>140</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>122</CODE>
+		<NAME>Blue Purple Med</NAME>
+		<RED>63</RED>
+		<GREEN>61</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>123</CODE>
+		<NAME>Blue Purple DK</NAME>
+		<RED>27</RED>
+		<GREEN>24</GREEN>
+		<BLUE>58</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>127</CODE>
+		<NAME>Navy Blue VY DK</NAME>
+		<RED>5</RED>
+		<GREEN>0</GREEN>
+		<BLUE>42</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>128</CODE>
+		<NAME>Sky Blue VY LT</NAME>
+		<RED>194</RED>
+		<GREEN>214</GREEN>
+		<BLUE>248</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>129</CODE>
+		<NAME>Sky Blue LT</NAME>
+		<RED>159</RED>
+		<GREEN>180</GREEN>
+		<BLUE>216</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>130</CODE>
+		<NAME>Sky Blue</NAME>
+		<RED>133</RED>
+		<GREEN>154</GREEN>
+		<BLUE>190</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>131</CODE>
+		<NAME>Sky Blue Med</NAME>
+		<RED>83</RED>
+		<GREEN>93</GREEN>
+		<BLUE>134</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>132</CODE>
+		<NAME>Sky Blue DK</NAME>
+		<RED>54</RED>
+		<GREEN>62</GREEN>
+		<BLUE>103</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>133</CODE>
+		<NAME>Sky Blue VY DK</NAME>
+		<RED>11</RED>
+		<GREEN>24</GREEN>
+		<BLUE>88</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>134</CODE>
+		<NAME>Sky Blue Ultra DK</NAME>
+		<RED>0</RED>
+		<GREEN>0</GREEN>
+		<BLUE>64</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>136</CODE>
+		<NAME>Delft Med</NAME>
+		<RED>117</RED>
+		<GREEN>130</GREEN>
+		<BLUE>168</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>137</CODE>
+		<NAME>Delft Med DK</NAME>
+		<RED>70</RED>
+		<GREEN>83</GREEN>
+		<BLUE>128</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>139</CODE>
+		<NAME>Delft VY DK</NAME>
+		<RED>37</RED>
+		<GREEN>49</GREEN>
+		<BLUE>86</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>140</CODE>
+		<NAME>Royal Blue LT</NAME>
+		<RED>153</RED>
+		<GREEN>180</GREEN>
+		<BLUE>215</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>142</CODE>
+		<NAME>Royal Blue Med</NAME>
+		<RED>44</RED>
+		<GREEN>74</GREEN>
+		<BLUE>124</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>143</CODE>
+		<NAME>Royal Blue DK</NAME>
+		<RED>22</RED>
+		<GREEN>44</GREEN>
+		<BLUE>81</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>144</CODE>
+		<NAME>Navy Blue Ultra VY L</NAME>
+		<RED>166</RED>
+		<GREEN>189</GREEN>
+		<BLUE>217</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>145</CODE>
+		<NAME>Navy Blue VY LT</NAME>
+		<RED>120</RED>
+		<GREEN>132</GREEN>
+		<BLUE>164</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>146</CODE>
+		<NAME>Navy Blue LT</NAME>
+		<RED>66</RED>
+		<GREEN>85</GREEN>
+		<BLUE>128</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>147</CODE>
+		<NAME>Navy Blue Med LT</NAME>
+		<RED>32</RED>
+		<GREEN>48</GREEN>
+		<BLUE>86</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>148</CODE>
+		<NAME>Navy Blue Med</NAME>
+		<RED>14</RED>
+		<GREEN>32</GREEN>
+		<BLUE>75</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>149</CODE>
+		<NAME>Navy Blue Med DK</NAME>
+		<RED>2</RED>
+		<GREEN>2</GREEN>
+		<BLUE>79</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>150</CODE>
+		<NAME>Navy Blue DK</NAME>
+		<RED>9</RED>
+		<GREEN>9</GREEN>
+		<BLUE>76</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>152</CODE>
+		<NAME>Navy Blue Ultra VY D</NAME>
+		<RED>8</RED>
+		<GREEN>0</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>158</CODE>
+		<NAME>Baby Blue Ultra VY L</NAME>
+		<RED>209</RED>
+		<GREEN>243</GREEN>
+		<BLUE>245</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>159</CODE>
+		<NAME>Baby Blue LT</NAME>
+		<RED>176</RED>
+		<GREEN>212</GREEN>
+		<BLUE>233</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>160</CODE>
+		<NAME>Baby Blue</NAME>
+		<RED>159</RED>
+		<GREEN>200</GREEN>
+		<BLUE>226</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>161</CODE>
+		<NAME>Baby Blue DK</NAME>
+		<RED>87</RED>
+		<GREEN>129</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>162</CODE>
+		<NAME>Baby Blue VY DK</NAME>
+		<RED>38</RED>
+		<GREEN>86</GREEN>
+		<BLUE>115</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>164</CODE>
+		<NAME>Baby Blue Ultra VY D</NAME>
+		<RED>18</RED>
+		<GREEN>53</GREEN>
+		<BLUE>75</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>167</CODE>
+		<NAME>Blue Green LT</NAME>
+		<RED>136</RED>
+		<GREEN>189</GREEN>
+		<BLUE>202</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>168</CODE>
+		<NAME>Blue Green Med</NAME>
+		<RED>95</RED>
+		<GREEN>133</GREEN>
+		<BLUE>143</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>169</CODE>
+		<NAME>Blue Green DK</NAME>
+		<RED>45</RED>
+		<GREEN>79</GREEN>
+		<BLUE>89</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>170</CODE>
+		<NAME>Blue Green VY DK</NAME>
+		<RED>22</RED>
+		<GREEN>61</GREEN>
+		<BLUE>72</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>175</CODE>
+		<NAME>Cornflower Blue LT</NAME>
+		<RED>141</RED>
+		<GREEN>158</GREEN>
+		<BLUE>195</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>176</CODE>
+		<NAME>Cornflower Blue Med</NAME>
+		<RED>99</RED>
+		<GREEN>95</GREEN>
+		<BLUE>149</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>177</CODE>
+		<NAME>Cornflower Blue DK</NAME>
+		<RED>58</RED>
+		<GREEN>45</GREEN>
+		<BLUE>97</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>178</CODE>
+		<NAME>Cornflower Blue VY D</NAME>
+		<RED>43</RED>
+		<GREEN>29</GREEN>
+		<BLUE>83</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>185</CODE>
+		<NAME>Turquoise VY LT</NAME>
+		<RED>142</RED>
+		<GREEN>209</GREEN>
+		<BLUE>193</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>186</CODE>
+		<NAME>Turquoise LT</NAME>
+		<RED>105</RED>
+		<GREEN>181</GREEN>
+		<BLUE>163</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>187</CODE>
+		<NAME>Turquoise Med</NAME>
+		<RED>54</RED>
+		<GREEN>139</GREEN>
+		<BLUE>120</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>188</CODE>
+		<NAME>Turquoise DK</NAME>
+		<RED>36</RED>
+		<GREEN>98</GREEN>
+		<BLUE>83</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>189</CODE>
+		<NAME>Turquoise VY DK</NAME>
+		<RED>42</RED>
+		<GREEN>73</GREEN>
+		<BLUE>67</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>203</CODE>
+		<NAME>Emerald Green Ultra</NAME>
+		<RED>143</RED>
+		<GREEN>192</GREEN>
+		<BLUE>149</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>204</CODE>
+		<NAME>Emerald Green VY LT</NAME>
+		<RED>106</RED>
+		<GREEN>153</GREEN>
+		<BLUE>111</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>205</CODE>
+		<NAME>Emerald Green LT</NAME>
+		<RED>78</RED>
+		<GREEN>113</GREEN>
+		<BLUE>82</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>206</CODE>
+		<NAME>Jade VY LT</NAME>
+		<RED>160</RED>
+		<GREEN>205</GREEN>
+		<BLUE>177</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>208</CODE>
+		<NAME>Jade LT</NAME>
+		<RED>102</RED>
+		<GREEN>158</GREEN>
+		<BLUE>124</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>209</CODE>
+		<NAME>Jade Med</NAME>
+		<RED>79</RED>
+		<GREEN>136</GREEN>
+		<BLUE>102</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>210</CODE>
+		<NAME>Jade Med DK</NAME>
+		<RED>47</RED>
+		<GREEN>88</GREEN>
+		<BLUE>63</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>211</CODE>
+		<NAME>Jade DK</NAME>
+		<RED>35</RED>
+		<GREEN>77</GREEN>
+		<BLUE>52</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>212</CODE>
+		<NAME>Jade VY DK</NAME>
+		<RED>29</RED>
+		<GREEN>63</GREEN>
+		<BLUE>42</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>213</CODE>
+		<NAME>Misty Green Ultra VY</NAME>
+		<RED>197</RED>
+		<GREEN>199</GREEN>
+		<BLUE>182</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>214</CODE>
+		<NAME>Misty Green VY LT</NAME>
+		<RED>150</RED>
+		<GREEN>179</GREEN>
+		<BLUE>155</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>215</CODE>
+		<NAME>Misty Green LT</NAME>
+		<RED>83</RED>
+		<GREEN>123</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>216</CODE>
+		<NAME>Misty Green Med</NAME>
+		<RED>58</RED>
+		<GREEN>93</GREEN>
+		<BLUE>64</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>217</CODE>
+		<NAME>Misty Green DK</NAME>
+		<RED>46</RED>
+		<GREEN>76</GREEN>
+		<BLUE>60</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>218</CODE>
+		<NAME>Misty Green VY DK</NAME>
+		<RED>34</RED>
+		<GREEN>61</GREEN>
+		<BLUE>46</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>225</CODE>
+		<NAME>Christmas Green VY L</NAME>
+		<RED>121</RED>
+		<GREEN>164</GREEN>
+		<BLUE>94</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>226</CODE>
+		<NAME>Christmas Green LT</NAME>
+		<RED>91</RED>
+		<GREEN>133</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>227</CODE>
+		<NAME>Christmas Green</NAME>
+		<RED>58</RED>
+		<GREEN>116</GREEN>
+		<BLUE>45</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>228</CODE>
+		<NAME>Christmas Green Med</NAME>
+		<RED>44</RED>
+		<GREEN>93</GREEN>
+		<BLUE>34</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>229</CODE>
+		<NAME>Christmas Green DK</NAME>
+		<RED>32</RED>
+		<GREEN>79</GREEN>
+		<BLUE>22</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>230</CODE>
+		<NAME>Emerald Green</NAME>
+		<RED>22</RED>
+		<GREEN>55</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>231</CODE>
+		<NAME>Shell Grey LT</NAME>
+		<RED>189</RED>
+		<GREEN>170</GREEN>
+		<BLUE>167</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>232</CODE>
+		<NAME>Shell Grey Med</NAME>
+		<RED>142</RED>
+		<GREEN>128</GREEN>
+		<BLUE>127</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>233</CODE>
+		<NAME>Shell Grey DK</NAME>
+		<RED>109</RED>
+		<GREEN>97</GREEN>
+		<BLUE>94</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>234</CODE>
+		<NAME>Pearl Grey VY LT</NAME>
+		<RED>193</RED>
+		<GREEN>191</GREEN>
+		<BLUE>196</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>235</CODE>
+		<NAME>Pewter Grey</NAME>
+		<RED>72</RED>
+		<GREEN>72</GREEN>
+		<BLUE>72</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>236</CODE>
+		<NAME>Pewter Grey VY DK</NAME>
+		<RED>31</RED>
+		<GREEN>31</GREEN>
+		<BLUE>31</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>238</CODE>
+		<NAME>Chartreuse</NAME>
+		<RED>109</RED>
+		<GREEN>154</GREEN>
+		<BLUE>59</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>239</CODE>
+		<NAME>Chartreuse VY DK</NAME>
+		<RED>74</RED>
+		<GREEN>134</GREEN>
+		<BLUE>38</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>240</CODE>
+		<NAME>Pistachio Green LT</NAME>
+		<RED>165</RED>
+		<GREEN>191</GREEN>
+		<BLUE>150</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>241</CODE>
+		<NAME>Pistachio Green</NAME>
+		<RED>133</RED>
+		<GREEN>172</GREEN>
+		<BLUE>110</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>242</CODE>
+		<NAME>Pistachio Green Med</NAME>
+		<RED>107</RED>
+		<GREEN>141</GREEN>
+		<BLUE>88</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>243</CODE>
+		<NAME>Pistachio Green Med</NAME>
+		<RED>90</RED>
+		<GREEN>115</GREEN>
+		<BLUE>74</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>244</CODE>
+		<NAME>Pistachio Green Med</NAME>
+		<RED>71</RED>
+		<GREEN>92</GREEN>
+		<BLUE>59</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>245</CODE>
+		<NAME>Pistachio Green DK</NAME>
+		<RED>52</RED>
+		<GREEN>78</GREEN>
+		<BLUE>36</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>246</CODE>
+		<NAME>Pistachio Green VY D</NAME>
+		<RED>34</RED>
+		<GREEN>57</GREEN>
+		<BLUE>21</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>253</CODE>
+		<NAME>Forest Green Ultra V</NAME>
+		<RED>180</RED>
+		<GREEN>187</GREEN>
+		<BLUE>142</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>254</CODE>
+		<NAME>Forest Green VY LT</NAME>
+		<RED>158</RED>
+		<GREEN>166</GREEN>
+		<BLUE>104</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>255</CODE>
+		<NAME>Forest Green LT</NAME>
+		<RED>116</RED>
+		<GREEN>133</GREEN>
+		<BLUE>5</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>256</CODE>
+		<NAME>Forest Green Med</NAME>
+		<RED>99</RED>
+		<GREEN>114</GREEN>
+		<BLUE>1</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>257</CODE>
+		<NAME>Forest Green DK</NAME>
+		<RED>87</RED>
+		<GREEN>99</GREEN>
+		<BLUE>1</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>258</CODE>
+		<NAME>Forest Green VY DK</NAME>
+		<RED>69</RED>
+		<GREEN>79</GREEN>
+		<BLUE>1</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>259</CODE>
+		<NAME>Laurel Green VY LT</NAME>
+		<RED>233</RED>
+		<GREEN>248</GREEN>
+		<BLUE>199</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>260</CODE>
+		<NAME>Laurel Green LT</NAME>
+		<RED>181</RED>
+		<GREEN>193</GREEN>
+		<BLUE>155</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>261</CODE>
+		<NAME>Laurel Green Med</NAME>
+		<RED>130</RED>
+		<GREEN>143</GREEN>
+		<BLUE>103</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>262</CODE>
+		<NAME>Laurel Green DK</NAME>
+		<RED>73</RED>
+		<GREEN>81</GREEN>
+		<BLUE>54</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>263</CODE>
+		<NAME>Loden Green DK</NAME>
+		<RED>47</RED>
+		<GREEN>55</GREEN>
+		<BLUE>32</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>264</CODE>
+		<NAME>Avocado Green Ultra</NAME>
+		<RED>173</RED>
+		<GREEN>187</GREEN>
+		<BLUE>133</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>265</CODE>
+		<NAME>Avocado Green VY LT</NAME>
+		<RED>140</RED>
+		<GREEN>158</GREEN>
+		<BLUE>71</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>266</CODE>
+		<NAME>Avocado Green LT</NAME>
+		<RED>113</RED>
+		<GREEN>128</GREEN>
+		<BLUE>54</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>267</CODE>
+		<NAME>Avocado Green Med</NAME>
+		<RED>82</RED>
+		<GREEN>94</GREEN>
+		<BLUE>39</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>268</CODE>
+		<NAME>Avocado Green DK</NAME>
+		<RED>65</RED>
+		<GREEN>76</GREEN>
+		<BLUE>27</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>269</CODE>
+		<NAME>Avocado Green VY DK</NAME>
+		<RED>40</RED>
+		<GREEN>46</GREEN>
+		<BLUE>15</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>271</CODE>
+		<NAME>Baby Pink Ultra VY L</NAME>
+		<RED>240</RED>
+		<GREEN>207</GREEN>
+		<BLUE>207</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>273</CODE>
+		<NAME>Beaver Grey VY DK</NAME>
+		<RED>48</RED>
+		<GREEN>45</GREEN>
+		<BLUE>40</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>274</CODE>
+		<NAME>Grey Blue VY LT</NAME>
+		<RED>167</RED>
+		<GREEN>178</GREEN>
+		<BLUE>181</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>275</CODE>
+		<NAME>Off White</NAME>
+		<RED>255</RED>
+		<GREEN>248</GREEN>
+		<BLUE>206</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>276</CODE>
+		<NAME>Coffee Ultra VY LT</NAME>
+		<RED>233</RED>
+		<GREEN>222</GREEN>
+		<BLUE>190</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>277</CODE>
+		<NAME>Gold DK</NAME>
+		<RED>78</RED>
+		<GREEN>48</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>278</CODE>
+		<NAME>Lime Green LT</NAME>
+		<RED>215</RED>
+		<GREEN>207</GREEN>
+		<BLUE>109</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>279</CODE>
+		<NAME>Lime Green</NAME>
+		<RED>171</RED>
+		<GREEN>155</GREEN>
+		<BLUE>71</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>280</CODE>
+		<NAME>Yellow Green</NAME>
+		<RED>128</RED>
+		<GREEN>113</GREEN>
+		<BLUE>56</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>281</CODE>
+		<NAME>Yellow Green DK</NAME>
+		<RED>76</RED>
+		<GREEN>68</GREEN>
+		<BLUE>22</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>288</CODE>
+		<NAME>Lemon LT</NAME>
+		<RED>255</RED>
+		<GREEN>244</GREEN>
+		<BLUE>114</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>289</CODE>
+		<NAME>Lemon Med</NAME>
+		<RED>250</RED>
+		<GREEN>229</GREEN>
+		<BLUE>85</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>290</CODE>
+		<NAME>Lemon DK</NAME>
+		<RED>252</RED>
+		<GREEN>195</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>291</CODE>
+		<NAME>Canary Yellow Bright</NAME>
+		<RED>241</RED>
+		<GREEN>176</GREEN>
+		<BLUE>7</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>292</CODE>
+		<NAME>Golden Brown VY LT</NAME>
+		<RED>255</RED>
+		<GREEN>232</GREEN>
+		<BLUE>143</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>293</CODE>
+		<NAME>Golden Yellow LT</NAME>
+		<RED>248</RED>
+		<GREEN>216</GREEN>
+		<BLUE>108</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>295</CODE>
+		<NAME>Golden Yellow Med LT</NAME>
+		<RED>246</RED>
+		<GREEN>206</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>297</CODE>
+		<NAME>Golden Yellow Med</NAME>
+		<RED>241</RED>
+		<GREEN>177</GREEN>
+		<BLUE>10</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>298</CODE>
+		<NAME>Golden Yellow DK</NAME>
+		<RED>247</RED>
+		<GREEN>166</GREEN>
+		<BLUE>19</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>300</CODE>
+		<NAME>Yellow VY LT</NAME>
+		<RED>252</RED>
+		<GREEN>230</GREEN>
+		<BLUE>171</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>301</CODE>
+		<NAME>Burnt Orange VY LT</NAME>
+		<RED>255</RED>
+		<GREEN>205</GREEN>
+		<BLUE>124</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>302</CODE>
+		<NAME>Burnt Orange LT</NAME>
+		<RED>255</RED>
+		<GREEN>181</GREEN>
+		<BLUE>82</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>303</CODE>
+		<NAME>Burnt Orange Med</NAME>
+		<RED>255</RED>
+		<GREEN>148</GREEN>
+		<BLUE>19</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>304</CODE>
+		<NAME>Burnt Orange</NAME>
+		<RED>229</RED>
+		<GREEN>131</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>305</CODE>
+		<NAME>Topaz VY LT</NAME>
+		<RED>253</RED>
+		<GREEN>200</GREEN>
+		<BLUE>104</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>306</CODE>
+		<NAME>Gold</NAME>
+		<RED>243</RED>
+		<GREEN>157</GREEN>
+		<BLUE>53</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>307</CODE>
+		<NAME>Topaz LT</NAME>
+		<RED>214</RED>
+		<GREEN>128</GREEN>
+		<BLUE>23</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>308</CODE>
+		<NAME>Topaz Med</NAME>
+		<RED>178</RED>
+		<GREEN>92</GREEN>
+		<BLUE>7</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>309</CODE>
+		<NAME>Topaz Med DK</NAME>
+		<RED>151</RED>
+		<GREEN>68</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>310</CODE>
+		<NAME>Topaz VY DK</NAME>
+		<RED>125</RED>
+		<GREEN>59</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>311</CODE>
+		<NAME>Tangerine VY LT</NAME>
+		<RED>234</RED>
+		<GREEN>176</GREEN>
+		<BLUE>105</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>313</CODE>
+		<NAME>Tangerine LT</NAME>
+		<RED>247</RED>
+		<GREEN>151</GREEN>
+		<BLUE>89</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>314</CODE>
+		<NAME>Tangerine Med</NAME>
+		<RED>246</RED>
+		<GREEN>128</GREEN>
+		<BLUE>51</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>316</CODE>
+		<NAME>Tangerine DK</NAME>
+		<RED>232</RED>
+		<GREEN>96</GREEN>
+		<BLUE>39</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>323</CODE>
+		<NAME>Orange Spice LT</NAME>
+		<RED>232</RED>
+		<GREEN>125</GREEN>
+		<BLUE>79</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>324</CODE>
+		<NAME>Orange Spice Med</NAME>
+		<RED>222</RED>
+		<GREEN>103</GREEN>
+		<BLUE>52</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>326</CODE>
+		<NAME>Orange Spice DK</NAME>
+		<RED>182</RED>
+		<GREEN>76</GREEN>
+		<BLUE>31</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>328</CODE>
+		<NAME>Peach Med</NAME>
+		<RED>251</RED>
+		<GREEN>131</GREEN>
+		<BLUE>102</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>329</CODE>
+		<NAME>Peach DK</NAME>
+		<RED>251</RED>
+		<GREEN>120</GREEN>
+		<BLUE>70</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>330</CODE>
+		<NAME>Orange</NAME>
+		<RED>246</RED>
+		<GREEN>111</GREEN>
+		<BLUE>30</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>332</CODE>
+		<NAME>Orange DK</NAME>
+		<RED>225</RED>
+		<GREEN>82</GREEN>
+		<BLUE>14</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>333</CODE>
+		<NAME>Orange VY DK</NAME>
+		<RED>212</RED>
+		<GREEN>72</GREEN>
+		<BLUE>5</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>334</CODE>
+		<NAME>Orange Red VY DK</NAME>
+		<RED>202</RED>
+		<GREEN>60</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>335</CODE>
+		<NAME>Orange Red</NAME>
+		<RED>210</RED>
+		<GREEN>57</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>336</CODE>
+		<NAME>Mahogany Ultra VY LT</NAME>
+		<RED>243</RED>
+		<GREEN>158</GREEN>
+		<BLUE>126</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>337</CODE>
+		<NAME>Mahogany VY LT</NAME>
+		<RED>224</RED>
+		<GREEN>123</GREEN>
+		<BLUE>94</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>338</CODE>
+		<NAME>Mahogany LT</NAME>
+		<RED>204</RED>
+		<GREEN>97</GREEN>
+		<BLUE>68</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>339</CODE>
+		<NAME>Mahogany</NAME>
+		<RED>180</RED>
+		<GREEN>74</GREEN>
+		<BLUE>34</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>340</CODE>
+		<NAME>Mahogany Med DK</NAME>
+		<RED>158</RED>
+		<GREEN>56</GREEN>
+		<BLUE>18</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>341</CODE>
+		<NAME>Mahogany DK</NAME>
+		<RED>140</RED>
+		<GREEN>49</GREEN>
+		<BLUE>15</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>342</CODE>
+		<NAME>Lavender Ultra VY LT</NAME>
+		<RED>215</RED>
+		<GREEN>179</GREEN>
+		<BLUE>224</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>343</CODE>
+		<NAME>Antique Blue LT</NAME>
+		<RED>185</RED>
+		<GREEN>192</GREEN>
+		<BLUE>205</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>347</CODE>
+		<NAME>Chocolate LT</NAME>
+		<RED>211</RED>
+		<GREEN>165</GREEN>
+		<BLUE>128</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>349</CODE>
+		<NAME>Chocolate Med</NAME>
+		<RED>148</RED>
+		<GREEN>87</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>351</CODE>
+		<NAME>Copper DK</NAME>
+		<RED>102</RED>
+		<GREEN>51</GREEN>
+		<BLUE>14</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>352</CODE>
+		<NAME>Copper VY DK</NAME>
+		<RED>89</RED>
+		<GREEN>40</GREEN>
+		<BLUE>14</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>355</CODE>
+		<NAME>Chocolate Med DK</NAME>
+		<RED>113</RED>
+		<GREEN>63</GREEN>
+		<BLUE>34</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>357</CODE>
+		<NAME>Chocolate DK</NAME>
+		<RED>91</RED>
+		<GREEN>44</GREEN>
+		<BLUE>17</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>358</CODE>
+		<NAME>Coffee DK</NAME>
+		<RED>98</RED>
+		<GREEN>57</GREEN>
+		<BLUE>27</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>359</CODE>
+		<NAME>Coffee VY DK</NAME>
+		<RED>85</RED>
+		<GREEN>47</GREEN>
+		<BLUE>20</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>360</CODE>
+		<NAME>Black Brown Med</NAME>
+		<RED>76</RED>
+		<GREEN>39</GREEN>
+		<BLUE>12</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>361</CODE>
+		<NAME>Tan VY LT</NAME>
+		<RED>231</RED>
+		<GREEN>193</GREEN>
+		<BLUE>151</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>362</CODE>
+		<NAME>Tan Med LT</NAME>
+		<RED>181</RED>
+		<GREEN>142</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>363</CODE>
+		<NAME>Golden Brown LT</NAME>
+		<RED>185</RED>
+		<GREEN>131</GREEN>
+		<BLUE>71</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>365</CODE>
+		<NAME>Golden Brown Med</NAME>
+		<RED>116</RED>
+		<GREEN>72</GREEN>
+		<BLUE>23</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>366</CODE>
+		<NAME>Coffee VY LT</NAME>
+		<RED>225</RED>
+		<GREEN>198</GREEN>
+		<BLUE>173</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>367</CODE>
+		<NAME>Coffee LT</NAME>
+		<RED>217</RED>
+		<GREEN>180</GREEN>
+		<BLUE>144</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>368</CODE>
+		<NAME>Coffee</NAME>
+		<RED>187</RED>
+		<GREEN>143</GREEN>
+		<BLUE>110</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>369</CODE>
+		<NAME>Coffee Med LT</NAME>
+		<RED>139</RED>
+		<GREEN>93</GREEN>
+		<BLUE>60</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>370</CODE>
+		<NAME>Coffee Med</NAME>
+		<RED>123</RED>
+		<GREEN>71</GREEN>
+		<BLUE>31</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>371</CODE>
+		<NAME>Coffee Med DK</NAME>
+		<RED>99</RED>
+		<GREEN>58</GREEN>
+		<BLUE>27</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>372</CODE>
+		<NAME>Tan</NAME>
+		<RED>194</RED>
+		<GREEN>159</GREEN>
+		<BLUE>108</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>373</CODE>
+		<NAME>Tan Med DK</NAME>
+		<RED>136</RED>
+		<GREEN>98</GREEN>
+		<BLUE>58</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>374</CODE>
+		<NAME>Tan DK</NAME>
+		<RED>109</RED>
+		<GREEN>66</GREEN>
+		<BLUE>19</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>375</CODE>
+		<NAME>Hazelnut Brown Med</NAME>
+		<RED>85</RED>
+		<GREEN>51</GREEN>
+		<BLUE>14</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>376</CODE>
+		<NAME>Dusty Flesh LT</NAME>
+		<RED>228</RED>
+		<GREEN>189</GREEN>
+		<BLUE>176</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>378</CODE>
+		<NAME>Dusty Flesh Med</NAME>
+		<RED>162</RED>
+		<GREEN>117</GREEN>
+		<BLUE>103</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>379</CODE>
+		<NAME>Dusty Flesh DK</NAME>
+		<RED>146</RED>
+		<GREEN>104</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>380</CODE>
+		<NAME>Black Brown Med DK</NAME>
+		<RED>66</RED>
+		<GREEN>34</GREEN>
+		<BLUE>10</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>381</CODE>
+		<NAME>Black Brown DK</NAME>
+		<RED>54</RED>
+		<GREEN>26</GREEN>
+		<BLUE>6</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>382</CODE>
+		<NAME>Black Brown VY DK</NAME>
+		<RED>48</RED>
+		<GREEN>20</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>386</CODE>
+		<NAME>Yellow Ultra VY LT</NAME>
+		<RED>250</RED>
+		<GREEN>244</GREEN>
+		<BLUE>201</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>387</CODE>
+		<NAME>Beige Brown VY LT</NAME>
+		<RED>218</RED>
+		<GREEN>210</GREEN>
+		<BLUE>193</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>388</CODE>
+		<NAME>Beige Brown LT</NAME>
+		<RED>195</RED>
+		<GREEN>177</GREEN>
+		<BLUE>167</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>390</CODE>
+		<NAME>Beige Grey LT</NAME>
+		<RED>219</RED>
+		<GREEN>214</GREEN>
+		<BLUE>201</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>391</CODE>
+		<NAME>Beige Grey Med</NAME>
+		<RED>170</RED>
+		<GREEN>158</GREEN>
+		<BLUE>146</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>392</CODE>
+		<NAME>Beige Grey DK</NAME>
+		<RED>128</RED>
+		<GREEN>110</GREEN>
+		<BLUE>93</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>393</CODE>
+		<NAME>Beige Grey Ultra VY</NAME>
+		<RED>85</RED>
+		<GREEN>73</GREEN>
+		<BLUE>61</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>397</CODE>
+		<NAME>Pearl Grey Ultra VY</NAME>
+		<RED>213</RED>
+		<GREEN>212</GREEN>
+		<BLUE>201</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>398</CODE>
+		<NAME>Pearl Grey</NAME>
+		<RED>137</RED>
+		<GREEN>136</GREEN>
+		<BLUE>138</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>399</CODE>
+		<NAME>Steel Grey LT</NAME>
+		<RED>100</RED>
+		<GREEN>98</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>400</CODE>
+		<NAME>Pewter Grey DK</NAME>
+		<RED>58</RED>
+		<GREEN>58</GREEN>
+		<BLUE>58</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>401</CODE>
+		<NAME>Shell Grey VY DK</NAME>
+		<RED>53</RED>
+		<GREEN>44</GREEN>
+		<BLUE>42</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>403</CODE>
+		<NAME>Black</NAME>
+		<RED>0</RED>
+		<GREEN>0</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>406</CODE>
+		<NAME>Black</NAME>
+		<RED>0</RED>
+		<GREEN>0</GREEN>
+		<BLUE>2</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>410</CODE>
+		<NAME>Electric Blue DK</NAME>
+		<RED>29</RED>
+		<GREEN>88</GREEN>
+		<BLUE>160</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>433</CODE>
+		<NAME>Electric Blue Med</NAME>
+		<RED>107</RED>
+		<GREEN>173</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>681</CODE>
+		<NAME>Green Grey</NAME>
+		<RED>55</RED>
+		<GREEN>54</GREEN>
+		<BLUE>31</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>683</CODE>
+		<NAME>Misty Green Ultra VY</NAME>
+		<RED>31</RED>
+		<GREEN>47</GREEN>
+		<BLUE>39</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>778</CODE>
+		<NAME>Flesh VY LT</NAME>
+		<RED>224</RED>
+		<GREEN>180</GREEN>
+		<BLUE>157</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>779</CODE>
+		<NAME>Grey Blue VY DK</NAME>
+		<RED>65</RED>
+		<GREEN>82</GREEN>
+		<BLUE>104</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>830</CODE>
+		<NAME>Drab Brown VY LT</NAME>
+		<RED>204</RED>
+		<GREEN>195</GREEN>
+		<BLUE>188</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>831</CODE>
+		<NAME>Drab Brown LT</NAME>
+		<RED>166</RED>
+		<GREEN>147</GREEN>
+		<BLUE>128</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>832</CODE>
+		<NAME>Drab Brown Med</NAME>
+		<RED>112</RED>
+		<GREEN>87</GREEN>
+		<BLUE>65</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>842</CODE>
+		<NAME>Khaki Green LT</NAME>
+		<RED>196</RED>
+		<GREEN>190</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>843</CODE>
+		<NAME>Khaki Green Med LT</NAME>
+		<RED>125</RED>
+		<GREEN>117</GREEN>
+		<BLUE>76</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>844</CODE>
+		<NAME>Khaki Green Med</NAME>
+		<RED>94</RED>
+		<GREEN>88</GREEN>
+		<BLUE>55</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>845</CODE>
+		<NAME>Khaki Green Med DK</NAME>
+		<RED>68</RED>
+		<GREEN>62</GREEN>
+		<BLUE>36</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>846</CODE>
+		<NAME>Khaki Green DK</NAME>
+		<RED>46</RED>
+		<GREEN>43</GREEN>
+		<BLUE>26</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>847</CODE>
+		<NAME>Grey Blue Ultra VY L</NAME>
+		<RED>184</RED>
+		<GREEN>195</GREEN>
+		<BLUE>198</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>848</CODE>
+		<NAME>Grey Blue LT</NAME>
+		<RED>156</RED>
+		<GREEN>162</GREEN>
+		<BLUE>158</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>849</CODE>
+		<NAME>Grey Blue Med</NAME>
+		<RED>127</RED>
+		<GREEN>131</GREEN>
+		<BLUE>129</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>850</CODE>
+		<NAME>Grey Blue DK</NAME>
+		<RED>96</RED>
+		<GREEN>109</GREEN>
+		<BLUE>116</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>851</CODE>
+		<NAME>Grey Blue Ultra VY D</NAME>
+		<RED>51</RED>
+		<GREEN>64</GREEN>
+		<BLUE>81</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>852</CODE>
+		<NAME>Avocado Ultra VY LT</NAME>
+		<RED>204</RED>
+		<GREEN>194</GREEN>
+		<BLUE>165</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>853</CODE>
+		<NAME>Avocado VY LT</NAME>
+		<RED>145</RED>
+		<GREEN>136</GREEN>
+		<BLUE>107</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>854</CODE>
+		<NAME>Avocado LT</NAME>
+		<RED>123</RED>
+		<GREEN>112</GREEN>
+		<BLUE>82</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>855</CODE>
+		<NAME>Avocado Med</NAME>
+		<RED>112</RED>
+		<GREEN>99</GREEN>
+		<BLUE>62</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>856</CODE>
+		<NAME>Yellow Green Med</NAME>
+		<RED>72</RED>
+		<GREEN>64</GREEN>
+		<BLUE>32</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>858</CODE>
+		<NAME>Fern Green VY LT</NAME>
+		<RED>188</RED>
+		<GREEN>201</GREEN>
+		<BLUE>177</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>859</CODE>
+		<NAME>Fern Green LT</NAME>
+		<RED>111</RED>
+		<GREEN>125</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>860</CODE>
+		<NAME>Fern Green Med</NAME>
+		<RED>80</RED>
+		<GREEN>91</GREEN>
+		<BLUE>71</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>861</CODE>
+		<NAME>Fern Green DK</NAME>
+		<RED>57</RED>
+		<GREEN>65</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>862</CODE>
+		<NAME>Fern Green VY DK</NAME>
+		<RED>0</RED>
+		<GREEN>42</GREEN>
+		<BLUE>27</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>868</CODE>
+		<NAME>Peach Flesh</NAME>
+		<RED>211</RED>
+		<GREEN>134</GREEN>
+		<BLUE>112</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>869</CODE>
+		<NAME>Antique Violet VY LT</NAME>
+		<RED>180</RED>
+		<GREEN>162</GREEN>
+		<BLUE>174</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>870</CODE>
+		<NAME>Antique Violet LT</NAME>
+		<RED>141</RED>
+		<GREEN>110</GREEN>
+		<BLUE>131</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>871</CODE>
+		<NAME>Antique Violet Med</NAME>
+		<RED>93</RED>
+		<GREEN>69</GREEN>
+		<BLUE>86</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>872</CODE>
+		<NAME>Antique Violet Med D</NAME>
+		<RED>78</RED>
+		<GREEN>57</GREEN>
+		<BLUE>72</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>873</CODE>
+		<NAME>Antique Violet DK</NAME>
+		<RED>66</RED>
+		<GREEN>37</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>874</CODE>
+		<NAME>Gold VY LT</NAME>
+		<RED>179</RED>
+		<GREEN>147</GREEN>
+		<BLUE>96</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>875</CODE>
+		<NAME>Sea Foam Green LT</NAME>
+		<RED>148</RED>
+		<GREEN>180</GREEN>
+		<BLUE>166</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>876</CODE>
+		<NAME>Sea Foam Green Med</NAME>
+		<RED>88</RED>
+		<GREEN>113</GREEN>
+		<BLUE>103</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>877</CODE>
+		<NAME>Sea Foam Green DK</NAME>
+		<RED>52</RED>
+		<GREEN>91</GREEN>
+		<BLUE>74</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>878</CODE>
+		<NAME>Sea Foam Green VY DK</NAME>
+		<RED>27</RED>
+		<GREEN>61</GREEN>
+		<BLUE>48</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>879</CODE>
+		<NAME>Sea Foam Green Ultra</NAME>
+		<RED>25</RED>
+		<GREEN>52</GREEN>
+		<BLUE>40</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>880</CODE>
+		<NAME>Cream Med</NAME>
+		<RED>229</RED>
+		<GREEN>192</GREEN>
+		<BLUE>164</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>881</CODE>
+		<NAME>Cream DK</NAME>
+		<RED>227</RED>
+		<GREEN>187</GREEN>
+		<BLUE>146</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>882</CODE>
+		<NAME>Antique Mahogany LT</NAME>
+		<RED>230</RED>
+		<GREEN>158</GREEN>
+		<BLUE>133</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>883</CODE>
+		<NAME>Antique Mahogany</NAME>
+		<RED>200</RED>
+		<GREEN>117</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>884</CODE>
+		<NAME>Antique Mahogany DK</NAME>
+		<RED>141</RED>
+		<GREEN>76</GREEN>
+		<BLUE>55</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>885</CODE>
+		<NAME>Yellow Beige VY LT</NAME>
+		<RED>239</RED>
+		<GREEN>228</GREEN>
+		<BLUE>199</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>886</CODE>
+		<NAME>Yellow Beige LT</NAME>
+		<RED>211</RED>
+		<GREEN>195</GREEN>
+		<BLUE>167</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>887</CODE>
+		<NAME>Yellow Beige Med</NAME>
+		<RED>188</RED>
+		<GREEN>174</GREEN>
+		<BLUE>132</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>888</CODE>
+		<NAME>Hazelnut Brown LT</NAME>
+		<RED>136</RED>
+		<GREEN>105</GREEN>
+		<BLUE>64</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>889</CODE>
+		<NAME>Drab Brown VY DK</NAME>
+		<RED>92</RED>
+		<GREEN>58</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>890</CODE>
+		<NAME>Old Gold Med</NAME>
+		<RED>195</RED>
+		<GREEN>133</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>891</CODE>
+		<NAME>Old Gold LT</NAME>
+		<RED>247</RED>
+		<GREEN>193</GREEN>
+		<BLUE>104</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>892</CODE>
+		<NAME>Shell Pink VY LT</NAME>
+		<RED>244</RED>
+		<GREEN>219</GREEN>
+		<BLUE>207</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>893</CODE>
+		<NAME>Shell Pink LT</NAME>
+		<RED>215</RED>
+		<GREEN>170</GREEN>
+		<BLUE>168</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>894</CODE>
+		<NAME>Shell Pink Med LT</NAME>
+		<RED>209</RED>
+		<GREEN>146</GREEN>
+		<BLUE>145</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>895</CODE>
+		<NAME>Shell Pink Med</NAME>
+		<RED>185</RED>
+		<GREEN>116</GREEN>
+		<BLUE>114</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>896</CODE>
+		<NAME>Shell Pink</NAME>
+		<RED>110</RED>
+		<GREEN>51</GREEN>
+		<BLUE>53</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>897</CODE>
+		<NAME>Shell Pink VY DK</NAME>
+		<RED>90</RED>
+		<GREEN>2</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>898</CODE>
+		<NAME>Drab Brown DK</NAME>
+		<RED>92</RED>
+		<GREEN>71</GREEN>
+		<BLUE>54</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>899</CODE>
+		<NAME>Brown Grey LT</NAME>
+		<RED>147</RED>
+		<GREEN>131</GREEN>
+		<BLUE>117</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>900</CODE>
+		<NAME>Beaver Grey LT</NAME>
+		<RED>128</RED>
+		<GREEN>126</GREEN>
+		<BLUE>121</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>901</CODE>
+		<NAME>Old Gold DK</NAME>
+		<RED>160</RED>
+		<GREEN>95</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>903</CODE>
+		<NAME>Brown Grey Med</NAME>
+		<RED>97</RED>
+		<GREEN>79</GREEN>
+		<BLUE>64</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>905</CODE>
+		<NAME>Brown Grey DK</NAME>
+		<RED>53</RED>
+		<GREEN>39</GREEN>
+		<BLUE>27</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>906</CODE>
+		<NAME>Hazelnut Brown DK</NAME>
+		<RED>66</RED>
+		<GREEN>44</GREEN>
+		<BLUE>20</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>907</CODE>
+		<NAME>Gold Med</NAME>
+		<RED>126</RED>
+		<GREEN>91</GREEN>
+		<BLUE>39</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>914</CODE>
+		<NAME>Flesh DK</NAME>
+		<RED>163</RED>
+		<GREEN>107</GREEN>
+		<BLUE>91</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>920</CODE>
+		<NAME>Antique Blue Med LT</NAME>
+		<RED>128</RED>
+		<GREEN>139</GREEN>
+		<BLUE>153</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>921</CODE>
+		<NAME>Antique Blue Med</NAME>
+		<RED>88</RED>
+		<GREEN>97</GREEN>
+		<BLUE>114</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>922</CODE>
+		<NAME>Antique Blue DK</NAME>
+		<RED>45</RED>
+		<GREEN>49</GREEN>
+		<BLUE>59</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>923</CODE>
+		<NAME>Christmas Green VY D</NAME>
+		<RED>10</RED>
+		<GREEN>60</GREEN>
+		<BLUE>1</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>924</CODE>
+		<NAME>Yellow Green VY DK</NAME>
+		<RED>73</RED>
+		<GREEN>63</GREEN>
+		<BLUE>13</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>926</CODE>
+		<NAME>Beige Brown Ultra VY</NAME>
+		<RED>243</RED>
+		<GREEN>236</GREEN>
+		<BLUE>223</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>928</CODE>
+		<NAME>Blue Green VY LT</NAME>
+		<RED>172</RED>
+		<GREEN>218</GREEN>
+		<BLUE>230</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>933</CODE>
+		<NAME>Dusty Flesh VY LT</NAME>
+		<RED>233</RED>
+		<GREEN>214</GREEN>
+		<BLUE>199</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>936</CODE>
+		<NAME>Dusty Flesh VY DK</NAME>
+		<RED>80</RED>
+		<GREEN>51</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>939</CODE>
+		<NAME>Blue Grey</NAME>
+		<RED>102</RED>
+		<GREEN>109</GREEN>
+		<BLUE>123</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>940</CODE>
+		<NAME>Delft DK</NAME>
+		<RED>55</RED>
+		<GREEN>61</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>941</CODE>
+		<NAME>Cornflower Blue Med</NAME>
+		<RED>37</RED>
+		<GREEN>41</GREEN>
+		<BLUE>73</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>942</CODE>
+		<NAME>Tan LT</NAME>
+		<RED>217</RED>
+		<GREEN>171</GREEN>
+		<BLUE>130</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>943</CODE>
+		<NAME>Tan Med</NAME>
+		<RED>165</RED>
+		<GREEN>113</GREEN>
+		<BLUE>72</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>944</CODE>
+		<NAME>Tan VY DK</NAME>
+		<RED>120</RED>
+		<GREEN>58</GREEN>
+		<BLUE>13</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>945</CODE>
+		<NAME>Yellow Green VY LT</NAME>
+		<RED>164</RED>
+		<GREEN>151</GREEN>
+		<BLUE>94</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>956</CODE>
+		<NAME>Yellow Green Ultra V</NAME>
+		<RED>196</RED>
+		<GREEN>188</GREEN>
+		<BLUE>150</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>968</CODE>
+		<NAME>Dusty Violet LT</NAME>
+		<RED>244</RED>
+		<GREEN>192</GREEN>
+		<BLUE>193</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>969</CODE>
+		<NAME>Dusty Violet Med</NAME>
+		<RED>193</RED>
+		<GREEN>140</GREEN>
+		<BLUE>141</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>970</CODE>
+		<NAME>Dusty Violet DK</NAME>
+		<RED>131</RED>
+		<GREEN>78</GREEN>
+		<BLUE>80</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>972</CODE>
+		<NAME>Dusty Violet VY DK</NAME>
+		<RED>104</RED>
+		<GREEN>47</GREEN>
+		<BLUE>53</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>975</CODE>
+		<NAME>Blue VY LT</NAME>
+		<RED>197</RED>
+		<GREEN>205</GREEN>
+		<BLUE>214</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>976</CODE>
+		<NAME>Blue LT</NAME>
+		<RED>136</RED>
+		<GREEN>151</GREEN>
+		<BLUE>171</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>977</CODE>
+		<NAME>Blue Med</NAME>
+		<RED>87</RED>
+		<GREEN>106</GREEN>
+		<BLUE>131</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>978</CODE>
+		<NAME>Blue DK</NAME>
+		<RED>70</RED>
+		<GREEN>87</GREEN>
+		<BLUE>107</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>979</CODE>
+		<NAME>Blue VY DK</NAME>
+		<RED>45</RED>
+		<GREEN>58</GREEN>
+		<BLUE>75</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1001</CODE>
+		<NAME>Golden Brown</NAME>
+		<RED>167</RED>
+		<GREEN>83</GREEN>
+		<BLUE>39</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1002</CODE>
+		<NAME>Golden Brown VY LT</NAME>
+		<RED>221</RED>
+		<GREEN>120</GREEN>
+		<BLUE>65</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1003</CODE>
+		<NAME>Salmon</NAME>
+		<RED>177</RED>
+		<GREEN>88</GREEN>
+		<BLUE>36</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1004</CODE>
+		<NAME>Orange Spice VY DK</NAME>
+		<RED>134</RED>
+		<GREEN>58</GREEN>
+		<BLUE>26</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1005</CODE>
+		<NAME>Christmas Red Ultra</NAME>
+		<RED>123</RED>
+		<GREEN>2</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1006</CODE>
+		<NAME>Dusty Rose VY DK</NAME>
+		<RED>143</RED>
+		<GREEN>24</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1007</CODE>
+		<NAME>Flesh VY DK</NAME>
+		<RED>120</RED>
+		<GREEN>79</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1008</CODE>
+		<NAME>Flesh Med</NAME>
+		<RED>182</RED>
+		<GREEN>133</GREEN>
+		<BLUE>113</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1009</CODE>
+		<NAME>Cream</NAME>
+		<RED>255</RED>
+		<GREEN>227</GREEN>
+		<BLUE>199</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1010</CODE>
+		<NAME>Copper VY LT</NAME>
+		<RED>255</RED>
+		<GREEN>218</GREEN>
+		<BLUE>187</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1011</CODE>
+		<NAME>Peach Flesh VY LT</NAME>
+		<RED>240</RED>
+		<GREEN>218</GREEN>
+		<BLUE>196</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1012</CODE>
+		<NAME>Flesh</NAME>
+		<RED>241</RED>
+		<GREEN>187</GREEN>
+		<BLUE>164</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1013</CODE>
+		<NAME>Terracotta</NAME>
+		<RED>184</RED>
+		<GREEN>103</GREEN>
+		<BLUE>76</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1014</CODE>
+		<NAME>Mahogany VY DK</NAME>
+		<RED>146</RED>
+		<GREEN>39</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1015</CODE>
+		<NAME>Mahogany Ultra VY DK</NAME>
+		<RED>150</RED>
+		<GREEN>24</GREEN>
+		<BLUE>21</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1016</CODE>
+		<NAME>Antique Mauve VY LT</NAME>
+		<RED>202</RED>
+		<GREEN>151</GREEN>
+		<BLUE>161</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1017</CODE>
+		<NAME>Antique Mauve Med</NAME>
+		<RED>164</RED>
+		<GREEN>110</GREEN>
+		<BLUE>121</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1018</CODE>
+		<NAME>Antique Mauve LT</NAME>
+		<RED>121</RED>
+		<GREEN>69</GREEN>
+		<BLUE>79</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1019</CODE>
+		<NAME>Antique Mauve DK</NAME>
+		<RED>104</RED>
+		<GREEN>39</GREEN>
+		<BLUE>52</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1020</CODE>
+		<NAME>Dusty Rose Ultra VY</NAME>
+		<RED>242</RED>
+		<GREEN>183</GREEN>
+		<BLUE>188</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1021</CODE>
+		<NAME>Dusty Rose VY LT</NAME>
+		<RED>227</RED>
+		<GREEN>147</GREEN>
+		<BLUE>155</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1022</CODE>
+		<NAME>Dusty Rose LT</NAME>
+		<RED>227</RED>
+		<GREEN>129</GREEN>
+		<BLUE>139</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1023</CODE>
+		<NAME>Dusty Rose</NAME>
+		<RED>193</RED>
+		<GREEN>96</GREEN>
+		<BLUE>106</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1024</CODE>
+		<NAME>Dusty Rose Med</NAME>
+		<RED>172</RED>
+		<GREEN>68</GREEN>
+		<BLUE>77</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1025</CODE>
+		<NAME>Dusty Rose DK</NAME>
+		<RED>142</RED>
+		<GREEN>39</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1026</CODE>
+		<NAME>Dusty Violet VY LT</NAME>
+		<RED>242</RED>
+		<GREEN>210</GREEN>
+		<BLUE>211</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1027</CODE>
+		<NAME>Shell Pink Med DK</NAME>
+		<RED>145</RED>
+		<GREEN>78</GREEN>
+		<BLUE>76</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1028</CODE>
+		<NAME>Dusty Plum DK</NAME>
+		<RED>95</RED>
+		<GREEN>1</GREEN>
+		<BLUE>55</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1029</CODE>
+		<NAME>Plum DK</NAME>
+		<RED>97</RED>
+		<GREEN>20</GREEN>
+		<BLUE>64</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1030</CODE>
+		<NAME>Blue Violet Med</NAME>
+		<RED>117</RED>
+		<GREEN>103</GREEN>
+		<BLUE>163</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1031</CODE>
+		<NAME>Antique Blue Ultra V</NAME>
+		<RED>210</RED>
+		<GREEN>224</GREEN>
+		<BLUE>240</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1032</CODE>
+		<NAME>Antique Blue VY LT</NAME>
+		<RED>182</RED>
+		<GREEN>199</GREEN>
+		<BLUE>213</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1033</CODE>
+		<NAME>Antique Blue</NAME>
+		<RED>144</RED>
+		<GREEN>154</GREEN>
+		<BLUE>174</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1034</CODE>
+		<NAME>Antique Blue Med DK</NAME>
+		<RED>83</RED>
+		<GREEN>94</GREEN>
+		<BLUE>115</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1035</CODE>
+		<NAME>Antique Blue VY DK</NAME>
+		<RED>48</RED>
+		<GREEN>53</GREEN>
+		<BLUE>70</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1036</CODE>
+		<NAME>Antique Blue Ultra V</NAME>
+		<RED>29</RED>
+		<GREEN>37</GREEN>
+		<BLUE>76</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1037</CODE>
+		<NAME>Blue Ultra VY LT</NAME>
+		<RED>215</RED>
+		<GREEN>229</GREEN>
+		<BLUE>234</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1038</CODE>
+		<NAME>Baby Blue Med</NAME>
+		<RED>137</RED>
+		<GREEN>176</GREEN>
+		<BLUE>200</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1039</CODE>
+		<NAME>Baby Blue Med DK</NAME>
+		<RED>100</RED>
+		<GREEN>147</GREEN>
+		<BLUE>176</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1040</CODE>
+		<NAME>Beaver Grey DK</NAME>
+		<RED>69</RED>
+		<GREEN>66</GREEN>
+		<BLUE>63</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1041</CODE>
+		<NAME>Beaver Grey Ultra DK</NAME>
+		<RED>42</RED>
+		<GREEN>40</GREEN>
+		<BLUE>36</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1042</CODE>
+		<NAME>Sea Foam Green VY LT</NAME>
+		<RED>215</RED>
+		<GREEN>240</GREEN>
+		<BLUE>214</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1043</CODE>
+		<NAME>Pistachio Green VY L</NAME>
+		<RED>218</RED>
+		<GREEN>246</GREEN>
+		<BLUE>202</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1044</CODE>
+		<NAME>Pistachio Green Ultr</NAME>
+		<RED>17</RED>
+		<GREEN>46</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1045</CODE>
+		<NAME>Golden Brown Med LT</NAME>
+		<RED>165</RED>
+		<GREEN>117</GREEN>
+		<BLUE>60</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1046</CODE>
+		<NAME>Golden Brown Med DK</NAME>
+		<RED>119</RED>
+		<GREEN>74</GREEN>
+		<BLUE>26</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1047</CODE>
+		<NAME>Copper LT</NAME>
+		<RED>221</RED>
+		<GREEN>154</GREEN>
+		<BLUE>110</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1048</CODE>
+		<NAME>Copper Med</NAME>
+		<RED>172</RED>
+		<GREEN>103</GREEN>
+		<BLUE>53</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1049</CODE>
+		<NAME>Copper Med DK</NAME>
+		<RED>137</RED>
+		<GREEN>74</GREEN>
+		<BLUE>28</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1050</CODE>
+		<NAME>Mocha Brown DK</NAME>
+		<RED>54</RED>
+		<GREEN>31</GREEN>
+		<BLUE>12</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1060</CODE>
+		<NAME>Aqua VY LT</NAME>
+		<RED>177</RED>
+		<GREEN>199</GREEN>
+		<BLUE>208</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1062</CODE>
+		<NAME>Aqua LT</NAME>
+		<RED>127</RED>
+		<GREEN>151</GREEN>
+		<BLUE>166</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1064</CODE>
+		<NAME>Aqua Med</NAME>
+		<RED>97</RED>
+		<GREEN>126</GREEN>
+		<BLUE>144</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1066</CODE>
+		<NAME>Aqua DK</NAME>
+		<RED>65</RED>
+		<GREEN>95</GREEN>
+		<BLUE>112</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1068</CODE>
+		<NAME>Aqua VY DK</NAME>
+		<RED>51</RED>
+		<GREEN>75</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1070</CODE>
+		<NAME>Turquoise-Blue LT</NAME>
+		<RED>105</RED>
+		<GREEN>211</GREEN>
+		<BLUE>200</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1072</CODE>
+		<NAME>Turquoise-Blue Med</NAME>
+		<RED>54</RED>
+		<GREEN>169</GREEN>
+		<BLUE>158</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1074</CODE>
+		<NAME>Turquoise-Blue</NAME>
+		<RED>36</RED>
+		<GREEN>128</GREEN>
+		<BLUE>113</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1076</CODE>
+		<NAME>Turquoise-Blue DK</NAME>
+		<RED>42</RED>
+		<GREEN>93</GREEN>
+		<BLUE>87</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1080</CODE>
+		<NAME>Cafe au Lait</NAME>
+		<RED>157</RED>
+		<GREEN>126</GREEN>
+		<BLUE>116</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1082</CODE>
+		<NAME>Fudge</NAME>
+		<RED>135</RED>
+		<GREEN>103</GREEN>
+		<BLUE>80</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1084</CODE>
+		<NAME>Toffee</NAME>
+		<RED>109</RED>
+		<GREEN>75</GREEN>
+		<BLUE>54</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1086</CODE>
+		<NAME>Milk Chocolate</NAME>
+		<RED>83</RED>
+		<GREEN>50</GREEN>
+		<BLUE>30</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1088</CODE>
+		<NAME>Chocolate</NAME>
+		<RED>69</RED>
+		<GREEN>37</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1090</CODE>
+		<NAME>Sky</NAME>
+		<RED>108</RED>
+		<GREEN>189</GREEN>
+		<BLUE>251</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1092</CODE>
+		<NAME>Turquoise ULT LT</NAME>
+		<RED>175</RED>
+		<GREEN>239</GREEN>
+		<BLUE>228</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1096</CODE>
+		<NAME>Antique Blue-Grey</NAME>
+		<RED>185</RED>
+		<GREEN>197</GREEN>
+		<BLUE>211</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>1098</CODE>
+		<NAME>Red</NAME>
+		<RED>207</RED>
+		<GREEN>52</GREEN>
+		<BLUE>48</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>4146</CODE>
+		<NAME>Flesh LT</NAME>
+		<RED>216</RED>
+		<GREEN>157</GREEN>
+		<BLUE>140</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>5975</CODE>
+		<NAME>Terracotta DK</NAME>
+		<RED>143</RED>
+		<GREEN>56</GREEN>
+		<BLUE>26</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>8581</CODE>
+		<NAME>Beaver Grey Med</NAME>
+		<RED>64</RED>
+		<GREEN>62</GREEN>
+		<BLUE>58</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>9046</CODE>
+		<NAME>Christmas Red Bright</NAME>
+		<RED>200</RED>
+		<GREEN>35</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>9159</CODE>
+		<NAME>Baby Blue VY LT</NAME>
+		<RED>200</RED>
+		<GREEN>241</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>9575</CODE>
+		<NAME>Terracotta LT</NAME>
+		<RED>230</RED>
+		<GREEN>142</GREEN>
+		<BLUE>113</BLUE>
+	</COLOR>
+</PALETTE>

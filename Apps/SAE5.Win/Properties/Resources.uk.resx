@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorCannotOpenFile" xml:space="preserve">
+    <value>Не можу відкрити обраний файл.</value>
+  </data>
+  <data name="ErrorSaveSchema" xml:space="preserve">
+    <value>Помилка під час збереження схеми вишивання у файл.</value>
+  </data>
+  <data name="FileFilterImages" xml:space="preserve">
+    <value>Усі зображення|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff;*.sa4</value>
+  </data>
+  <data name="FileFilterSAE" xml:space="preserve">
+    <value>Схема Stitch Art Easy! (*.sa4)|*.sa4</value>
+  </data>
+  <data name="HintHomeButtonFacebook" xml:space="preserve">
+    <value>Відкрити сторінку продукту у Facebook</value>
+  </data>
+  <data name="HintHomeButtonFeedback" xml:space="preserve">
+    <value>Відправити електронного листа з відгуком до служби підтримки</value>
+  </data>
+  <data name="HintHomeButtonLinkedIn" xml:space="preserve">
+    <value>Профіль автора у мережі LinkedIn</value>
+  </data>
+  <data name="HintHomeButtonRegister" xml:space="preserve">
+    <value>Відкрити форму для введення реєстраційного ключа, та інформації як купити продукт</value>
+  </data>
+  <data name="HintHomeButtonTwitter" xml:space="preserve">
+    <value>Відкрити сторінку продукту у Twitter</value>
+  </data>
+  <data name="HintHomeButtonWeb" xml:space="preserve">
+    <value>Відкрити домашню сторінку продукту в Інтернет</value>
+  </data>
+  <data name="ImageInfoLabel" xml:space="preserve">
+    <value>Файл: {0}
+Розмір: {1}x{2} хрестиків
+Нитки: {3}
+Кольорів: {4}</value>
+  </data>
+  <data name="ImageInfoTooltip" xml:space="preserve">
+    <value>{0}x{1} хрестиків, {2} кольорів</value>
+  </data>
+  <data name="InfoRestartToChangeLanguage" xml:space="preserve">
+    <value>Вам необхідно перевідкрити цей екран або перезапустить програму щоб обновити надписи на обраній мові.</value>
+  </data>
+  <data name="LabelsSelectedSymbolsCount" xml:space="preserve">
+    <value>Обрано {0} з {1}</value>
+  </data>
+  <data name="LabelVersion" xml:space="preserve">
+    <value>Версія: {0}</value>
+  </data>
+  <data name="LinkLabelNewVersionAvailable" xml:space="preserve">
+    <value>Доступна нова версія...</value>
+  </data>
+  <data name="PrintPreviewZoomAuto" xml:space="preserve">
+    <value>Авто</value>
+    <comment>Auto zoom to fit page</comment>
+  </data>
+  <data name="QuestionSaveBeforeClosing" xml:space="preserve">
+    <value>Схема вышивання має зміни. Ви хочете зберегти їх перед виходом з програми?</value>
+  </data>
+  <data name="QuestionSaveBeforeReturning" xml:space="preserve">
+    <value>Схема вышивання має зміни. Ви хочете зберегти їх перед поверненням до стартового екрану?</value>
+  </data>
+  <data name="UnsavedImageDescription" xml:space="preserve">
+    <value>(без назви)</value>
+  </data>
+  <data name="FileMenuName" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="ImageInfoCaption" xml:space="preserve">
+    <value>Параметри схеми</value>
+  </data>
+  <data name="FileFilterPDF" xml:space="preserve">
+    <value>PDF документ (*.pdf)|*.pdf</value>
+  </data>
+  <data name="SaeFileDescription" xml:space="preserve">
+    <value>Файл схеми вишивання Stitch Art Easy!</value>
+  </data>
+  <data name="ErrorSavePdf" xml:space="preserve">
+    <value>Помилка під час експорту схеми вишивання у PDF документ.</value>
+  </data>
+  <data name="PrintPageNo" xml:space="preserve">
+    <value>Сторінка {0} з {1}</value>
+    <comment>Сторінка 1 з Документ1</comment>
+  </data>
+  <data name="PrintSavingToPdf" xml:space="preserve">
+    <value>Збереження у PDF</value>
+  </data>
+  <data name="WizardLoadImage" xml:space="preserve">
+    <value>Завантаження зображення</value>
+  </data>
+  <data name="WizardLoadSourceImageInsteadOfScheme" xml:space="preserve">
+    <value>Схема {0} була згенерована з зображення {1}, ви хочете завантажити початкове зображення замість обраної схеми?</value>
+    <comment>{0} - selected scheme file name, {1} - file name of original image.</comment>
+  </data>
+  <data name="RegoThankyou" xml:space="preserve">
+    <value>Дякую за реєстрацію програми Stitch Art Easy!</value>
+  </data>
+  <data name="RegoTrialDaysLeft" xml:space="preserve">
+    <value>У вас залишилось {0} днів до кінця тестового періоду</value>
+  </data>
+  <data name="RegoWrongInfo" xml:space="preserve">
+    <value>Введений реєстраційний ключ не відповідає імені користувача. Будь ласка перевірте що обидва значення введені без помилок та спробуйте ще раз.</value>
+  </data>
+  <data name="RegoRegisteredTo" xml:space="preserve">
+    <value>Зареєстровано для {0}</value>
+  </data>
+  <data name="RegoTrialVersion" xml:space="preserve">
+    <value>Тестовий період</value>
+  </data>
+  <data name="MessageNoUpdatesAvailable" xml:space="preserve">
+    <value>Ви вже маєте поточну версію програми.</value>
+  </data>
+  <data name="ErrorCheckForUpdates" xml:space="preserve">
+    <value>Не може перевірити оновлення через помилку: {0}</value>
+  </data>
+  <data name="HintOptionsReset" xml:space="preserve">
+    <value>Відновити початкові значення в усіх параметрах</value>
+  </data>
+  <data name="ErrorWrongFileFormat" xml:space="preserve">
+    <value>Обраний формат файлів не підтримується.</value>
+  </data>
+  <data name="FileFilterImage" xml:space="preserve">
+    <value>{0} зображення схеми (*.{1})|*.{1}</value>
+  </data>
+  <data name="FileFilterThumbnail" xml:space="preserve">
+    <value>{0} зображення мініатюри (*.{1})|*.{1}</value>
+  </data>
+  <data name="QuestionSaveBeforeBackToWizard" xml:space="preserve">
+    <value>Схема вышивання має зміни. Зміни зроблені в Майстрі не можуть бути відмінені командою Відмінити. Ви хочете зберегти схему перед поверненням до Майстра створення схем?</value>
+  </data>
+  <data name="DialogHintAddNewThread" xml:space="preserve">
+    <value>Оберіть нову нитку щоб додати до робочого набору ниток</value>
+  </data>
+  <data name="QueryEnterNewPaletteName" xml:space="preserve">
+    <value>Введіть назву для нового набору ниток:</value>
+  </data>
+  <data name="ErrorSelectedPaletteNameAlreadyUsed" xml:space="preserve">
+    <value>Обрана назва вже використовується у іншому наборі ниток.</value>
+  </data>
+  <data name="CaptionDeletePalette" xml:space="preserve">
+    <value>Видалення набору ниток</value>
+  </data>
+  <data name="QuestionDeletePalette" xml:space="preserve">
+    <value>Ви дійсно хочете видалити обрану палітру ниток?</value>
+  </data>
+  <data name="ErrorCannotDeletePaletteFile" xml:space="preserve">
+    <value>Не можу видалити файл обраної палітри ниток.</value>
+  </data>
+  <data name="FileFilterPalette" xml:space="preserve">
+    <value>Палітра ниток (*.thread)|*.thread|Файл даних CSV (*.csv)|*.csv</value>
+  </data>
+  <data name="ErrorCannotSaveFile" xml:space="preserve">
+    <value>Не можу зберегти у обраний файл.</value>
+  </data>
+  <data name="MessagePaletteSavedTo" xml:space="preserve">
+    <value>Палітра ниток збережена у файл {0}</value>
+  </data>
+  <data name="QuestionSavePalettesBeforeClosing" xml:space="preserve">
+    <value>Палітри ниток мають незбережені зміни. Ви хочете зберегти їх перед закриттям цього вікна?</value>
+  </data>
+  <data name="FileFilterAllPalettes" xml:space="preserve">
+    <value>Усі файли палітр ниток (*.thread, *.csv)|*.thread;*.csv</value>
+  </data>
+  <data name="ManagePalettes" xml:space="preserve">
+    <value>Набори ниток...</value>
+  </data>
+  <data name="RegoCancelledRefundedInfo" xml:space="preserve">
+    <value>Введені реєстраційні дані занесені до спуску відмінених ключів: користувач попросив відмінити покупку. Будь ласка введіть інші реєстраційні дані. Якщо ви впевнені що це помилка - будь ласна напишіть листа у службу підтримки програми.</value>
+  </data>
+  <data name="DialogHintSelectBackgroundThread" xml:space="preserve">
+    <value>Оберіть нитку для запвнення вирізаної частини схеми</value>
+  </data>
+  <data name="FileFilterExcel" xml:space="preserve">
+    <value>Excel 2007 документ (*.xlsx)|*.xlsx</value>
+  </data>
+  <data name="FileSavingToExcel" xml:space="preserve">
+    <value>Експорт у Excel</value>
+  </data>
+  <data name="FileSavingToExcelLabel" xml:space="preserve">
+    <value>Експорт схеми у Excel...</value>
+  </data>
+</root>

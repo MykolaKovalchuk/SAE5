@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ribbonTabSourceImage.Text" xml:space="preserve">
+    <value>Исходное изображение</value>
+  </data>
+  <data name="ribbonTabResultImage.Text" xml:space="preserve">
+    <value>Готовое изображение</value>
+  </data>
+  <data name="ribbonTabAdvanced.Text" xml:space="preserve">
+    <value>Экстра опции</value>
+  </data>
+  <data name="ribbonTabSymbols.Text" xml:space="preserve">
+    <value>Символы</value>
+  </data>
+  <data name="ribbonTabPreview.Text" xml:space="preserve">
+    <value>Пред-просмотр</value>
+  </data>
+  <data name="tabPageSourceImage.Text" xml:space="preserve">
+    <value>Исходное изображение</value>
+  </data>
+  <data name="ribbonPanelImage.Text" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonLoad.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonLoad.Text" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="buttonLoad.ToolTip" xml:space="preserve">
+    <value>Открыть диалог для выбора исходного изображения для преобразования в схему вышивки</value>
+  </data>
+  <data name="ribbonPanelTransform.Text" xml:space="preserve">
+    <value>Настройка</value>
+  </data>
+  <data name="buttonRotateCCW.Text" xml:space="preserve">
+    <value>Повернуть влево</value>
+  </data>
+  <data name="buttonRotateCCW.ToolTip" xml:space="preserve">
+    <value>Повернуть изображение против часовой стрелки</value>
+  </data>
+  <data name="buttonRotateCW.Text" xml:space="preserve">
+    <value>Повернуть вправо</value>
+  </data>
+  <data name="buttonRotateCW.ToolTip" xml:space="preserve">
+    <value>Повернуть изображение по часовой стрелке</value>
+  </data>
+  <data name="buttonFlipH.Text" xml:space="preserve">
+    <value>Перевернуть горизонтально</value>
+  </data>
+  <data name="buttonFlipH.ToolTip" xml:space="preserve">
+    <value>Перевернуть изображение горизонтально (слева направо)</value>
+  </data>
+  <data name="buttonFlipV.Text" xml:space="preserve">
+    <value>Перевернуть вертикально</value>
+  </data>
+  <data name="buttonFlipV.ToolTip" xml:space="preserve">
+    <value>Перевернуть изображение вертикально (сверху вниз)</value>
+  </data>
+  <data name="ribbonPanelCrop.Text" xml:space="preserve">
+    <value>Обрезка</value>
+  </data>
+  <data name="buttonRect.Text" xml:space="preserve">
+    <value>Прямоугольник</value>
+  </data>
+  <data name="buttonRect.ToolTip" xml:space="preserve">
+    <value>Обрезать изображение по прямоугольной области</value>
+  </data>
+  <data name="buttonArc.Text" xml:space="preserve">
+    <value>Окружность</value>
+  </data>
+  <data name="buttonArc.ToolTip" xml:space="preserve">
+    <value>Обрезать изображение по эллиптичекой области</value>
+  </data>
+  <data name="tabPageResultImage.Text" xml:space="preserve">
+    <value>Готовое изображение</value>
+  </data>
+  <data name="tabPageSymbols.Text" xml:space="preserve">
+    <value>Символы</value>
+  </data>
+  <data name="tabPagePreview.Text" xml:space="preserve">
+    <value>Предпросмотр схемы</value>
+  </data>
+  <data name="ribbonPanelSize.Text" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="upDownWidth.Text" xml:space="preserve">
+    <value>Ширина</value>
+  </data>
+  <data name="upDownWidth.ToolTip" xml:space="preserve">
+    <value>Ширина схемы</value>
+  </data>
+  <data name="upDownHeight.Text" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="upDownHeight.ToolTip" xml:space="preserve">
+    <value>Высота схемы</value>
+  </data>
+  <data name="checkBoxFixAspect.Text" xml:space="preserve">
+    <value>Пропорции</value>
+  </data>
+  <data name="checkBoxFixAspect.ToolTip" xml:space="preserve">
+    <value>Сохранять исходные пропорции при изменении размеров изображения</value>
+  </data>
+  <data name="comboBoxUnits.Text" xml:space="preserve">
+    <value>Мера</value>
+  </data>
+  <data name="comboBoxUnits.ToolTip" xml:space="preserve">
+    <value>Единица измерения размеров схемы</value>
+  </data>
+  <data name="buttonStitches.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonStitches.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonStitches.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonStitches.ToolTip" xml:space="preserve">
+    <value>Указывает размер схемы в крестиках</value>
+  </data>
+  <data name="buttonCm.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonCm.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonCm.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonCm.ToolTip" xml:space="preserve">
+    <value>Указывает размер схемы в сантиметрах</value>
+  </data>
+  <data name="buttonInches.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonInches.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonInches.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonInches.ToolTip" xml:space="preserve">
+    <value>Указывет размер схемы в дюймах</value>
+  </data>
+  <data name="upDownStitchesPerUnit.Text" xml:space="preserve">
+    <value>Кр-тов</value>
+  </data>
+  <data name="upDownStitchesPerUnit.ToolTip" xml:space="preserve">
+    <value>Количество крестиков на 1 выбраную единицу измерения</value>
+  </data>
+  <data name="ribbonPanelColors.Text" xml:space="preserve">
+    <value>Цвета</value>
+  </data>
+  <data name="comboBoxKit.Text" xml:space="preserve">
+    <value>Набор</value>
+  </data>
+  <data name="comboBoxKit.ToolTip" xml:space="preserve">
+    <value>Набор нитей (палитра цветов) для использования в схеме вышивки</value>
+  </data>
+  <data name="upDownMaxColors.Text" xml:space="preserve">
+    <value>Цветов</value>
+  </data>
+  <data name="upDownMaxColors.ToolTip" xml:space="preserve">
+    <value>Уменьшить количество цветов в изображении до указанного значения. Реальное количество может быть меньше.</value>
+  </data>
+  <data name="ribbonPanelAdvImage.Text" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="comboBoxResizeFilter.Text" xml:space="preserve">
+    <value>Фильтр сглаживания</value>
+  </data>
+  <data name="comboBoxResizeFilter.ToolTip" xml:space="preserve">
+    <value>Фильтр для сглаживания картинки при изменении ее размеров</value>
+  </data>
+  <data name="ribbonPanelAdvColor.Text" xml:space="preserve">
+    <value>Цвета</value>
+  </data>
+  <data name="comboBoxColorsSubstitute.Text" xml:space="preserve">
+    <value>Подбор цветов</value>
+  </data>
+  <data name="comboBoxColorsSubstitute.ToolTip" xml:space="preserve">
+    <value>Режим сравнения и замены цветов</value>
+  </data>
+  <data name="checkBoxEnsureBlackAndWhite.Text" xml:space="preserve">
+    <value>Добавить черный белый цвета</value>
+  </data>
+  <data name="checkBoxEnsureBlackAndWhite.ToolTip" xml:space="preserve">
+    <value>Обязательно включить нити черного и белого цвета в полученый набор цветов схемы вышивки</value>
+  </data>
+  <data name="upDownDither.Text" xml:space="preserve">
+    <value>Смешивание</value>
+  </data>
+  <data name="upDownDither.ToolTip" xml:space="preserve">
+    <value>Уровень смешивания крестиков разных цветов для создания эффекта плавного перехода цветов и общей визуальной похожесть целого изображения. 0-не смешивать, 10-максимальный уровень.</value>
+  </data>
+  <data name="ribbonPanelSymbols.Text" xml:space="preserve">
+    <value>Символы</value>
+  </data>
+  <data name="comboBoxSymbols.Text" xml:space="preserve">
+    <value>Символы</value>
+  </data>
+  <data name="comboBoxSymbols.ToolTip" xml:space="preserve">
+    <value>Символьный шрифт для использования в схеме</value>
+  </data>
+  <data name="checkBoxDigits.Text" xml:space="preserve">
+    <value>Цифры</value>
+  </data>
+  <data name="checkBoxDigits.ToolTip" xml:space="preserve">
+    <value>Включить цифры</value>
+  </data>
+  <data name="checkBoxLetters.Text" xml:space="preserve">
+    <value>Буквы</value>
+  </data>
+  <data name="checkBoxLetters.ToolTip" xml:space="preserve">
+    <value>Включить буквы</value>
+  </data>
+  <data name="checkBoxSymbols.Text" xml:space="preserve">
+    <value>Символы</value>
+  </data>
+  <data name="checkBoxSymbols.ToolTip" xml:space="preserve">
+    <value>Включить символы</value>
+  </data>
+  <data name="ribbonPanelSymbolsSelect.Text" xml:space="preserve">
+    <value>Выбор</value>
+  </data>
+  <data name="buttonRandom.Text" xml:space="preserve">
+    <value>Случайные</value>
+  </data>
+  <data name="buttonRandom.ToolTip" xml:space="preserve">
+    <value>Выбрать случайные символы</value>
+  </data>
+  <data name="buttonClear.Text" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="buttonClear.ToolTip" xml:space="preserve">
+    <value>Очистить выбор</value>
+  </data>
+  <data name="ribbonPanelSheme.Text" xml:space="preserve">
+    <value>Схема</value>
+  </data>
+  <data name="buttonSymbols.Text" xml:space="preserve">
+    <value>Символы</value>
+  </data>
+  <data name="buttonWhiteSymbols.Text" xml:space="preserve">
+    <value>Белые Символы</value>
+  </data>
+  <data name="buttonColorSymbols.Text" xml:space="preserve">
+    <value>Цветные Символы</value>
+  </data>
+  <data name="buttonHalfTone.Text" xml:space="preserve">
+    <value>Полутона</value>
+  </data>
+  <data name="buttonFull.Text" xml:space="preserve">
+    <value>Цвета и Символы</value>
+  </data>
+  <data name="buttonColors.Text" xml:space="preserve">
+    <value>Цвета</value>
+  </data>
+  <data name="buttonCross.Text" xml:space="preserve">
+    <value>Крестики</value>
+  </data>
+  <data name="upDownCellSize.Text" xml:space="preserve">
+    <value>Клетка</value>
+  </data>
+  <data name="upDownCellSize.ToolTip" xml:space="preserve">
+    <value>Размер клетки схемы</value>
+  </data>
+  <data name="checkBoxRulers.Text" xml:space="preserve">
+    <value>Номера</value>
+  </data>
+  <data name="checkBoxRulers.ToolTip" xml:space="preserve">
+    <value>Показывать номера строк и колонок схемы</value>
+  </data>
+  <data name="checkBoxLines.Text" xml:space="preserve">
+    <value>Линии</value>
+  </data>
+  <data name="checkBoxLines.ToolTip" xml:space="preserve">
+    <value>Показывать линии схемы</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="buttonNext.Text" xml:space="preserve">
+    <value>Завершить</value>
+  </data>
+</root>

@@ -1,0 +1,2923 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PALETTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Palette.xsd">
+	<NAME>Paterna Wool</NAME>
+	<COLOR>
+		<CODE>115</CODE>
+		<NAME>Paterna Wool 115</NAME>
+		<RED>74</RED>
+		<GREEN>20</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>117</CODE>
+		<NAME>Paterna Wool 117</NAME>
+		<RED>57</RED>
+		<GREEN>32</GREEN>
+		<BLUE>74</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>123</CODE>
+		<NAME>Paterna Wool 123</NAME>
+		<RED>132</RED>
+		<GREEN>85</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>127</CODE>
+		<NAME>Paterna Wool 127</NAME>
+		<RED>123</RED>
+		<GREEN>77</GREEN>
+		<BLUE>107</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>133</CODE>
+		<NAME>Paterna Wool 133</NAME>
+		<RED>206</RED>
+		<GREEN>154</GREEN>
+		<BLUE>123</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>137</CODE>
+		<NAME>Paterna Wool 137</NAME>
+		<RED>165</RED>
+		<GREEN>121</GREEN>
+		<BLUE>148</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>143</CODE>
+		<NAME>Paterna Wool 143</NAME>
+		<RED>239</RED>
+		<GREEN>190</GREEN>
+		<BLUE>165</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>147</CODE>
+		<NAME>Paterna Wool 147</NAME>
+		<RED>222</RED>
+		<GREEN>182</GREEN>
+		<BLUE>198</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>200</CODE>
+		<NAME>Paterna Wool 200</NAME>
+		<RED>107</RED>
+		<GREEN>73</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>201</CODE>
+		<NAME>Paterna Wool 201</NAME>
+		<RED>107</RED>
+		<GREEN>93</GREEN>
+		<BLUE>82</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>202</CODE>
+		<NAME>Paterna Wool 202</NAME>
+		<RED>140</RED>
+		<GREEN>117</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>203</CODE>
+		<NAME>Paterna Wool 203</NAME>
+		<RED>189</RED>
+		<GREEN>186</GREEN>
+		<BLUE>173</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>204</CODE>
+		<NAME>Paterna Wool 204</NAME>
+		<RED>247</RED>
+		<GREEN>231</GREEN>
+		<BLUE>222</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>210</CODE>
+		<NAME>Paterna Wool 210</NAME>
+		<RED>66</RED>
+		<GREEN>52</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>211</CODE>
+		<NAME>Paterna Wool 211</NAME>
+		<RED>165</RED>
+		<GREEN>0</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>211</CODE>
+		<NAME>Paterna Wool 211</NAME>
+		<RED>115</RED>
+		<GREEN>109</GREEN>
+		<BLUE>140</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>212</CODE>
+		<NAME>Paterna Wool 212</NAME>
+		<RED>164</RED>
+		<GREEN>174</GREEN>
+		<BLUE>181</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>213</CODE>
+		<NAME>Paterna Wool 213</NAME>
+		<RED>222</RED>
+		<GREEN>215</GREEN>
+		<BLUE>231</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>220</CODE>
+		<NAME>Paterna Wool 220</NAME>
+		<RED>0</RED>
+		<GREEN>0</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>221</CODE>
+		<NAME>Paterna Wool 221</NAME>
+		<RED>49</RED>
+		<GREEN>44</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>234</CODE>
+		<NAME>Paterna Wool 234</NAME>
+		<RED>222</RED>
+		<GREEN>52</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>236</CODE>
+		<NAME>Paterna Wool 236</NAME>
+		<RED>231</RED>
+		<GREEN>219</GREEN>
+		<BLUE>222</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>246</CODE>
+		<NAME>Paterna Wool 246</NAME>
+		<RED>239</RED>
+		<GREEN>223</GREEN>
+		<BLUE>198</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>256</CODE>
+		<NAME>Paterna Wool 256</NAME>
+		<RED>239</RED>
+		<GREEN>207</GREEN>
+		<BLUE>198</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>260</CODE>
+		<NAME>Paterna Wool 260</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>261</CODE>
+		<NAME>Paterna Wool 261</NAME>
+		<RED>239</RED>
+		<GREEN>227</GREEN>
+		<BLUE>206</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>262</CODE>
+		<NAME>Paterna Wool 262</NAME>
+		<RED>255</RED>
+		<GREEN>239</GREEN>
+		<BLUE>214</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>263</CODE>
+		<NAME>Paterna Wool 263</NAME>
+		<RED>247</RED>
+		<GREEN>227</GREEN>
+		<BLUE>198</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>275</CODE>
+		<NAME>Paterna Wool 275</NAME>
+		<RED>247</RED>
+		<GREEN>73</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>281</CODE>
+		<NAME>Paterna Wool 281</NAME>
+		<RED>255</RED>
+		<GREEN>113</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>300</CODE>
+		<NAME>Paterna Wool 300</NAME>
+		<RED>90</RED>
+		<GREEN>16</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>301</CODE>
+		<NAME>Paterna Wool 301</NAME>
+		<RED>181</RED>
+		<GREEN>48</GREEN>
+		<BLUE>132</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>302</CODE>
+		<NAME>Paterna Wool 302</NAME>
+		<RED>214</RED>
+		<GREEN>81</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>303</CODE>
+		<NAME>Paterna Wool 303</NAME>
+		<RED>255</RED>
+		<GREEN>134</GREEN>
+		<BLUE>214</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>304</CODE>
+		<NAME>Paterna Wool 304</NAME>
+		<RED>255</RED>
+		<GREEN>154</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>310</CODE>
+		<NAME>Paterna Wool 310</NAME>
+		<RED>82</RED>
+		<GREEN>8</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>311</CODE>
+		<NAME>Paterna Wool 311</NAME>
+		<RED>99</RED>
+		<GREEN>0</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>312</CODE>
+		<NAME>Paterna Wool 312</NAME>
+		<RED>156</RED>
+		<GREEN>89</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>313</CODE>
+		<NAME>Paterna Wool 313</NAME>
+		<RED>198</RED>
+		<GREEN>113</GREEN>
+		<BLUE>165</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>314</CODE>
+		<NAME>Paterna Wool 314</NAME>
+		<RED>231</RED>
+		<GREEN>166</GREEN>
+		<BLUE>206</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>320</CODE>
+		<NAME>Paterna Wool 320</NAME>
+		<RED>74</RED>
+		<GREEN>0</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>321</CODE>
+		<NAME>Paterna Wool 321</NAME>
+		<RED>181</RED>
+		<GREEN>40</GREEN>
+		<BLUE>82</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>322</CODE>
+		<NAME>Paterna Wool 322</NAME>
+		<RED>214</RED>
+		<GREEN>77</GREEN>
+		<BLUE>115</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>323</CODE>
+		<NAME>Paterna Wool 323</NAME>
+		<RED>247</RED>
+		<GREEN>125</GREEN>
+		<BLUE>140</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>324</CODE>
+		<NAME>Paterna Wool 324</NAME>
+		<RED>239</RED>
+		<GREEN>154</GREEN>
+		<BLUE>148</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>325</CODE>
+		<NAME>Paterna Wool 325</NAME>
+		<RED>255</RED>
+		<GREEN>195</GREEN>
+		<BLUE>189</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>326</CODE>
+		<NAME>Paterna Wool 326</NAME>
+		<RED>255</RED>
+		<GREEN>190</GREEN>
+		<BLUE>189</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>327</CODE>
+		<NAME>Paterna Wool 327</NAME>
+		<RED>255</RED>
+		<GREEN>247</GREEN>
+		<BLUE>239</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>330</CODE>
+		<NAME>Paterna Wool 330</NAME>
+		<RED>80</RED>
+		<GREEN>0</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>331</CODE>
+		<NAME>Paterna Wool 331</NAME>
+		<RED>115</RED>
+		<GREEN>36</GREEN>
+		<BLUE>115</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>332</CODE>
+		<NAME>Paterna Wool 332</NAME>
+		<RED>181</RED>
+		<GREEN>93</GREEN>
+		<BLUE>165</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>333</CODE>
+		<NAME>Paterna Wool 333</NAME>
+		<RED>214</RED>
+		<GREEN>130</GREEN>
+		<BLUE>214</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>334</CODE>
+		<NAME>Paterna Wool 334</NAME>
+		<RED>239</RED>
+		<GREEN>182</GREEN>
+		<BLUE>239</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>340</CODE>
+		<NAME>Paterna Wool 340</NAME>
+		<RED>66</RED>
+		<GREEN>8</GREEN>
+		<BLUE>82</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>341</CODE>
+		<NAME>Paterna Wool 341</NAME>
+		<RED>82</RED>
+		<GREEN>24</GREEN>
+		<BLUE>148</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>342</CODE>
+		<NAME>Paterna Wool 342</NAME>
+		<RED>132</RED>
+		<GREEN>73</GREEN>
+		<BLUE>198</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>343</CODE>
+		<NAME>Paterna Wool 343</NAME>
+		<RED>181</RED>
+		<GREEN>121</GREEN>
+		<BLUE>247</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>344</CODE>
+		<NAME>Paterna Wool 344</NAME>
+		<RED>255</RED>
+		<GREEN>199</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>346</CODE>
+		<NAME>Paterna Wool 346</NAME>
+		<RED>107</RED>
+		<GREEN>85</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>350</CODE>
+		<NAME>Paterna Wool 350</NAME>
+		<RED>156</RED>
+		<GREEN>0</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>351</CODE>
+		<NAME>Paterna Wool 351</NAME>
+		<RED>173</RED>
+		<GREEN>0</GREEN>
+		<BLUE>82</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>352</CODE>
+		<NAME>Paterna Wool 352</NAME>
+		<RED>198</RED>
+		<GREEN>16</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>353</CODE>
+		<NAME>Paterna Wool 353</NAME>
+		<RED>255</RED>
+		<GREEN>65</GREEN>
+		<BLUE>148</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>354</CODE>
+		<NAME>Paterna Wool 354</NAME>
+		<RED>255</RED>
+		<GREEN>105</GREEN>
+		<BLUE>140</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>389</CODE>
+		<NAME>Paterna Wool 389</NAME>
+		<RED>139</RED>
+		<GREEN>117</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>391</CODE>
+		<NAME>Paterna Wool 391</NAME>
+		<RED>148</RED>
+		<GREEN>130</GREEN>
+		<BLUE>107</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>392</CODE>
+		<NAME>Paterna Wool 392</NAME>
+		<RED>173</RED>
+		<GREEN>166</GREEN>
+		<BLUE>170</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>400</CODE>
+		<NAME>Paterna Wool 400</NAME>
+		<RED>80</RED>
+		<GREEN>16</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>401</CODE>
+		<NAME>Paterna Wool 401</NAME>
+		<RED>140</RED>
+		<GREEN>28</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>402</CODE>
+		<NAME>Paterna Wool 402</NAME>
+		<RED>165</RED>
+		<GREEN>65</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>403</CODE>
+		<NAME>Paterna Wool 403</NAME>
+		<RED>206</RED>
+		<GREEN>105</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>404</CODE>
+		<NAME>Paterna Wool 404</NAME>
+		<RED>231</RED>
+		<GREEN>130</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>405</CODE>
+		<NAME>Paterna Wool 405</NAME>
+		<RED>255</RED>
+		<GREEN>186</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>406</CODE>
+		<NAME>Paterna Wool 406</NAME>
+		<RED>255</RED>
+		<GREEN>182</GREEN>
+		<BLUE>132</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>410</CODE>
+		<NAME>Paterna Wool 410</NAME>
+		<RED>73</RED>
+		<GREEN>20</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>411</CODE>
+		<NAME>Paterna Wool 411</NAME>
+		<RED>107</RED>
+		<GREEN>48</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>411</CODE>
+		<NAME>Paterna Wool 411</NAME>
+		<RED>132</RED>
+		<GREEN>44</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>412</CODE>
+		<NAME>Paterna Wool 412</NAME>
+		<RED>148</RED>
+		<GREEN>65</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>413</CODE>
+		<NAME>Paterna Wool 413</NAME>
+		<RED>231</RED>
+		<GREEN>121</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>414</CODE>
+		<NAME>Paterna Wool 414</NAME>
+		<RED>239</RED>
+		<GREEN>158</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>419</CODE>
+		<NAME>Paterna Wool 419</NAME>
+		<RED>206</RED>
+		<GREEN>73</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>420</CODE>
+		<NAME>Paterna Wool 420</NAME>
+		<RED>33</RED>
+		<GREEN>20</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>421</CODE>
+		<NAME>Paterna Wool 421</NAME>
+		<RED>66</RED>
+		<GREEN>32</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>422</CODE>
+		<NAME>Paterna Wool 422</NAME>
+		<RED>99</RED>
+		<GREEN>36</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>423</CODE>
+		<NAME>Paterna Wool 423</NAME>
+		<RED>123</RED>
+		<GREEN>52</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>423</CODE>
+		<NAME>Paterna Wool 423</NAME>
+		<RED>231</RED>
+		<GREEN>113</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>424</CODE>
+		<NAME>Paterna Wool 424</NAME>
+		<RED>165</RED>
+		<GREEN>97</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>425</CODE>
+		<NAME>Paterna Wool 425</NAME>
+		<RED>255</RED>
+		<GREEN>174</GREEN>
+		<BLUE>115</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>430</CODE>
+		<NAME>Paterna Wool 430</NAME>
+		<RED>98</RED>
+		<GREEN>36</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>431</CODE>
+		<NAME>Paterna Wool 431</NAME>
+		<RED>99</RED>
+		<GREEN>48</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>432</CODE>
+		<NAME>Paterna Wool 432</NAME>
+		<RED>123</RED>
+		<GREEN>65</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>433</CODE>
+		<NAME>Paterna Wool 433</NAME>
+		<RED>140</RED>
+		<GREEN>65</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>434</CODE>
+		<NAME>Paterna Wool 434</NAME>
+		<RED>164</RED>
+		<GREEN>97</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>435</CODE>
+		<NAME>Paterna Wool 435</NAME>
+		<RED>189</RED>
+		<GREEN>97</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>436</CODE>
+		<NAME>Paterna Wool 436</NAME>
+		<RED>222</RED>
+		<GREEN>142</GREEN>
+		<BLUE>74</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>440</CODE>
+		<NAME>Paterna Wool 440</NAME>
+		<RED>148</RED>
+		<GREEN>65</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>441</CODE>
+		<NAME>Paterna Wool 441</NAME>
+		<RED>148</RED>
+		<GREEN>85</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>442</CODE>
+		<NAME>Paterna Wool 442</NAME>
+		<RED>222</RED>
+		<GREEN>154</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>443</CODE>
+		<NAME>Paterna Wool 443</NAME>
+		<RED>239</RED>
+		<GREEN>170</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>444</CODE>
+		<NAME>Paterna Wool 444</NAME>
+		<RED>255</RED>
+		<GREEN>207</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>445</CODE>
+		<NAME>Paterna Wool 445</NAME>
+		<RED>255</RED>
+		<GREEN>231</GREEN>
+		<BLUE>181</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>450</CODE>
+		<NAME>Paterna Wool 450</NAME>
+		<RED>82</RED>
+		<GREEN>44</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>451</CODE>
+		<NAME>Paterna Wool 451</NAME>
+		<RED>90</RED>
+		<GREEN>60</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>452</CODE>
+		<NAME>Paterna Wool 452</NAME>
+		<RED>115</RED>
+		<GREEN>69</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>453</CODE>
+		<NAME>Paterna Wool 453</NAME>
+		<RED>206</RED>
+		<GREEN>142</GREEN>
+		<BLUE>58</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>454</CODE>
+		<NAME>Paterna Wool 454</NAME>
+		<RED>198</RED>
+		<GREEN>182</GREEN>
+		<BLUE>123</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>455</CODE>
+		<NAME>Paterna Wool 455</NAME>
+		<RED>239</RED>
+		<GREEN>199</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>460</CODE>
+		<NAME>Paterna Wool 460</NAME>
+		<RED>98</RED>
+		<GREEN>48</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>461</CODE>
+		<NAME>Paterna Wool 461</NAME>
+		<RED>99</RED>
+		<GREEN>56</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>462</CODE>
+		<NAME>Paterna Wool 462</NAME>
+		<RED>123</RED>
+		<GREEN>81</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>463</CODE>
+		<NAME>Paterna Wool 463</NAME>
+		<RED>198</RED>
+		<GREEN>159</GREEN>
+		<BLUE>115</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>464</CODE>
+		<NAME>Paterna Wool 464</NAME>
+		<RED>206</RED>
+		<GREEN>174</GREEN>
+		<BLUE>123</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>465</CODE>
+		<NAME>Paterna Wool 465</NAME>
+		<RED>247</RED>
+		<GREEN>231</GREEN>
+		<BLUE>181</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>470</CODE>
+		<NAME>Paterna Wool 470</NAME>
+		<RED>82</RED>
+		<GREEN>36</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>471</CODE>
+		<NAME>Paterna Wool 471</NAME>
+		<RED>115</RED>
+		<GREEN>40</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>472</CODE>
+		<NAME>Paterna Wool 472</NAME>
+		<RED>165</RED>
+		<GREEN>73</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>473</CODE>
+		<NAME>Paterna Wool 473</NAME>
+		<RED>222</RED>
+		<GREEN>130</GREEN>
+		<BLUE>74</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>474</CODE>
+		<NAME>Paterna Wool 474</NAME>
+		<RED>255</RED>
+		<GREEN>199</GREEN>
+		<BLUE>140</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>475</CODE>
+		<NAME>Paterna Wool 475</NAME>
+		<RED>255</RED>
+		<GREEN>223</GREEN>
+		<BLUE>181</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>480</CODE>
+		<NAME>Paterna Wool 480</NAME>
+		<RED>123</RED>
+		<GREEN>16</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>481</CODE>
+		<NAME>Paterna Wool 481</NAME>
+		<RED>156</RED>
+		<GREEN>44</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>482</CODE>
+		<NAME>Paterna Wool 482</NAME>
+		<RED>189</RED>
+		<GREEN>73</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>483</CODE>
+		<NAME>Paterna Wool 483</NAME>
+		<RED>189</RED>
+		<GREEN>73</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>484</CODE>
+		<NAME>Paterna Wool 484</NAME>
+		<RED>206</RED>
+		<GREEN>93</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>485</CODE>
+		<NAME>Paterna Wool 485</NAME>
+		<RED>206</RED>
+		<GREEN>113</GREEN>
+		<BLUE>82</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>486</CODE>
+		<NAME>Paterna Wool 486</NAME>
+		<RED>239</RED>
+		<GREEN>154</GREEN>
+		<BLUE>115</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>490</CODE>
+		<NAME>Paterna Wool 490</NAME>
+		<RED>255</RED>
+		<GREEN>150</GREEN>
+		<BLUE>115</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>491</CODE>
+		<NAME>Paterna Wool 491</NAME>
+		<RED>255</RED>
+		<GREEN>166</GREEN>
+		<BLUE>115</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>492</CODE>
+		<NAME>Paterna Wool 492</NAME>
+		<RED>255</RED>
+		<GREEN>195</GREEN>
+		<BLUE>140</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>493</CODE>
+		<NAME>Paterna Wool 493</NAME>
+		<RED>254</RED>
+		<GREEN>195</GREEN>
+		<BLUE>140</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>494</CODE>
+		<NAME>Paterna Wool 494</NAME>
+		<RED>255</RED>
+		<GREEN>211</GREEN>
+		<BLUE>165</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>500</CODE>
+		<NAME>Paterna Wool 500</NAME>
+		<RED>0</RED>
+		<GREEN>113</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>500</CODE>
+		<NAME>Paterna Wool 500</NAME>
+		<RED>0</RED>
+		<GREEN>4</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>501</CODE>
+		<NAME>Paterna Wool 501</NAME>
+		<RED>8</RED>
+		<GREEN>125</GREEN>
+		<BLUE>82</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>501</CODE>
+		<NAME>Paterna Wool 501</NAME>
+		<RED>8</RED>
+		<GREEN>28</GREEN>
+		<BLUE>82</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>502</CODE>
+		<NAME>Paterna Wool 502</NAME>
+		<RED>33</RED>
+		<GREEN>166</GREEN>
+		<BLUE>107</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>502</CODE>
+		<NAME>Paterna Wool 502</NAME>
+		<RED>57</RED>
+		<GREEN>101</GREEN>
+		<BLUE>132</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>503</CODE>
+		<NAME>Paterna Wool 503</NAME>
+		<RED>115</RED>
+		<GREEN>211</GREEN>
+		<BLUE>165</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>503</CODE>
+		<NAME>Paterna Wool 503</NAME>
+		<RED>99</RED>
+		<GREEN>138</GREEN>
+		<BLUE>165</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>504</CODE>
+		<NAME>Paterna Wool 504</NAME>
+		<RED>107</RED>
+		<GREEN>142</GREEN>
+		<BLUE>181</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>505</CODE>
+		<NAME>Paterna Wool 505</NAME>
+		<RED>140</RED>
+		<GREEN>186</GREEN>
+		<BLUE>206</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>506</CODE>
+		<NAME>Paterna Wool 506</NAME>
+		<RED>247</RED>
+		<GREEN>255</GREEN>
+		<BLUE>239</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>510</CODE>
+		<NAME>Paterna Wool 510</NAME>
+		<RED>0</RED>
+		<GREEN>44</GREEN>
+		<BLUE>74</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>511</CODE>
+		<NAME>Paterna Wool 511</NAME>
+		<RED>90</RED>
+		<GREEN>60</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>511</CODE>
+		<NAME>Paterna Wool 511</NAME>
+		<RED>8</RED>
+		<GREEN>56</GREEN>
+		<BLUE>82</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>512</CODE>
+		<NAME>Paterna Wool 512</NAME>
+		<RED>33</RED>
+		<GREEN>77</GREEN>
+		<BLUE>107</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>513</CODE>
+		<NAME>Paterna Wool 513</NAME>
+		<RED>90</RED>
+		<GREEN>89</GREEN>
+		<BLUE>123</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>514</CODE>
+		<NAME>Paterna Wool 514</NAME>
+		<RED>156</RED>
+		<GREEN>178</GREEN>
+		<BLUE>181</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>515</CODE>
+		<NAME>Paterna Wool 515</NAME>
+		<RED>198</RED>
+		<GREEN>203</GREEN>
+		<BLUE>222</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>516</CODE>
+		<NAME>Paterna Wool 516</NAME>
+		<RED>0</RED>
+		<GREEN>65</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>520</CODE>
+		<NAME>Paterna Wool 520</NAME>
+		<RED>0</RED>
+		<GREEN>60</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>521</CODE>
+		<NAME>Paterna Wool 521</NAME>
+		<RED>99</RED>
+		<GREEN>97</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>521</CODE>
+		<NAME>Paterna Wool 521</NAME>
+		<RED>0</RED>
+		<GREEN>125</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>522</CODE>
+		<NAME>Paterna Wool 522</NAME>
+		<RED>41</RED>
+		<GREEN>125</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>522</CODE>
+		<NAME>Paterna Wool 522</NAME>
+		<RED>115</RED>
+		<GREEN>158</GREEN>
+		<BLUE>132</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>523</CODE>
+		<NAME>Paterna Wool 523</NAME>
+		<RED>173</RED>
+		<GREEN>199</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>524</CODE>
+		<NAME>Paterna Wool 524</NAME>
+		<RED>189</RED>
+		<GREEN>215</GREEN>
+		<BLUE>173</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>525</CODE>
+		<NAME>Paterna Wool 525</NAME>
+		<RED>206</RED>
+		<GREEN>235</GREEN>
+		<BLUE>189</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>530</CODE>
+		<NAME>Paterna Wool 530</NAME>
+		<RED>0</RED>
+		<GREEN>28</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>531</CODE>
+		<NAME>Paterna Wool 531</NAME>
+		<RED>165</RED>
+		<GREEN>125</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>531</CODE>
+		<NAME>Paterna Wool 531</NAME>
+		<RED>0</RED>
+		<GREEN>40</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>532</CODE>
+		<NAME>Paterna Wool 532</NAME>
+		<RED>24</RED>
+		<GREEN>52</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>533</CODE>
+		<NAME>Paterna Wool 533</NAME>
+		<RED>49</RED>
+		<GREEN>73</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>534</CODE>
+		<NAME>Paterna Wool 534</NAME>
+		<RED>123</RED>
+		<GREEN>142</GREEN>
+		<BLUE>115</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>540</CODE>
+		<NAME>Paterna Wool 540</NAME>
+		<RED>0</RED>
+		<GREEN>0</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>541</CODE>
+		<NAME>Paterna Wool 541</NAME>
+		<RED>239</RED>
+		<GREEN>178</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>541</CODE>
+		<NAME>Paterna Wool 541</NAME>
+		<RED>24</RED>
+		<GREEN>0</GREEN>
+		<BLUE>148</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>542</CODE>
+		<NAME>Paterna Wool 542</NAME>
+		<RED>24</RED>
+		<GREEN>16</GREEN>
+		<BLUE>214</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>543</CODE>
+		<NAME>Paterna Wool 543</NAME>
+		<RED>49</RED>
+		<GREEN>97</GREEN>
+		<BLUE>214</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>544</CODE>
+		<NAME>Paterna Wool 544</NAME>
+		<RED>123</RED>
+		<GREEN>162</GREEN>
+		<BLUE>222</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>545</CODE>
+		<NAME>Paterna Wool 545</NAME>
+		<RED>181</RED>
+		<GREEN>170</GREEN>
+		<BLUE>214</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>546</CODE>
+		<NAME>Paterna Wool 546</NAME>
+		<RED>74</RED>
+		<GREEN>121</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>546</CODE>
+		<NAME>Paterna Wool 546</NAME>
+		<RED>222</RED>
+		<GREEN>239</GREEN>
+		<BLUE>239</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>550</CODE>
+		<NAME>Paterna Wool 550</NAME>
+		<RED>0</RED>
+		<GREEN>0</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>551</CODE>
+		<NAME>Paterna Wool 551</NAME>
+		<RED>49</RED>
+		<GREEN>48</GREEN>
+		<BLUE>148</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>552</CODE>
+		<NAME>Paterna Wool 552</NAME>
+		<RED>66</RED>
+		<GREEN>89</GREEN>
+		<BLUE>165</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>553</CODE>
+		<NAME>Paterna Wool 553</NAME>
+		<RED>140</RED>
+		<GREEN>186</GREEN>
+		<BLUE>189</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>554</CODE>
+		<NAME>Paterna Wool 554</NAME>
+		<RED>156</RED>
+		<GREEN>207</GREEN>
+		<BLUE>231</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>555</CODE>
+		<NAME>Paterna Wool 555</NAME>
+		<RED>198</RED>
+		<GREEN>235</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>556</CODE>
+		<NAME>Paterna Wool 556</NAME>
+		<RED>115</RED>
+		<GREEN>170</GREEN>
+		<BLUE>132</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>556</CODE>
+		<NAME>Paterna Wool 556</NAME>
+		<RED>231</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>560</CODE>
+		<NAME>Paterna Wool 560</NAME>
+		<RED>115</RED>
+		<GREEN>101</GREEN>
+		<BLUE>198</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>561</CODE>
+		<NAME>Paterna Wool 561</NAME>
+		<RED>132</RED>
+		<GREEN>113</GREEN>
+		<BLUE>214</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>562</CODE>
+		<NAME>Paterna Wool 562</NAME>
+		<RED>156</RED>
+		<GREEN>142</GREEN>
+		<BLUE>239</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>563</CODE>
+		<NAME>Paterna Wool 563</NAME>
+		<RED>189</RED>
+		<GREEN>170</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>564</CODE>
+		<NAME>Paterna Wool 564</NAME>
+		<RED>214</RED>
+		<GREEN>195</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>570</CODE>
+		<NAME>Paterna Wool 570</NAME>
+		<RED>0</RED>
+		<GREEN>12</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>571</CODE>
+		<NAME>Paterna Wool 571</NAME>
+		<RED>0</RED>
+		<GREEN>0</GREEN>
+		<BLUE>67</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>572</CODE>
+		<NAME>Paterna Wool 572</NAME>
+		<RED>198</RED>
+		<GREEN>215</GREEN>
+		<BLUE>198</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>580</CODE>
+		<NAME>Paterna Wool 580</NAME>
+		<RED>0</RED>
+		<GREEN>81</GREEN>
+		<BLUE>123</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>581</CODE>
+		<NAME>Paterna Wool 581</NAME>
+		<RED>16</RED>
+		<GREEN>97</GREEN>
+		<BLUE>140</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>582</CODE>
+		<NAME>Paterna Wool 582</NAME>
+		<RED>33</RED>
+		<GREEN>117</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>583</CODE>
+		<NAME>Paterna Wool 583</NAME>
+		<RED>74</RED>
+		<GREEN>170</GREEN>
+		<BLUE>189</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>584</CODE>
+		<NAME>Paterna Wool 584</NAME>
+		<RED>107</RED>
+		<GREEN>207</GREEN>
+		<BLUE>231</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>585</CODE>
+		<NAME>Paterna Wool 585</NAME>
+		<RED>165</RED>
+		<GREEN>243</GREEN>
+		<BLUE>231</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>586</CODE>
+		<NAME>Paterna Wool 586</NAME>
+		<RED>198</RED>
+		<GREEN>247</GREEN>
+		<BLUE>239</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>590</CODE>
+		<NAME>Paterna Wool 590</NAME>
+		<RED>0</RED>
+		<GREEN>101</GREEN>
+		<BLUE>82</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>591</CODE>
+		<NAME>Paterna Wool 591</NAME>
+		<RED>0</RED>
+		<GREEN>134</GREEN>
+		<BLUE>107</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>592</CODE>
+		<NAME>Paterna Wool 592</NAME>
+		<RED>8</RED>
+		<GREEN>174</GREEN>
+		<BLUE>140</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>593</CODE>
+		<NAME>Paterna Wool 593</NAME>
+		<RED>74</RED>
+		<GREEN>219</GREEN>
+		<BLUE>173</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>594</CODE>
+		<NAME>Paterna Wool 594</NAME>
+		<RED>165</RED>
+		<GREEN>227</GREEN>
+		<BLUE>173</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>595</CODE>
+		<NAME>Paterna Wool 595</NAME>
+		<RED>189</RED>
+		<GREEN>239</GREEN>
+		<BLUE>214</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>600</CODE>
+		<NAME>Paterna Wool 600</NAME>
+		<RED>49</RED>
+		<GREEN>85</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>601</CODE>
+		<NAME>Paterna Wool 601</NAME>
+		<RED>57</RED>
+		<GREEN>81</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>602</CODE>
+		<NAME>Paterna Wool 602</NAME>
+		<RED>82</RED>
+		<GREEN>121</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>603</CODE>
+		<NAME>Paterna Wool 603</NAME>
+		<RED>107</RED>
+		<GREEN>142</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>604</CODE>
+		<NAME>Paterna Wool 604</NAME>
+		<RED>173</RED>
+		<GREEN>195</GREEN>
+		<BLUE>107</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>605</CODE>
+		<NAME>Paterna Wool 605</NAME>
+		<RED>214</RED>
+		<GREEN>235</GREEN>
+		<BLUE>148</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>610</CODE>
+		<NAME>Paterna Wool 610</NAME>
+		<RED>16</RED>
+		<GREEN>56</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>611</CODE>
+		<NAME>Paterna Wool 611</NAME>
+		<RED>0</RED>
+		<GREEN>77</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>612</CODE>
+		<NAME>Paterna Wool 612</NAME>
+		<RED>99</RED>
+		<GREEN>154</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>613</CODE>
+		<NAME>Paterna Wool 613</NAME>
+		<RED>156</RED>
+		<GREEN>199</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>614</CODE>
+		<NAME>Paterna Wool 614</NAME>
+		<RED>222</RED>
+		<GREEN>223</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>615</CODE>
+		<NAME>Paterna Wool 615</NAME>
+		<RED>239</RED>
+		<GREEN>255</GREEN>
+		<BLUE>140</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>620</CODE>
+		<NAME>Paterna Wool 620</NAME>
+		<RED>0</RED>
+		<GREEN>85</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>621</CODE>
+		<NAME>Paterna Wool 621</NAME>
+		<RED>107</RED>
+		<GREEN>162</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>622</CODE>
+		<NAME>Paterna Wool 622</NAME>
+		<RED>115</RED>
+		<GREEN>186</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>623</CODE>
+		<NAME>Paterna Wool 623</NAME>
+		<RED>156</RED>
+		<GREEN>239</GREEN>
+		<BLUE>82</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>624</CODE>
+		<NAME>Paterna Wool 624</NAME>
+		<RED>214</RED>
+		<GREEN>255</GREEN>
+		<BLUE>140</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>630</CODE>
+		<NAME>Paterna Wool 630</NAME>
+		<RED>0</RED>
+		<GREEN>97</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>631</CODE>
+		<NAME>Paterna Wool 631</NAME>
+		<RED>0</RED>
+		<GREEN>125</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>632</CODE>
+		<NAME>Paterna Wool 632</NAME>
+		<RED>0</RED>
+		<GREEN>199</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>633</CODE>
+		<NAME>Paterna Wool 633</NAME>
+		<RED>90</RED>
+		<GREEN>255</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>634</CODE>
+		<NAME>Paterna Wool 634</NAME>
+		<RED>165</RED>
+		<GREEN>243</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>635</CODE>
+		<NAME>Paterna Wool 635</NAME>
+		<RED>206</RED>
+		<GREEN>255</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>640</CODE>
+		<NAME>Paterna Wool 640</NAME>
+		<RED>66</RED>
+		<GREEN>52</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>641</CODE>
+		<NAME>Paterna Wool 641</NAME>
+		<RED>114</RED>
+		<GREEN>69</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>642</CODE>
+		<NAME>Paterna Wool 642</NAME>
+		<RED>148</RED>
+		<GREEN>105</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>643</CODE>
+		<NAME>Paterna Wool 643</NAME>
+		<RED>198</RED>
+		<GREEN>150</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>644</CODE>
+		<NAME>Paterna Wool 644</NAME>
+		<RED>247</RED>
+		<GREEN>199</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>645</CODE>
+		<NAME>Paterna Wool 645</NAME>
+		<RED>247</RED>
+		<GREEN>227</GREEN>
+		<BLUE>140</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>650</CODE>
+		<NAME>Paterna Wool 650</NAME>
+		<RED>66</RED>
+		<GREEN>69</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>651</CODE>
+		<NAME>Paterna Wool 651</NAME>
+		<RED>80</RED>
+		<GREEN>105</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>652</CODE>
+		<NAME>Paterna Wool 652</NAME>
+		<RED>140</RED>
+		<GREEN>142</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>653</CODE>
+		<NAME>Paterna Wool 653</NAME>
+		<RED>214</RED>
+		<GREEN>207</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>654</CODE>
+		<NAME>Paterna Wool 654</NAME>
+		<RED>255</RED>
+		<GREEN>219</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>655</CODE>
+		<NAME>Paterna Wool 655</NAME>
+		<RED>254</RED>
+		<GREEN>231</GREEN>
+		<BLUE>181</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>660</CODE>
+		<NAME>Paterna Wool 660</NAME>
+		<RED>0</RED>
+		<GREEN>40</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>661</CODE>
+		<NAME>Paterna Wool 661</NAME>
+		<RED>0</RED>
+		<GREEN>60</GREEN>
+		<BLUE>25</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>662</CODE>
+		<NAME>Paterna Wool 662</NAME>
+		<RED>0</RED>
+		<GREEN>85</GREEN>
+		<BLUE>25</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>663</CODE>
+		<NAME>Paterna Wool 663</NAME>
+		<RED>148</RED>
+		<GREEN>190</GREEN>
+		<BLUE>107</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>664</CODE>
+		<NAME>Paterna Wool 664</NAME>
+		<RED>173</RED>
+		<GREEN>215</GREEN>
+		<BLUE>132</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>665</CODE>
+		<NAME>Paterna Wool 665</NAME>
+		<RED>198</RED>
+		<GREEN>235</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>666</CODE>
+		<NAME>Paterna Wool 666</NAME>
+		<RED>247</RED>
+		<GREEN>255</GREEN>
+		<BLUE>189</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>670</CODE>
+		<NAME>Paterna Wool 670</NAME>
+		<RED>148</RED>
+		<GREEN>170</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>671</CODE>
+		<NAME>Paterna Wool 671</NAME>
+		<RED>181</RED>
+		<GREEN>203</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>672</CODE>
+		<NAME>Paterna Wool 672</NAME>
+		<RED>222</RED>
+		<GREEN>243</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>673</CODE>
+		<NAME>Paterna Wool 673</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>680</CODE>
+		<NAME>Paterna Wool 680</NAME>
+		<RED>0</RED>
+		<GREEN>52</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>681</CODE>
+		<NAME>Paterna Wool 681</NAME>
+		<RED>0</RED>
+		<GREEN>77</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>682</CODE>
+		<NAME>Paterna Wool 682</NAME>
+		<RED>0</RED>
+		<GREEN>125</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>683</CODE>
+		<NAME>Paterna Wool 683</NAME>
+		<RED>8</RED>
+		<GREEN>158</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>684</CODE>
+		<NAME>Paterna Wool 684</NAME>
+		<RED>33</RED>
+		<GREEN>186</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>685</CODE>
+		<NAME>Paterna Wool 685</NAME>
+		<RED>57</RED>
+		<GREEN>211</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>686</CODE>
+		<NAME>Paterna Wool 686</NAME>
+		<RED>90</RED>
+		<GREEN>243</GREEN>
+		<BLUE>123</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>687</CODE>
+		<NAME>Paterna Wool 687</NAME>
+		<RED>107</RED>
+		<GREEN>243</GREEN>
+		<BLUE>140</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>690</CODE>
+		<NAME>Paterna Wool 690</NAME>
+		<RED>0</RED>
+		<GREEN>40</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>691</CODE>
+		<NAME>Paterna Wool 691</NAME>
+		<RED>0</RED>
+		<GREEN>73</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>692</CODE>
+		<NAME>Paterna Wool 692</NAME>
+		<RED>132</RED>
+		<GREEN>146</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>693</CODE>
+		<NAME>Paterna Wool 693</NAME>
+		<RED>165</RED>
+		<GREEN>142</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>694</CODE>
+		<NAME>Paterna Wool 694</NAME>
+		<RED>239</RED>
+		<GREEN>227</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>695</CODE>
+		<NAME>Paterna Wool 695</NAME>
+		<RED>255</RED>
+		<GREEN>231</GREEN>
+		<BLUE>115</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>696</CODE>
+		<NAME>Paterna Wool 696</NAME>
+		<RED>0</RED>
+		<GREEN>138</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>697</CODE>
+		<NAME>Paterna Wool 697</NAME>
+		<RED>0</RED>
+		<GREEN>170</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>698</CODE>
+		<NAME>Paterna Wool 698</NAME>
+		<RED>0</RED>
+		<GREEN>203</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>700</CODE>
+		<NAME>Paterna Wool 700</NAME>
+		<RED>231</RED>
+		<GREEN>125</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>701</CODE>
+		<NAME>Paterna Wool 701</NAME>
+		<RED>239</RED>
+		<GREEN>150</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>702</CODE>
+		<NAME>Paterna Wool 702</NAME>
+		<RED>255</RED>
+		<GREEN>186</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>703</CODE>
+		<NAME>Paterna Wool 703</NAME>
+		<RED>255</RED>
+		<GREEN>215</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>704</CODE>
+		<NAME>Paterna Wool 704</NAME>
+		<RED>255</RED>
+		<GREEN>243</GREEN>
+		<BLUE>123</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>710</CODE>
+		<NAME>Paterna Wool 710</NAME>
+		<RED>255</RED>
+		<GREEN>170</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>711</CODE>
+		<NAME>Paterna Wool 711</NAME>
+		<RED>255</RED>
+		<GREEN>182</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>712</CODE>
+		<NAME>Paterna Wool 712</NAME>
+		<RED>255</RED>
+		<GREEN>243</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>713</CODE>
+		<NAME>Paterna Wool 713</NAME>
+		<RED>247</RED>
+		<GREEN>199</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>714</CODE>
+		<NAME>Paterna Wool 714</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>123</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>715</CODE>
+		<NAME>Paterna Wool 715</NAME>
+		<RED>255</RED>
+		<GREEN>243</GREEN>
+		<BLUE>173</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>716</CODE>
+		<NAME>Paterna Wool 716</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>189</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>720</CODE>
+		<NAME>Paterna Wool 720</NAME>
+		<RED>173</RED>
+		<GREEN>44</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>721</CODE>
+		<NAME>Paterna Wool 721</NAME>
+		<RED>206</RED>
+		<GREEN>77</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>722</CODE>
+		<NAME>Paterna Wool 722</NAME>
+		<RED>239</RED>
+		<GREEN>109</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>723</CODE>
+		<NAME>Paterna Wool 723</NAME>
+		<RED>255</RED>
+		<GREEN>125</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>724</CODE>
+		<NAME>Paterna Wool 724</NAME>
+		<RED>255</RED>
+		<GREEN>158</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>725</CODE>
+		<NAME>Paterna Wool 725</NAME>
+		<RED>255</RED>
+		<GREEN>154</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>726</CODE>
+		<NAME>Paterna Wool 726</NAME>
+		<RED>239</RED>
+		<GREEN>174</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>727</CODE>
+		<NAME>Paterna Wool 727</NAME>
+		<RED>255</RED>
+		<GREEN>215</GREEN>
+		<BLUE>74</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>730</CODE>
+		<NAME>Paterna Wool 730</NAME>
+		<RED>140</RED>
+		<GREEN>73</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>731</CODE>
+		<NAME>Paterna Wool 731</NAME>
+		<RED>173</RED>
+		<GREEN>109</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>732</CODE>
+		<NAME>Paterna Wool 732</NAME>
+		<RED>247</RED>
+		<GREEN>162</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>733</CODE>
+		<NAME>Paterna Wool 733</NAME>
+		<RED>247</RED>
+		<GREEN>182</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>734</CODE>
+		<NAME>Paterna Wool 734</NAME>
+		<RED>255</RED>
+		<GREEN>195</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>735</CODE>
+		<NAME>Paterna Wool 735</NAME>
+		<RED>255</RED>
+		<GREEN>227</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>740</CODE>
+		<NAME>Paterna Wool 740</NAME>
+		<RED>165</RED>
+		<GREEN>85</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>741</CODE>
+		<NAME>Paterna Wool 741</NAME>
+		<RED>189</RED>
+		<GREEN>121</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>742</CODE>
+		<NAME>Paterna Wool 742</NAME>
+		<RED>222</RED>
+		<GREEN>178</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>743</CODE>
+		<NAME>Paterna Wool 743</NAME>
+		<RED>255</RED>
+		<GREEN>182</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>744</CODE>
+		<NAME>Paterna Wool 744</NAME>
+		<RED>255</RED>
+		<GREEN>199</GREEN>
+		<BLUE>82</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>745</CODE>
+		<NAME>Paterna Wool 745</NAME>
+		<RED>255</RED>
+		<GREEN>223</GREEN>
+		<BLUE>107</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>750</CODE>
+		<NAME>Paterna Wool 750</NAME>
+		<RED>140</RED>
+		<GREEN>93</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>751</CODE>
+		<NAME>Paterna Wool 751</NAME>
+		<RED>206</RED>
+		<GREEN>121</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>752</CODE>
+		<NAME>Paterna Wool 752</NAME>
+		<RED>206</RED>
+		<GREEN>142</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>753</CODE>
+		<NAME>Paterna Wool 753</NAME>
+		<RED>239</RED>
+		<GREEN>199</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>754</CODE>
+		<NAME>Paterna Wool 754</NAME>
+		<RED>255</RED>
+		<GREEN>199</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>755</CODE>
+		<NAME>Paterna Wool 755</NAME>
+		<RED>255</RED>
+		<GREEN>215</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>756</CODE>
+		<NAME>Paterna Wool 756</NAME>
+		<RED>255</RED>
+		<GREEN>239</GREEN>
+		<BLUE>173</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>760</CODE>
+		<NAME>Paterna Wool 760</NAME>
+		<RED>247</RED>
+		<GREEN>227</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>761</CODE>
+		<NAME>Paterna Wool 761</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>762</CODE>
+		<NAME>Paterna Wool 762</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>74</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>763</CODE>
+		<NAME>Paterna Wool 763</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>107</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>764</CODE>
+		<NAME>Paterna Wool 764</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>770</CODE>
+		<NAME>Paterna Wool 770</NAME>
+		<RED>255</RED>
+		<GREEN>138</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>771</CODE>
+		<NAME>Paterna Wool 771</NAME>
+		<RED>255</RED>
+		<GREEN>190</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>772</CODE>
+		<NAME>Paterna Wool 772</NAME>
+		<RED>255</RED>
+		<GREEN>223</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>773</CODE>
+		<NAME>Paterna Wool 773</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>800</CODE>
+		<NAME>Paterna Wool 800</NAME>
+		<RED>231</RED>
+		<GREEN>109</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>801</CODE>
+		<NAME>Paterna Wool 801</NAME>
+		<RED>255</RED>
+		<GREEN>134</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>802</CODE>
+		<NAME>Paterna Wool 802</NAME>
+		<RED>255</RED>
+		<GREEN>154</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>803</CODE>
+		<NAME>Paterna Wool 803</NAME>
+		<RED>247</RED>
+		<GREEN>154</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>804</CODE>
+		<NAME>Paterna Wool 804</NAME>
+		<RED>254</RED>
+		<GREEN>186</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>805</CODE>
+		<NAME>Paterna Wool 805</NAME>
+		<RED>255</RED>
+		<GREEN>219</GREEN>
+		<BLUE>140</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>810</CODE>
+		<NAME>Paterna Wool 810</NAME>
+		<RED>255</RED>
+		<GREEN>85</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>811</CODE>
+		<NAME>Paterna Wool 811</NAME>
+		<RED>255</RED>
+		<GREEN>117</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>812</CODE>
+		<NAME>Paterna Wool 812</NAME>
+		<RED>255</RED>
+		<GREEN>113</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>813</CODE>
+		<NAME>Paterna Wool 813</NAME>
+		<RED>255</RED>
+		<GREEN>162</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>814</CODE>
+		<NAME>Paterna Wool 814</NAME>
+		<RED>255</RED>
+		<GREEN>166</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>815</CODE>
+		<NAME>Paterna Wool 815</NAME>
+		<RED>255</RED>
+		<GREEN>178</GREEN>
+		<BLUE>74</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>820</CODE>
+		<NAME>Paterna Wool 820</NAME>
+		<RED>239</RED>
+		<GREEN>73</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>821</CODE>
+		<NAME>Paterna Wool 821</NAME>
+		<RED>255</RED>
+		<GREEN>93</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>822</CODE>
+		<NAME>Paterna Wool 822</NAME>
+		<RED>255</RED>
+		<GREEN>101</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>823</CODE>
+		<NAME>Paterna Wool 823</NAME>
+		<RED>255</RED>
+		<GREEN>134</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>824</CODE>
+		<NAME>Paterna Wool 824</NAME>
+		<RED>255</RED>
+		<GREEN>162</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>825</CODE>
+		<NAME>Paterna Wool 825</NAME>
+		<RED>254</RED>
+		<GREEN>166</GREEN>
+		<BLUE>115</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>830</CODE>
+		<NAME>Paterna Wool 830</NAME>
+		<RED>189</RED>
+		<GREEN>28</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>831</CODE>
+		<NAME>Paterna Wool 831</NAME>
+		<RED>231</RED>
+		<GREEN>65</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>832</CODE>
+		<NAME>Paterna Wool 832</NAME>
+		<RED>255</RED>
+		<GREEN>97</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>833</CODE>
+		<NAME>Paterna Wool 833</NAME>
+		<RED>255</RED>
+		<GREEN>121</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>834</CODE>
+		<NAME>Paterna Wool 834</NAME>
+		<RED>255</RED>
+		<GREEN>154</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>835</CODE>
+		<NAME>Paterna Wool 835</NAME>
+		<RED>255</RED>
+		<GREEN>170</GREEN>
+		<BLUE>132</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>840</CODE>
+		<NAME>Paterna Wool 840</NAME>
+		<RED>165</RED>
+		<GREEN>0</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>841</CODE>
+		<NAME>Paterna Wool 841</NAME>
+		<RED>222</RED>
+		<GREEN>0</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>842</CODE>
+		<NAME>Paterna Wool 842</NAME>
+		<RED>247</RED>
+		<GREEN>24</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>843</CODE>
+		<NAME>Paterna Wool 843</NAME>
+		<RED>255</RED>
+		<GREEN>60</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>844</CODE>
+		<NAME>Paterna Wool 844</NAME>
+		<RED>255</RED>
+		<GREEN>105</GREEN>
+		<BLUE>74</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>845</CODE>
+		<NAME>Paterna Wool 845</NAME>
+		<RED>255</RED>
+		<GREEN>162</GREEN>
+		<BLUE>132</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>846</CODE>
+		<NAME>Paterna Wool 846</NAME>
+		<RED>255</RED>
+		<GREEN>195</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>850</CODE>
+		<NAME>Paterna Wool 850</NAME>
+		<RED>198</RED>
+		<GREEN>8</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>851</CODE>
+		<NAME>Paterna Wool 851</NAME>
+		<RED>214</RED>
+		<GREEN>28</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>852</CODE>
+		<NAME>Paterna Wool 852</NAME>
+		<RED>239</RED>
+		<GREEN>48</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>853</CODE>
+		<NAME>Paterna Wool 853</NAME>
+		<RED>231</RED>
+		<GREEN>73</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>854</CODE>
+		<NAME>Paterna Wool 854</NAME>
+		<RED>255</RED>
+		<GREEN>134</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>855</CODE>
+		<NAME>Paterna Wool 855</NAME>
+		<RED>255</RED>
+		<GREEN>178</GREEN>
+		<BLUE>115</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>860</CODE>
+		<NAME>Paterna Wool 860</NAME>
+		<RED>148</RED>
+		<GREEN>24</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>861</CODE>
+		<NAME>Paterna Wool 861</NAME>
+		<RED>189</RED>
+		<GREEN>40</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>862</CODE>
+		<NAME>Paterna Wool 862</NAME>
+		<RED>239</RED>
+		<GREEN>65</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>863</CODE>
+		<NAME>Paterna Wool 863</NAME>
+		<RED>255</RED>
+		<GREEN>101</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>864</CODE>
+		<NAME>Paterna Wool 864</NAME>
+		<RED>255</RED>
+		<GREEN>97</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>865</CODE>
+		<NAME>Paterna Wool 865</NAME>
+		<RED>255</RED>
+		<GREEN>138</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>870</CODE>
+		<NAME>Paterna Wool 870</NAME>
+		<RED>132</RED>
+		<GREEN>28</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>871</CODE>
+		<NAME>Paterna Wool 871</NAME>
+		<RED>198</RED>
+		<GREEN>77</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>872</CODE>
+		<NAME>Paterna Wool 872</NAME>
+		<RED>206</RED>
+		<GREEN>77</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>873</CODE>
+		<NAME>Paterna Wool 873</NAME>
+		<RED>231</RED>
+		<GREEN>97</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>874</CODE>
+		<NAME>Paterna Wool 874</NAME>
+		<RED>255</RED>
+		<GREEN>158</GREEN>
+		<BLUE>115</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>875</CODE>
+		<NAME>Paterna Wool 875</NAME>
+		<RED>255</RED>
+		<GREEN>186</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>880</CODE>
+		<NAME>Paterna Wool 880</NAME>
+		<RED>132</RED>
+		<GREEN>16</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>881</CODE>
+		<NAME>Paterna Wool 881</NAME>
+		<RED>173</RED>
+		<GREEN>52</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>882</CODE>
+		<NAME>Paterna Wool 882</NAME>
+		<RED>189</RED>
+		<GREEN>77</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>883</CODE>
+		<NAME>Paterna Wool 883</NAME>
+		<RED>222</RED>
+		<GREEN>97</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>884</CODE>
+		<NAME>Paterna Wool 884</NAME>
+		<RED>247</RED>
+		<GREEN>138</GREEN>
+		<BLUE>74</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>885</CODE>
+		<NAME>Paterna Wool 885</NAME>
+		<RED>255</RED>
+		<GREEN>146</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>886</CODE>
+		<NAME>Paterna Wool 886</NAME>
+		<RED>255</RED>
+		<GREEN>166</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>900</CODE>
+		<NAME>Paterna Wool 900</NAME>
+		<RED>107</RED>
+		<GREEN>0</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>901</CODE>
+		<NAME>Paterna Wool 901</NAME>
+		<RED>132</RED>
+		<GREEN>0</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>902</CODE>
+		<NAME>Paterna Wool 902</NAME>
+		<RED>165</RED>
+		<GREEN>32</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>903</CODE>
+		<NAME>Paterna Wool 903</NAME>
+		<RED>214</RED>
+		<GREEN>52</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>904</CODE>
+		<NAME>Paterna Wool 904</NAME>
+		<RED>255</RED>
+		<GREEN>89</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>905</CODE>
+		<NAME>Paterna Wool 905</NAME>
+		<RED>255</RED>
+		<GREEN>121</GREEN>
+		<BLUE>123</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>906</CODE>
+		<NAME>Paterna Wool 906</NAME>
+		<RED>255</RED>
+		<GREEN>150</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>910</CODE>
+		<NAME>Paterna Wool 910</NAME>
+		<RED>156</RED>
+		<GREEN>0</GREEN>
+		<BLUE>33</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>911</CODE>
+		<NAME>Paterna Wool 911</NAME>
+		<RED>165</RED>
+		<GREEN>20</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>912</CODE>
+		<NAME>Paterna Wool 912</NAME>
+		<RED>198</RED>
+		<GREEN>73</GREEN>
+		<BLUE>82</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>913</CODE>
+		<NAME>Paterna Wool 913</NAME>
+		<RED>255</RED>
+		<GREEN>117</GREEN>
+		<BLUE>123</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>914</CODE>
+		<NAME>Paterna Wool 914</NAME>
+		<RED>247</RED>
+		<GREEN>150</GREEN>
+		<BLUE>148</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>915</CODE>
+		<NAME>Paterna Wool 915</NAME>
+		<RED>255</RED>
+		<GREEN>178</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>920</CODE>
+		<NAME>Paterna Wool 920</NAME>
+		<RED>99</RED>
+		<GREEN>16</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>921</CODE>
+		<NAME>Paterna Wool 921</NAME>
+		<RED>107</RED>
+		<GREEN>28</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>922</CODE>
+		<NAME>Paterna Wool 922</NAME>
+		<RED>173</RED>
+		<GREEN>73</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>923</CODE>
+		<NAME>Paterna Wool 923</NAME>
+		<RED>222</RED>
+		<GREEN>125</GREEN>
+		<BLUE>115</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>924</CODE>
+		<NAME>Paterna Wool 924</NAME>
+		<RED>255</RED>
+		<GREEN>158</GREEN>
+		<BLUE>141</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>925</CODE>
+		<NAME>Paterna Wool 925</NAME>
+		<RED>255</RED>
+		<GREEN>166</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>930</CODE>
+		<NAME>Paterna Wool 930</NAME>
+		<RED>165</RED>
+		<GREEN>0</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>931</CODE>
+		<NAME>Paterna Wool 931</NAME>
+		<RED>198</RED>
+		<GREEN>36</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>932</CODE>
+		<NAME>Paterna Wool 932</NAME>
+		<RED>231</RED>
+		<GREEN>65</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>933</CODE>
+		<NAME>Paterna Wool 933</NAME>
+		<RED>255</RED>
+		<GREEN>109</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>934</CODE>
+		<NAME>Paterna Wool 934</NAME>
+		<RED>255</RED>
+		<GREEN>142</GREEN>
+		<BLUE>132</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>935</CODE>
+		<NAME>Paterna Wool 935</NAME>
+		<RED>255</RED>
+		<GREEN>182</GREEN>
+		<BLUE>165</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>940</CODE>
+		<NAME>Paterna Wool 940</NAME>
+		<RED>148</RED>
+		<GREEN>0</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>941</CODE>
+		<NAME>Paterna Wool 941</NAME>
+		<RED>198</RED>
+		<GREEN>0</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>942</CODE>
+		<NAME>Paterna Wool 942</NAME>
+		<RED>247</RED>
+		<GREEN>28</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>943</CODE>
+		<NAME>Paterna Wool 943</NAME>
+		<RED>255</RED>
+		<GREEN>69</GREEN>
+		<BLUE>66</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>944</CODE>
+		<NAME>Paterna Wool 944</NAME>
+		<RED>255</RED>
+		<GREEN>93</GREEN>
+		<BLUE>90</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>945</CODE>
+		<NAME>Paterna Wool 945</NAME>
+		<RED>247</RED>
+		<GREEN>142</GREEN>
+		<BLUE>132</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>946</CODE>
+		<NAME>Paterna Wool 946</NAME>
+		<RED>255</RED>
+		<GREEN>162</GREEN>
+		<BLUE>156</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>947</CODE>
+		<NAME>Paterna Wool 947</NAME>
+		<RED>255</RED>
+		<GREEN>186</GREEN>
+		<BLUE>165</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>948</CODE>
+		<NAME>Paterna Wool 948</NAME>
+		<RED>255</RED>
+		<GREEN>223</GREEN>
+		<BLUE>198</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>950</CODE>
+		<NAME>Paterna Wool 950</NAME>
+		<RED>156</RED>
+		<GREEN>8</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>951</CODE>
+		<NAME>Paterna Wool 951</NAME>
+		<RED>239</RED>
+		<GREEN>8</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>952</CODE>
+		<NAME>Paterna Wool 952</NAME>
+		<RED>255</RED>
+		<GREEN>48</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>953</CODE>
+		<NAME>Paterna Wool 953</NAME>
+		<RED>255</RED>
+		<GREEN>89</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>954</CODE>
+		<NAME>Paterna Wool 954</NAME>
+		<RED>255</RED>
+		<GREEN>117</GREEN>
+		<BLUE>74</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>955</CODE>
+		<NAME>Paterna Wool 955</NAME>
+		<RED>255</RED>
+		<GREEN>142</GREEN>
+		<BLUE>107</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>960</CODE>
+		<NAME>Paterna Wool 960</NAME>
+		<RED>247</RED>
+		<GREEN>0</GREEN>
+		<BLUE>74</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>961</CODE>
+		<NAME>Paterna Wool 961</NAME>
+		<RED>255</RED>
+		<GREEN>36</GREEN>
+		<BLUE>99</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>962</CODE>
+		<NAME>Paterna Wool 962</NAME>
+		<RED>255</RED>
+		<GREEN>77</GREEN>
+		<BLUE>123</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>963</CODE>
+		<NAME>Paterna Wool 963</NAME>
+		<RED>255</RED>
+		<GREEN>117</GREEN>
+		<BLUE>132</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>964</CODE>
+		<NAME>Paterna Wool 964</NAME>
+		<RED>255</RED>
+		<GREEN>170</GREEN>
+		<BLUE>181</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>970</CODE>
+		<NAME>Paterna Wool 970</NAME>
+		<RED>206</RED>
+		<GREEN>0</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>971</CODE>
+		<NAME>Paterna Wool 971</NAME>
+		<RED>247</RED>
+		<GREEN>16</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>972</CODE>
+		<NAME>Paterna Wool 972</NAME>
+		<RED>255</RED>
+		<GREEN>28</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+</PALETTE>

@@ -1,0 +1,2094 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainerMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainerMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 120</value>
+  </data>
+  <data name="splitContainerMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="splitContainerInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="splitContainerInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splitContainerInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="splitContainerInfo.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="imageBoxPreview.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="imageBoxPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="imageBoxPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 200</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="imageBoxPreview.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;imageBoxPreview.Name" xml:space="preserve">
+    <value>imageBoxPreview</value>
+  </data>
+  <data name="&gt;&gt;imageBoxPreview.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.ZoomImageBox, Ravlyk.Drawing.WinForms, Version=2.0.1.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;imageBoxPreview.Parent" xml:space="preserve">
+    <value>splitContainerInfo.Panel1</value>
+  </data>
+  <data name="&gt;&gt;imageBoxPreview.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerInfo.Panel1.Name" xml:space="preserve">
+    <value>splitContainerInfo.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerInfo.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerInfo.Panel1.Parent" xml:space="preserve">
+    <value>splitContainerInfo</value>
+  </data>
+  <data name="&gt;&gt;splitContainerInfo.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="zoomSliderGridCellSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 59</value>
+  </data>
+  <data name="zoomSliderGridCellSize.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="zoomSliderGridCellSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 24</value>
+  </data>
+  <data name="zoomSliderGridCellSize.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;zoomSliderGridCellSize.Name" xml:space="preserve">
+    <value>zoomSliderGridCellSize</value>
+  </data>
+  <data name="&gt;&gt;zoomSliderGridCellSize.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.ZoomSlider, Ravlyk.Drawing.WinForms, Version=2.0.1.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;zoomSliderGridCellSize.Parent" xml:space="preserve">
+    <value>splitContainerInfo.Panel2</value>
+  </data>
+  <data name="&gt;&gt;zoomSliderGridCellSize.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="paletteUserControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="paletteUserControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 83</value>
+  </data>
+  <data name="paletteUserControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 146</value>
+  </data>
+  <data name="paletteUserControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;paletteUserControl.Name" xml:space="preserve">
+    <value>paletteUserControl</value>
+  </data>
+  <data name="&gt;&gt;paletteUserControl.Type" xml:space="preserve">
+    <value>Ravlyk.SAE5.WinForms.UserControls.PaletteUserControl, SAE5, Version=5.0.3.22, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;paletteUserControl.Parent" xml:space="preserve">
+    <value>splitContainerInfo.Panel2</value>
+  </data>
+  <data name="&gt;&gt;paletteUserControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelFileInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelFileInfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelFileInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 26</value>
+  </data>
+  <data name="labelFileInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 52</value>
+  </data>
+  <data name="labelFileInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelFileInfo.Text" xml:space="preserve">
+    <value>File: {0}
+Size: {1}x{2} stitches
+Threads: {3}
+Colors: {4}</value>
+  </data>
+  <data name="&gt;&gt;labelFileInfo.Name" xml:space="preserve">
+    <value>labelFileInfo</value>
+  </data>
+  <data name="&gt;&gt;labelFileInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelFileInfo.Parent" xml:space="preserve">
+    <value>panelInfo</value>
+  </data>
+  <data name="&gt;&gt;labelFileInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 83</value>
+  </data>
+  <data name="panelInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelInfo.Name" xml:space="preserve">
+    <value>panelInfo</value>
+  </data>
+  <data name="&gt;&gt;panelInfo.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.CollapsiblePanel, Ravlyk.Drawing.WinForms, Version=2.0.1.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelInfo.Parent" xml:space="preserve">
+    <value>splitContainerInfo.Panel2</value>
+  </data>
+  <data name="&gt;&gt;panelInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;splitContainerInfo.Panel2.Name" xml:space="preserve">
+    <value>splitContainerInfo.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainerInfo.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerInfo.Panel2.Parent" xml:space="preserve">
+    <value>splitContainerInfo</value>
+  </data>
+  <data name="&gt;&gt;splitContainerInfo.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainerInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 437</value>
+  </data>
+  <data name="splitContainerInfo.SplitterDistance" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="splitContainerInfo.SplitterWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="splitContainerInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerInfo.Name" xml:space="preserve">
+    <value>splitContainerInfo</value>
+  </data>
+  <data name="&gt;&gt;splitContainerInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerInfo.Parent" xml:space="preserve">
+    <value>splitContainerMain.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerMain.Panel1.Name" xml:space="preserve">
+    <value>splitContainerMain.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerMain.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerMain.Panel1.Parent" xml:space="preserve">
+    <value>splitContainerMain</value>
+  </data>
+  <data name="&gt;&gt;splitContainerMain.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="scrollControlGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="scrollControlGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="scrollControlGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="scrollControlGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>560, 437</value>
+  </data>
+  <data name="scrollControlGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;scrollControlGrid.Name" xml:space="preserve">
+    <value>scrollControlGrid</value>
+  </data>
+  <data name="&gt;&gt;scrollControlGrid.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.ScrollControl, Ravlyk.Drawing.WinForms, Version=2.0.1.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scrollControlGrid.Parent" xml:space="preserve">
+    <value>splitContainerMain.Panel2</value>
+  </data>
+  <data name="&gt;&gt;scrollControlGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerMain.Panel2.Name" xml:space="preserve">
+    <value>splitContainerMain.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainerMain.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerMain.Panel2.Parent" xml:space="preserve">
+    <value>splitContainerMain</value>
+  </data>
+  <data name="&gt;&gt;splitContainerMain.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainerMain.Panel2MinSize" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="splitContainerMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>768, 437</value>
+  </data>
+  <data name="splitContainerMain.SplitterDistance" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="splitContainerMain.SplitterWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="splitContainerMain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerMain.Name" xml:space="preserve">
+    <value>splitContainerMain</value>
+  </data>
+  <data name="&gt;&gt;splitContainerMain.Type" xml:space="preserve">
+    <value>Ravlyk.Drawing.WinForms.CollapsibleSplitContainer, Ravlyk.Drawing.WinForms, Version=2.0.1.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;splitContainerMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitContainerMain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ribbon.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="ribbon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbon.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="ribbon.OrbDropDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonOrbMenuItemHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="ribbonButtonOrbSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ribbonButtonOrbSave.ToolTip" xml:space="preserve">
+    <value>Save scheme</value>
+  </data>
+  <data name="ribbonButtonOrbSaveAs.Text" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="ribbonButtonOrbSaveAs.ToolTip" xml:space="preserve">
+    <value>Save scheme to a new file or in different format</value>
+  </data>
+  <data name="ribbonButtonOrbPng.Text" xml:space="preserve">
+    <value>Save scheme to PNG image</value>
+  </data>
+  <data name="ribbonButtonOrbPng.ToolTip" xml:space="preserve">
+    <value>Save scheme and colors table to a PNG image files (colors table will have extension .Colors.png)</value>
+  </data>
+  <data name="ribbonButtonOrbJpg.Text" xml:space="preserve">
+    <value>Save scheme to JPG image</value>
+  </data>
+  <data name="ribbonButtonOrbJpg.ToolTip" xml:space="preserve">
+    <value>Save scheme and colors table to a JPG image files (colors table will have extension .Colors.jpg)</value>
+  </data>
+  <data name="ribbonButtonOrbEmf.Text" xml:space="preserve">
+    <value>Save scheme to EMF image</value>
+  </data>
+  <data name="ribbonButtonOrbEmf.ToolTip" xml:space="preserve">
+    <value>Save scheme and colors table to a EMF image files (colors table will have extension .Colors.emf)</value>
+  </data>
+  <data name="ribbonButtonOrbThumbnail.Text" xml:space="preserve">
+    <value>Save thumbnail to PNG image</value>
+  </data>
+  <data name="ribbonButtonOrbThumbnail.ToolTip" xml:space="preserve">
+    <value>Save preview thumbnail to PNG image</value>
+  </data>
+  <data name="ribbonButtonOrbPdf.Text" xml:space="preserve">
+    <value>Save to PDF</value>
+  </data>
+  <data name="ribbonButtonOrbPdf.ToolTip" xml:space="preserve">
+    <value>Show options and preview for saving scheme to PDF document</value>
+  </data>
+  <data name="ribbonButtonOrbXls.Text" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="ribbonButtonOrbXls.ToolTip" xml:space="preserve">
+    <value>Export scheme to Excel spreadsheet</value>
+  </data>
+  <data name="ribbonOrbMenuItemSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ribbonOrbMenuItemPrint.Text" xml:space="preserve">
+    <value>Print Preview</value>
+  </data>
+  <data name="ribbonOrbMenuItemPrint.ToolTip" xml:space="preserve">
+    <value>Show print preview for pattern scheme</value>
+  </data>
+  <data name="ribbonMenuManagePalettes.Text" xml:space="preserve">
+    <value>Manage Palettes</value>
+  </data>
+  <data name="ribbonMenuManagePalettes.ToolTip" xml:space="preserve">
+    <value>Manage thread kits (palettes)</value>
+  </data>
+  <data name="menuItemLanguageEn.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="menuItemLanguageRu.Text" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="menuItemLanguageUa.Text" xml:space="preserve">
+    <value>Ukrainian</value>
+  </data>
+  <data name="ribbonMenuItemLanguage.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="ribbonOrbMenuItemOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="ribbonOrbMenuItemOptions.ToolTip" xml:space="preserve">
+    <value>Show dialog to configure application options</value>
+  </data>
+  <data name="ribbonOrbMenuItemCheckForUpdates.Text" xml:space="preserve">
+    <value>Check for Updates</value>
+  </data>
+  <data name="ribbonMenuRegister.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="ribbonMenuRegister.ToolTip" xml:space="preserve">
+    <value>Open form to enter registration key, or get details how to buy the product</value>
+  </data>
+  <data name="ribbonOrbMenuItemAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="ribbonOrbOptionButtonExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="ribbon.OrbDropDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 474</value>
+  </data>
+  <data name="ribbon.OrbDropDown.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ribbon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>768, 120</value>
+  </data>
+  <data name="ribbon.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="buttonHome.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="buttonHome.ToolTip" xml:space="preserve">
+    <value>Return to start screen</value>
+  </data>
+  <data name="buttonBackToWizard.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonBackToWizard.Text" xml:space="preserve">
+    <value>&lt;Wizard</value>
+  </data>
+  <data name="buttonBackToWizard.ToolTip" xml:space="preserve">
+    <value>Return to wizard to change generation options of this scheme</value>
+  </data>
+  <data name="ribbonPanelHome.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSave.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="buttonSave.ToolTip" xml:space="preserve">
+    <value>Save scheme</value>
+  </data>
+  <data name="buttonSaveAs.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonSaveAs.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonSaveAs.Text" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="buttonSaveAs.ToolTip" xml:space="preserve">
+    <value>Save scheme to a new file or in different format</value>
+  </data>
+  <data name="buttonPdfPreview.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonPdfPreview.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonPdfPreview.Text" xml:space="preserve">
+    <value>Save to PDF</value>
+  </data>
+  <data name="buttonPdfPreview.ToolTip" xml:space="preserve">
+    <value>Show options and preview for saving scheme to PDF document</value>
+  </data>
+  <data name="ribbonPanelScheme.Text" xml:space="preserve">
+    <value>Scheme</value>
+  </data>
+  <data name="buttonPrint.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonPrint.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="buttonPrint.ToolTip" xml:space="preserve">
+    <value>Show print preview for pattern scheme</value>
+  </data>
+  <data name="ribbonPanelPrint.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="ribbonTabHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="buttonViewSymbols.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonViewSymbols.Text" xml:space="preserve">
+    <value>Symbols</value>
+  </data>
+  <data name="buttonViewDark.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonViewDark.Text" xml:space="preserve">
+    <value>White Symbols</value>
+  </data>
+  <data name="buttonViewColoredSymbols.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonViewColoredSymbols.Text" xml:space="preserve">
+    <value>Colored Symbols</value>
+  </data>
+  <data name="buttonViewHalfTone.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonViewHalfTone.Text" xml:space="preserve">
+    <value>Half Tone</value>
+  </data>
+  <data name="buttonViewFull.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonViewFull.Text" xml:space="preserve">
+    <value>Full</value>
+  </data>
+  <data name="buttonViewColors.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonViewColors.Text" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="buttonViewCross.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonViewCross.Text" xml:space="preserve">
+    <value>Stitches Preview</value>
+  </data>
+  <data name="upDownGridCellSize.Text" xml:space="preserve">
+    <value>Cell Size</value>
+  </data>
+  <data name="upDownGridCellSize.ToolTip" xml:space="preserve">
+    <value>Scheme cell size</value>
+  </data>
+  <data name="hostZoomGridCellSize.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxGridRulers.Text" xml:space="preserve">
+    <value>Show Rulers</value>
+  </data>
+  <data name="checkBoxGridRulers.ToolTip" xml:space="preserve">
+    <value>Show rulers with rows and columns numbers</value>
+  </data>
+  <data name="checkBoxGridLines.Text" xml:space="preserve">
+    <value>Show Lines</value>
+  </data>
+  <data name="checkBoxGridLines.ToolTip" xml:space="preserve">
+    <value>Show grid lines</value>
+  </data>
+  <data name="ribbonPanelGrid.Text" xml:space="preserve">
+    <value>Scheme</value>
+  </data>
+  <data name="ribbonTabView.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="buttonUndo2.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonUndo2.Text" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="buttonRedo2.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonRedo2.Text" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="ribbonPanelUndo2.Text" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="buttonThreadsShowAll.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonThreadsShowAll.Text" xml:space="preserve">
+    <value>Show All</value>
+  </data>
+  <data name="buttonThreadsShowAll.ToolTip" xml:space="preserve">
+    <value>Show cells for all thread colors on scheme</value>
+  </data>
+  <data name="buttonThreadsHideAll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonThreadsHideAll.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonThreadsHideAll.Text" xml:space="preserve">
+    <value>Hide All</value>
+  </data>
+  <data name="buttonThreadsHideAll.ToolTip" xml:space="preserve">
+    <value>Hide cells of all thread colors on scheme</value>
+  </data>
+  <data name="buttonThreadsShowSelected.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonThreadsShowSelected.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonThreadsShowSelected.Text" xml:space="preserve">
+    <value>Show Selected</value>
+  </data>
+  <data name="buttonThreadsShowSelected.ToolTip" xml:space="preserve">
+    <value>Show cells of selected thread colors on scheme</value>
+  </data>
+  <data name="buttonThreadsHideSelected.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonThreadsHideSelected.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonThreadsHideSelected.Text" xml:space="preserve">
+    <value>Hide Selected</value>
+  </data>
+  <data name="buttonThreadsHideSelected.ToolTip" xml:space="preserve">
+    <value>Hide cells of selected thread colors on scheme</value>
+  </data>
+  <data name="ribbonPanelThreadsVisibility.Text" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="buttonChangeThreadSymbol.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonChangeThreadSymbol.Text" xml:space="preserve">
+    <value>Change Symbol</value>
+  </data>
+  <data name="buttonChangeThreadSymbol.ToolTip" xml:space="preserve">
+    <value>Change symbol representing selected thread</value>
+  </data>
+  <data name="buttonChangeThreadColor.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonChangeThreadColor.Text" xml:space="preserve">
+    <value>Change Color</value>
+  </data>
+  <data name="buttonChangeThreadColor.ToolTip" xml:space="preserve">
+    <value>Replace all stitches of selected thread with other thread</value>
+  </data>
+  <data name="buttonAddThread.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonAddThread.Text" xml:space="preserve">
+    <value>Add thread</value>
+  </data>
+  <data name="buttonAddThread.ToolTip" xml:space="preserve">
+    <value>Add new thread to working threads set</value>
+  </data>
+  <data name="buttonRemoveThread.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonRemoveThread.Text" xml:space="preserve">
+    <value>Remove Thread</value>
+  </data>
+  <data name="buttonRemoveThread.ToolTip" xml:space="preserve">
+    <value>Remove unused thread</value>
+  </data>
+  <data name="ribbonPanelChangeThread.Text" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="buttonMergeThreads.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAs5JREFUSEvl
+        lW9IE3Ech5cVLn0h5KuVTBRlVqRluJrzDzh1Oa3mMAzqXmlqGEFCbwxfRQRpHCVooVK9KHHgtmJj601c
+        t/KqNx61F53RIYWV8zCOdhHS+e1+426e+xOzehN94Hkzbs8Dd9vvNP/PlvK7dIv6DixSdxATrAd08sd/
+        tnf6c5awvhOXxCEJQEQsRoVQpL4CjzTst8iXb2wTJZ7+yeJ7lCJOEoiycnQ3BScK+uWvpTckHzd4AEEX
+        XKRTBhoqaGgvhCjpRtRyxG3DNPNZ3ykmCYiiw8DEAulEek1+y+Wyh5Q6gCAKB8n4wDdrOblOjujLpeDa
+        ltTPpNsUwLsr/dB7yEdf3+NhlMCEwc19yO/hlcBXi5FfPV7ExcSndzIwnEHDTQ1I4LIucZI8hAIyYp/R
+        R47u8nAo8qBojFAC322lRFSM6Tm4qiUlqSjLESFZt35d1QGdSq6GHyj3EWMGj/A2/zwr1Few0r0WYCCH
+        gFENrxKvcUuT+D/pqQxgSeQxzpj87PDe+94fZ3d4YWQTm1SsMKrBZO3aah0+rLbVB6mobvOz+644vUuv
+        S7xAall4kgkpIbSJgWpHQJdMXNPq4w0XZomtk18Em7uNvfPSykK4UoBXeYQk4xPkCDIr+VFS2+oNqeRi
+        eWeQ3HZ3mds8FYHS6WGixW2HwaAN5udrCFgyA3wycvBiOylJxZicyEz+kNFq7F4cyc3tj+ickY8MEiOy
+        nAtcs9vOK4Ebz5r41bCZi0YQ78sYeJpNy5HUP1PTyceWvEtzlCJWqHL1kUiuBBDP39SRsYDCXDEFM9m/
+        PvwypoR+tTzXSTOSWIwPDAVt4spiFbMuEDandx6pI42uU7QiVwcQrtlGesNyZShS4HRRanl8ALG8UEVt
+        WK6swd1hOeK24y2uY6H4wFCwOTRINuHjM4d/74UTP+u0QyfFMOneYzhp/TuvzH9gGs1Pa4zMu9kT1/oA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonMergeThreads.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAs5JREFUSEvl
+        lW9IE3Ech5cVLn0h5KuVTBRlVqRluJrzDzh1Oa3mMAzqXmlqGEFCbwxfRQRpHCVooVK9KHHgtmJj601c
+        t/KqNx61F53RIYWV8zCOdhHS+e1+426e+xOzehN94Hkzbs8Dd9vvNP/PlvK7dIv6DixSdxATrAd08sd/
+        tnf6c5awvhOXxCEJQEQsRoVQpL4CjzTst8iXb2wTJZ7+yeJ7lCJOEoiycnQ3BScK+uWvpTckHzd4AEEX
+        XKRTBhoqaGgvhCjpRtRyxG3DNPNZ3ykmCYiiw8DEAulEek1+y+Wyh5Q6gCAKB8n4wDdrOblOjujLpeDa
+        ltTPpNsUwLsr/dB7yEdf3+NhlMCEwc19yO/hlcBXi5FfPV7ExcSndzIwnEHDTQ1I4LIucZI8hAIyYp/R
+        R47u8nAo8qBojFAC322lRFSM6Tm4qiUlqSjLESFZt35d1QGdSq6GHyj3EWMGj/A2/zwr1Few0r0WYCCH
+        gFENrxKvcUuT+D/pqQxgSeQxzpj87PDe+94fZ3d4YWQTm1SsMKrBZO3aah0+rLbVB6mobvOz+644vUuv
+        S7xAall4kgkpIbSJgWpHQJdMXNPq4w0XZomtk18Em7uNvfPSykK4UoBXeYQk4xPkCDIr+VFS2+oNqeRi
+        eWeQ3HZ3mds8FYHS6WGixW2HwaAN5udrCFgyA3wycvBiOylJxZicyEz+kNFq7F4cyc3tj+ickY8MEiOy
+        nAtcs9vOK4Ebz5r41bCZi0YQ78sYeJpNy5HUP1PTyceWvEtzlCJWqHL1kUiuBBDP39SRsYDCXDEFM9m/
+        PvwypoR+tTzXSTOSWIwPDAVt4spiFbMuEDandx6pI42uU7QiVwcQrtlGesNyZShS4HRRanl8ALG8UEVt
+        WK6swd1hOeK24y2uY6H4wFCwOTRINuHjM4d/74UTP+u0QyfFMOneYzhp/TuvzH9gGs1Pa4zMu9kT1/oA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonMergeThreads.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonMergeThreads.Text" xml:space="preserve">
+    <value>Merge</value>
+  </data>
+  <data name="buttonMergeThreads.ToolTip" xml:space="preserve">
+    <value>Choose new thread to replace all selected threads with it</value>
+  </data>
+  <data name="ribbonPanelThreads.Text" xml:space="preserve">
+    <value>Threads</value>
+  </data>
+  <data name="buttonManagePalettes.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonManagePalettes.Text" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="buttonManagePalettes.ToolTip" xml:space="preserve">
+    <value>Manage thread kits (palettes)</value>
+  </data>
+  <data name="ribbonPanelPalettes.Text" xml:space="preserve">
+    <value>Palettes</value>
+  </data>
+  <data name="ribbonTabThreads.Text" xml:space="preserve">
+    <value>Threads</value>
+  </data>
+  <data name="buttonUndo.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonUndo.Text" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="buttonRedo.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonRedo.Text" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="ribbonPanelUndo.Text" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="buttonDrawNone.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonDrawNone.Text" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="buttonDrawNone.ToolTip" xml:space="preserve">
+    <value>Use mouse to move scheme</value>
+  </data>
+  <data name="buttonDrawPencil.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonDrawPencil.Text" xml:space="preserve">
+    <value>Pencil</value>
+  </data>
+  <data name="buttonDrawPencil.ToolTip" xml:space="preserve">
+    <value>Paint single cell with selected color</value>
+  </data>
+  <data name="buttonDrawFill.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonDrawFill.Text" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="buttonDrawFill.ToolTip" xml:space="preserve">
+    <value>Paint a region of cells of same color with selected color</value>
+  </data>
+  <data name="buttonDrawSelectAll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonDrawSelectAll.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonDrawSelectAll.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonDrawSelectAll.Text" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="buttonDrawSelectAll.ToolTip" xml:space="preserve">
+    <value>Select whole sheme</value>
+  </data>
+  <data name="buttonDrawSelect.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonDrawSelect.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="buttonDrawSelect.ToolTip" xml:space="preserve">
+    <value>Select rectangular part in scheme</value>
+  </data>
+  <data name="ribbonPanelMode.Text" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="buttonCut.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonCut.Text" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="buttonCut.ToolTip" xml:space="preserve">
+    <value>Cut selection from scheme to clipboard</value>
+  </data>
+  <data name="buttonCopy.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonCopy.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="buttonCopy.ToolTip" xml:space="preserve">
+    <value>Copy selection to clipboard</value>
+  </data>
+  <data name="buttonPaste.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonPaste.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="buttonPaste.ToolTip" xml:space="preserve">
+    <value>Paste a scheme part from clipboard</value>
+  </data>
+  <data name="ribbonPanelSelect.Text" xml:space="preserve">
+    <value>Selection</value>
+  </data>
+  <data name="ribbonTabDraw.Text" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="buttonPrintBack.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonPrintBack.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="buttonPrintBack.ToolTip" xml:space="preserve">
+    <value>Return to previous screen</value>
+  </data>
+  <data name="ribbonPanelPrintBack.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxPrinter.Text" xml:space="preserve">
+    <value>Printer</value>
+  </data>
+  <data name="comboBoxPrinter.ToolTip" xml:space="preserve">
+    <value>Target printer</value>
+  </data>
+  <data name="upDownPrintCellSize.Text" xml:space="preserve">
+    <value>Cell size</value>
+  </data>
+  <data name="upDownPrintCellSize.ToolTip" xml:space="preserve">
+    <value>Schema cell size for printing, millimetres</value>
+  </data>
+  <data name="buttonPrintCellSizeMm.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonPrintCellSizeMm.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonPrintCellSizeMm.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonPrintCellSizeMm.Text" xml:space="preserve">
+    <value>Mm</value>
+  </data>
+  <data name="buttonPrintCellSizeMm.ToolTip" xml:space="preserve">
+    <value>Specifies cell size in millimetres</value>
+  </data>
+  <data name="buttonPrintCellSizeInch.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonPrintCellSizeInch.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonPrintCellSizeInch.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonPrintCellSizeInch.Text" xml:space="preserve">
+    <value>Inch</value>
+  </data>
+  <data name="buttonPrintCellSizeInch.ToolTip" xml:space="preserve">
+    <value>Specifies cell size in inches</value>
+  </data>
+  <data name="comboBoxCellSizeUnits.Text" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="comboBoxCellSizeUnits.ToolTip" xml:space="preserve">
+    <value>Specifies units for measuring printed cell size</value>
+  </data>
+  <data name="buttonPageSettings.Text" xml:space="preserve">
+    <value>Page Setup</value>
+  </data>
+  <data name="buttonPageSettings.ToolTip" xml:space="preserve">
+    <value>Open dialog to select page size, orientation, and margins</value>
+  </data>
+  <data name="ribbonPanelPrintSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="buttonPreview.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonPreview.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="buttonPreview.ToolTip" xml:space="preserve">
+    <value>Show print result on screen</value>
+  </data>
+  <data name="upDownPreviewPage.Text" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="upDownPreviewPage.ToolTip" xml:space="preserve">
+    <value>Preview page number</value>
+  </data>
+  <data name="ribbonButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton1.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton1.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton1.Text" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="ribbonButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton2.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton2.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton2.Text" xml:space="preserve">
+    <value>500%</value>
+  </data>
+  <data name="ribbonButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton3.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton3.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton3.Text" xml:space="preserve">
+    <value>200%</value>
+  </data>
+  <data name="ribbonButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton4.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton4.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton4.Text" xml:space="preserve">
+    <value>150%</value>
+  </data>
+  <data name="ribbonButton5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton5.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton5.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton5.Text" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="ribbonButton6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton6.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton6.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton6.Text" xml:space="preserve">
+    <value>75%</value>
+  </data>
+  <data name="ribbonButton7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton7.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton7.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton7.Text" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="ribbonButton8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton8.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton8.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton8.Text" xml:space="preserve">
+    <value>25%</value>
+  </data>
+  <data name="ribbonButton9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton9.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButton9.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButton9.Text" xml:space="preserve">
+    <value>10%</value>
+  </data>
+  <data name="comboBoxPreviewZoom.Text" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="comboBoxPreviewZoom.ToolTip" xml:space="preserve">
+    <value>Preview zoom, "Auto" will show full page</value>
+  </data>
+  <data name="ribbonPanelPreview.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="buttonSaveToPdf.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonSaveToPdf.Text" xml:space="preserve">
+    <value>Save to PDF</value>
+  </data>
+  <data name="buttonSaveToPdf.ToolTip" xml:space="preserve">
+    <value>Save scheme to PDF document</value>
+  </data>
+  <data name="buttonPrintPrint.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
+        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonPrintPrint.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="buttonPrintPrint.ToolTip" xml:space="preserve">
+    <value>Print all or selected scheme pages on target printer</value>
+  </data>
+  <data name="ribbonPanelPrintPrint.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="ribbonTabPrint.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="ribbonTabPrint.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ribbon.Text" xml:space="preserve">
+    <value>ribbon</value>
+  </data>
+  <data name="&gt;&gt;ribbon.Name" xml:space="preserve">
+    <value>ribbon</value>
+  </data>
+  <data name="&gt;&gt;ribbon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Ribbon, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbon.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>768, 557</value>
+  </data>
+  <data name="&gt;&gt;ribbonContextPrint.Name" xml:space="preserve">
+    <value>ribbonContextPrint</value>
+  </data>
+  <data name="&gt;&gt;ribbonContextPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonContext, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemHome.Name" xml:space="preserve">
+    <value>ribbonOrbMenuItemHome</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemHome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonOrbMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemSave.Name" xml:space="preserve">
+    <value>ribbonOrbMenuItemSave</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonOrbMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbSave.Name" xml:space="preserve">
+    <value>ribbonButtonOrbSave</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbSaveAs.Name" xml:space="preserve">
+    <value>ribbonButtonOrbSaveAs</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbSaveAs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator5.Name" xml:space="preserve">
+    <value>ribbonSeparator5</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbPng.Name" xml:space="preserve">
+    <value>ribbonButtonOrbPng</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbPng.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbJpg.Name" xml:space="preserve">
+    <value>ribbonButtonOrbJpg</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbJpg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbEmf.Name" xml:space="preserve">
+    <value>ribbonButtonOrbEmf</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbEmf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbThumbnail.Name" xml:space="preserve">
+    <value>ribbonButtonOrbThumbnail</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbThumbnail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator6.Name" xml:space="preserve">
+    <value>ribbonSeparator6</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbPdf.Name" xml:space="preserve">
+    <value>ribbonButtonOrbPdf</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbPdf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbXls.Name" xml:space="preserve">
+    <value>ribbonButtonOrbXls</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbXls.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemPrint.Name" xml:space="preserve">
+    <value>ribbonOrbMenuItemPrint</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonOrbMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator3.Name" xml:space="preserve">
+    <value>ribbonSeparator3</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonMenuManagePalettes.Name" xml:space="preserve">
+    <value>ribbonMenuManagePalettes</value>
+  </data>
+  <data name="&gt;&gt;ribbonMenuManagePalettes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonOrbMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonMenuItemLanguage.Name" xml:space="preserve">
+    <value>ribbonMenuItemLanguage</value>
+  </data>
+  <data name="&gt;&gt;ribbonMenuItemLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonOrbMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;menuItemLanguageEn.Name" xml:space="preserve">
+    <value>menuItemLanguageEn</value>
+  </data>
+  <data name="&gt;&gt;menuItemLanguageEn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonDescriptionMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;menuItemLanguageRu.Name" xml:space="preserve">
+    <value>menuItemLanguageRu</value>
+  </data>
+  <data name="&gt;&gt;menuItemLanguageRu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonDescriptionMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;menuItemLanguageUa.Name" xml:space="preserve">
+    <value>menuItemLanguageUa</value>
+  </data>
+  <data name="&gt;&gt;menuItemLanguageUa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonDescriptionMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemOptions.Name" xml:space="preserve">
+    <value>ribbonOrbMenuItemOptions</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonOrbMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator4.Name" xml:space="preserve">
+    <value>ribbonSeparator4</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemCheckForUpdates.Name" xml:space="preserve">
+    <value>ribbonOrbMenuItemCheckForUpdates</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemCheckForUpdates.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonOrbMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonMenuRegister.Name" xml:space="preserve">
+    <value>ribbonMenuRegister</value>
+  </data>
+  <data name="&gt;&gt;ribbonMenuRegister.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonOrbMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemAbout.Name" xml:space="preserve">
+    <value>ribbonOrbMenuItemAbout</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonOrbMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbOptionButtonExit.Name" xml:space="preserve">
+    <value>ribbonOrbOptionButtonExit</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbOptionButtonExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonOrbOptionButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabHome.Name" xml:space="preserve">
+    <value>ribbonTabHome</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabHome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelHome.Name" xml:space="preserve">
+    <value>ribbonPanelHome</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelHome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonHome.Name" xml:space="preserve">
+    <value>buttonHome</value>
+  </data>
+  <data name="&gt;&gt;buttonHome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonBackToWizard.Name" xml:space="preserve">
+    <value>buttonBackToWizard</value>
+  </data>
+  <data name="&gt;&gt;buttonBackToWizard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelScheme.Name" xml:space="preserve">
+    <value>ribbonPanelScheme</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelScheme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.Name" xml:space="preserve">
+    <value>buttonSave</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonSaveAs.Name" xml:space="preserve">
+    <value>buttonSaveAs</value>
+  </data>
+  <data name="&gt;&gt;buttonSaveAs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonPdfPreview.Name" xml:space="preserve">
+    <value>buttonPdfPreview</value>
+  </data>
+  <data name="&gt;&gt;buttonPdfPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelPrint.Name" xml:space="preserve">
+    <value>ribbonPanelPrint</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonPrint.Name" xml:space="preserve">
+    <value>buttonPrint</value>
+  </data>
+  <data name="&gt;&gt;buttonPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabView.Name" xml:space="preserve">
+    <value>ribbonTabView</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelGrid.Name" xml:space="preserve">
+    <value>ribbonPanelGrid</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonViewSymbols.Name" xml:space="preserve">
+    <value>buttonViewSymbols</value>
+  </data>
+  <data name="&gt;&gt;buttonViewSymbols.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonViewDark.Name" xml:space="preserve">
+    <value>buttonViewDark</value>
+  </data>
+  <data name="&gt;&gt;buttonViewDark.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonViewColoredSymbols.Name" xml:space="preserve">
+    <value>buttonViewColoredSymbols</value>
+  </data>
+  <data name="&gt;&gt;buttonViewColoredSymbols.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonViewHalfTone.Name" xml:space="preserve">
+    <value>buttonViewHalfTone</value>
+  </data>
+  <data name="&gt;&gt;buttonViewHalfTone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonViewFull.Name" xml:space="preserve">
+    <value>buttonViewFull</value>
+  </data>
+  <data name="&gt;&gt;buttonViewFull.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonViewColors.Name" xml:space="preserve">
+    <value>buttonViewColors</value>
+  </data>
+  <data name="&gt;&gt;buttonViewColors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonViewCross.Name" xml:space="preserve">
+    <value>buttonViewCross</value>
+  </data>
+  <data name="&gt;&gt;buttonViewCross.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator1.Name" xml:space="preserve">
+    <value>ribbonSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;upDownGridCellSize.Name" xml:space="preserve">
+    <value>upDownGridCellSize</value>
+  </data>
+  <data name="&gt;&gt;upDownGridCellSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonUpDown, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;hostZoomGridCellSize.Name" xml:space="preserve">
+    <value>hostZoomGridCellSize</value>
+  </data>
+  <data name="&gt;&gt;hostZoomGridCellSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonHost, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator7.Name" xml:space="preserve">
+    <value>ribbonSeparator7</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;checkBoxGridRulers.Name" xml:space="preserve">
+    <value>checkBoxGridRulers</value>
+  </data>
+  <data name="&gt;&gt;checkBoxGridRulers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonCheckBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;checkBoxGridLines.Name" xml:space="preserve">
+    <value>checkBoxGridLines</value>
+  </data>
+  <data name="&gt;&gt;checkBoxGridLines.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonCheckBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabThreads.Name" xml:space="preserve">
+    <value>ribbonTabThreads</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabThreads.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelUndo2.Name" xml:space="preserve">
+    <value>ribbonPanelUndo2</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelUndo2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonUndo2.Name" xml:space="preserve">
+    <value>buttonUndo2</value>
+  </data>
+  <data name="&gt;&gt;buttonUndo2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonRedo2.Name" xml:space="preserve">
+    <value>buttonRedo2</value>
+  </data>
+  <data name="&gt;&gt;buttonRedo2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelThreadsVisibility.Name" xml:space="preserve">
+    <value>ribbonPanelThreadsVisibility</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelThreadsVisibility.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonThreadsShowAll.Name" xml:space="preserve">
+    <value>buttonThreadsShowAll</value>
+  </data>
+  <data name="&gt;&gt;buttonThreadsShowAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonThreadsHideAll.Name" xml:space="preserve">
+    <value>buttonThreadsHideAll</value>
+  </data>
+  <data name="&gt;&gt;buttonThreadsHideAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonThreadsShowSelected.Name" xml:space="preserve">
+    <value>buttonThreadsShowSelected</value>
+  </data>
+  <data name="&gt;&gt;buttonThreadsShowSelected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonThreadsHideSelected.Name" xml:space="preserve">
+    <value>buttonThreadsHideSelected</value>
+  </data>
+  <data name="&gt;&gt;buttonThreadsHideSelected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelChangeThread.Name" xml:space="preserve">
+    <value>ribbonPanelChangeThread</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelChangeThread.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeThreadSymbol.Name" xml:space="preserve">
+    <value>buttonChangeThreadSymbol</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeThreadSymbol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeThreadColor.Name" xml:space="preserve">
+    <value>buttonChangeThreadColor</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeThreadColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator2.Name" xml:space="preserve">
+    <value>ribbonSeparator2</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonAddThread.Name" xml:space="preserve">
+    <value>buttonAddThread</value>
+  </data>
+  <data name="&gt;&gt;buttonAddThread.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveThread.Name" xml:space="preserve">
+    <value>buttonRemoveThread</value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveThread.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelThreads.Name" xml:space="preserve">
+    <value>ribbonPanelThreads</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelThreads.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonMergeThreads.Name" xml:space="preserve">
+    <value>buttonMergeThreads</value>
+  </data>
+  <data name="&gt;&gt;buttonMergeThreads.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelPalettes.Name" xml:space="preserve">
+    <value>ribbonPanelPalettes</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelPalettes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonManagePalettes.Name" xml:space="preserve">
+    <value>buttonManagePalettes</value>
+  </data>
+  <data name="&gt;&gt;buttonManagePalettes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabDraw.Name" xml:space="preserve">
+    <value>ribbonTabDraw</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabDraw.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelUndo.Name" xml:space="preserve">
+    <value>ribbonPanelUndo</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelUndo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonUndo.Name" xml:space="preserve">
+    <value>buttonUndo</value>
+  </data>
+  <data name="&gt;&gt;buttonUndo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonRedo.Name" xml:space="preserve">
+    <value>buttonRedo</value>
+  </data>
+  <data name="&gt;&gt;buttonRedo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelMode.Name" xml:space="preserve">
+    <value>ribbonPanelMode</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonDrawNone.Name" xml:space="preserve">
+    <value>buttonDrawNone</value>
+  </data>
+  <data name="&gt;&gt;buttonDrawNone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonDrawPencil.Name" xml:space="preserve">
+    <value>buttonDrawPencil</value>
+  </data>
+  <data name="&gt;&gt;buttonDrawPencil.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonDrawFill.Name" xml:space="preserve">
+    <value>buttonDrawFill</value>
+  </data>
+  <data name="&gt;&gt;buttonDrawFill.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonDrawSelect.Name" xml:space="preserve">
+    <value>buttonDrawSelect</value>
+  </data>
+  <data name="&gt;&gt;buttonDrawSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonDrawSelectAll.Name" xml:space="preserve">
+    <value>buttonDrawSelectAll</value>
+  </data>
+  <data name="&gt;&gt;buttonDrawSelectAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelSelect.Name" xml:space="preserve">
+    <value>ribbonPanelSelect</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonCut.Name" xml:space="preserve">
+    <value>buttonCut</value>
+  </data>
+  <data name="&gt;&gt;buttonCut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonCopy.Name" xml:space="preserve">
+    <value>buttonCopy</value>
+  </data>
+  <data name="&gt;&gt;buttonCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonPaste.Name" xml:space="preserve">
+    <value>buttonPaste</value>
+  </data>
+  <data name="&gt;&gt;buttonPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabPrint.Name" xml:space="preserve">
+    <value>ribbonTabPrint</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelPrintBack.Name" xml:space="preserve">
+    <value>ribbonPanelPrintBack</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelPrintBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintBack.Name" xml:space="preserve">
+    <value>buttonPrintBack</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelPrintSettings.Name" xml:space="preserve">
+    <value>ribbonPanelPrintSettings</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelPrintSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPrinter.Name" xml:space="preserve">
+    <value>comboBoxPrinter</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPrinter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonComboBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparatorPrinter.Name" xml:space="preserve">
+    <value>ribbonSeparatorPrinter</value>
+  </data>
+  <data name="&gt;&gt;ribbonSeparatorPrinter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;upDownPrintCellSize.Name" xml:space="preserve">
+    <value>upDownPrintCellSize</value>
+  </data>
+  <data name="&gt;&gt;upDownPrintCellSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonUpDown, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCellSizeUnits.Name" xml:space="preserve">
+    <value>comboBoxCellSizeUnits</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCellSizeUnits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonComboBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintCellSizeMm.Name" xml:space="preserve">
+    <value>buttonPrintCellSizeMm</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintCellSizeMm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintCellSizeInch.Name" xml:space="preserve">
+    <value>buttonPrintCellSizeInch</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintCellSizeInch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonPageSettings.Name" xml:space="preserve">
+    <value>buttonPageSettings</value>
+  </data>
+  <data name="&gt;&gt;buttonPageSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelPreview.Name" xml:space="preserve">
+    <value>ribbonPanelPreview</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonPreview.Name" xml:space="preserve">
+    <value>buttonPreview</value>
+  </data>
+  <data name="&gt;&gt;buttonPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;upDownPreviewPage.Name" xml:space="preserve">
+    <value>upDownPreviewPage</value>
+  </data>
+  <data name="&gt;&gt;upDownPreviewPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonUpDown, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPreviewZoom.Name" xml:space="preserve">
+    <value>comboBoxPreviewZoom</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPreviewZoom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonComboBox, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton1.Name" xml:space="preserve">
+    <value>ribbonButton1</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton2.Name" xml:space="preserve">
+    <value>ribbonButton2</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton3.Name" xml:space="preserve">
+    <value>ribbonButton3</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton4.Name" xml:space="preserve">
+    <value>ribbonButton4</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton5.Name" xml:space="preserve">
+    <value>ribbonButton5</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton6.Name" xml:space="preserve">
+    <value>ribbonButton6</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton7.Name" xml:space="preserve">
+    <value>ribbonButton7</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton8.Name" xml:space="preserve">
+    <value>ribbonButton8</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton9.Name" xml:space="preserve">
+    <value>ribbonButton9</value>
+  </data>
+  <data name="&gt;&gt;ribbonButton9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelPrintPrint.Name" xml:space="preserve">
+    <value>ribbonPanelPrintPrint</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelPrintPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonSaveToPdf.Name" xml:space="preserve">
+    <value>buttonSaveToPdf</value>
+  </data>
+  <data name="&gt;&gt;buttonSaveToPdf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintPrint.Name" xml:space="preserve">
+    <value>buttonPrintPrint</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SchemeUserControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

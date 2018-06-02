@@ -1,0 +1,1922 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PALETTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Palette.xsd">
+	<NAME>Mill Hill Beads</NAME>
+	<COLOR>
+		<CODE>00020</CODE>
+		<NAME>Mill Hill beads - '00020'</NAME>
+		<RED>1</RED>
+		<GREEN>14</GREEN>
+		<BLUE>101</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00081</CODE>
+		<NAME>Mill Hill beads - '00081'</NAME>
+		<RED>26</RED>
+		<GREEN>24</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00123</CODE>
+		<NAME>Mill Hill beads - '00123'</NAME>
+		<RED>255</RED>
+		<GREEN>241</GREEN>
+		<BLUE>230</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00128</CODE>
+		<NAME>Mill Hill beads - '00128'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>120</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00143</CODE>
+		<NAME>Mill Hill beads - '00143'</NAME>
+		<RED>182</RED>
+		<GREEN>217</GREEN>
+		<BLUE>242</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00145</CODE>
+		<NAME>Mill Hill beads - '00145'</NAME>
+		<RED>255</RED>
+		<GREEN>228</GREEN>
+		<BLUE>241</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00146</CODE>
+		<NAME>Mill Hill beads - '00146'</NAME>
+		<RED>199</RED>
+		<GREEN>212</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00148</CODE>
+		<NAME>Mill Hill beads - '00148'</NAME>
+		<RED>248</RED>
+		<GREEN>212</GREEN>
+		<BLUE>149</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00150</CODE>
+		<NAME>Mill Hill beads - '00150'</NAME>
+		<RED>207</RED>
+		<GREEN>207</GREEN>
+		<BLUE>207</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00151</CODE>
+		<NAME>Mill Hill beads - '00151'</NAME>
+		<RED>248</RED>
+		<GREEN>239</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00161</CODE>
+		<NAME>Mill Hill beads - '00161'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00165</CODE>
+		<NAME>Mill Hill beads - '00165'</NAME>
+		<RED>239</RED>
+		<GREEN>32</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00167</CODE>
+		<NAME>Mill Hill beads - '00167'</NAME>
+		<RED>58</RED>
+		<GREEN>147</GREEN>
+		<BLUE>28</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00168</CODE>
+		<NAME>Mill Hill beads - '00168'</NAME>
+		<RED>166</RED>
+		<GREEN>166</GREEN>
+		<BLUE>248</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00205</CODE>
+		<NAME>Mill Hill beads - '00205'</NAME>
+		<RED>140</RED>
+		<GREEN>99</GREEN>
+		<BLUE>109</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00221</CODE>
+		<NAME>Mill Hill beads - '00221'</NAME>
+		<RED>116</RED>
+		<GREEN>40</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00252</CODE>
+		<NAME>Mill Hill beads - '00252'</NAME>
+		<RED>134</RED>
+		<GREEN>109</GREEN>
+		<BLUE>219</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00275</CODE>
+		<NAME>Mill Hill beads - '00275'</NAME>
+		<RED>239</RED>
+		<GREEN>162</GREEN>
+		<BLUE>141</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00283</CODE>
+		<NAME>Mill Hill beads - '00283'</NAME>
+		<RED>108</RED>
+		<GREEN>108</GREEN>
+		<BLUE>108</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00330</CODE>
+		<NAME>Mill Hill beads - '00330'</NAME>
+		<RED>42</RED>
+		<GREEN>18</GREEN>
+		<BLUE>9</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00332</CODE>
+		<NAME>Mill Hill beads - '00332'</NAME>
+		<RED>2</RED>
+		<GREEN>29</GREEN>
+		<BLUE>3</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00358</CODE>
+		<NAME>Mill Hill beads - '00358'</NAME>
+		<RED>9</RED>
+		<GREEN>29</GREEN>
+		<BLUE>93</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00367</CODE>
+		<NAME>Mill Hill beads - '00367'</NAME>
+		<RED>109</RED>
+		<GREEN>2</GREEN>
+		<BLUE>19</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00374</CODE>
+		<NAME>Mill Hill beads - '00374'</NAME>
+		<RED>69</RED>
+		<GREEN>9</GREEN>
+		<BLUE>58</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00423</CODE>
+		<NAME>Mill Hill beads - '00423'</NAME>
+		<RED>255</RED>
+		<GREEN>115</GREEN>
+		<BLUE>3</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00431</CODE>
+		<NAME>Mill Hill beads - '00431'</NAME>
+		<RED>109</RED>
+		<GREEN>181</GREEN>
+		<BLUE>93</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00479</CODE>
+		<NAME>Mill Hill beads - '00479'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00525</CODE>
+		<NAME>Mill Hill beads - '00525'</NAME>
+		<RED>183</RED>
+		<GREEN>255</GREEN>
+		<BLUE>159</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00553</CODE>
+		<NAME>Mill Hill beads - '00553'</NAME>
+		<RED>249</RED>
+		<GREEN>156</GREEN>
+		<BLUE>209</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00556</CODE>
+		<NAME>Mill Hill beads - '00556'</NAME>
+		<RED>215</RED>
+		<GREEN>73</GREEN>
+		<BLUE>83</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00557</CODE>
+		<NAME>Mill Hill beads - '00557'</NAME>
+		<RED>249</RED>
+		<GREEN>219</GREEN>
+		<BLUE>117</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00561</CODE>
+		<NAME>Mill Hill beads - '00561'</NAME>
+		<RED>149</RED>
+		<GREEN>193</GREEN>
+		<BLUE>142</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>00988</CODE>
+		<NAME>Mill Hill beads - '00988'</NAME>
+		<RED>166</RED>
+		<GREEN>2</GREEN>
+		<BLUE>3</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02001</CODE>
+		<NAME>Mill Hill beads - '02001'</NAME>
+		<RED>255</RED>
+		<GREEN>237</GREEN>
+		<BLUE>183</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02002</CODE>
+		<NAME>Mill Hill beads - '02002'</NAME>
+		<RED>255</RED>
+		<GREEN>246</GREEN>
+		<BLUE>183</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02003</CODE>
+		<NAME>Mill Hill beads - '02003'</NAME>
+		<RED>255</RED>
+		<GREEN>213</GREEN>
+		<BLUE>199</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02004</CODE>
+		<NAME>Mill Hill beads - '02004'</NAME>
+		<RED>248</RED>
+		<GREEN>155</GREEN>
+		<BLUE>173</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02005</CODE>
+		<NAME>Mill Hill beads - '02005'</NAME>
+		<RED>248</RED>
+		<GREEN>175</GREEN>
+		<BLUE>199</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02006</CODE>
+		<NAME>Mill Hill beads - '02006'</NAME>
+		<RED>116</RED>
+		<GREEN>171</GREEN>
+		<BLUE>216</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02007</CODE>
+		<NAME>Mill Hill beads - '02007'</NAME>
+		<RED>216</RED>
+		<GREEN>241</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02008</CODE>
+		<NAME>Mill Hill beads - '02008'</NAME>
+		<RED>117</RED>
+		<GREEN>232</GREEN>
+		<BLUE>183</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02009</CODE>
+		<NAME>Mill Hill beads - '02009'</NAME>
+		<RED>239</RED>
+		<GREEN>197</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02010</CODE>
+		<NAME>Mill Hill beads - '02010'</NAME>
+		<RED>240</RED>
+		<GREEN>249</GREEN>
+		<BLUE>247</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02011</CODE>
+		<NAME>Mill Hill beads - '02011'</NAME>
+		<RED>201</RED>
+		<GREEN>118</GREEN>
+		<BLUE>35</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02012</CODE>
+		<NAME>Mill Hill beads - '02012'</NAME>
+		<RED>131</RED>
+		<GREEN>15</GREEN>
+		<BLUE>26</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02013</CODE>
+		<NAME>Mill Hill beads - '02013'</NAME>
+		<RED>190</RED>
+		<GREEN>2</GREEN>
+		<BLUE>4</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02014</CODE>
+		<NAME>Mill Hill beads - '02014'</NAME>
+		<RED>0</RED>
+		<GREEN>1</GREEN>
+		<BLUE>1</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02015</CODE>
+		<NAME>Mill Hill beads - '02015'</NAME>
+		<RED>201</RED>
+		<GREEN>194</GREEN>
+		<BLUE>201</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02016</CODE>
+		<NAME>Mill Hill beads - '02016'</NAME>
+		<RED>224</RED>
+		<GREEN>241</GREEN>
+		<BLUE>216</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02017</CODE>
+		<NAME>Mill Hill beads - '02017'</NAME>
+		<RED>215</RED>
+		<GREEN>1</GREEN>
+		<BLUE>241</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02018</CODE>
+		<NAME>Mill Hill beads - '02018'</NAME>
+		<RED>255</RED>
+		<GREEN>232</GREEN>
+		<BLUE>242</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02019</CODE>
+		<NAME>Mill Hill beads - '02019'</NAME>
+		<RED>244</RED>
+		<GREEN>220</GREEN>
+		<BLUE>141</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02020</CODE>
+		<NAME>Mill Hill beads - '02020'</NAME>
+		<RED>1</RED>
+		<GREEN>71</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02021</CODE>
+		<NAME>Mill Hill beads - '02021'</NAME>
+		<RED>67</RED>
+		<GREEN>106</GREEN>
+		<BLUE>92</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02022</CODE>
+		<NAME>Mill Hill beads - '02022'</NAME>
+		<RED>240</RED>
+		<GREEN>239</GREEN>
+		<BLUE>238</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02023</CODE>
+		<NAME>Mill Hill beads - '02023'</NAME>
+		<RED>59</RED>
+		<GREEN>26</GREEN>
+		<BLUE>9</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02024</CODE>
+		<NAME>Mill Hill beads - '02024'</NAME>
+		<RED>216</RED>
+		<GREEN>191</GREEN>
+		<BLUE>199</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02025</CODE>
+		<NAME>Mill Hill beads - '02025'</NAME>
+		<RED>125</RED>
+		<GREEN>58</GREEN>
+		<BLUE>75</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02026</CODE>
+		<NAME>Mill Hill beads - '02026'</NAME>
+		<RED>166</RED>
+		<GREEN>192</GREEN>
+		<BLUE>241</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02058</CODE>
+		<NAME>Mill Hill beads - '02058'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02059</CODE>
+		<NAME>Mill Hill beads - '02059'</NAME>
+		<RED>255</RED>
+		<GREEN>252</GREEN>
+		<BLUE>45</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02060</CODE>
+		<NAME>Mill Hill beads - '02060'</NAME>
+		<RED>255</RED>
+		<GREEN>90</GREEN>
+		<BLUE>42</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02061</CODE>
+		<NAME>Mill Hill beads - '02061'</NAME>
+		<RED>255</RED>
+		<GREEN>68</GREEN>
+		<BLUE>23</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02062</CODE>
+		<NAME>Mill Hill beads - '02062'</NAME>
+		<RED>207</RED>
+		<GREEN>17</GREEN>
+		<BLUE>17</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02063</CODE>
+		<NAME>Mill Hill beads - '02063'</NAME>
+		<RED>168</RED>
+		<GREEN>2</GREEN>
+		<BLUE>1</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02064</CODE>
+		<NAME>Mill Hill beads - '02064'</NAME>
+		<RED>182</RED>
+		<GREEN>222</GREEN>
+		<BLUE>239</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02065</CODE>
+		<NAME>Mill Hill beads - '02065'</NAME>
+		<RED>1</RED>
+		<GREEN>12</GREEN>
+		<BLUE>101</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02066</CODE>
+		<NAME>Mill Hill beads - '02066'</NAME>
+		<RED>166</RED>
+		<GREEN>188</GREEN>
+		<BLUE>56</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02067</CODE>
+		<NAME>Mill Hill beads - '02067'</NAME>
+		<RED>42</RED>
+		<GREEN>132</GREEN>
+		<BLUE>2</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02068</CODE>
+		<NAME>Mill Hill beads - '02068'</NAME>
+		<RED>58</RED>
+		<GREEN>26</GREEN>
+		<BLUE>9</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>02069</CODE>
+		<NAME>Mill Hill beads - '02069'</NAME>
+		<RED>166</RED>
+		<GREEN>85</GREEN>
+		<BLUE>199</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03002</CODE>
+		<NAME>Mill Hill beads - '03002'</NAME>
+		<RED>0</RED>
+		<GREEN>4</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03003</CODE>
+		<NAME>Mill Hill beads - '03003'</NAME>
+		<RED>165</RED>
+		<GREEN>14</GREEN>
+		<BLUE>18</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03004</CODE>
+		<NAME>Mill Hill beads - '03004'</NAME>
+		<RED>68</RED>
+		<GREEN>10</GREEN>
+		<BLUE>58</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03005</CODE>
+		<NAME>Mill Hill beads - '03005'</NAME>
+		<RED>242</RED>
+		<GREEN>175</GREEN>
+		<BLUE>175</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03007</CODE>
+		<NAME>Mill Hill beads - '03007'</NAME>
+		<RED>191</RED>
+		<GREEN>202</GREEN>
+		<BLUE>201</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03008</CODE>
+		<NAME>Mill Hill beads - '03008'</NAME>
+		<RED>151</RED>
+		<GREEN>147</GREEN>
+		<BLUE>143</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03009</CODE>
+		<NAME>Mill Hill beads - '03009'</NAME>
+		<RED>26</RED>
+		<GREEN>29</GREEN>
+		<BLUE>26</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03010</CODE>
+		<NAME>Mill Hill beads - '03010'</NAME>
+		<RED>17</RED>
+		<GREEN>49</GREEN>
+		<BLUE>58</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03011</CODE>
+		<NAME>Mill Hill beads - '03011'</NAME>
+		<RED>58</RED>
+		<GREEN>54</GREEN>
+		<BLUE>45</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03012</CODE>
+		<NAME>Mill Hill beads - '03012'</NAME>
+		<RED>24</RED>
+		<GREEN>41</GREEN>
+		<BLUE>19</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03013</CODE>
+		<NAME>Mill Hill beads - '03013'</NAME>
+		<RED>18</RED>
+		<GREEN>45</GREEN>
+		<BLUE>59</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03014</CODE>
+		<NAME>Mill Hill beads - '03014'</NAME>
+		<RED>100</RED>
+		<GREEN>73</GREEN>
+		<BLUE>12</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03015</CODE>
+		<NAME>Mill Hill beads - '03015'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03016</CODE>
+		<NAME>Mill Hill beads - '03016'</NAME>
+		<RED>255</RED>
+		<GREEN>240</GREEN>
+		<BLUE>230</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03017</CODE>
+		<NAME>Mill Hill beads - '03017'</NAME>
+		<RED>245</RED>
+		<GREEN>220</GREEN>
+		<BLUE>208</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03018</CODE>
+		<NAME>Mill Hill beads - '03018'</NAME>
+		<RED>241</RED>
+		<GREEN>175</GREEN>
+		<BLUE>172</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03019</CODE>
+		<NAME>Mill Hill beads - '03019'</NAME>
+		<RED>247</RED>
+		<GREEN>202</GREEN>
+		<BLUE>221</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03020</CODE>
+		<NAME>Mill Hill beads - '03020'</NAME>
+		<RED>182</RED>
+		<GREEN>103</GREEN>
+		<BLUE>124</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03021</CODE>
+		<NAME>Mill Hill beads - '03021'</NAME>
+		<RED>255</RED>
+		<GREEN>247</GREEN>
+		<BLUE>231</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03022</CODE>
+		<NAME>Mill Hill beads - '03022'</NAME>
+		<RED>35</RED>
+		<GREEN>79</GREEN>
+		<BLUE>41</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03023</CODE>
+		<NAME>Mill Hill beads - '03023'</NAME>
+		<RED>125</RED>
+		<GREEN>58</GREEN>
+		<BLUE>75</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03024</CODE>
+		<NAME>Mill Hill beads - '03024'</NAME>
+		<RED>44</RED>
+		<GREEN>15</GREEN>
+		<BLUE>11</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03025</CODE>
+		<NAME>Mill Hill beads - '03025'</NAME>
+		<RED>84</RED>
+		<GREEN>15</GREEN>
+		<BLUE>27</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03026</CODE>
+		<NAME>Mill Hill beads - '03026'</NAME>
+		<RED>9</RED>
+		<GREEN>21</GREEN>
+		<BLUE>51</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03027</CODE>
+		<NAME>Mill Hill beads - '03027'</NAME>
+		<RED>17</RED>
+		<GREEN>61</GREEN>
+		<BLUE>117</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03028</CODE>
+		<NAME>Mill Hill beads - '03028'</NAME>
+		<RED>27</RED>
+		<GREEN>49</GREEN>
+		<BLUE>9</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03029</CODE>
+		<NAME>Mill Hill beads - '03029'</NAME>
+		<RED>75</RED>
+		<GREEN>78</GREEN>
+		<BLUE>18</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03030</CODE>
+		<NAME>Mill Hill beads - '03030'</NAME>
+		<RED>123</RED>
+		<GREEN>57</GREEN>
+		<BLUE>76</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03031</CODE>
+		<NAME>Mill Hill beads - '03031'</NAME>
+		<RED>141</RED>
+		<GREEN>101</GREEN>
+		<BLUE>109</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03033</CODE>
+		<NAME>Mill Hill beads - '03033'</NAME>
+		<RED>133</RED>
+		<GREEN>20</GREEN>
+		<BLUE>37</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03034</CODE>
+		<NAME>Mill Hill beads - '03034'</NAME>
+		<RED>133</RED>
+		<GREEN>16</GREEN>
+		<BLUE>26</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03035</CODE>
+		<NAME>Mill Hill beads - '03035'</NAME>
+		<RED>9</RED>
+		<GREEN>82</GREEN>
+		<BLUE>50</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03036</CODE>
+		<NAME>Mill Hill beads - '03036'</NAME>
+		<RED>122</RED>
+		<GREEN>59</GREEN>
+		<BLUE>74</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03037</CODE>
+		<NAME>Mill Hill beads - '03037'</NAME>
+		<RED>158</RED>
+		<GREEN>170</GREEN>
+		<BLUE>76</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03038</CODE>
+		<NAME>Mill Hill beads - '03038'</NAME>
+		<RED>198</RED>
+		<GREEN>52</GREEN>
+		<BLUE>18</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03039</CODE>
+		<NAME>Mill Hill beads - '03039'</NAME>
+		<RED>243</RED>
+		<GREEN>199</GREEN>
+		<BLUE>181</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03040</CODE>
+		<NAME>Mill Hill beads - '03040'</NAME>
+		<RED>0</RED>
+		<GREEN>0</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03041</CODE>
+		<NAME>Mill Hill beads - '03041'</NAME>
+		<RED>252</RED>
+		<GREEN>252</GREEN>
+		<BLUE>252</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03042</CODE>
+		<NAME>Mill Hill beads - '03042'</NAME>
+		<RED>17</RED>
+		<GREEN>61</GREEN>
+		<BLUE>119</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03043</CODE>
+		<NAME>Mill Hill beads - '03043'</NAME>
+		<RED>252</RED>
+		<GREEN>19</GREEN>
+		<BLUE>18</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03044</CODE>
+		<NAME>Mill Hill beads - '03044'</NAME>
+		<RED>255</RED>
+		<GREEN>204</GREEN>
+		<BLUE>254</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03045</CODE>
+		<NAME>Mill Hill beads - '03045'</NAME>
+		<RED>219</RED>
+		<GREEN>152</GREEN>
+		<BLUE>248</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03046</CODE>
+		<NAME>Mill Hill beads - '03046'</NAME>
+		<RED>69</RED>
+		<GREEN>125</GREEN>
+		<BLUE>141</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03047</CODE>
+		<NAME>Mill Hill beads - '03047'</NAME>
+		<RED>35</RED>
+		<GREEN>118</GREEN>
+		<BLUE>136</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03048</CODE>
+		<NAME>Mill Hill beads - '03048'</NAME>
+		<RED>166</RED>
+		<GREEN>15</GREEN>
+		<BLUE>16</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03049</CODE>
+		<NAME>Mill Hill beads - '03049'</NAME>
+		<RED>166</RED>
+		<GREEN>0</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03050</CODE>
+		<NAME>Mill Hill beads - '03050'</NAME>
+		<RED>247</RED>
+		<GREEN>220</GREEN>
+		<BLUE>216</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03051</CODE>
+		<NAME>Mill Hill beads - '03051'</NAME>
+		<RED>255</RED>
+		<GREEN>191</GREEN>
+		<BLUE>199</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03052</CODE>
+		<NAME>Mill Hill beads - '03052'</NAME>
+		<RED>255</RED>
+		<GREEN>214</GREEN>
+		<BLUE>202</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03053</CODE>
+		<NAME>Mill Hill beads - '03053'</NAME>
+		<RED>85</RED>
+		<GREEN>49</GREEN>
+		<BLUE>160</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03054</CODE>
+		<NAME>Mill Hill beads - '03054'</NAME>
+		<RED>240</RED>
+		<GREEN>186</GREEN>
+		<BLUE>206</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03055</CODE>
+		<NAME>Mill Hill beads - '03055'</NAME>
+		<RED>148</RED>
+		<GREEN>190</GREEN>
+		<BLUE>141</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03056</CODE>
+		<NAME>Mill Hill beads - '03056'</NAME>
+		<RED>238</RED>
+		<GREEN>35</GREEN>
+		<BLUE>42</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03057</CODE>
+		<NAME>Mill Hill beads - '03057'</NAME>
+		<RED>244</RED>
+		<GREEN>158</GREEN>
+		<BLUE>179</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03058</CODE>
+		<NAME>Mill Hill beads - '03058'</NAME>
+		<RED>235</RED>
+		<GREEN>35</GREEN>
+		<BLUE>65</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03059</CODE>
+		<NAME>Mill Hill beads - '03059'</NAME>
+		<RED>50</RED>
+		<GREEN>87</GREEN>
+		<BLUE>10</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03060</CODE>
+		<NAME>Mill Hill beads - '03060'</NAME>
+		<RED>192</RED>
+		<GREEN>199</GREEN>
+		<BLUE>203</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03061</CODE>
+		<NAME>Mill Hill beads - '03061'</NAME>
+		<RED>25</RED>
+		<GREEN>34</GREEN>
+		<BLUE>125</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03062</CODE>
+		<NAME>Mill Hill beads - '03062'</NAME>
+		<RED>0</RED>
+		<GREEN>9</GREEN>
+		<BLUE>91</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>03063</CODE>
+		<NAME>Mill Hill beads - '03063'</NAME>
+		<RED>215</RED>
+		<GREEN>239</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>05021</CODE>
+		<NAME>Mill Hill beads - '05021'</NAME>
+		<RED>240</RED>
+		<GREEN>249</GREEN>
+		<BLUE>248</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>05025</CODE>
+		<NAME>Mill Hill beads - '05025'</NAME>
+		<RED>199</RED>
+		<GREEN>3</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>05081</CODE>
+		<NAME>Mill Hill beads - '05081'</NAME>
+		<RED>0</RED>
+		<GREEN>1</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>05086</CODE>
+		<NAME>Mill Hill beads - '05086'</NAME>
+		<RED>67</RED>
+		<GREEN>9</GREEN>
+		<BLUE>56</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>05145</CODE>
+		<NAME>Mill Hill beads - '05145'</NAME>
+		<RED>255</RED>
+		<GREEN>228</GREEN>
+		<BLUE>240</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>05147</CODE>
+		<NAME>Mill Hill beads - '05147'</NAME>
+		<RED>255</RED>
+		<GREEN>242</GREEN>
+		<BLUE>232</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>05161</CODE>
+		<NAME>Mill Hill beads - '05161'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>05168</CODE>
+		<NAME>Mill Hill beads - '05168'</NAME>
+		<RED>166</RED>
+		<GREEN>166</GREEN>
+		<BLUE>249</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>05202</CODE>
+		<NAME>Mill Hill beads - '05202'</NAME>
+		<RED>207</RED>
+		<GREEN>156</GREEN>
+		<BLUE>241</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>05270</CODE>
+		<NAME>Mill Hill beads - '05270'</NAME>
+		<RED>9</RED>
+		<GREEN>82</GREEN>
+		<BLUE>49</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>05555</CODE>
+		<NAME>Mill Hill beads - '05555'</NAME>
+		<RED>239</RED>
+		<GREEN>201</GREEN>
+		<BLUE>174</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>05557</CODE>
+		<NAME>Mill Hill beads - '05557'</NAME>
+		<RED>248</RED>
+		<GREEN>216</GREEN>
+		<BLUE>116</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>20020</CODE>
+		<NAME>Mill Hill beads - '20020'</NAME>
+		<RED>0</RED>
+		<GREEN>12</GREEN>
+		<BLUE>100</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>20081</CODE>
+		<NAME>Mill Hill beads - '20081'</NAME>
+		<RED>24</RED>
+		<GREEN>25</GREEN>
+		<BLUE>24</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>20123</CODE>
+		<NAME>Mill Hill beads - '20123'</NAME>
+		<RED>255</RED>
+		<GREEN>244</GREEN>
+		<BLUE>233</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>20145</CODE>
+		<NAME>Mill Hill beads - '20145'</NAME>
+		<RED>255</RED>
+		<GREEN>227</GREEN>
+		<BLUE>241</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>20161</CODE>
+		<NAME>Mill Hill beads - '20161'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>20167</CODE>
+		<NAME>Mill Hill beads - '20167'</NAME>
+		<RED>59</RED>
+		<GREEN>147</GREEN>
+		<BLUE>26</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>20252</CODE>
+		<NAME>Mill Hill beads - '20252'</NAME>
+		<RED>133</RED>
+		<GREEN>107</GREEN>
+		<BLUE>216</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>20332</CODE>
+		<NAME>Mill Hill beads - '20332'</NAME>
+		<RED>1</RED>
+		<GREEN>29</GREEN>
+		<BLUE>1</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>20367</CODE>
+		<NAME>Mill Hill beads - '20367'</NAME>
+		<RED>108</RED>
+		<GREEN>0</GREEN>
+		<BLUE>17</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>20374</CODE>
+		<NAME>Mill Hill beads - '20374'</NAME>
+		<RED>67</RED>
+		<GREEN>9</GREEN>
+		<BLUE>59</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>20479</CODE>
+		<NAME>Mill Hill beads - '20479'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>254</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>20553</CODE>
+		<NAME>Mill Hill beads - '20553'</NAME>
+		<RED>248</RED>
+		<GREEN>155</GREEN>
+		<BLUE>207</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>20557</CODE>
+		<NAME>Mill Hill beads - '20557'</NAME>
+		<RED>231</RED>
+		<GREEN>171</GREEN>
+		<BLUE>50</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>20561</CODE>
+		<NAME>Mill Hill beads - '20561'</NAME>
+		<RED>149</RED>
+		<GREEN>191</GREEN>
+		<BLUE>142</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>22005</CODE>
+		<NAME>Mill Hill beads - '22005'</NAME>
+		<RED>248</RED>
+		<GREEN>176</GREEN>
+		<BLUE>199</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>22009</CODE>
+		<NAME>Mill Hill beads - '22009'</NAME>
+		<RED>240</RED>
+		<GREEN>196</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>22010</CODE>
+		<NAME>Mill Hill beads - '22010'</NAME>
+		<RED>240</RED>
+		<GREEN>249</GREEN>
+		<BLUE>248</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>22011</CODE>
+		<NAME>Mill Hill beads - '22011'</NAME>
+		<RED>199</RED>
+		<GREEN>118</GREEN>
+		<BLUE>34</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>22013</CODE>
+		<NAME>Mill Hill beads - '22013'</NAME>
+		<RED>199</RED>
+		<GREEN>2</GREEN>
+		<BLUE>8</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>22014</CODE>
+		<NAME>Mill Hill beads - '22014'</NAME>
+		<RED>0</RED>
+		<GREEN>0</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>22019</CODE>
+		<NAME>Mill Hill beads - '22019'</NAME>
+		<RED>240</RED>
+		<GREEN>220</GREEN>
+		<BLUE>142</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>22020</CODE>
+		<NAME>Mill Hill beads - '22020'</NAME>
+		<RED>2</RED>
+		<GREEN>70</GREEN>
+		<BLUE>17</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>22024</CODE>
+		<NAME>Mill Hill beads - '22024'</NAME>
+		<RED>214</RED>
+		<GREEN>191</GREEN>
+		<BLUE>199</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>22026</CODE>
+		<NAME>Mill Hill beads - '22026'</NAME>
+		<RED>166</RED>
+		<GREEN>189</GREEN>
+		<BLUE>239</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>40020</CODE>
+		<NAME>Mill Hill beads - '40020'</NAME>
+		<RED>1</RED>
+		<GREEN>12</GREEN>
+		<BLUE>100</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>40123</CODE>
+		<NAME>Mill Hill beads - '40123'</NAME>
+		<RED>255</RED>
+		<GREEN>241</GREEN>
+		<BLUE>232</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>40161</CODE>
+		<NAME>Mill Hill beads - '40161'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>253</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>40252</CODE>
+		<NAME>Mill Hill beads - '40252'</NAME>
+		<RED>133</RED>
+		<GREEN>106</GREEN>
+		<BLUE>215</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>40332</CODE>
+		<NAME>Mill Hill beads - '40332'</NAME>
+		<RED>1</RED>
+		<GREEN>30</GREEN>
+		<BLUE>2</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>40374</CODE>
+		<NAME>Mill Hill beads - '40374'</NAME>
+		<RED>69</RED>
+		<GREEN>9</GREEN>
+		<BLUE>57</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>40479</CODE>
+		<NAME>Mill Hill beads - '40479'</NAME>
+		<RED>254</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>40553</CODE>
+		<NAME>Mill Hill beads - '40553'</NAME>
+		<RED>248</RED>
+		<GREEN>155</GREEN>
+		<BLUE>207</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>40556</CODE>
+		<NAME>Mill Hill beads - '40556'</NAME>
+		<RED>215</RED>
+		<GREEN>70</GREEN>
+		<BLUE>83</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>40557</CODE>
+		<NAME>Mill Hill beads - '40557'</NAME>
+		<RED>247</RED>
+		<GREEN>215</GREEN>
+		<BLUE>116</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>42010</CODE>
+		<NAME>Mill Hill beads - '42010'</NAME>
+		<RED>239</RED>
+		<GREEN>246</GREEN>
+		<BLUE>246</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>42011</CODE>
+		<NAME>Mill Hill beads - '42011'</NAME>
+		<RED>199</RED>
+		<GREEN>118</GREEN>
+		<BLUE>35</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>42012</CODE>
+		<NAME>Mill Hill beads - '42012'</NAME>
+		<RED>132</RED>
+		<GREEN>14</GREEN>
+		<BLUE>25</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>42013</CODE>
+		<NAME>Mill Hill beads - '42013'</NAME>
+		<RED>200</RED>
+		<GREEN>0</GREEN>
+		<BLUE>10</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>42014</CODE>
+		<NAME>Mill Hill beads - '42014'</NAME>
+		<RED>0</RED>
+		<GREEN>0</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>42017</CODE>
+		<NAME>Mill Hill beads - '42017'</NAME>
+		<RED>215</RED>
+		<GREEN>255</GREEN>
+		<BLUE>241</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>42018</CODE>
+		<NAME>Mill Hill beads - '42018'</NAME>
+		<RED>255</RED>
+		<GREEN>231</GREEN>
+		<BLUE>240</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>42024</CODE>
+		<NAME>Mill Hill beads - '42024'</NAME>
+		<RED>215</RED>
+		<GREEN>191</GREEN>
+		<BLUE>199</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>42027</CODE>
+		<NAME>Mill Hill beads - '42027'</NAME>
+		<RED>248</RED>
+		<GREEN>223</GREEN>
+		<BLUE>214</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>60020</CODE>
+		<NAME>Mill Hill beads - '60020'</NAME>
+		<RED>1</RED>
+		<GREEN>14</GREEN>
+		<BLUE>101</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>60161</CODE>
+		<NAME>Mill Hill beads - '60161'</NAME>
+		<RED>241</RED>
+		<GREEN>248</GREEN>
+		<BLUE>248</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>60168</CODE>
+		<NAME>Mill Hill beads - '60168'</NAME>
+		<RED>166</RED>
+		<GREEN>167</GREEN>
+		<BLUE>247</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>60367</CODE>
+		<NAME>Mill Hill beads - '60367'</NAME>
+		<RED>124</RED>
+		<GREEN>9</GREEN>
+		<BLUE>25</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>60479</CODE>
+		<NAME>Mill Hill beads - '60479'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62004</CODE>
+		<NAME>Mill Hill beads - '62004'</NAME>
+		<RED>255</RED>
+		<GREEN>147</GREEN>
+		<BLUE>199</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62005</CODE>
+		<NAME>Mill Hill beads - '62005'</NAME>
+		<RED>255</RED>
+		<GREEN>218</GREEN>
+		<BLUE>234</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62010</CODE>
+		<NAME>Mill Hill beads - '62010'</NAME>
+		<RED>255</RED>
+		<GREEN>241</GREEN>
+		<BLUE>230</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62012</CODE>
+		<NAME>Mill Hill beads - '62012'</NAME>
+		<RED>166</RED>
+		<GREEN>13</GREEN>
+		<BLUE>18</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62013</CODE>
+		<NAME>Mill Hill beads - '62013'</NAME>
+		<RED>199</RED>
+		<GREEN>1</GREEN>
+		<BLUE>9</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62014</CODE>
+		<NAME>Mill Hill beads - '62014'</NAME>
+		<RED>1</RED>
+		<GREEN>1</GREEN>
+		<BLUE>2</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62020</CODE>
+		<NAME>Mill Hill beads - '62020'</NAME>
+		<RED>0</RED>
+		<GREEN>68</GREEN>
+		<BLUE>17</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62021</CODE>
+		<NAME>Mill Hill beads - '62021'</NAME>
+		<RED>67</RED>
+		<GREEN>106</GREEN>
+		<BLUE>91</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62023</CODE>
+		<NAME>Mill Hill beads - '62023'</NAME>
+		<RED>208</RED>
+		<GREEN>87</GREEN>
+		<BLUE>18</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62024</CODE>
+		<NAME>Mill Hill beads - '62024'</NAME>
+		<RED>215</RED>
+		<GREEN>191</GREEN>
+		<BLUE>198</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62031</CODE>
+		<NAME>Mill Hill beads - '62031'</NAME>
+		<RED>247</RED>
+		<GREEN>218</GREEN>
+		<BLUE>114</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62032</CODE>
+		<NAME>Mill Hill beads - '62032'</NAME>
+		<RED>133</RED>
+		<GREEN>17</GREEN>
+		<BLUE>2</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62033</CODE>
+		<NAME>Mill Hill beads - '62033'</NAME>
+		<RED>255</RED>
+		<GREEN>220</GREEN>
+		<BLUE>240</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62034</CODE>
+		<NAME>Mill Hill beads - '62034'</NAME>
+		<RED>166</RED>
+		<GREEN>166</GREEN>
+		<BLUE>247</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62035</CODE>
+		<NAME>Mill Hill beads - '62035'</NAME>
+		<RED>255</RED>
+		<GREEN>173</GREEN>
+		<BLUE>241</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62036</CODE>
+		<NAME>Mill Hill beads - '62036'</NAME>
+		<RED>248</RED>
+		<GREEN>129</GREEN>
+		<BLUE>101</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62037</CODE>
+		<NAME>Mill Hill beads - '62037'</NAME>
+		<RED>255</RED>
+		<GREEN>148</GREEN>
+		<BLUE>181</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62038</CODE>
+		<NAME>Mill Hill beads - '62038'</NAME>
+		<RED>157</RED>
+		<GREEN>248</GREEN>
+		<BLUE>232</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62039</CODE>
+		<NAME>Mill Hill beads - '62039'</NAME>
+		<RED>255</RED>
+		<GREEN>234</GREEN>
+		<BLUE>146</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62040</CODE>
+		<NAME>Mill Hill beads - '62040'</NAME>
+		<RED>255</RED>
+		<GREEN>240</GREEN>
+		<BLUE>215</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62041</CODE>
+		<NAME>Mill Hill beads - '62041'</NAME>
+		<RED>255</RED>
+		<GREEN>248</GREEN>
+		<BLUE>157</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62042</CODE>
+		<NAME>Mill Hill beads - '62042'</NAME>
+		<RED>133</RED>
+		<GREEN>106</GREEN>
+		<BLUE>216</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62043</CODE>
+		<NAME>Mill Hill beads - '62043'</NAME>
+		<RED>17</RED>
+		<GREEN>57</GREEN>
+		<BLUE>67</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62044</CODE>
+		<NAME>Mill Hill beads - '62044'</NAME>
+		<RED>255</RED>
+		<GREEN>161</GREEN>
+		<BLUE>52</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62046</CODE>
+		<NAME>Mill Hill beads - '62046'</NAME>
+		<RED>215</RED>
+		<GREEN>240</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62047</CODE>
+		<NAME>Mill Hill beads - '62047'</NAME>
+		<RED>240</RED>
+		<GREEN>196</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62048</CODE>
+		<NAME>Mill Hill beads - '62048'</NAME>
+		<RED>255</RED>
+		<GREEN>228</GREEN>
+		<BLUE>232</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62049</CODE>
+		<NAME>Mill Hill beads - '62049'</NAME>
+		<RED>199</RED>
+		<GREEN>180</GREEN>
+		<BLUE>91</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62056</CODE>
+		<NAME>Mill Hill beads - '62056'</NAME>
+		<RED>83</RED>
+		<GREEN>17</GREEN>
+		<BLUE>26</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>62057</CODE>
+		<NAME>Mill Hill beads - '62057'</NAME>
+		<RED>190</RED>
+		<GREEN>131</GREEN>
+		<BLUE>58</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>65270</CODE>
+		<NAME>Mill Hill beads - '65270'</NAME>
+		<RED>9</RED>
+		<GREEN>82</GREEN>
+		<BLUE>51</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>70020</CODE>
+		<NAME>Mill Hill beads - '70020'</NAME>
+		<RED>0</RED>
+		<GREEN>13</GREEN>
+		<BLUE>100</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>70123</CODE>
+		<NAME>Mill Hill beads - '70123'</NAME>
+		<RED>255</RED>
+		<GREEN>243</GREEN>
+		<BLUE>235</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>70161</CODE>
+		<NAME>Mill Hill beads - '70161'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>70374</CODE>
+		<NAME>Mill Hill beads - '70374'</NAME>
+		<RED>67</RED>
+		<GREEN>9</GREEN>
+		<BLUE>59</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>70479</CODE>
+		<NAME>Mill Hill beads - '70479'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72001</CODE>
+		<NAME>Mill Hill beads - '72001'</NAME>
+		<RED>255</RED>
+		<GREEN>240</GREEN>
+		<BLUE>230</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72003</CODE>
+		<NAME>Mill Hill beads - '72003'</NAME>
+		<RED>255</RED>
+		<GREEN>210</GREEN>
+		<BLUE>200</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72005</CODE>
+		<NAME>Mill Hill beads - '72005'</NAME>
+		<RED>248</RED>
+		<GREEN>175</GREEN>
+		<BLUE>199</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72006</CODE>
+		<NAME>Mill Hill beads - '72006'</NAME>
+		<RED>116</RED>
+		<GREEN>171</GREEN>
+		<BLUE>214</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72008</CODE>
+		<NAME>Mill Hill beads - '72008'</NAME>
+		<RED>116</RED>
+		<GREEN>231</GREEN>
+		<BLUE>183</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72009</CODE>
+		<NAME>Mill Hill beads - '72009'</NAME>
+		<RED>240</RED>
+		<GREEN>196</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72010</CODE>
+		<NAME>Mill Hill beads - '72010'</NAME>
+		<RED>236</RED>
+		<GREEN>248</GREEN>
+		<BLUE>248</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72011</CODE>
+		<NAME>Mill Hill beads - '72011'</NAME>
+		<RED>198</RED>
+		<GREEN>119</GREEN>
+		<BLUE>35</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72012</CODE>
+		<NAME>Mill Hill beads - '72012'</NAME>
+		<RED>133</RED>
+		<GREEN>14</GREEN>
+		<BLUE>26</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72013</CODE>
+		<NAME>Mill Hill beads - '72013'</NAME>
+		<RED>199</RED>
+		<GREEN>2</GREEN>
+		<BLUE>11</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72014</CODE>
+		<NAME>Mill Hill beads - '72014'</NAME>
+		<RED>0</RED>
+		<GREEN>0</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72020</CODE>
+		<NAME>Mill Hill beads - '72020'</NAME>
+		<RED>2</RED>
+		<GREEN>70</GREEN>
+		<BLUE>18</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72023</CODE>
+		<NAME>Mill Hill beads - '72023'</NAME>
+		<RED>58</RED>
+		<GREEN>26</GREEN>
+		<BLUE>11</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72035</CODE>
+		<NAME>Mill Hill beads - '72035'</NAME>
+		<RED>255</RED>
+		<GREEN>171</GREEN>
+		<BLUE>241</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72045</CODE>
+		<NAME>Mill Hill beads - '72045'</NAME>
+		<RED>50</RED>
+		<GREEN>86</GREEN>
+		<BLUE>9</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72051</CODE>
+		<NAME>Mill Hill beads - '72051'</NAME>
+		<RED>190</RED>
+		<GREEN>87</GREEN>
+		<BLUE>207</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72052</CODE>
+		<NAME>Mill Hill beads - '72052'</NAME>
+		<RED>149</RED>
+		<GREEN>12</GREEN>
+		<BLUE>25</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>72053</CODE>
+		<NAME>Mill Hill beads - '72053'</NAME>
+		<RED>182</RED>
+		<GREEN>104</GREEN>
+		<BLUE>124</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>80020</CODE>
+		<NAME>Mill Hill beads - '80020'</NAME>
+		<RED>0</RED>
+		<GREEN>14</GREEN>
+		<BLUE>101</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>80123</CODE>
+		<NAME>Mill Hill beads - '80123'</NAME>
+		<RED>255</RED>
+		<GREEN>244</GREEN>
+		<BLUE>232</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>80161</CODE>
+		<NAME>Mill Hill beads - '80161'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>80168</CODE>
+		<NAME>Mill Hill beads - '80168'</NAME>
+		<RED>167</RED>
+		<GREEN>167</GREEN>
+		<BLUE>248</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>80374</CODE>
+		<NAME>Mill Hill beads - '80374'</NAME>
+		<RED>68</RED>
+		<GREEN>10</GREEN>
+		<BLUE>59</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>80479</CODE>
+		<NAME>Mill Hill beads - '80479'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>82010</CODE>
+		<NAME>Mill Hill beads - '82010'</NAME>
+		<RED>241</RED>
+		<GREEN>248</GREEN>
+		<BLUE>248</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>82011</CODE>
+		<NAME>Mill Hill beads - '82011'</NAME>
+		<RED>199</RED>
+		<GREEN>120</GREEN>
+		<BLUE>35</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>82012</CODE>
+		<NAME>Mill Hill beads - '82012'</NAME>
+		<RED>133</RED>
+		<GREEN>12</GREEN>
+		<BLUE>26</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>82014</CODE>
+		<NAME>Mill Hill beads - '82014'</NAME>
+		<RED>0</RED>
+		<GREEN>0</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>82020</CODE>
+		<NAME>Mill Hill beads - '82020'</NAME>
+		<RED>0</RED>
+		<GREEN>64</GREEN>
+		<BLUE>14</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>82023</CODE>
+		<NAME>Mill Hill beads - '82023'</NAME>
+		<RED>54</RED>
+		<GREEN>27</GREEN>
+		<BLUE>9</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>82045</CODE>
+		<NAME>Mill Hill beads - '82045'</NAME>
+		<RED>51</RED>
+		<GREEN>87</GREEN>
+		<BLUE>9</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>82050</CODE>
+		<NAME>Mill Hill beads - '82050'</NAME>
+		<RED>200</RED>
+		<GREEN>18</GREEN>
+		<BLUE>18</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>82051</CODE>
+		<NAME>Mill Hill beads - '82051'</NAME>
+		<RED>192</RED>
+		<GREEN>83</GREEN>
+		<BLUE>202</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>82053</CODE>
+		<NAME>Mill Hill beads - '82053'</NAME>
+		<RED>190</RED>
+		<GREEN>109</GREEN>
+		<BLUE>124</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>82054</CODE>
+		<NAME>Mill Hill beads - '82054'</NAME>
+		<RED>164</RED>
+		<GREEN>238</GREEN>
+		<BLUE>200</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>90020</CODE>
+		<NAME>Mill Hill beads - '90020'</NAME>
+		<RED>0</RED>
+		<GREEN>10</GREEN>
+		<BLUE>100</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>90123</CODE>
+		<NAME>Mill Hill beads - '90123'</NAME>
+		<RED>255</RED>
+		<GREEN>244</GREEN>
+		<BLUE>230</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>90161</CODE>
+		<NAME>Mill Hill beads - '90161'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>255</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>90168</CODE>
+		<NAME>Mill Hill beads - '90168'</NAME>
+		<RED>165</RED>
+		<GREEN>168</GREEN>
+		<BLUE>245</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>90374</CODE>
+		<NAME>Mill Hill beads - '90374'</NAME>
+		<RED>69</RED>
+		<GREEN>10</GREEN>
+		<BLUE>59</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>90479</CODE>
+		<NAME>Mill Hill beads - '90479'</NAME>
+		<RED>255</RED>
+		<GREEN>255</GREEN>
+		<BLUE>252</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>92010</CODE>
+		<NAME>Mill Hill beads - '92010'</NAME>
+		<RED>240</RED>
+		<GREEN>248</GREEN>
+		<BLUE>248</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>92011</CODE>
+		<NAME>Mill Hill beads - '92011'</NAME>
+		<RED>200</RED>
+		<GREEN>118</GREEN>
+		<BLUE>35</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>92014</CODE>
+		<NAME>Mill Hill beads - '92014'</NAME>
+		<RED>0</RED>
+		<GREEN>0</GREEN>
+		<BLUE>0</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>92023</CODE>
+		<NAME>Mill Hill beads - '92023'</NAME>
+		<RED>58</RED>
+		<GREEN>26</GREEN>
+		<BLUE>10</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>92054</CODE>
+		<NAME>Mill Hill beads - '92054'</NAME>
+		<RED>165</RED>
+		<GREEN>237</GREEN>
+		<BLUE>200</BLUE>
+	</COLOR>
+	<COLOR>
+		<CODE>92055</CODE>
+		<NAME>Mill Hill beads - '92055'</NAME>
+		<RED>208</RED>
+		<GREEN>18</GREEN>
+		<BLUE>18</BLUE>
+	</COLOR>
+</PALETTE>
