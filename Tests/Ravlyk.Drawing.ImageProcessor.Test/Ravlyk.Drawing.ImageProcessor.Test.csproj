@@ -7,7 +7,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Ravlyk.Drawing.ImageProcessor.Test</RootNamespace>
     <AssemblyName>Ravlyk.Drawing.ImageProcessor.Test</AssemblyName>
-    <ReleaseVersion>5.0.1.32</ReleaseVersion>
+    <ReleaseVersion>5.0.1.33</ReleaseVersion>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <TargetFrameworkProfile />
     <SccProjectName>SAK</SccProjectName>

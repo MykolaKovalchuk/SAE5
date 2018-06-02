@@ -11,7 +11,7 @@
     <AssemblyName>Ravlyk.SAE.Resources</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <ReleaseVersion>5.0.1.32</ReleaseVersion>
+    <ReleaseVersion>5.0.1.33</ReleaseVersion>
     <TargetFrameworkProfile />
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>

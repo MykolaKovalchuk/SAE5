@@ -478,7 +478,7 @@ Global
 		$4.Rules = $5
 		$5.NamingRule = $25
 		description = Stitch Art Easy! 5.0 Alpha
-		version = 5.0.1.32
+		version = 5.0.1.33
 	EndGlobalSection
 	GlobalSection(VaultVsipSolution-v2) = preSolution
 		ProjectCount = 9

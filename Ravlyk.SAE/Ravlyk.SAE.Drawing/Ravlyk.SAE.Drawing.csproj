@@ -7,7 +7,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Ravlyk.SAE.Drawing</RootNamespace>
     <AssemblyName>Ravlyk.SAE.Drawing</AssemblyName>
-    <ReleaseVersion>5.0.1.32</ReleaseVersion>
+    <ReleaseVersion>5.0.1.33</ReleaseVersion>
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
