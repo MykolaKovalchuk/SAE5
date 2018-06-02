@@ -165,129 +165,172 @@
     </Compile>
     <EmbeddedResource Include="Dialogs\AboutDialog.resx">
       <DependentUpon>AboutDialog.cs</DependentUpon>
+      <LogicalName>AboutDialog.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\AboutDialog.ru.resx">
       <DependentUpon>AboutDialog.cs</DependentUpon>
+      <LogicalName>AboutDialog.ru.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\AboutDialog.uk.resx">
       <DependentUpon>AboutDialog.cs</DependentUpon>
+      <LogicalName>AboutDialog.uk.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\InputDialog.resx">
       <DependentUpon>InputDialog.cs</DependentUpon>
+      <LogicalName>InputDialog.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\InputDialog.ru.resx">
       <DependentUpon>InputDialog.cs</DependentUpon>
+      <LogicalName>InputDialog.ru.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\InputDialog.uk.resx">
       <DependentUpon>InputDialog.cs</DependentUpon>
+      <LogicalName>InputDialog.uk.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\OpitonsDialog.resx">
       <DependentUpon>OpitonsDialog.cs</DependentUpon>
+      <LogicalName>OpitonsDialog.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\OpitonsDialog.ru.resx">
       <DependentUpon>OpitonsDialog.cs</DependentUpon>
+      <LogicalName>OpitonsDialog.ru.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\OpitonsDialog.uk.resx">
       <DependentUpon>OpitonsDialog.cs</DependentUpon>
+      <LogicalName>OpitonsDialog.uk.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\RegisterDialog.resx">
       <DependentUpon>RegisterDialog.cs</DependentUpon>
+      <LogicalName>RegisterDialog.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\RegisterDialog.ru.resx">
       <DependentUpon>RegisterDialog.cs</DependentUpon>
+      <LogicalName>RegisterDialog.ru.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\RegisterDialog.uk.resx">
       <DependentUpon>RegisterDialog.cs</DependentUpon>
+      <LogicalName>RegisterDialog.uk.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\SymbolsDialog.resx">
       <DependentUpon>SymbolsDialog.cs</DependentUpon>
+      <LogicalName>SymbolsDialog.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\SymbolsDialog.ru.resx">
       <DependentUpon>SymbolsDialog.cs</DependentUpon>
+      <LogicalName>SymbolsDialog.ru.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\SymbolsDialog.uk.resx">
       <DependentUpon>SymbolsDialog.cs</DependentUpon>
+      <LogicalName>SymbolsDialog.uk.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\ThreadsDialog.resx">
       <DependentUpon>ThreadsDialog.cs</DependentUpon>
+      <LogicalName>ThreadsDialog.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\ThreadsDialog.ru.resx">
       <DependentUpon>ThreadsDialog.cs</DependentUpon>
+      <LogicalName>ThreadsDialog.ru.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\ThreadsDialog.uk.resx">
       <DependentUpon>ThreadsDialog.cs</DependentUpon>
+      <LogicalName>ThreadsDialog.uk.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\ThreadsManagementDialog.resx">
       <DependentUpon>ThreadsManagementDialog.cs</DependentUpon>
+      <LogicalName>ThreadsManagementDialog.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\ThreadsManagementDialog.ru.resx">
       <DependentUpon>ThreadsManagementDialog.cs</DependentUpon>
+      <LogicalName>ThreadsManagementDialog.ru.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\ThreadsManagementDialog.uk.resx">
       <DependentUpon>ThreadsManagementDialog.cs</DependentUpon>
+      <LogicalName>ThreadsManagementDialog.uk.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\UpdateDialog.resx">
       <DependentUpon>UpdateDialog.cs</DependentUpon>
+      <LogicalName>UpdateDialog.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\UpdateDialog.ru.resx">
       <DependentUpon>UpdateDialog.cs</DependentUpon>
+      <LogicalName>UpdateDialog.ru.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\UpdateDialog.uk.resx">
       <DependentUpon>UpdateDialog.cs</DependentUpon>
+      <LogicalName>UpdateDialog.uk.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+      <LogicalName>MainForm.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LogicalName>Resources.resx</LogicalName>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Properties\Resources.ru.resx" />
-    <EmbeddedResource Include="Properties\Resources.uk.resx" />
+    <EmbeddedResource Include="Properties\Resources.ru.resx">
+      <LogicalName>Resources.ru.resx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.uk.resx">
+      <LogicalName>Resources.uk.resx</LogicalName>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\HomeUserControl.resx">
       <DependentUpon>HomeUserControl.cs</DependentUpon>
+      <LogicalName>HomeUserControl.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\HomeUserControl.ru.resx">
       <DependentUpon>HomeUserControl.cs</DependentUpon>
+      <LogicalName>HomeUserControl.ru.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\HomeUserControl.uk.resx">
       <DependentUpon>HomeUserControl.cs</DependentUpon>
+      <LogicalName>HomeUserControl.uk.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\PaletteUserControl.resx">
       <DependentUpon>PaletteUserControl.cs</DependentUpon>
+      <LogicalName>PaletteUserControl.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\PaletteUserControl.ru.resx">
       <DependentUpon>PaletteUserControl.cs</DependentUpon>
+      <LogicalName>PaletteUserControl.ru.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\PaletteUserControl.uk.resx">
       <DependentUpon>PaletteUserControl.cs</DependentUpon>
+      <LogicalName>PaletteUserControl.uk.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\PrintUserControl.resx">
       <DependentUpon>PrintUserControl.cs</DependentUpon>
+      <LogicalName>PrintUserControl.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\SchemeUserControl.resx">
       <DependentUpon>SchemeUserControl.cs</DependentUpon>
+      <LogicalName>SchemeUserControl.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\SchemeUserControl.ru.resx">
       <DependentUpon>SchemeUserControl.cs</DependentUpon>
+      <LogicalName>SchemeUserControl.ru.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\SchemeUserControl.uk.resx">
       <DependentUpon>SchemeUserControl.cs</DependentUpon>
+      <LogicalName>SchemeUserControl.uk.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\WizardUserControl.resx">
       <DependentUpon>WizardUserControl.cs</DependentUpon>
+      <LogicalName>WizardUserControl.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\WizardUserControl.ru.resx">
       <DependentUpon>WizardUserControl.cs</DependentUpon>
+      <LogicalName>WizardUserControl.ru.resx</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\WizardUserControl.uk.resx">
       <DependentUpon>WizardUserControl.cs</DependentUpon>
+      <LogicalName>WizardUserControl.uk.resx</LogicalName>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

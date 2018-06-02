@@ -301,8 +301,12 @@
     <Compile Include="SharpZipLib\Zip\ZipException.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Messages.de.restext" />
-    <EmbeddedResource Include="Resources\Messages.restext" />
+    <EmbeddedResource Include="Resources\Messages.de.restext">
+      <LogicalName>Messages.de.restext</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages.restext">
+      <LogicalName>Messages.restext</LogicalName>
+    </EmbeddedResource>
     <None Include="StrongnameKey.snk" />
   </ItemGroup>
   <ItemGroup>
