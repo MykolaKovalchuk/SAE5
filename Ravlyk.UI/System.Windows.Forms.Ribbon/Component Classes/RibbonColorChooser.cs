@@ -20,7 +20,7 @@ namespace System.Windows.Forms
 {
     /// <summary>
     /// A RibbonButton that incorporates a <see cref="Color"/> property and
-    /// draws this color below the displaying <see cref="Image"/> or <see cref="SmallImage"/>
+    /// draws this color below the displaying <see cref="Image"/> or SmallImage
     /// </summary>
     public class RibbonColorChooser
         : RibbonButton
@@ -68,7 +68,7 @@ namespace System.Windows.Forms
         }
 
         /// <summary>
-        /// Gets or sets the height of the color preview on the <see cref="SmallImage"/>
+        /// Gets or sets the height of the color preview on the SmallImage
         /// </summary>
         [Description("Height of the color preview on the small image")]
         [Category("Appearance")]

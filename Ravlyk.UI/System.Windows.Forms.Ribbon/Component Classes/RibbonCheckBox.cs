@@ -49,11 +49,11 @@ namespace System.Windows.Forms
       #region Events
 
       /// <summary>
-      /// Raised when the <see cref="CheckBox Checked"/> property value has changed
+      /// Raised when the <see cref="CheckBox.Checked"/> property value has changed
       /// </summary>
       public event EventHandler CheckBoxCheckChanged;
       /// <summary>
-      /// Raised when the <see cref="CheckBox Checked"/> property value is changing
+      /// Raised when the <see cref="CheckBox.Checked"/> property value is changing
       /// </summary>
       public event CancelEventHandler CheckBoxCheckChanging;
 
@@ -364,7 +364,7 @@ namespace System.Windows.Forms
       }
 
       /// <summary>
-      /// Raises the <see cref="CheckBox Check Changed"/> event
+      /// Raises the <see cref="CheckBox.CheckedChanged"/> event
       /// </summary>
       /// <param name="e"></param>
       public void OnCheckChanged(EventArgs e)
@@ -379,7 +379,7 @@ namespace System.Windows.Forms
          }
       }
       /// <summary>
-      /// Raises the <see cref="CheckBox Check Changing"/> event
+      /// Raises the CheckBox.CheckChanging event
       /// </summary>
       /// <param name="e"></param>
       public void OnCheckChanging(CancelEventArgs e)

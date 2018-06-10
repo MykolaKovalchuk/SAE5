@@ -16,7 +16,7 @@ namespace System.Windows.Forms
         /// <summary>
         /// Creates a new collection
         /// </summary>
-        /// <param name="ownerGroup"></param>
+        /// <param name="toolbar"></param>
         internal RibbonQuickAccessToolbarItemCollection(RibbonQuickAccessToolbar toolbar)
         {
             _ownerToolbar = toolbar;

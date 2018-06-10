@@ -381,9 +381,6 @@ namespace System.Windows.Forms
         /// <summary>
         /// Performs hit test for mouse on the non client area of the form
         /// </summary>
-        /// <param name="form">Form to check bounds</param>
-        /// <param name="dwmMargins">Margins of non client area</param>
-        /// <param name="lparam">Lparam of</param>
         /// <returns></returns>
         public virtual NonClientHitTestResult NonClientHitTest(Point hitPoint)
         {

@@ -223,7 +223,7 @@ namespace System.Windows.Forms
         }
 
         /// <summary>
-        /// Raises the <see cref="Paint"/> event
+        /// Raises the Paint event
         /// </summary>
         /// <param name="e"></param>
         protected override void OnPaint(PaintEventArgs e)

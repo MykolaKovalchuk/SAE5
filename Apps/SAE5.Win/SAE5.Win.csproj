@@ -379,10 +379,6 @@
       <Project>{846aa919-e96f-46f3-973b-60f5adbf8f42}</Project>
       <Name>Ravlyk.Drawing</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Register\Ravlyk.Drawing.Tif\Ravlyk.Drawing.Tif.csproj">
-      <Project>{1e084efa-5e72-4f97-80af-78d71f4d0d24}</Project>
-      <Name>Ravlyk.Drawing.Tif</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -485,9 +481,6 @@
     <Content Include="thimble.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>"c:\Program Files (x86)\Windows Kits\10\bin\x64\signtool.exe" sign /a /s MY /n "Mykola Kovalchuk" /fd sha256 /tr http://sha256timestamp.ws.symantec.com/sha256/timestamp /td sha256 /as /v "$(TargetPath)"</PostBuildEvent>
-  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -270,7 +270,7 @@ namespace System.Windows.Forms.RibbonHelpers
         /// <summary>
         /// Recieves the actual unsafe mouse hook procedure
         /// </summary>
-        /// <param name="nCode"></param>
+        /// <param name="code"></param>
         /// <param name="wParam"></param>
         /// <param name="lParam"></param>
         /// <returns></returns>
@@ -429,7 +429,7 @@ namespace System.Windows.Forms.RibbonHelpers
         /// </summary>
         private void InstallHook()
         {
-            /// Error check
+            // Error check
             if (Handle != 0) throw new Exception("Hook is already installed");
 
             #region htype
@@ -448,15 +448,15 @@ namespace System.Windows.Forms.RibbonHelpers
             } 
             #endregion
 
-            /// Delegate to recieve message
+            // Delegate to recieve message
             _HookProc = new HookProcCallBack(HookProc);
 
-            /// Hook
-            /// Ed Obeda suggestion for .net 4.0
+            // Hook
+            // Ed Obeda suggestion for .net 4.0
             //_hHook = WinApi.SetWindowsHookEx(htype, _HookProc, Marshal.GetHINSTANCE(Assembly.GetExecutingAssembly().GetModules()[0]), 0);
             _hHook = WinApi.SetWindowsHookEx(htype, _HookProc, System.Diagnostics.Process.GetCurrentProcess().MainModule.BaseAddress, 0);
             
-            /// Error check
+            // Error check
             if (Handle == 0) throw new Win32Exception(Marshal.GetLastWin32Error());
         }
 

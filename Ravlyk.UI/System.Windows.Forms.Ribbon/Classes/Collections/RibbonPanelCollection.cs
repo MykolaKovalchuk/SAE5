@@ -74,7 +74,7 @@ namespace System.Windows.Forms
         }
 
         /// <summary>
-        /// Notifies the <see cref="OwnerTab"/> and <see cref="OwnerPanel"/> about changes in the <see cref="RibbonItemCollection"/>.
+        /// Notifies the <see cref="OwnerTab"/> and OwnerPanel about changes in the <see cref="RibbonItemCollection"/>.
         /// </summary>
         internal override void UpdateRegions()
         {
@@ -107,7 +107,7 @@ namespace System.Windows.Forms
         /// <summary>
         /// Sets the value of the OwnerTab Property
         /// </summary>
-        /// <param name="onwerTab"></param>
+        /// <param name="ownerTab"></param>
         internal void SetOwnerTab(RibbonTab ownerTab)
         {
             _ownerTab = ownerTab;

@@ -162,7 +162,7 @@ namespace System.Windows.Forms
       }
 
       /// <summary>
-      /// Raises the <see cref="SizeModeChanged"/> event
+      /// Raises the SizeModeChanged event
       /// </summary>
       /// <param name="e"></param>
       public virtual void OnSizeModeChanging(ref RibbonHostSizeModeHandledEventArgs e)

@@ -104,7 +104,7 @@ namespace System.Windows.Forms
 		/// </summary>
 		/// <param name="control">Control to listen to mouse events</param>
 		/// <param name="ribbon">Ribbon that will be affected</param>
-		/// <param name="items">Items that will be sensed</param>
+		/// <param name="itemsSource">Items that will be sensed</param>
 		public RibbonMouseSensor(Control control, Ribbon ribbon, IEnumerable<RibbonItem> itemsSource)
 			: this(control, ribbon)
 		{
@@ -223,7 +223,7 @@ namespace System.Windows.Forms
 
 		/// <summary>
 		/// Gets the collection of items this sensor affects.
-		/// Sensing can be limitated by the <see cref="ItemsLimit"/> property
+		/// Sensing can be limitated by the ItemsLimit property
 		/// </summary>
 		public List<RibbonItem> Items
 		{
@@ -662,8 +662,7 @@ namespace System.Windows.Forms
 		/// Performs a hit-test and specifies hitted objects on properties: <see cref="HittedPanel"/>, 
 		/// <see cref="HittedTab"/>, <see cref="HittedItem"/> and <see cref="HittedSubItem"/>
 		/// </summary>
-		/// <param name="x"></param>
-		/// <param name="y"></param>
+		/// <param name="p"></param>
 		internal void HitTest(Point p)
 		{
 			SelectedTab = HittedTab;

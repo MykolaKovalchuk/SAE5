@@ -18,6 +18,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Drawing.Design;
 using System.ComponentModel.Design;
+#pragma warning disable 1573
 
 namespace System.Windows.Forms
 {
@@ -417,6 +418,7 @@ namespace System.Windows.Forms
       /// <summary>
       /// Moves the bounds of items as a group of shapes
       /// </summary>
+      /// <param name="items"></param>
       /// <param name="p"></param>
       internal void MoveTo(IEnumerable<RibbonItem> items, Point p)
       {
@@ -461,6 +463,7 @@ namespace System.Windows.Forms
       /// <summary>
       /// Centers the items on the specified rectangle
       /// </summary>
+      /// <param name="items"></param>
       /// <param name="rectangle"></param>
       internal void CenterItemsInto(IEnumerable<RibbonItem> items, Rectangle rectangle)
       {
@@ -474,6 +477,7 @@ namespace System.Windows.Forms
       /// <summary>
       /// Centers the items vertically on the specified rectangle
       /// </summary>
+      /// <param name="items"></param>
       /// <param name="rectangle"></param>
       internal void CenterItemsVerticallyInto(IEnumerable<RibbonItem> items, Rectangle rectangle)
       {
@@ -498,7 +502,7 @@ namespace System.Windows.Forms
       /// <summary>
       /// Checks for the restrictions that buttons should have on the RibbonButton List
       /// </summary>
-      /// <param name="button"></param>
+      /// <param name="item"></param>
       private void CheckRestrictions(RibbonItem item)
       {
           if (OwnerItem != null)

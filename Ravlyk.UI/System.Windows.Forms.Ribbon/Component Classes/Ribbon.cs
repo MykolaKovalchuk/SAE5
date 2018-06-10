@@ -1482,7 +1482,7 @@ namespace System.Windows.Forms
 		}
 
 		#region cr
-		private string cr { get { return "Professional Ribbon\n\n2009 Jos?Manuel Menéndez Poo\nwww.menendezpoo.com"; } }
+		private string cr { get { return "Professional Ribbon\n\n2009 Jos?Manuel Menï¿½ndez Poo\nwww.menendezpoo.com"; } }
 		#endregion
 
 		///// <summary>
@@ -1722,7 +1722,6 @@ namespace System.Windows.Forms
 		/// <summary>
 		/// Resumes any drawing/regions update operation
 		/// </summary>
-		/// <param name="update"></param>
 		public void ResumeUpdating()
 		{
 			ResumeUpdating(true);
@@ -1825,7 +1824,7 @@ namespace System.Windows.Forms
 
 			if (IsDisposed || _updatingSuspended) return;
 
-			///Graphics for measurement
+			//Graphics for measurement
 			if (g == null)
 			{
 				g = CreateGraphics();

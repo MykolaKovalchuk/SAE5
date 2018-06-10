@@ -328,9 +328,9 @@ namespace System.Windows.Forms
          get { return _DownButtonBounds; }
       }
 
-      /// <summary>
-      /// Overriden.
-      /// </summary>
+      ///// <summary>
+      ///// Overriden.
+      ///// </summary>
       //[DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
       //public override Rectangle TextBoxTextBounds
       //{

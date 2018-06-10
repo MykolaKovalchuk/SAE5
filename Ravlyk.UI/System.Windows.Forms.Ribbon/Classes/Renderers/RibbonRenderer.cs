@@ -266,11 +266,12 @@ namespace System.Windows.Forms
       {
       }
 
-      /// <summary>
-      /// Renders the image separator of a dropdown
-      /// </summary>
-      /// <param name="e"></param>
-      public virtual void OnRenderDropDownDropDownImageSeparator(RibbonItem item, RibbonCanvasEventArgs e)
+       /// <summary>
+       /// Renders the image separator of a dropdown
+       /// </summary>
+       /// <param name="item"></param>
+       /// <param name="e"></param>
+       public virtual void OnRenderDropDownDropDownImageSeparator(RibbonItem item, RibbonCanvasEventArgs e)
       {
       }
 
@@ -291,11 +292,13 @@ namespace System.Windows.Forms
       {
       }
 
-      /// <summary>
-      /// Call to draw the scrollbar on the Control
-      /// </summary>
-      /// <param name="e"></param>
-      public virtual void OnRenderScrollbar(Graphics g, Control item, Ribbon ribbon)
+       /// <summary>
+       /// Call to draw the scrollbar on the Control
+       /// </summary>
+       /// <param name="g"></param>
+       /// <param name="item"></param>
+       /// <param name="ribbon"></param>
+       public virtual void OnRenderScrollbar(Graphics g, Control item, Ribbon ribbon)
       {
       }
 
