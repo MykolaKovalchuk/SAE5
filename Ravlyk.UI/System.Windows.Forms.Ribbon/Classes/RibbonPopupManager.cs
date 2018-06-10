@@ -128,6 +128,8 @@ namespace System.Windows.Forms
         /// <param name="e"></param>
         internal static bool FeedHookClick(MouseEventArgs e)
         {
+	    return true;
+	    /*
             foreach (RibbonPopup p in pops)
             {
                 if (p.WrappedDropDown.Bounds.Contains(e.Location))
@@ -139,6 +141,7 @@ namespace System.Windows.Forms
             //If click was in no dropdown, let's go everyone
             Dismiss(DismissReason.AppClicked);
 				return false;
+	    //*/
         }
 
         /// <summary>
