@@ -13,7 +13,9 @@ This was done for future porting to other platforms.
 ## Assemblies
 
 **Ravlyk.Common** - base common classes (disposables and undo-redo manager).
+
 **Ravlyk.Drawing** - IndexedImage, Color, Pallette classes. Custom imaging library with direct access to pixels array for fast operations.
+
 **Ravlyk.Drawing.ImageProcessing** - image transformations, most with multi-threading.
 
 **Ravlyk.Adopted** - cloned sources of external libraries with some changes.
