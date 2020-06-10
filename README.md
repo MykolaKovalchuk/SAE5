@@ -3,8 +3,9 @@ Stitch Art Easy! 5
 
 Cross-stitch pattern scheme generator and editor.
 https://stitcharteasy.com
+https://mykola.xyz/stitcharteasy/
 
-![IMAGE](https://stitcharteasy.com/Portals/0/Screens/scheme.png)
+![IMAGE](https://mykola.xyz/wp-content/uploads/2020/04/scheme-1024x735.png)
 
 Written in C# .NET with WinForms.
 
