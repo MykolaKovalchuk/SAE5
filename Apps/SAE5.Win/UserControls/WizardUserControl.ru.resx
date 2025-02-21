@@ -135,8 +135,6 @@
   <data name="tabPageSourceImage.Text" xml:space="preserve">
     <value>Исходное изображение</value>
   </data>
-  <data name="ribbonPanelImage.Text" xml:space="preserve">
-    <value>Изображение</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="buttonLoad.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -223,28 +221,22 @@
   <data name="checkBoxFixAspect.ToolTip" xml:space="preserve">
     <value>Сохранять исходные пропорции при изменении размеров изображения</value>
   </data>
-  <data name="comboBoxUnits.Text" xml:space="preserve">
-    <value>Мера</value>
-  </data>
-  <data name="comboBoxUnits.ToolTip" xml:space="preserve">
-    <value>Единица измерения размеров схемы</value>
-  </data>
   <data name="buttonStitches.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
-        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+        hQAAHYUB8Bsy7AAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="buttonStitches.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
-        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+        hQAAHYUB8Bsy7AAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="buttonStitches.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
-        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+        hQAAHYUB8Bsy7AAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="buttonStitches.ToolTip" xml:space="preserve">
@@ -253,19 +245,19 @@
   <data name="buttonCm.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
-        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+        hQAAHYUB8Bsy7AAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="buttonCm.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
-        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+        hQAAHYUB8Bsy7AAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="buttonCm.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
-        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+        hQAAHYUB8Bsy7AAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="buttonCm.ToolTip" xml:space="preserve">
@@ -274,32 +266,35 @@
   <data name="buttonInches.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
-        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+        hQAAHYUB8Bsy7AAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="buttonInches.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
-        hwAAHYcBj+XxZQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+        hQAAHYUB8Bsy7AAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="buttonInches.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
-        hwAAHYcBj+XxZQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+        hQAAHYUB8Bsy7AAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="buttonInches.ToolTip" xml:space="preserve">
     <value>Указывет размер схемы в дюймах</value>
   </data>
-  <data name="upDownStitchesPerUnit.Text" xml:space="preserve">
+  <data name="comboBoxUnits.Text" xml:space="preserve">
+    <value>Мера</value>
+  </data>
+  <data name="comboBoxUnits.ToolTip" xml:space="preserve">
+    <value>Единица измерения размеров схемы</value>
+  </data>
+  <data name="upDownStitchesPerUnitWidth.Text" xml:space="preserve">
     <value>Кр-тов</value>
   </data>
-  <data name="upDownStitchesPerUnit.ToolTip" xml:space="preserve">
-    <value>Количество крестиков на 1 выбраную единицу измерения</value>
-  </data>
-  <data name="ribbonPanelColors.Text" xml:space="preserve">
-    <value>Цвета</value>
+  <data name="ribbonPanelSize.Text" xml:space="preserve">
+    <value>Размер</value>
   </data>
   <data name="comboBoxKit.Text" xml:space="preserve">
     <value>Набор</value>
@@ -313,8 +308,11 @@
   <data name="upDownMaxColors.ToolTip" xml:space="preserve">
     <value>Уменьшить количество цветов в изображении до указанного значения. Реальное количество может быть меньше.</value>
   </data>
-  <data name="ribbonPanelAdvImage.Text" xml:space="preserve">
-    <value>Изображение</value>
+  <data name="ribbonPanelColors.Text" xml:space="preserve">
+    <value>Цвета</value>
+  </data>
+  <data name="ribbonTabResultImage.Text" xml:space="preserve">
+    <value>Готовое изображение</value>
   </data>
   <data name="comboBoxResizeFilter.Text" xml:space="preserve">
     <value>Фильтр сглаживания</value>
@@ -322,8 +320,8 @@
   <data name="comboBoxResizeFilter.ToolTip" xml:space="preserve">
     <value>Фильтр для сглаживания картинки при изменении ее размеров</value>
   </data>
-  <data name="ribbonPanelAdvColor.Text" xml:space="preserve">
-    <value>Цвета</value>
+  <data name="ribbonPanelAdvImage.Text" xml:space="preserve">
+    <value>Изображение</value>
   </data>
   <data name="comboBoxColorsSubstitute.Text" xml:space="preserve">
     <value>Подбор цветов</value>
@@ -343,8 +341,11 @@
   <data name="upDownDither.ToolTip" xml:space="preserve">
     <value>Уровень смешивания крестиков разных цветов для создания эффекта плавного перехода цветов и общей визуальной похожесть целого изображения. 0-не смешивать, 10-максимальный уровень.</value>
   </data>
-  <data name="ribbonPanelSymbols.Text" xml:space="preserve">
-    <value>Символы</value>
+  <data name="ribbonPanelAdvColor.Text" xml:space="preserve">
+    <value>Цвета</value>
+  </data>
+  <data name="ribbonTabAdvanced.Text" xml:space="preserve">
+    <value>Экстра опции</value>
   </data>
   <data name="comboBoxSymbols.Text" xml:space="preserve">
     <value>Символы</value>
@@ -370,8 +371,8 @@
   <data name="checkBoxSymbols.ToolTip" xml:space="preserve">
     <value>Включить символы</value>
   </data>
-  <data name="ribbonPanelSymbolsSelect.Text" xml:space="preserve">
-    <value>Выбор</value>
+  <data name="ribbonPanelSymbols.Text" xml:space="preserve">
+    <value>Символы</value>
   </data>
   <data name="buttonRandom.Text" xml:space="preserve">
     <value>Случайные</value>
@@ -385,8 +386,11 @@
   <data name="buttonClear.ToolTip" xml:space="preserve">
     <value>Очистить выбор</value>
   </data>
-  <data name="ribbonPanelSheme.Text" xml:space="preserve">
-    <value>Схема</value>
+  <data name="ribbonPanelSymbolsSelect.Text" xml:space="preserve">
+    <value>Выбор</value>
+  </data>
+  <data name="ribbonTabSymbols.Text" xml:space="preserve">
+    <value>Символы</value>
   </data>
   <data name="buttonSymbols.Text" xml:space="preserve">
     <value>Символы</value>
@@ -427,10 +431,22 @@
   <data name="checkBoxLines.ToolTip" xml:space="preserve">
     <value>Показывать линии схемы</value>
   </data>
+  <data name="ribbonPanelSheme.Text" xml:space="preserve">
+    <value>Схема</value>
+  </data>
+  <data name="ribbonTabPreview.Text" xml:space="preserve">
+    <value>Пред-просмотр</value>
+  </data>
   <data name="buttonCancel.Text" xml:space="preserve">
     <value>Отмена</value>
   </data>
   <data name="buttonNext.Text" xml:space="preserve">
     <value>Завершить</value>
+  </data>
+  <data name="upDownStitchesPerUnitHeight.Text" xml:space="preserve">
+    <value>Кр-тов</value>
+  </data>
+  <data name="upDownStitchesPerUnitHeight.ToolTip" xml:space="preserve">
+    <value>Количество крестиков на 1 выбраную единицу измерения</value>
   </data>
 </root>
