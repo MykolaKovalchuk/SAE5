@@ -162,14 +162,14 @@ namespace Ravlyk.SAE.Drawing.Processor
 
 		public decimal SchemeWidth
 		{
-			get { return Width / StitchesPerUnit; }
-			set { Width = (int)(value * StitchesPerUnit); }
+			get { return Width / StitchesPerUnitWidth; }
+			set { Width = (int)(value * StitchesPerUnitWidth); }
 		}
 
 		public decimal SchemeHeight
 		{
-			get { return Height / StitchesPerUnit; }
-			set { Height = (int)(value * StitchesPerUnit); }
+			get { return Height / StitchesPerUnitHeight; }
+			set { Height = (int)(value * StitchesPerUnitHeight); }
 		}
 
 		public SizeUnit Unit
@@ -181,16 +181,19 @@ namespace Ravlyk.SAE.Drawing.Processor
 				{
 					if (unitForStitchesPerUnit == SizeUnit.Stitch)
 					{
-						stitchesPerUnit = value == SizeUnit.Inch ? 8.0m : 3.15m;
+						StitchesPerUnitHeight = value == SizeUnit.Inch ? 8.0m : 3.15m;
+						StitchesPerUnitWidth = value == SizeUnit.Inch ? 8.0m : 3.15m;
 					}
 
 					if (value == SizeUnit.Cm && unitForStitchesPerUnit == SizeUnit.Inch)
 					{
-						stitchesPerUnit = stitchesPerUnit * 10m / 25.4m;
+						stitchesPerUnitHeight = stitchesPerUnitHeight * 10m / 25.4m;
+						stitchesPerUnitWidth = stitchesPerUnitWidth * 10m / 25.4m;
 					}
 					else if (value == SizeUnit.Inch && unitForStitchesPerUnit == SizeUnit.Cm)
 					{
-						stitchesPerUnit = stitchesPerUnit * 25.4m / 10m;
+						stitchesPerUnitWidth = stitchesPerUnitWidth * 25.4m / 10m;
+						stitchesPerUnitHeight = stitchesPerUnitHeight * 25.4m / 10m;
 					}
 
 					unit = value;
@@ -200,7 +203,8 @@ namespace Ravlyk.SAE.Drawing.Processor
 					}
 
 					OnPropertyChanged(nameof(Unit));
-					OnPropertyChanged(nameof(StitchesPerUnit));
+					OnPropertyChanged(nameof(StitchesPerUnitHeight));
+					OnPropertyChanged(nameof(StitchesPerUnitWidth));
 					OnPropertyChanged(nameof(SchemeWidth));
 					OnPropertyChanged(nameof(SchemeHeight));
 				}
@@ -208,32 +212,52 @@ namespace Ravlyk.SAE.Drawing.Processor
 		}
 		SizeUnit unit = SizeUnit.Stitch;
 
-		public decimal StitchesPerUnit
+		public decimal StitchesPerUnitWidth
 		{
-			get { return Unit == SizeUnit.Stitch ? 1 : stitchesPerUnit; }
+			get { return Unit == SizeUnit.Stitch ? 1 : stitchesPerUnitWidth; }
 			set
 			{
 				if (value < 1)
 				{
 					value = 1;
 				}
-				if (value != stitchesPerUnit)
+				if (value != stitchesPerUnitWidth)
 				{
 					width = (int)(SchemeWidth * value);
-					height = (int)(SchemeHeight * value);
-					stitchesPerUnit = value;
+					stitchesPerUnitWidth = value;
 
 					CallManipulations();
 
-					OnPropertyChanged(nameof(StitchesPerUnit));
+					OnPropertyChanged(nameof(stitchesPerUnitWidth));
 					OnPropertyChanged(nameof(Width));
-					OnPropertyChanged(nameof(Height));
 					OnPropertyChanged(nameof(SchemeWidth));
+				}
+			}
+		}
+		decimal stitchesPerUnitWidth = 1;
+		public decimal StitchesPerUnitHeight
+		{
+			get { return Unit == SizeUnit.Stitch ? 1 : stitchesPerUnitHeight; }
+			set
+			{
+				if (value < 1)
+				{
+					value = 1;
+				}
+				if (value != stitchesPerUnitHeight)
+				{
+					height = (int)(SchemeHeight * value);
+					stitchesPerUnitHeight = value;
+
+					CallManipulations();
+
+					OnPropertyChanged(nameof(StitchesPerUnitHeight));
+					OnPropertyChanged(nameof(Height));
 					OnPropertyChanged(nameof(SchemeHeight));
 				}
 			}
 		}
-		decimal stitchesPerUnit = 1;
+		decimal stitchesPerUnitHeight = 1;
 		SizeUnit unitForStitchesPerUnit = SizeUnit.Stitch;
 
 		protected override void CallManipulationsCore()

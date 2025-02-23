@@ -106,7 +106,7 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 
 					checkBoxFixAspect.Checked = wizard.ImageResizer.KeepAspect;
 					comboBoxUnits.TextBoxText = wizard.ImageResizer.Unit.ToString();
-					upDownStitchesPerUnit.TextBoxText = wizard.ImageResizer.StitchesPerUnit.ToString("0.00");
+					upDownStitchesPerUnitHeight.TextBoxText = wizard.ImageResizer.StitchesPerUnitHeight.ToString("0.00");
 
 					InitializeComboBoxKit();
 
@@ -175,11 +175,16 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 					break;
 				case nameof(ImageSizeController.Unit):
 					comboBoxUnits.TextBoxText = wizard.ImageResizer.Unit.ToString();
-					upDownStitchesPerUnit.TextBoxText = wizard.ImageResizer.StitchesPerUnit.ToString("0.00");
-					upDownStitchesPerUnit.Visible = wizard.ImageResizer.Unit != ImageSizeController.SizeUnit.Stitch;
+					upDownStitchesPerUnitHeight.TextBoxText = wizard.ImageResizer.StitchesPerUnitHeight.ToString("0.00");
+					upDownStitchesPerUnitHeight.Visible = wizard.ImageResizer.Unit != ImageSizeController.SizeUnit.Stitch;
+					upDownStitchesPerUnitWidth.TextBoxText = wizard.ImageResizer.StitchesPerUnitWidth.ToString("0.00");
+					upDownStitchesPerUnitWidth.Visible = wizard.ImageResizer.Unit != ImageSizeController.SizeUnit.Stitch;
 					break;
-				case nameof(ImageSizeController.StitchesPerUnit):
-					upDownStitchesPerUnit.TextBoxText = wizard.ImageResizer.StitchesPerUnit.ToString("0.00");
+				case nameof(ImageSizeController.StitchesPerUnitHeight):
+					upDownStitchesPerUnitHeight.TextBoxText = wizard.ImageResizer.StitchesPerUnitHeight.ToString("0.00");
+					break;
+				case nameof(ImageSizeController.StitchesPerUnitWidth):
+					upDownStitchesPerUnitWidth.TextBoxText = wizard.ImageResizer.StitchesPerUnitWidth.ToString("0.00");
 					break;
 				case nameof(ImageSizeController.FilterType):
 					comboBoxResizeFilter.TextBoxText = wizard.ImageResizer.FilterType.ToString();
@@ -516,24 +521,43 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 			}
 		}
 
-		void upDownStitchesPerUnit_TextBoxValidated(object sender, EventArgs e)
+		void upDownStitchesPerUnitHeight_TextBoxValidated(object sender, EventArgs e)
 		{
 			decimal value;
-			if (decimal.TryParse(upDownStitchesPerUnit.TextBoxText, out value))
+			if (decimal.TryParse(upDownStitchesPerUnitHeight.TextBoxText, out value))
 			{
-				wizard.ImageResizer.StitchesPerUnit = value;
+				wizard.ImageResizer.StitchesPerUnitHeight = value;
 			}
-			upDownStitchesPerUnit.TextBoxText = wizard.ImageResizer.StitchesPerUnit.ToString("0.00");
+			upDownStitchesPerUnitHeight.TextBoxText = wizard.ImageResizer.StitchesPerUnitHeight.ToString("0.00");
 		}
 
-		void upDownStitchesPerUnit_UpButtonClicked(object sender, MouseEventArgs e)
+		void upDownStitchesPerUnitHeight_UpButtonClicked(object sender, MouseEventArgs e)
 		{
-			wizard.ImageResizer.StitchesPerUnit += 0.25m;
+			wizard.ImageResizer.StitchesPerUnitHeight += 0.25m;
 		}
 
-		void upDownStitchesPerUnit_DownButtonClicked(object sender, MouseEventArgs e)
+		void upDownStitchesPerUnitHeight_DownButtonClicked(object sender, MouseEventArgs e)
 		{
-			wizard.ImageResizer.StitchesPerUnit -= 0.25m;
+			wizard.ImageResizer.StitchesPerUnitHeight -= 0.25m;
+		}
+		void upDownStitchesPerUnitWidth_TextBoxValidated(object sender, EventArgs e)
+		{
+			decimal value;
+			if (decimal.TryParse(upDownStitchesPerUnitWidth.TextBoxText, out value))
+			{
+				wizard.ImageResizer.StitchesPerUnitWidth = value;
+			}
+			upDownStitchesPerUnitWidth.TextBoxText = wizard.ImageResizer.StitchesPerUnitWidth.ToString("0.00");
+		}
+
+		void upDownStitchesPerUnitWidth_UpButtonClicked(object sender, MouseEventArgs e)
+		{
+			wizard.ImageResizer.StitchesPerUnitWidth += 0.25m;
+		}
+
+		void upDownStitchesPerUnitWidth_DownButtonClicked(object sender, MouseEventArgs e)
+		{
+			wizard.ImageResizer.StitchesPerUnitWidth -= 0.25m;
 		}
 
 		void comboBoxKit_TextBoxTextChanged(object sender, EventArgs e)

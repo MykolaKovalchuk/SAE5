@@ -64,7 +64,8 @@
 			this.buttonStitches = new System.Windows.Forms.RibbonButton();
 			this.buttonCm = new System.Windows.Forms.RibbonButton();
 			this.buttonInches = new System.Windows.Forms.RibbonButton();
-			this.upDownStitchesPerUnit = new System.Windows.Forms.RibbonUpDown();
+			this.upDownStitchesPerUnitHeight = new System.Windows.Forms.RibbonUpDown();
+			this.upDownStitchesPerUnitWidth = new System.Windows.Forms.RibbonUpDown();
 			this.ribbonPanelColors = new System.Windows.Forms.RibbonPanel();
 			this.comboBoxKit = new System.Windows.Forms.RibbonComboBox();
 			this.upDownMaxColors = new System.Windows.Forms.RibbonUpDown();
@@ -124,57 +125,49 @@
 			// 
 			// splitContainer.Panel1
 			// 
-			resources.ApplyResources(this.splitContainer.Panel1, "splitContainer.Panel1");
 			this.splitContainer.Panel1.Controls.Add(this.tabControlLeft);
 			this.splitContainer.Panel1.Controls.Add(this.ribbonLeft);
 			// 
 			// splitContainer.Panel2
 			// 
-			resources.ApplyResources(this.splitContainer.Panel2, "splitContainer.Panel2");
 			this.splitContainer.Panel2.Controls.Add(this.tabControlRight);
 			this.splitContainer.Panel2.Controls.Add(this.ribbonRight);
 			// 
 			// tabControlLeft
 			// 
-			resources.ApplyResources(this.tabControlLeft, "tabControlLeft");
 			this.tabControlLeft.Controls.Add(this.tabPageSourceImage);
+			resources.ApplyResources(this.tabControlLeft, "tabControlLeft");
 			this.tabControlLeft.Name = "tabControlLeft";
 			this.tabControlLeft.SelectedIndex = 0;
 			// 
 			// tabPageSourceImage
 			// 
-			resources.ApplyResources(this.tabPageSourceImage, "tabPageSourceImage");
 			this.tabPageSourceImage.BackColor = System.Drawing.Color.White;
 			this.tabPageSourceImage.Controls.Add(this.imageBoxSource);
+			resources.ApplyResources(this.tabPageSourceImage, "tabPageSourceImage");
 			this.tabPageSourceImage.Name = "tabPageSourceImage";
 			// 
 			// imageBoxSource
 			// 
-			resources.ApplyResources(this.imageBoxSource, "imageBoxSource");
 			this.imageBoxSource.Controller = null;
+			resources.ApplyResources(this.imageBoxSource, "imageBoxSource");
 			this.imageBoxSource.Name = "imageBoxSource";
 			// 
 			// ribbonLeft
 			// 
-			resources.ApplyResources(this.ribbonLeft, "ribbonLeft");
 			this.ribbonLeft.BorderMode = System.Windows.Forms.RibbonWindowMode.InsideWindow;
 			this.ribbonLeft.CaptionBarVisible = false;
+			resources.ApplyResources(this.ribbonLeft, "ribbonLeft");
 			this.ribbonLeft.Minimized = false;
 			this.ribbonLeft.Name = "ribbonLeft";
 			// 
 			// 
 			// 
-			this.ribbonLeft.OrbDropDown.AccessibleDescription = resources.GetString("ribbonLeft.OrbDropDown.AccessibleDescription");
-			this.ribbonLeft.OrbDropDown.AccessibleName = resources.GetString("ribbonLeft.OrbDropDown.AccessibleName");
 			this.ribbonLeft.OrbDropDown.Anchor = ((System.Windows.Forms.AnchorStyles)(resources.GetObject("ribbonLeft.OrbDropDown.Anchor")));
-			this.ribbonLeft.OrbDropDown.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ribbonLeft.OrbDropDown.BackgroundImage")));
 			this.ribbonLeft.OrbDropDown.BackgroundImageLayout = ((System.Windows.Forms.ImageLayout)(resources.GetObject("ribbonLeft.OrbDropDown.BackgroundImageLayout")));
 			this.ribbonLeft.OrbDropDown.BorderRoundness = 8;
-			this.ribbonLeft.OrbDropDown.Dock = ((System.Windows.Forms.DockStyle)(resources.GetObject("ribbonLeft.OrbDropDown.Dock")));
-			this.ribbonLeft.OrbDropDown.Font = ((System.Drawing.Font)(resources.GetObject("ribbonLeft.OrbDropDown.Font")));
 			this.ribbonLeft.OrbDropDown.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("ribbonLeft.OrbDropDown.ImeMode")));
 			this.ribbonLeft.OrbDropDown.Location = ((System.Drawing.Point)(resources.GetObject("ribbonLeft.OrbDropDown.Location")));
-			this.ribbonLeft.OrbDropDown.MaximumSize = ((System.Drawing.Size)(resources.GetObject("ribbonLeft.OrbDropDown.MaximumSize")));
 			this.ribbonLeft.OrbDropDown.Name = "";
 			this.ribbonLeft.OrbDropDown.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("ribbonLeft.OrbDropDown.RightToLeft")));
 			this.ribbonLeft.OrbDropDown.Size = ((System.Drawing.Size)(resources.GetObject("ribbonLeft.OrbDropDown.Size")));
@@ -182,12 +175,6 @@
 			this.ribbonLeft.OrbStyle = System.Windows.Forms.RibbonOrbStyle.Office_2013;
 			this.ribbonLeft.OrbText = "Home";
 			this.ribbonLeft.OrbVisible = false;
-			// 
-			// 
-			// 
-			this.ribbonLeft.QuickAccessToolbar.Text = resources.GetString("ribbonLeft.QuickAccessToolbar.Text");
-			this.ribbonLeft.QuickAccessToolbar.ToolTip = resources.GetString("ribbonLeft.QuickAccessToolbar.ToolTip");
-			this.ribbonLeft.QuickAccessToolbar.ToolTipImage = ((System.Drawing.Image)(resources.GetObject("ribbonLeft.QuickAccessToolbar.ToolTipImage")));
 			this.ribbonLeft.RibbonTabFont = new System.Drawing.Font("Trebuchet MS", 9F);
 			this.ribbonLeft.Tabs.Add(this.ribbonTabSourceImage);
 			this.ribbonLeft.TabsMargin = new System.Windows.Forms.Padding(5, 2, 20, 0);
@@ -256,7 +243,6 @@
 			// ribbonSeparator1
 			// 
 			this.ribbonSeparator1.Name = "ribbonSeparator1";
-			resources.ApplyResources(this.ribbonSeparator1, "ribbonSeparator1");
 			// 
 			// buttonFlipH
 			// 
@@ -311,87 +297,75 @@
 			// 
 			// tabControlRight
 			// 
-			resources.ApplyResources(this.tabControlRight, "tabControlRight");
 			this.tabControlRight.Controls.Add(this.tabPageResultImage);
 			this.tabControlRight.Controls.Add(this.tabPageSymbols);
 			this.tabControlRight.Controls.Add(this.tabPagePreview);
+			resources.ApplyResources(this.tabControlRight, "tabControlRight");
 			this.tabControlRight.Name = "tabControlRight";
 			this.tabControlRight.SelectedIndex = 0;
 			this.tabControlRight.Selected += new System.Windows.Forms.TabControlEventHandler(this.tabControlRight_Selected);
 			// 
 			// tabPageResultImage
 			// 
-			resources.ApplyResources(this.tabPageResultImage, "tabPageResultImage");
 			this.tabPageResultImage.BackColor = System.Drawing.Color.White;
 			this.tabPageResultImage.Controls.Add(this.imageBoxResult);
+			resources.ApplyResources(this.tabPageResultImage, "tabPageResultImage");
 			this.tabPageResultImage.Name = "tabPageResultImage";
 			// 
 			// imageBoxResult
 			// 
-			resources.ApplyResources(this.imageBoxResult, "imageBoxResult");
 			this.imageBoxResult.Controller = null;
+			resources.ApplyResources(this.imageBoxResult, "imageBoxResult");
 			this.imageBoxResult.Name = "imageBoxResult";
 			// 
 			// tabPageSymbols
 			// 
-			resources.ApplyResources(this.tabPageSymbols, "tabPageSymbols");
 			this.tabPageSymbols.BackColor = System.Drawing.Color.White;
 			this.tabPageSymbols.Controls.Add(this.scrollControlSymbols);
+			resources.ApplyResources(this.tabPageSymbols, "tabPageSymbols");
 			this.tabPageSymbols.Name = "tabPageSymbols";
 			// 
 			// scrollControlSymbols
 			// 
-			resources.ApplyResources(this.scrollControlSymbols, "scrollControlSymbols");
 			this.scrollControlSymbols.Controller = null;
+			resources.ApplyResources(this.scrollControlSymbols, "scrollControlSymbols");
 			this.scrollControlSymbols.Name = "scrollControlSymbols";
 			// 
 			// tabPagePreview
 			// 
-			resources.ApplyResources(this.tabPagePreview, "tabPagePreview");
 			this.tabPagePreview.BackColor = System.Drawing.Color.White;
 			this.tabPagePreview.Controls.Add(this.scrollControlGridPreview);
+			resources.ApplyResources(this.tabPagePreview, "tabPagePreview");
 			this.tabPagePreview.Name = "tabPagePreview";
 			// 
 			// scrollControlGridPreview
 			// 
-			resources.ApplyResources(this.scrollControlGridPreview, "scrollControlGridPreview");
 			this.scrollControlGridPreview.Controller = null;
+			resources.ApplyResources(this.scrollControlGridPreview, "scrollControlGridPreview");
 			this.scrollControlGridPreview.Name = "scrollControlGridPreview";
 			// 
 			// ribbonRight
 			// 
-			resources.ApplyResources(this.ribbonRight, "ribbonRight");
 			this.ribbonRight.BorderMode = System.Windows.Forms.RibbonWindowMode.InsideWindow;
 			this.ribbonRight.CaptionBarVisible = false;
 			this.ribbonRight.Cursor = System.Windows.Forms.Cursors.Default;
+			resources.ApplyResources(this.ribbonRight, "ribbonRight");
 			this.ribbonRight.Minimized = false;
 			this.ribbonRight.Name = "ribbonRight";
 			// 
 			// 
 			// 
-			this.ribbonRight.OrbDropDown.AccessibleDescription = resources.GetString("ribbonRight.OrbDropDown.AccessibleDescription");
-			this.ribbonRight.OrbDropDown.AccessibleName = resources.GetString("ribbonRight.OrbDropDown.AccessibleName");
 			this.ribbonRight.OrbDropDown.Anchor = ((System.Windows.Forms.AnchorStyles)(resources.GetObject("ribbonRight.OrbDropDown.Anchor")));
-			this.ribbonRight.OrbDropDown.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ribbonRight.OrbDropDown.BackgroundImage")));
 			this.ribbonRight.OrbDropDown.BackgroundImageLayout = ((System.Windows.Forms.ImageLayout)(resources.GetObject("ribbonRight.OrbDropDown.BackgroundImageLayout")));
 			this.ribbonRight.OrbDropDown.BorderRoundness = 8;
-			this.ribbonRight.OrbDropDown.Dock = ((System.Windows.Forms.DockStyle)(resources.GetObject("ribbonRight.OrbDropDown.Dock")));
-			this.ribbonRight.OrbDropDown.Font = ((System.Drawing.Font)(resources.GetObject("ribbonRight.OrbDropDown.Font")));
 			this.ribbonRight.OrbDropDown.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("ribbonRight.OrbDropDown.ImeMode")));
 			this.ribbonRight.OrbDropDown.Location = ((System.Drawing.Point)(resources.GetObject("ribbonRight.OrbDropDown.Location")));
-			this.ribbonRight.OrbDropDown.MaximumSize = ((System.Drawing.Size)(resources.GetObject("ribbonRight.OrbDropDown.MaximumSize")));
 			this.ribbonRight.OrbDropDown.Name = "";
 			this.ribbonRight.OrbDropDown.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("ribbonRight.OrbDropDown.RightToLeft")));
 			this.ribbonRight.OrbDropDown.Size = ((System.Drawing.Size)(resources.GetObject("ribbonRight.OrbDropDown.Size")));
 			this.ribbonRight.OrbDropDown.TabIndex = ((int)(resources.GetObject("ribbonRight.OrbDropDown.TabIndex")));
 			this.ribbonRight.OrbStyle = System.Windows.Forms.RibbonOrbStyle.Office_2013;
 			this.ribbonRight.OrbVisible = false;
-			// 
-			// 
-			// 
-			this.ribbonRight.QuickAccessToolbar.Text = resources.GetString("ribbonRight.QuickAccessToolbar.Text");
-			this.ribbonRight.QuickAccessToolbar.ToolTip = resources.GetString("ribbonRight.QuickAccessToolbar.ToolTip");
-			this.ribbonRight.QuickAccessToolbar.ToolTipImage = ((System.Drawing.Image)(resources.GetObject("ribbonRight.QuickAccessToolbar.ToolTipImage")));
 			this.ribbonRight.RibbonTabFont = new System.Drawing.Font("Trebuchet MS", 9F);
 			this.ribbonRight.Tabs.Add(this.ribbonTabResultImage);
 			this.ribbonRight.Tabs.Add(this.ribbonTabAdvanced);
@@ -418,7 +392,8 @@
 			this.ribbonPanelSize.Items.Add(this.checkBoxFixAspect);
 			this.ribbonPanelSize.Items.Add(this.ribbonSeparator2);
 			this.ribbonPanelSize.Items.Add(this.comboBoxUnits);
-			this.ribbonPanelSize.Items.Add(this.upDownStitchesPerUnit);
+			this.ribbonPanelSize.Items.Add(this.upDownStitchesPerUnitHeight);
+			this.ribbonPanelSize.Items.Add(this.upDownStitchesPerUnitWidth);
 			this.ribbonPanelSize.Name = "ribbonPanelSize";
 			resources.ApplyResources(this.ribbonPanelSize, "ribbonPanelSize");
 			// 
@@ -451,7 +426,6 @@
 			// ribbonSeparator2
 			// 
 			this.ribbonSeparator2.Name = "ribbonSeparator2";
-			resources.ApplyResources(this.ribbonSeparator2, "ribbonSeparator2");
 			// 
 			// comboBoxUnits
 			// 
@@ -489,16 +463,27 @@
 			this.buttonInches.SmallImage = ((System.Drawing.Image)(resources.GetObject("buttonInches.SmallImage")));
 			resources.ApplyResources(this.buttonInches, "buttonInches");
 			// 
-			// upDownStitchesPerUnit
+			// upDownStitchesPerUnitHeight
 			// 
-			this.upDownStitchesPerUnit.Name = "upDownStitchesPerUnit";
-			resources.ApplyResources(this.upDownStitchesPerUnit, "upDownStitchesPerUnit");
-			this.upDownStitchesPerUnit.TextBoxText = "";
-			this.upDownStitchesPerUnit.TextBoxWidth = 35;
-			this.upDownStitchesPerUnit.Visible = false;
-			this.upDownStitchesPerUnit.UpButtonClicked += new System.Windows.Forms.MouseEventHandler(this.upDownStitchesPerUnit_UpButtonClicked);
-			this.upDownStitchesPerUnit.DownButtonClicked += new System.Windows.Forms.MouseEventHandler(this.upDownStitchesPerUnit_DownButtonClicked);
-			this.upDownStitchesPerUnit.TextBoxValidated += new System.EventHandler(this.upDownStitchesPerUnit_TextBoxValidated);
+			this.upDownStitchesPerUnitHeight.Name = "upDownStitchesPerUnitHeight";
+			resources.ApplyResources(this.upDownStitchesPerUnitHeight, "upDownStitchesPerUnitHeight");
+			this.upDownStitchesPerUnitHeight.TextBoxText = "";
+			this.upDownStitchesPerUnitHeight.TextBoxWidth = 35;
+			this.upDownStitchesPerUnitHeight.Visible = false;
+			this.upDownStitchesPerUnitHeight.UpButtonClicked += new System.Windows.Forms.MouseEventHandler(this.upDownStitchesPerUnitHeight_UpButtonClicked);
+			this.upDownStitchesPerUnitHeight.DownButtonClicked += new System.Windows.Forms.MouseEventHandler(this.upDownStitchesPerUnitHeight_DownButtonClicked);
+			this.upDownStitchesPerUnitHeight.TextBoxValidated += new System.EventHandler(this.upDownStitchesPerUnitHeight_TextBoxValidated);
+			// 
+			// upDownStitchesPerUnitWidth
+			// 
+			this.upDownStitchesPerUnitWidth.Name = "upDownStitchesPerUnitWidth";
+			resources.ApplyResources(this.upDownStitchesPerUnitWidth, "upDownStitchesPerUnitWidth");
+			this.upDownStitchesPerUnitWidth.TextBoxText = "";
+			this.upDownStitchesPerUnitWidth.TextBoxWidth = 35;
+			this.upDownStitchesPerUnitWidth.Visible = false;
+			this.upDownStitchesPerUnitWidth.UpButtonClicked += new System.Windows.Forms.MouseEventHandler(this.upDownStitchesPerUnitWidth_UpButtonClicked);
+			this.upDownStitchesPerUnitWidth.DownButtonClicked += new System.Windows.Forms.MouseEventHandler(this.upDownStitchesPerUnitWidth_DownButtonClicked);
+			this.upDownStitchesPerUnitWidth.TextBoxValidated += new System.EventHandler(this.upDownStitchesPerUnitWidth_TextBoxValidated);
 			// 
 			// ribbonPanelColors
 			// 
@@ -622,7 +607,6 @@
 			// ribbonSeparator3
 			// 
 			this.ribbonSeparator3.Name = "ribbonSeparator3";
-			resources.ApplyResources(this.ribbonSeparator3, "ribbonSeparator3");
 			// 
 			// checkBoxDigits
 			// 
@@ -778,7 +762,6 @@
 			// ribbonSeparator4
 			// 
 			this.ribbonSeparator4.Name = "ribbonSeparator4";
-			resources.ApplyResources(this.ribbonSeparator4, "ribbonSeparator4");
 			// 
 			// upDownCellSize
 			// 
@@ -804,16 +787,16 @@
 			// 
 			// panelBottom
 			// 
-			resources.ApplyResources(this.panelBottom, "panelBottom");
 			this.panelBottom.Controls.Add(this.buttonCancel);
 			this.panelBottom.Controls.Add(this.panelBottomRight);
+			resources.ApplyResources(this.panelBottom, "panelBottom");
 			this.panelBottom.Name = "panelBottom";
 			// 
 			// buttonCancel
 			// 
-			resources.ApplyResources(this.buttonCancel, "buttonCancel");
 			this.buttonCancel.BackColor = System.Drawing.Color.White;
 			this.buttonCancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+			resources.ApplyResources(this.buttonCancel, "buttonCancel");
 			this.buttonCancel.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Return24;
 			this.buttonCancel.IsSelected = false;
 			this.buttonCancel.Name = "buttonCancel";
@@ -822,14 +805,14 @@
 			// 
 			// panelBottomRight
 			// 
-			resources.ApplyResources(this.panelBottomRight, "panelBottomRight");
 			this.panelBottomRight.Controls.Add(this.buttonNext);
+			resources.ApplyResources(this.panelBottomRight, "panelBottomRight");
 			this.panelBottomRight.Name = "panelBottomRight";
 			// 
 			// buttonNext
 			// 
-			resources.ApplyResources(this.buttonNext, "buttonNext");
 			this.buttonNext.BackColor = System.Drawing.Color.White;
+			resources.ApplyResources(this.buttonNext, "buttonNext");
 			this.buttonNext.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
 			this.buttonNext.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Advance24;
 			this.buttonNext.IsSelected = false;
@@ -901,7 +884,8 @@
 		private System.Windows.Forms.RibbonCheckBox checkBoxFixAspect;
 		private System.Windows.Forms.RibbonSeparator ribbonSeparator2;
 		private System.Windows.Forms.RibbonComboBox comboBoxUnits;
-		private System.Windows.Forms.RibbonUpDown upDownStitchesPerUnit;
+		private System.Windows.Forms.RibbonUpDown upDownStitchesPerUnitHeight;
+		private System.Windows.Forms.RibbonUpDown upDownStitchesPerUnitWidth;
 		private System.Windows.Forms.RibbonButton buttonStitches;
 		private System.Windows.Forms.RibbonButton buttonCm;
 		private System.Windows.Forms.RibbonButton buttonInches;
