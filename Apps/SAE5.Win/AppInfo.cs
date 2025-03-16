@@ -46,12 +46,12 @@ namespace Ravlyk.SAE5.WinForms
 
 		public static void GoToWebsite()
 		{
-			Process.Start("http://stitcharteasy.com");
+			Process.Start("https://github.com/MykolaKovalchuk/SAE5");
 		}
 
 		public static void EmailToSupport()
 		{
-			Process.Start($"mailto:support@stitcharteasy.com?subject={AppDescription.Replace(" ", "%20")}%20({AppVersion})");
+			Process.Start($"https://github.com/MykolaKovalchuk/SAE5/issues");
 		}
 
 		public static void CheckForUpdates(Action<string> updateAvailableCallback, Action<Exception> errorCallback, bool synchronous = false)

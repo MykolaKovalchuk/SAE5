@@ -181,8 +181,8 @@ namespace Ravlyk.SAE.Drawing.Processor
 				{
 					if (unitForStitchesPerUnit == SizeUnit.Stitch)
 					{
-						StitchesPerUnitHeight = value == SizeUnit.Inch ? 8.0m : 3.15m;
-						StitchesPerUnitWidth = value == SizeUnit.Inch ? 8.0m : 3.15m;
+						stitchesPerUnitHeight = value == SizeUnit.Inch ? 8.0m : 3.15m;
+						stitchesPerUnitWidth = value == SizeUnit.Inch ? 8.0m : 3.15m;
 					}
 
 					if (value == SizeUnit.Cm && unitForStitchesPerUnit == SizeUnit.Inch)

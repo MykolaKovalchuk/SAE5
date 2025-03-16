@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Ravlyk.net")]
 [assembly: AssemblyProduct("SAE5.Win")]
-[assembly: AssemblyCopyright("Mykola Kovalchuk © 2003-2022")]
+[assembly: AssemblyCopyright("Mykola Kovalchuk © 2003-2025")]
 [assembly: AssemblyTrademark("Stitch Art Easy!")]
 [assembly: AssemblyCulture("")]
 
@@ -31,5 +31,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("5.1.1.29")]
-[assembly: AssemblyFileVersion("5.1.1.29")]
+[assembly: AssemblyVersion("5.1.2.30")]
+[assembly: AssemblyFileVersion("5.1.2.30")]

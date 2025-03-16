@@ -30,7 +30,7 @@ namespace SAE5.Win
 
 		void Initialize()
 		{
-			MinimumSize = new Size(768, 540);
+			//MinimumSize = new Size(768, 540);
 			WindowState = Settings.Default.ManiFormState;
 			Text = AppInfo.AppDescription;
 

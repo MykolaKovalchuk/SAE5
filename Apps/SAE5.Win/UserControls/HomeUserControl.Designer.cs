@@ -34,12 +34,12 @@
 			this.pictureBoxTitle = new System.Windows.Forms.PictureBox();
 			this.panelBottom = new System.Windows.Forms.Panel();
 			this.panelLanguages = new System.Windows.Forms.Panel();
+			this.buttonGerman = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonUkrainian = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonRussian = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonEnglish = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonRegister = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonLinkedIn = new Ravlyk.Drawing.WinForms.FlatButton();
-			this.buttonTwitter = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonFacebook = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonFeedback = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonWeb = new Ravlyk.Drawing.WinForms.FlatButton();
@@ -49,7 +49,6 @@
 			this.panelButtons = new System.Windows.Forms.Panel();
 			this.buttonOpen = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonNew = new Ravlyk.Drawing.WinForms.FlatButton();
-			this.buttonGerman = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.panelTop.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBoxTitle)).BeginInit();
 			this.panelBottom.SuspendLayout();
@@ -83,7 +82,6 @@
 			this.panelBottom.Controls.Add(this.panelLanguages);
 			this.panelBottom.Controls.Add(this.buttonRegister);
 			this.panelBottom.Controls.Add(this.buttonLinkedIn);
-			this.panelBottom.Controls.Add(this.buttonTwitter);
 			this.panelBottom.Controls.Add(this.buttonFacebook);
 			this.panelBottom.Controls.Add(this.buttonFeedback);
 			this.panelBottom.Controls.Add(this.buttonWeb);
@@ -98,6 +96,18 @@
 			this.panelLanguages.Controls.Add(this.buttonEnglish);
 			resources.ApplyResources(this.panelLanguages, "panelLanguages");
 			this.panelLanguages.Name = "panelLanguages";
+			// 
+			// buttonGerman
+			// 
+			this.buttonGerman.BackColor = System.Drawing.Color.White;
+			this.buttonGerman.FlatAppearance.BorderSize = 0;
+			this.buttonGerman.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+			resources.ApplyResources(this.buttonGerman, "buttonGerman");
+			this.buttonGerman.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.De24;
+			this.buttonGerman.IsSelected = false;
+			this.buttonGerman.Name = "buttonGerman";
+			this.buttonGerman.UseVisualStyleBackColor = true;
+			this.buttonGerman.Click += new System.EventHandler(this.buttonGerman_Click);
 			// 
 			// buttonUkrainian
 			// 
@@ -158,18 +168,6 @@
 			this.buttonLinkedIn.Name = "buttonLinkedIn";
 			this.buttonLinkedIn.UseVisualStyleBackColor = true;
 			this.buttonLinkedIn.Click += new System.EventHandler(this.buttonLinkedIn_Click);
-			// 
-			// buttonTwitter
-			// 
-			this.buttonTwitter.BackColor = System.Drawing.Color.White;
-			this.buttonTwitter.FlatAppearance.BorderSize = 0;
-			this.buttonTwitter.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
-			resources.ApplyResources(this.buttonTwitter, "buttonTwitter");
-			this.buttonTwitter.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Twitter24;
-			this.buttonTwitter.IsSelected = false;
-			this.buttonTwitter.Name = "buttonTwitter";
-			this.buttonTwitter.UseVisualStyleBackColor = true;
-			this.buttonTwitter.Click += new System.EventHandler(this.buttonTwitter_Click);
 			// 
 			// buttonFacebook
 			// 
@@ -254,18 +252,6 @@
 			this.buttonNew.UseVisualStyleBackColor = true;
 			this.buttonNew.Click += new System.EventHandler(this.buttonNew_Click);
 			// 
-			// buttonGerman
-			// 
-			this.buttonGerman.BackColor = System.Drawing.Color.White;
-			this.buttonGerman.FlatAppearance.BorderSize = 0;
-			this.buttonGerman.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
-			resources.ApplyResources(this.buttonGerman, "buttonGerman");
-			this.buttonGerman.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.De24;
-			this.buttonGerman.IsSelected = false;
-			this.buttonGerman.Name = "buttonGerman";
-			this.buttonGerman.UseVisualStyleBackColor = true;
-			this.buttonGerman.Click += new System.EventHandler(this.buttonGerman_Click);
-			// 
 			// HomeUserControl
 			// 
 			resources.ApplyResources(this, "$this");
@@ -300,7 +286,6 @@
 		private System.Windows.Forms.Panel panelLastOpenFilesTop;
 		internal Drawing.WinForms.FlatButton buttonRegister;
 		private Drawing.WinForms.FlatButton buttonLinkedIn;
-		private Drawing.WinForms.FlatButton buttonTwitter;
 		private Drawing.WinForms.FlatButton buttonFacebook;
 		private Drawing.WinForms.FlatButton buttonFeedback;
 		private Drawing.WinForms.FlatButton buttonWeb;

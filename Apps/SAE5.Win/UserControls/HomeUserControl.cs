@@ -41,13 +41,13 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 			toolTip.SetToolTip(buttonWeb, Resources.HintHomeButtonWeb);
 			toolTip.SetToolTip(buttonFeedback, Resources.HintHomeButtonFeedback);
 			toolTip.SetToolTip(buttonFacebook, Resources.HintHomeButtonFacebook);
-			toolTip.SetToolTip(buttonTwitter, Resources.HintHomeButtonTwitter);
 			toolTip.SetToolTip(buttonLinkedIn, Resources.HintHomeButtonLinkedIn);
 			toolTip.SetToolTip(buttonRegister, Resources.HintHomeButtonRegister);
 
 			toolTip.SetToolTip(buttonEnglish, "English language");
 			toolTip.SetToolTip(buttonRussian, "Русский язык");
 			toolTip.SetToolTip(buttonUkrainian, "Українська мова");
+			toolTip.SetToolTip(buttonGerman, "Deutsche Sprache");
 
 			InitializeRecentFilesButtons(toolTip);
 
@@ -184,11 +184,6 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 		void buttonFacebook_Click(object sender, EventArgs e)
 		{
 			Process.Start("http://facebook.com/stitcharteasy5");
-		}
-
-		void buttonTwitter_Click(object sender, EventArgs e)
-		{
-			Process.Start("http://twitter.com/StitchArtEasy");
 		}
 
 		void buttonLinkedIn_Click(object sender, EventArgs e)

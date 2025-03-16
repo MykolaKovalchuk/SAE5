@@ -131,6 +131,7 @@
 			// labelTranslatedBy
 			// 
 			resources.ApplyResources(this.labelTranslatedBy, "labelTranslatedBy");
+			this.labelTranslatedBy.BackColor = System.Drawing.Color.Transparent;
 			this.labelTranslatedBy.Name = "labelTranslatedBy";
 			// 
 			// AboutDialog
