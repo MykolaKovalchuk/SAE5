@@ -10,7 +10,7 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Ravlyk.net")]
 [assembly: AssemblyProduct("Ravlyk.SAE.Drawing")]
-[assembly: AssemblyCopyright("Mykola Kovalchuk © 2005-2016")]
+[assembly: AssemblyCopyright("Mykola Kovalchuk © 2005-2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -18,7 +18,7 @@ using System.Runtime.CompilerServices;
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,
 // and "{Major}.{Minor}.{Build}.*" will update just the revision.
 
-[assembly: AssemblyVersion("2.0.1.3")]
+[assembly: AssemblyVersion("2.0.2.4")]
 
 // The following attributes are used to specify the signing key for the assembly, 
 // if desired. See the Mono documentation for more information about signing.
@@ -29,6 +29,6 @@ using System.Runtime.CompilerServices;
 //  Internal visibility
 [assembly: InternalsVisibleTo("Ravlyk.SAE.Drawing.Test")]
 [assembly: ComVisible(false)]
-[assembly: AssemblyFileVersion("2.0.1.3")]
+[assembly: AssemblyFileVersion("2.0.3.4")]
 [assembly: Guid("CC0EFE67-6234-4F8E-A5B1-934DA25233D2")]
 

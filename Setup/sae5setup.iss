@@ -1,9 +1,9 @@
 #define MyAppName "Stitch Art Easy! 5"
-#define MyAppVersion "5.1.1"
-#define MyAppFileVersion "5.1.1.29"
+#define MyAppVersion "5.1.2"
+#define MyAppFileVersion "5.1.2.30"
 #define MyAppPublisher "Mykola Kovalchuk"
-#define MyAppCopyright "Copyright © Mykola Kovalchuk"
-#define MyAppURL "https://mykola.xyz/stitcharteasy/"
+#define MyAppCopyright "Mykola Kovalchuk © 2003-2025"
+#define MyAppURL "https://github.com/MykolaKovalchuk/SAE5"
 #define MyAppExeName "SAE5.exe"
 
 #include "InnoDependencyInstaller\setup.iss"
@@ -23,7 +23,7 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={commonpf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
-LicenseFile=C:\SAE5\Setup\license.txt
+LicenseFile=license.txt
 OutputBaseFilename=sae5setup
 Compression=lzma
 SolidCompression=yes
