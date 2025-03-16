@@ -2,7 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/SAE5/v16
+/.vs/SAE5
 /Apps/SAE5.Win/bin
 /Apps/SAE5.Win/obj
 /Ravlyk.Adopted/OpenXmlPackaging/bin
