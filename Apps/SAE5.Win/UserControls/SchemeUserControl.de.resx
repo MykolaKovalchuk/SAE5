@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="labelFileInfo.Text" xml:space="preserve">
+    <value>Datei: {0}
+Größe: {1}x{2} Steine
+Farbpalette: {3}
+Farben: {4}</value>
+  </data>
+  <data name="ribbonOrbMenuItemHome.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ribbonButtonOrbSave.Text" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="ribbonButtonOrbSave.ToolTip" xml:space="preserve">
+    <value>Vorlage speichern</value>
+  </data>
+  <data name="ribbonButtonOrbSaveAs.Text" xml:space="preserve">
+    <value>Speichern unter</value>
+  </data>
+  <data name="ribbonButtonOrbSaveAs.ToolTip" xml:space="preserve">
+    <value>Speichert Vorlage als neue Datei oder in anderem Format</value>
+  </data>
+  <data name="ribbonButtonOrbPng.Text" xml:space="preserve">
+    <value>Vorlage als PNG-Bild speichern</value>
+  </data>
+  <data name="ribbonButtonOrbPng.ToolTip" xml:space="preserve">
+    <value>Speichert Vorlage und Farbtabelle als PNG-Bilddatei</value>
+  </data>
+  <data name="ribbonButtonOrbJpg.Text" xml:space="preserve">
+    <value>Vorlage als JPG-Bild speichern</value>
+  </data>
+  <data name="ribbonButtonOrbJpg.ToolTip" xml:space="preserve">
+    <value>Speichert Vorlage und Farbtabelle als JPG-Bilddatei</value>
+  </data>
+  <data name="ribbonButtonOrbEmf.Text" xml:space="preserve">
+    <value>Vorlage als EMF-Bild speichern</value>
+  </data>
+  <data name="ribbonButtonOrbEmf.ToolTip" xml:space="preserve">
+    <value>Speichert Vorlage und Farbtabelle als EMF-Datei</value>
+  </data>
+  <data name="ribbonButtonOrbThumbnail.Text" xml:space="preserve">
+    <value>Vorschau als PNG-Bild speichern</value>
+  </data>
+  <data name="ribbonButtonOrbThumbnail.ToolTip" xml:space="preserve">
+    <value>Speichert Vorschaubild als PNG-Bilddatei</value>
+  </data>
+  <data name="ribbonButtonOrbPdf.Text" xml:space="preserve">
+    <value>Als PDF speichern</value>
+  </data>
+  <data name="ribbonButtonOrbPdf.ToolTip" xml:space="preserve">
+    <value>Zeige Optionen und Vorschau zur Speicherung als PDF-Dokument</value>
+  </data>
+  <data name="ribbonButtonOrbXls.Text" xml:space="preserve">
+    <value>Nach Excel exportieren</value>
+  </data>
+  <data name="ribbonButtonOrbXls.ToolTip" xml:space="preserve">
+    <value>Vorlage in ein Excel-Dokument exportieren</value>
+  </data>
+  <data name="ribbonOrbMenuItemSave.Text" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="ribbonOrbMenuItemPrint.Text" xml:space="preserve">
+    <value>Seitenansicht</value>
+  </data>
+  <data name="ribbonOrbMenuItemPrint.ToolTip" xml:space="preserve">
+    <value>Druckvorschau für Vorlage anzeigen</value>
+  </data>
+  <data name="ribbonMenuManagePalettes.Text" xml:space="preserve">
+    <value>Farbpalette verwalten</value>
+  </data>
+  <data name="ribbonMenuManagePalettes.ToolTip" xml:space="preserve">
+    <value>Farbpaletten verwalten</value>
+  </data>
+  <data name="ribbonMenuItemLanguage.Text" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="ribbonOrbMenuItemOptions.Text" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="ribbonOrbMenuItemOptions.ToolTip" xml:space="preserve">
+    <value>Zeige Einstellungsfenster um SAE zu konfigurieren</value>
+  </data>
+  <data name="ribbonOrbMenuItemCheckForUpdates.Text" xml:space="preserve">
+    <value>Nach Updates suchen</value>
+  </data>
+  <data name="ribbonMenuRegister.Text" xml:space="preserve">
+    <value>Registrieren</value>
+  </data>
+  <data name="ribbonMenuRegister.ToolTip" xml:space="preserve">
+    <value>Öffnet Fenster zur Registrierung oder um Information zum Kauf zu erhalten</value>
+  </data>
+  <data name="ribbonOrbMenuItemAbout.Text" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="ribbonOrbOptionButtonExit.Text" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="buttonHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="buttonHome.ToolTip" xml:space="preserve">
+    <value>Zurück zur Hauptseite</value>
+  </data>
+  <data name="buttonBackToWizard.Text" xml:space="preserve">
+    <value>&lt;Assistent</value>
+  </data>
+  <data name="buttonBackToWizard.ToolTip" xml:space="preserve">
+    <value>Zurück zum Assistenten um Einstellungen zu ändern</value>
+  </data>
+  <data name="buttonSave.Text" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="buttonSave.ToolTip" xml:space="preserve">
+    <value>Vorlage speichern</value>
+  </data>
+  <data name="buttonSaveAs.Text" xml:space="preserve">
+    <value>Speichern unter</value>
+  </data>
+  <data name="buttonSaveAs.ToolTip" xml:space="preserve">
+    <value>Speichert Vorlage in neuer Datei oder anderem Format</value>
+  </data>
+  <data name="buttonPdfPreview.Text" xml:space="preserve">
+    <value>Als PDF speichern</value>
+  </data>
+  <data name="buttonPdfPreview.ToolTip" xml:space="preserve">
+    <value>Zeige Optionen und Vorschau zur Speicherung als PDF</value>
+  </data>
+  <data name="ribbonPanelScheme.Text" xml:space="preserve">
+    <value>Vorlage</value>
+  </data>
+  <data name="buttonPrint.Text" xml:space="preserve">
+    <value>Vorschau</value>
+  </data>
+  <data name="buttonPrint.ToolTip" xml:space="preserve">
+    <value>Zeige Druckvorschau für Farb-Tabelle</value>
+  </data>
+  <data name="ribbonPanelPrint.Text" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="ribbonTabHome.Text" xml:space="preserve">
+    <value>Startseite</value>
+  </data>
+  <data name="buttonViewSymbols.Text" xml:space="preserve">
+    <value>Symbole</value>
+  </data>
+  <data name="buttonViewDark.Text" xml:space="preserve">
+    <value>Weiße Symbole</value>
+  </data>
+  <data name="buttonViewColoredSymbols.Text" xml:space="preserve">
+    <value>Farbige Symbole</value>
+  </data>
+  <data name="buttonViewHalfTone.Text" xml:space="preserve">
+    <value>Halbton</value>
+  </data>
+  <data name="buttonViewFull.Text" xml:space="preserve">
+    <value>Vollständig</value>
+  </data>
+  <data name="buttonViewColors.Text" xml:space="preserve">
+    <value>Farben</value>
+  </data>
+  <data name="buttonViewCross.Text" xml:space="preserve">
+    <value>Vorschau mit Steinen</value>
+  </data>
+  <data name="upDownGridCellSize.Text" xml:space="preserve">
+    <value>Zellengröße</value>
+  </data>
+  <data name="upDownGridCellSize.ToolTip" xml:space="preserve">
+    <value>Größe der Zellen</value>
+  </data>
+  <data name="checkBoxGridRulers.Text" xml:space="preserve">
+    <value>Lineal anzeigen</value>
+  </data>
+  <data name="checkBoxGridRulers.ToolTip" xml:space="preserve">
+    <value>Zeige Lineale mit Spalten- und Zeilennummern</value>
+  </data>
+  <data name="checkBoxGridLines.Text" xml:space="preserve">
+    <value>Linien anzeigen</value>
+  </data>
+  <data name="checkBoxGridLines.ToolTip" xml:space="preserve">
+    <value>Rasterlinien anzeigen</value>
+  </data>
+  <data name="ribbonPanelGrid.Text" xml:space="preserve">
+    <value>Vorlage</value>
+  </data>
+  <data name="ribbonTabView.Text" xml:space="preserve">
+    <value>Ansicht</value>
+  </data>
+  <data name="buttonUndo2.Text" xml:space="preserve">
+    <value>Rückgängig</value>
+  </data>
+  <data name="buttonRedo2.Text" xml:space="preserve">
+    <value>Wiederholen</value>
+  </data>
+  <data name="ribbonPanelUndo2.Text" xml:space="preserve">
+    <value>Rückgängig</value>
+  </data>
+  <data name="buttonThreadsShowAll.Text" xml:space="preserve">
+    <value>Alle anzeigen</value>
+  </data>
+  <data name="buttonThreadsShowAll.ToolTip" xml:space="preserve">
+    <value>Zeige alle Farben in der Vorschau an</value>
+  </data>
+  <data name="buttonThreadsHideAll.Text" xml:space="preserve">
+    <value>Alle ausblenden</value>
+  </data>
+  <data name="buttonThreadsHideAll.ToolTip" xml:space="preserve">
+    <value>Verberge alle Farben in der Vorlage</value>
+  </data>
+  <data name="buttonThreadsShowSelected.Text" xml:space="preserve">
+    <value>Auswahl anzeigen</value>
+  </data>
+  <data name="buttonThreadsShowSelected.ToolTip" xml:space="preserve">
+    <value>Zeige ausgewählte Farben in der Vorlage an</value>
+  </data>
+  <data name="buttonThreadsHideSelected.Text" xml:space="preserve">
+    <value>Auswahl ausblenden</value>
+  </data>
+  <data name="buttonThreadsHideSelected.ToolTip" xml:space="preserve">
+    <value>Blendet ausgewählte Farben in der Vorlage aus</value>
+  </data>
+  <data name="ribbonPanelThreadsVisibility.Text" xml:space="preserve">
+    <value>Anzeigen</value>
+  </data>
+  <data name="buttonChangeThreadSymbol.Text" xml:space="preserve">
+    <value>Symbol ändern</value>
+  </data>
+  <data name="buttonChangeThreadSymbol.ToolTip" xml:space="preserve">
+    <value>Ändere das Symbol für den ausgewählten Stein</value>
+  </data>
+  <data name="buttonChangeThreadColor.Text" xml:space="preserve">
+    <value>Farbe ändern</value>
+  </data>
+  <data name="buttonChangeThreadColor.ToolTip" xml:space="preserve">
+    <value>Ersetze alle Steine der gewählten Farbe mit anderer Farbe</value>
+  </data>
+  <data name="buttonAddThread.Text" xml:space="preserve">
+    <value>Farbe hinzufügen</value>
+  </data>
+  <data name="buttonAddThread.ToolTip" xml:space="preserve">
+    <value>Neue Farbe zum benutzten Set hinzufügen</value>
+  </data>
+  <data name="buttonRemoveThread.Text" xml:space="preserve">
+    <value>Farbe entfernen</value>
+  </data>
+  <data name="buttonRemoveThread.ToolTip" xml:space="preserve">
+    <value>Entferne ungenutzte Farben</value>
+  </data>
+  <data name="ribbonPanelChangeThread.Text" xml:space="preserve">
+    <value>Farbe</value>
+  </data>
+  <data name="buttonMergeThreads.Text" xml:space="preserve">
+    <value>Zusammenführen</value>
+  </data>
+  <data name="buttonMergeThreads.ToolTip" xml:space="preserve">
+    <value>Wähle neue Farbe um die ausgewählte Farbe zu ersetzen</value>
+  </data>
+  <data name="ribbonPanelThreads.Text" xml:space="preserve">
+    <value>Farben</value>
+  </data>
+  <data name="buttonManagePalettes.Text" xml:space="preserve">
+    <value>Verwalten</value>
+  </data>
+  <data name="buttonManagePalettes.ToolTip" xml:space="preserve">
+    <value>Verwalte Farbpaletten</value>
+  </data>
+  <data name="ribbonPanelPalettes.Text" xml:space="preserve">
+    <value>Paletten</value>
+  </data>
+  <data name="ribbonTabThreads.Text" xml:space="preserve">
+    <value>Farben</value>
+  </data>
+  <data name="buttonUndo.Text" xml:space="preserve">
+    <value>Rückgängig</value>
+  </data>
+  <data name="buttonRedo.Text" xml:space="preserve">
+    <value>Wiederholen</value>
+  </data>
+  <data name="ribbonPanelUndo.Text" xml:space="preserve">
+    <value>Rückgängig</value>
+  </data>
+  <data name="buttonDrawNone.Text" xml:space="preserve">
+    <value>Verschieben</value>
+  </data>
+  <data name="buttonDrawNone.ToolTip" xml:space="preserve">
+    <value>Nutze die Maus um die Vorage zu verschieben</value>
+  </data>
+  <data name="buttonDrawPencil.Text" xml:space="preserve">
+    <value>Stift</value>
+  </data>
+  <data name="buttonDrawPencil.ToolTip" xml:space="preserve">
+    <value>Male eine Zelle mit der ausgewählten Farbe</value>
+  </data>
+  <data name="buttonDrawFill.Text" xml:space="preserve">
+    <value>Ausfüllen</value>
+  </data>
+  <data name="buttonDrawFill.ToolTip" xml:space="preserve">
+    <value>Fülle einen Bereich gleicher Farbe mit der ausgewählten Farbe</value>
+  </data>
+  <data name="buttonDrawSelectAll.Text" xml:space="preserve">
+    <value>Alles auswählen</value>
+  </data>
+  <data name="buttonDrawSelectAll.ToolTip" xml:space="preserve">
+    <value>Wähle die gesamte Vorlage aus</value>
+  </data>
+  <data name="buttonDrawSelect.Text" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="buttonDrawSelect.ToolTip" xml:space="preserve">
+    <value>Wähle rechteckigen Bereich in der Vorlage</value>
+  </data>
+  <data name="ribbonPanelMode.Text" xml:space="preserve">
+    <value>Modus</value>
+  </data>
+  <data name="buttonCut.Text" xml:space="preserve">
+    <value>Ausschneiden</value>
+  </data>
+  <data name="buttonCut.ToolTip" xml:space="preserve">
+    <value>Schneide ausgewählten Bereich in aus und lege ihn in die Zwischenablage</value>
+  </data>
+  <data name="buttonCopy.Text" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="buttonCopy.ToolTip" xml:space="preserve">
+    <value>Kopiere ausgewählten Bereich in Zwischenablage</value>
+  </data>
+  <data name="buttonPaste.Text" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="buttonPaste.ToolTip" xml:space="preserve">
+    <value>Einfügen aus der Zwischenablage</value>
+  </data>
+  <data name="ribbonPanelSelect.Text" xml:space="preserve">
+    <value>Auswahl</value>
+  </data>
+  <data name="ribbonTabDraw.Text" xml:space="preserve">
+    <value>Zeichnen</value>
+  </data>
+  <data name="buttonPrintBack.Text" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="buttonPrintBack.ToolTip" xml:space="preserve">
+    <value>Zurück zum vorherigen Bildschirm</value>
+  </data>
+  <data name="comboBoxPrinter.Text" xml:space="preserve">
+    <value>Drucker</value>
+  </data>
+  <data name="comboBoxPrinter.ToolTip" xml:space="preserve">
+    <value>Zieldrucker</value>
+  </data>
+  <data name="upDownPrintCellSize.Text" xml:space="preserve">
+    <value>Zellengröße</value>
+  </data>
+  <data name="upDownPrintCellSize.ToolTip" xml:space="preserve">
+    <value>Größe der Zellen</value>
+  </data>
+  <data name="buttonPrintCellSizeMm.ToolTip" xml:space="preserve">
+    <value>Gibt Größe in Millimeter an</value>
+  </data>
+  <data name="buttonPrintCellSizeInch.ToolTip" xml:space="preserve">
+    <value>Gibt Größe in Zoll an</value>
+  </data>
+  <data name="comboBoxCellSizeUnits.Text" xml:space="preserve">
+    <value>Einheit</value>
+  </data>
+  <data name="comboBoxCellSizeUnits.ToolTip" xml:space="preserve">
+    <value>Legt Größeneinheit für Zellgröße fest</value>
+  </data>
+  <data name="buttonPageSettings.Text" xml:space="preserve">
+    <value>Seite einrichten</value>
+  </data>
+  <data name="buttonPageSettings.ToolTip" xml:space="preserve">
+    <value>Öffnet Fenster um Seitengröße, Ausrichtung und Ränder einzustellen</value>
+  </data>
+  <data name="ribbonPanelPrintSettings.Text" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="buttonPreview.Text" xml:space="preserve">
+    <value>Vorschau</value>
+  </data>
+  <data name="buttonPreview.ToolTip" xml:space="preserve">
+    <value>Zeige Druckvorschau auf dem Bildschirm</value>
+  </data>
+  <data name="upDownPreviewPage.Text" xml:space="preserve">
+    <value>Seite</value>
+  </data>
+  <data name="upDownPreviewPage.ToolTip" xml:space="preserve">
+    <value>Vorschau Seitennummer</value>
+  </data>
+  <data name="ribbonButton1.Text" xml:space="preserve">
+    <value>Automatisch</value>
+  </data>
+  <data name="comboBoxPreviewZoom.Text" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="comboBoxPreviewZoom.ToolTip" xml:space="preserve">
+    <value>Vorschau-Zoom, "Auto" zeigt gesamte Seite</value>
+  </data>
+  <data name="ribbonPanelPreview.Text" xml:space="preserve">
+    <value>Vorschau</value>
+  </data>
+  <data name="buttonSaveToPdf.Text" xml:space="preserve">
+    <value>Als PDF speichern</value>
+  </data>
+  <data name="buttonSaveToPdf.ToolTip" xml:space="preserve">
+    <value>Speichert Vorlage als PDF-Dokument</value>
+  </data>
+  <data name="buttonPrintPrint.Text" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="buttonPrintPrint.ToolTip" xml:space="preserve">
+    <value>Druckt alle oder ausgewählte Seite auf dem Ziel-Drucker</value>
+  </data>
+  <data name="ribbonPanelPrintPrint.Text" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="ribbonTabPrint.Text" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="ribbonOrbMenuItemHome.ToolTip" xml:space="preserve">
+    <value>Zurück zum Startbildschirm</value>
+  </data>
+</root>

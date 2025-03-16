@@ -1,0 +1,18 @@
+#5.1.1.29
+Die Bewerbung ist kostenlos. Es wird keine weitere Unterstützung geben.
+
+#5.1.0.28
+ Alle Einnahmen aus dem Verkauf dieses Programms werden an die Ukraine gespendet.
+~Feste DMC-Gewindefarbe 309 (Rose Dark).
+
+#5.1.0.27
+Aktualisierte Farbpalette für DMC-Threads: Neue Threads 1-35 hinzugefügt, mehrere Threads für eine bessere Farbanpassung angepasst. Die alte Palette wird als 'DMC (old)' gespeichert.
+
+#5.1.0.26
++Übersetzung in deutscher Sprache hinzugefügt.
+
+#5.1.0.25
+
++Unterstützung für zusätzliche Symbolschriftarten hinzugefügt (siehe Optionen -> Speicherorte -> Speicherort für Benutzer-Symbolschriftarten).
+  Es werden nur TrueType-Schriftarten (.ttf-Schriftdateien) unterstützt. Alle unterstützten zusätzlichen Schriftarten werden im Assistenten für neue Schemata zu einer Symbolliste hinzugefügt.
+~Die Anforderung für .Net wurde auf Version 4.8 geändert

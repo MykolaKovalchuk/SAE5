@@ -34,12 +34,12 @@
 			this.pictureBoxTitle = new System.Windows.Forms.PictureBox();
 			this.panelBottom = new System.Windows.Forms.Panel();
 			this.panelLanguages = new System.Windows.Forms.Panel();
+			this.buttonGerman = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonUkrainian = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonRussian = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonEnglish = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonRegister = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonLinkedIn = new Ravlyk.Drawing.WinForms.FlatButton();
-			this.buttonTwitter = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonFacebook = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonFeedback = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.buttonWeb = new Ravlyk.Drawing.WinForms.FlatButton();
@@ -59,9 +59,9 @@
 			// 
 			// panelTop
 			// 
-			resources.ApplyResources(this.panelTop, "panelTop");
 			this.panelTop.Controls.Add(this.labelVersion);
 			this.panelTop.Controls.Add(this.pictureBoxTitle);
+			resources.ApplyResources(this.panelTop, "panelTop");
 			this.panelTop.Name = "panelTop";
 			// 
 			// labelVersion
@@ -72,37 +72,49 @@
 			// 
 			// pictureBoxTitle
 			// 
-			resources.ApplyResources(this.pictureBoxTitle, "pictureBoxTitle");
 			this.pictureBoxTitle.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Title;
+			resources.ApplyResources(this.pictureBoxTitle, "pictureBoxTitle");
 			this.pictureBoxTitle.Name = "pictureBoxTitle";
 			this.pictureBoxTitle.TabStop = false;
 			// 
 			// panelBottom
 			// 
-			resources.ApplyResources(this.panelBottom, "panelBottom");
 			this.panelBottom.Controls.Add(this.panelLanguages);
 			this.panelBottom.Controls.Add(this.buttonRegister);
 			this.panelBottom.Controls.Add(this.buttonLinkedIn);
-			this.panelBottom.Controls.Add(this.buttonTwitter);
 			this.panelBottom.Controls.Add(this.buttonFacebook);
 			this.panelBottom.Controls.Add(this.buttonFeedback);
 			this.panelBottom.Controls.Add(this.buttonWeb);
+			resources.ApplyResources(this.panelBottom, "panelBottom");
 			this.panelBottom.Name = "panelBottom";
 			// 
 			// panelLanguages
 			// 
-			resources.ApplyResources(this.panelLanguages, "panelLanguages");
+			this.panelLanguages.Controls.Add(this.buttonGerman);
 			this.panelLanguages.Controls.Add(this.buttonUkrainian);
 			this.panelLanguages.Controls.Add(this.buttonRussian);
 			this.panelLanguages.Controls.Add(this.buttonEnglish);
+			resources.ApplyResources(this.panelLanguages, "panelLanguages");
 			this.panelLanguages.Name = "panelLanguages";
+			// 
+			// buttonGerman
+			// 
+			this.buttonGerman.BackColor = System.Drawing.Color.White;
+			this.buttonGerman.FlatAppearance.BorderSize = 0;
+			this.buttonGerman.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+			resources.ApplyResources(this.buttonGerman, "buttonGerman");
+			this.buttonGerman.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.De24;
+			this.buttonGerman.IsSelected = false;
+			this.buttonGerman.Name = "buttonGerman";
+			this.buttonGerman.UseVisualStyleBackColor = true;
+			this.buttonGerman.Click += new System.EventHandler(this.buttonGerman_Click);
 			// 
 			// buttonUkrainian
 			// 
-			resources.ApplyResources(this.buttonUkrainian, "buttonUkrainian");
 			this.buttonUkrainian.BackColor = System.Drawing.Color.White;
 			this.buttonUkrainian.FlatAppearance.BorderSize = 0;
 			this.buttonUkrainian.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+			resources.ApplyResources(this.buttonUkrainian, "buttonUkrainian");
 			this.buttonUkrainian.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Ua24;
 			this.buttonUkrainian.IsSelected = false;
 			this.buttonUkrainian.Name = "buttonUkrainian";
@@ -111,10 +123,10 @@
 			// 
 			// buttonRussian
 			// 
-			resources.ApplyResources(this.buttonRussian, "buttonRussian");
 			this.buttonRussian.BackColor = System.Drawing.Color.White;
 			this.buttonRussian.FlatAppearance.BorderSize = 0;
 			this.buttonRussian.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+			resources.ApplyResources(this.buttonRussian, "buttonRussian");
 			this.buttonRussian.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Ru24;
 			this.buttonRussian.IsSelected = false;
 			this.buttonRussian.Name = "buttonRussian";
@@ -123,10 +135,10 @@
 			// 
 			// buttonEnglish
 			// 
-			resources.ApplyResources(this.buttonEnglish, "buttonEnglish");
 			this.buttonEnglish.BackColor = System.Drawing.Color.White;
 			this.buttonEnglish.FlatAppearance.BorderSize = 0;
 			this.buttonEnglish.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+			resources.ApplyResources(this.buttonEnglish, "buttonEnglish");
 			this.buttonEnglish.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.USA24;
 			this.buttonEnglish.IsSelected = false;
 			this.buttonEnglish.Name = "buttonEnglish";
@@ -135,10 +147,10 @@
 			// 
 			// buttonRegister
 			// 
-			resources.ApplyResources(this.buttonRegister, "buttonRegister");
 			this.buttonRegister.BackColor = System.Drawing.Color.White;
 			this.buttonRegister.FlatAppearance.BorderSize = 0;
 			this.buttonRegister.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+			resources.ApplyResources(this.buttonRegister, "buttonRegister");
 			this.buttonRegister.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Key24;
 			this.buttonRegister.IsSelected = false;
 			this.buttonRegister.Name = "buttonRegister";
@@ -147,34 +159,22 @@
 			// 
 			// buttonLinkedIn
 			// 
-			resources.ApplyResources(this.buttonLinkedIn, "buttonLinkedIn");
 			this.buttonLinkedIn.BackColor = System.Drawing.Color.White;
 			this.buttonLinkedIn.FlatAppearance.BorderSize = 0;
 			this.buttonLinkedIn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+			resources.ApplyResources(this.buttonLinkedIn, "buttonLinkedIn");
 			this.buttonLinkedIn.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.LinkedIn24;
 			this.buttonLinkedIn.IsSelected = false;
 			this.buttonLinkedIn.Name = "buttonLinkedIn";
 			this.buttonLinkedIn.UseVisualStyleBackColor = true;
 			this.buttonLinkedIn.Click += new System.EventHandler(this.buttonLinkedIn_Click);
 			// 
-			// buttonTwitter
-			// 
-			resources.ApplyResources(this.buttonTwitter, "buttonTwitter");
-			this.buttonTwitter.BackColor = System.Drawing.Color.White;
-			this.buttonTwitter.FlatAppearance.BorderSize = 0;
-			this.buttonTwitter.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
-			this.buttonTwitter.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Twitter24;
-			this.buttonTwitter.IsSelected = false;
-			this.buttonTwitter.Name = "buttonTwitter";
-			this.buttonTwitter.UseVisualStyleBackColor = true;
-			this.buttonTwitter.Click += new System.EventHandler(this.buttonTwitter_Click);
-			// 
 			// buttonFacebook
 			// 
-			resources.ApplyResources(this.buttonFacebook, "buttonFacebook");
 			this.buttonFacebook.BackColor = System.Drawing.Color.White;
 			this.buttonFacebook.FlatAppearance.BorderSize = 0;
 			this.buttonFacebook.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+			resources.ApplyResources(this.buttonFacebook, "buttonFacebook");
 			this.buttonFacebook.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Facebook24;
 			this.buttonFacebook.IsSelected = false;
 			this.buttonFacebook.Name = "buttonFacebook";
@@ -183,10 +183,10 @@
 			// 
 			// buttonFeedback
 			// 
-			resources.ApplyResources(this.buttonFeedback, "buttonFeedback");
 			this.buttonFeedback.BackColor = System.Drawing.Color.White;
 			this.buttonFeedback.FlatAppearance.BorderSize = 0;
 			this.buttonFeedback.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+			resources.ApplyResources(this.buttonFeedback, "buttonFeedback");
 			this.buttonFeedback.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Feedback24;
 			this.buttonFeedback.IsSelected = false;
 			this.buttonFeedback.Name = "buttonFeedback";
@@ -195,10 +195,10 @@
 			// 
 			// buttonWeb
 			// 
-			resources.ApplyResources(this.buttonWeb, "buttonWeb");
 			this.buttonWeb.BackColor = System.Drawing.Color.White;
 			this.buttonWeb.FlatAppearance.BorderSize = 0;
 			this.buttonWeb.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+			resources.ApplyResources(this.buttonWeb, "buttonWeb");
 			this.buttonWeb.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Web24;
 			this.buttonWeb.IsSelected = false;
 			this.buttonWeb.Name = "buttonWeb";
@@ -207,10 +207,10 @@
 			// 
 			// panelMain
 			// 
-			resources.ApplyResources(this.panelMain, "panelMain");
 			this.panelMain.Controls.Add(this.panelLastOpenFiles);
 			this.panelMain.Controls.Add(this.panelLastOpenFilesTop);
 			this.panelMain.Controls.Add(this.panelButtons);
+			resources.ApplyResources(this.panelMain, "panelMain");
 			this.panelMain.Name = "panelMain";
 			// 
 			// panelLastOpenFiles
@@ -225,16 +225,16 @@
 			// 
 			// panelButtons
 			// 
-			resources.ApplyResources(this.panelButtons, "panelButtons");
 			this.panelButtons.Controls.Add(this.buttonOpen);
 			this.panelButtons.Controls.Add(this.buttonNew);
+			resources.ApplyResources(this.panelButtons, "panelButtons");
 			this.panelButtons.Name = "panelButtons";
 			// 
 			// buttonOpen
 			// 
-			resources.ApplyResources(this.buttonOpen, "buttonOpen");
 			this.buttonOpen.BackColor = System.Drawing.Color.White;
 			this.buttonOpen.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+			resources.ApplyResources(this.buttonOpen, "buttonOpen");
 			this.buttonOpen.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Open100;
 			this.buttonOpen.IsSelected = false;
 			this.buttonOpen.Name = "buttonOpen";
@@ -243,9 +243,9 @@
 			// 
 			// buttonNew
 			// 
-			resources.ApplyResources(this.buttonNew, "buttonNew");
 			this.buttonNew.BackColor = System.Drawing.Color.White;
 			this.buttonNew.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+			resources.ApplyResources(this.buttonNew, "buttonNew");
 			this.buttonNew.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.EditImage100;
 			this.buttonNew.IsSelected = false;
 			this.buttonNew.Name = "buttonNew";
@@ -286,7 +286,6 @@
 		private System.Windows.Forms.Panel panelLastOpenFilesTop;
 		internal Drawing.WinForms.FlatButton buttonRegister;
 		private Drawing.WinForms.FlatButton buttonLinkedIn;
-		private Drawing.WinForms.FlatButton buttonTwitter;
 		private Drawing.WinForms.FlatButton buttonFacebook;
 		private Drawing.WinForms.FlatButton buttonFeedback;
 		private Drawing.WinForms.FlatButton buttonWeb;
@@ -294,5 +293,6 @@
 		private Drawing.WinForms.FlatButton buttonUkrainian;
 		private Drawing.WinForms.FlatButton buttonRussian;
 		private Drawing.WinForms.FlatButton buttonEnglish;
+		private Drawing.WinForms.FlatButton buttonGerman;
 	}
 }

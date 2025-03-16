@@ -40,7 +40,7 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 			schemeImage.CompletePalette();
 
 			SchemeImage = schemeImage;
-			SchemeFont = SAEResources.GetImageFont(schemeImage);
+			SchemeFont = SAEResources.GetImageFont(schemeImage, Settings.Default.UserFontsLocation);
 
 			InitializeComponent();
 		}
@@ -420,7 +420,7 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 			{
 				using (var painter = new EmfPainter(fileName, g0.GetHdc(), imageSize, IndexedImageExtensions.ToBitmap)
 					{
-						FontFamily = FontHelper.GetFontFamily(PatternGridController.GridPainter.SymbolsFont.Name)
+						FontFamily = FontHelper.GetFontFamily(PatternGridController.GridPainter.SymbolsFont.Name, Settings.Default.UserFontsLocation)
 					})
 				{
 					PaintScheme(painter, imageSize);
@@ -436,7 +436,7 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 			{
 				using (var painter = new EmfPainter(Path.ChangeExtension(fileName, ".Colors" + Path.GetExtension(fileName)), g0.GetHdc(), imageSize, IndexedImageExtensions.ToBitmap)
 					{
-						FontFamily = FontHelper.GetFontFamily(PatternGridController.GridPainter.SymbolsFont.Name)
+						FontFamily = FontHelper.GetFontFamily(PatternGridController.GridPainter.SymbolsFont.Name, Settings.Default.UserFontsLocation)
 					})
 				{
 					PaintColorsTable(painter, imageSize, colorsTableRowHeight);
@@ -761,6 +761,11 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 			SetSelectedLanguage("uk", menuItemLanguageUa);
 		}
 
+		private void menuItemLanguageDe_Click(object sender, EventArgs e)
+		{
+			SetSelectedLanguage("de", menuItemLanguageUa);
+		}
+
 		void SetSelectedLanguage(string culture, RibbonItem menuItem)
 		{
 			AppInfo.SetSelectedLanguage(culture, true);
@@ -780,6 +785,9 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 					break;
 				case "uk":
 					menuItemLanguageUa.Checked = true;
+					break;
+				case "de":
+					menuItemLanguageDe.Checked = true;
 					break;
 				default:
 					menuItemLanguageEn.Checked = true;
@@ -1261,6 +1269,8 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 				}
 				paletteUserControl.UpdatePalette();
 			}
+			scrollControlGrid.Invalidate();
+			scrollControlGrid.Update();
 		}
 
 		void buttonThreadsHideAll_Click(object sender, EventArgs e)
@@ -1273,6 +1283,8 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 				}
 				paletteUserControl.UpdatePalette();
 			}
+			scrollControlGrid.Invalidate();
+			scrollControlGrid.Update();
 		}
 
 		void buttonThreadsShowSelected_Click(object sender, EventArgs e)
@@ -1285,6 +1297,8 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 				}
 				paletteUserControl.UpdatePalette();
 			}
+			scrollControlGrid.Invalidate();
+			scrollControlGrid.Update();
 		}
 
 		void buttonThreadsHideSelected_Click(object sender, EventArgs e)
@@ -1297,6 +1311,8 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 				}
 				paletteUserControl.UpdatePalette();
 			}
+			scrollControlGrid.Invalidate();
+			scrollControlGrid.Update();
 		}
 
 		void buttonAddThread_Click(object sender, EventArgs e)

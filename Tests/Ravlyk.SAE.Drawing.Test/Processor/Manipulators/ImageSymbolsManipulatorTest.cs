@@ -32,7 +32,7 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 
 			Assert.AreSame(symboler.SourceImage, symboler.ManipulatedImage);
 
-			var font = SAEResources.GetAllFonts().First();
+			var font = SAEResources.GetAllFonts(string.Empty).First();
 			symboler.ApplySymbols(new[] { ' ', '.', 'X' }, font);
 
 			Assert.AreEqual(font.Name, srcImage.Palette.SymbolsFont);
@@ -59,7 +59,7 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 
 			Assert.AreSame(symboler.SourceImage, symboler.ManipulatedImage);
 
-			var font = SAEResources.GetAllFonts().First();
+			var font = SAEResources.GetAllFonts(string.Empty).First();
 			symboler.ApplySymbols(new[] { 'x' }, font);
 
 			Assert.AreEqual('x', srcImage.Palette.First<CodedColor>().SymbolChar);

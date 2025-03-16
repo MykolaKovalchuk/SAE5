@@ -192,6 +192,16 @@ namespace Ravlyk.SAE5.WinForms.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap De24 {
+            get {
+                object obj = ResourceManager.GetObject("De24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Delete24 {
             get {
                 object obj = ResourceManager.GetObject("Delete24", resourceCulture);
@@ -1384,6 +1394,16 @@ namespace Ravlyk.SAE5.WinForms.Properties {
         internal static System.Drawing.Bitmap Twitter24 {
             get {
                 object obj = ResourceManager.GetObject("Twitter24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ua_flag_bg {
+            get {
+                object obj = ResourceManager.GetObject("ua_flag_bg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

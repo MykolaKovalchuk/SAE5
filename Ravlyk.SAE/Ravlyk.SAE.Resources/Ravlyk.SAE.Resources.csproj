@@ -44,6 +44,7 @@
     <Compile Include="SAEResources.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Fonts\ZnakySAE.ttf" />
     <EmbeddedResource Include="Fonts\Ravlyk.Znaky.2.ttf" />
   </ItemGroup>
   <ItemGroup>
@@ -65,13 +66,16 @@
     <EmbeddedResource Include="Threads\Anchor.thread" />
     <EmbeddedResource Include="Threads\Appleton Wool.thread" />
     <EmbeddedResource Include="Threads\Coates.thread" />
-    <EmbeddedResource Include="Threads\DMC Wool.thread" />
     <EmbeddedResource Include="Threads\DMC.thread" />
+    <EmbeddedResource Include="Threads\DMC Wool.thread" />
+    <EmbeddedResource Include="Threads\DMC old.thread" />
+    <EmbeddedResource Include="Threads\DMC PM.thread" />
     <EmbeddedResource Include="Threads\Gamma.thread" />
     <EmbeddedResource Include="Threads\Madeira.thread" />
     <EmbeddedResource Include="Threads\Mill Hill Beads.thread" />
     <EmbeddedResource Include="Threads\Paterna Wool.thread" />
     <EmbeddedResource Include="Threads\RainBow.thread" />
+    <EmbeddedResource Include="Threads\PNK Kirova.thread" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Threads\Palette.xsd">
@@ -79,20 +83,11 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Fonts\ZnakySAE.ttf" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Images\cross.sa4" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Images\brush.png" />
     <EmbeddedResource Include="Images\pencil.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Threads\PNK Kirova.thread" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Threads\DMC PM.thread" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

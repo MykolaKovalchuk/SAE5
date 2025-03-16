@@ -217,7 +217,7 @@
     <value>paletteUserControl</value>
   </data>
   <data name="&gt;&gt;paletteUserControl.Type" xml:space="preserve">
-    <value>Ravlyk.SAE5.WinForms.UserControls.PaletteUserControl, SAE5, Version=5.0.3.22, Culture=neutral, PublicKeyToken=null</value>
+    <value>Ravlyk.SAE5.WinForms.UserControls.PaletteUserControl, SAE5, Version=5.1.0.25, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;paletteUserControl.Parent" xml:space="preserve">
     <value>splitContainerInfo.Panel2</value>
@@ -482,6 +482,30 @@ Colors: {4}</value>
   </data>
   <data name="menuItemLanguageUa.Text" xml:space="preserve">
     <value>Ukrainian</value>
+  </data>
+  <data name="menuItemLanguageDe.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAABLSURBVEhL7c0xDgAwCAJA//+2/sma1pHGBRwah4OEBXN3KTgywZEJjkw3ohTmoNR3cEohcw7e
+        MhsOVpTCHJQ+OhCCIxMcmeDI47YBvUBWig93R78AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="menuItemLanguageDe.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAABLSURBVEhL7c0xDgAwCAJA//+2/sma1pHGBRwah4OEBXN3KTgywZEJjkw3ohTmoNR3cEohcw7e
+        MhsOVpTCHJQ+OhCCIxMcmeDI47YBvUBWig93R78AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="menuItemLanguageDe.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAABLSURBVEhL7c0xDgAwCAJA//+2/sma1pHGBRwah4OEBXN3KTgywZEJjkw3ohTmoNR3cEohcw7e
+        MhsOVpTCHJQ+OhCCIxMcmeDI47YBvUBWig93R78AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="menuItemLanguageDe.Text" xml:space="preserve">
+    <value>German</value>
   </data>
   <data name="ribbonMenuItemLanguage.Text" xml:space="preserve">
     <value>Language</value>
@@ -1539,6 +1563,12 @@ Colors: {4}</value>
   <data name="&gt;&gt;menuItemLanguageUa.Type" xml:space="preserve">
     <value>System.Windows.Forms.RibbonDescriptionMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="&gt;&gt;menuItemLanguageDe.Name" xml:space="preserve">
+    <value>menuItemLanguageDe</value>
+  </data>
+  <data name="&gt;&gt;menuItemLanguageDe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonDescriptionMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
   <data name="&gt;&gt;ribbonOrbMenuItemOptions.Name" xml:space="preserve">
     <value>ribbonOrbMenuItemOptions</value>
   </data>
@@ -2090,5 +2120,8 @@ Colors: {4}</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ribbonOrbMenuItemHome.ToolTip" xml:space="preserve">
+    <value>Return to home screen</value>
   </data>
 </root>

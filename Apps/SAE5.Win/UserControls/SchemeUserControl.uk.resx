@@ -1039,4 +1039,13 @@
   <data name="buttonPrintPrint.ToolTip" xml:space="preserve">
     <value>Надрукувати усі або обрані сторінки на вказаному принтері</value>
   </data>
+  <data name="labelFileInfo.Text" xml:space="preserve">
+    <value>Файл: {0}
+Розмір: {1}x{2} хрестиків
+Нитки: {3}
+Кольори: {4}</value>
+  </data>
+  <data name="ribbonButton1.Text" xml:space="preserve">
+    <value>Авто</value>
+  </data>
 </root>

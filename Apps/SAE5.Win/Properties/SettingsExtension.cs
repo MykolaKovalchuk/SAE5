@@ -58,19 +58,41 @@ namespace Ravlyk.SAE5.WinForms.Properties
 			{
 				if (string.IsNullOrEmpty(UserPalettesLocation) || !Directory.Exists(UserPalettesLocation))
 				{
-					UserPalettesLocation = Path.Combine(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Stitch Art Easy"), "Palettes");
-					try
-					{
-						Directory.CreateDirectory(UserPalettesLocation);
-						Save();
-					}
-					catch
-					{
-						// Cannot create folder - ignore, no user palettes will be available till user selects new folder.
-					}
+					UserPalettesLocation = CreateUserLocationSafe("Palettes");
+					Save();
 				}
 				return UserPalettesLocation;
 			}
+		}
+
+		public string UserFontsLocationSafe
+		{
+			get
+			{
+				if (string.IsNullOrEmpty(UserFontsLocation) || !Directory.Exists(UserFontsLocation))
+				{
+					UserFontsLocation = CreateUserLocationSafe("Fonts");
+					Save();
+				}
+				return UserFontsLocation;
+			}
+		}
+
+		string CreateUserLocationSafe(string folderName)
+		{
+			var location = Path.Combine(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Stitch Art Easy"), folderName);
+			try
+			{
+				if (!Directory.Exists(location))
+				{
+					Directory.CreateDirectory(location);
+				}
+			}
+			catch
+			{
+				// Cannot create folder - ignore, no user files will be available till user selects new folder.
+			}
+			return location;
 		}
 
 		public void UpdateIfNeeded()

@@ -27,7 +27,7 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 
 		static PrintUserControl()
 		{
-			SaeFontResolver.Setup();
+			SaeFontResolver.Setup(Settings.Default.UserFontsLocation);
 		}
 
 		public PrintUserControl()
@@ -316,7 +316,7 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 
 			using (var painter = new GdiPainter(e.Graphics, IndexedImageExtensions.ToBitmap, true)
 				{
-					FontFamily = FontHelper.GetFontFamily(Controller.GridPainter.SymbolsFont.Name)
+					FontFamily = FontHelper.GetFontFamily(Controller.GridPainter.SymbolsFont.Name, Settings.Default.UserFontsLocation)
 				})
 			{
 				Controller.PaintPrintPageImage(
@@ -398,7 +398,7 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 							using (var painter = new PdfSharpPainter(IndexedImageExtensions.ToBitmap)
 							{
 								FontName = Controller.GridPainter.SymbolsFont.Name,
-								FontFamily = FontHelper.GetFontFamily(Controller.GridPainter.SymbolsFont.Name)
+								FontFamily = FontHelper.GetFontFamily(Controller.GridPainter.SymbolsFont.Name, Settings.Default.UserFontsLocation)
 							})
 							{
 								var progressLabel = new Label { Location = new System.Drawing.Point(32, 24), AutoSize = true };

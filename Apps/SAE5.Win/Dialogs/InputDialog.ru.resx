@@ -208,4 +208,7 @@
         AAEAAAABgAAAAYAAAAGAAAABwAAAA8AAAAPgAAAD+AAAB///+A////8/////////////////
 </value>
   </data>
+  <data name="labelPrompt.Text" xml:space="preserve">
+    <value>Введите текст:</value>
+  </data>
 </root>

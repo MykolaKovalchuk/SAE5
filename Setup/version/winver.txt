@@ -1,0 +1,159 @@
+﻿#5.1.1.29
+Application is made free. There will be no further support.
+
+#5.1.0.28
+ All revenue from sale of this program will be donated to Ukraine.
+~Fixed DMC thread color 309 (Rose Dark).
+
+#5.1.0.27
+Updated DMC threads colors palette: added new threads 1-35, adjusted several threads for better color matching. Old palette is saved as 'DMC (old)'.
+
+#5.1.0.26
++Added German language translation.
+
+#5.1.0.25
+
++Added support for additional symbol fonts (see Options -> Locations -> User symbol font files location).
+  Only TrueType fonts (.ttf font files) are supported. All supported additional fonts will be added to a symbols list in New Scheme Wizard.
+~Changed requirement for .Net to version 4.8
+
+#5.0.3.24
+
+-Fixed error of application not starting if some file in recent list is broken. Broken files will be skipped and will not be shown in recent items lilt.
+
+#5.0.3.23
+
+-Fixed an issue with drop-down items in ribbon.
+~Application is not signed with certificate (exising certificate has expired, and new is expensive).
+
+#5.0.3.22
+
++Added feature to quickly scrolling scheme grid to any location by clicking onto it in image preview.
++Added slider to change scheme grid zoom.
+-Fixed error in Wizard in size calculation when changing units between Stitches, Inches, and Cm.
+
+#5.0.3.21
+
++Added scheme pages index in print and PDF on a page with colors table to reminder layout of the sheme pages.
++Added multilingual support in What's New section.
+
+#5.0.3.20
+
++Left panel with picture thumbnail and threads list can be collapsed to give more space for pattern scheme.
++Added scheme center markers when printing and saving to PDF.
+~Changed colors scheme of Ribbon buttons for better contrast.
+-Fixed defect when new thread added to scheme was hidded by default.
+
+#5.0.3.19
+
++Added feature to save scheme as vector image in format EMF.
++Added feature to export scheme to Excel file (it can be used to customize design and layout before printing schema).
+~Buttons OK and Cancel in dialogs do now react to keys Enter and Esc.
+
+#5.0.3.18
+
+Beta release.
+
++Added command Select All to quickly select whole scheme.
++Added option in Application settings to disable auto-check for updates at application startup time.
++Added option in Application settings to change colors of selection rectangle in scheme editor.
++Added option to choose color difference calculation mode in Change Thread dialog.
++Added option to select size units for cell size when printing scheme.
+~Palettes Management can now be open from menu File (for easier access).
+-Some minor fixes and improvements.
+
+#5.0.2.17
+
++Added Select, Copy, Paste functionality: now you can select a part of scheme, copy it to clipboard, paste and move it in scheme (one or multiple times).
+Copied part of scheme can also be pasted in any image editor as a bitmap, or in text editor or in spreadsheet application (like Microsoft Excel) as a text data in CSV format (Comma Separated Values). 
+
+#5.0.2.16
+
++Added alternative thread kit 'DMC (PM)' with computer colors similar to DMC palette in progarm Pattern Maker. Both palettes DMC and DMC (PM) can have some small differences from actual DMC threads, you may chose which palette will work better for you.
+
+#5.0.2.15
+
+-Fixed defect: program freezes when filling region with a color in Fill draw mode.
+
+#5.0.2.14
+
++Change to run in 64-bit mode on 64-bit Windows.
++Added sorting in threads grid in thread kits management tool.
++When there are unsaved changed in scheme - save button will be in red color. When scheme is saved - save button will be in blue color.
+-Fixed defect: closing main window without asking about saving changes.
+-Fixed defect: invisible Scheme properties text.
+
+#5.0.2.13
+
++Thread kits management: create your own thread kits, copy, import and export.
++Import thread kits from CSV files (supports palettes exported from Pattern Maker 4).
+
+#5.0.2.12
+
++Return to Wizard now properly restores all parameters, including rotation and crop (it will work only on schemes created with this new version).
++Added thread kit 'PNK Kirova' (ПНК им Кирова).
+~Thread kit 'Gamma (Russia)' renamed to 'Gamma'.
+-Fixed defect: after returning back to Wizard and changing something, when closig application - it would exit without prompting to save changes.
+-Fixed defect: when saving pattern scheme to PNG/JPG images, it incorrectly calculated image height trimming bottom part of scheme.
+
+#5.0.2.11
+
++Added advanced options into pattern scheme creation wizard: image resize filter, colors comparison type, ensured inclusion of black and white colors.
++Added button 'Retun to Wizard' - to return to pattern scheme wizard to change scheme creation options.
+~Selecting option 'Fix aspect' will immediately fix aspect of resized image additionally to keeping it (aspect) during resizing.
+
+#5.0.2.10
+
+~Improved threads ordering for numeric codes: now code 1000 will go after 999.
+-Fixed wrong color of thread 309 in thread kit DMC.
+~Double-checked all DMC colors and slightly adjusted some of them for better matching real thread colors.
+
+#5.0.2.9
+
++Selected order in threads list is now preserved between application runs, and also is used when printing or exporting to PDF.
+~Improved selection of available page sizes for export to PDF.
+-Fixed defect: export to PDF with landscape pages orientation did not work properly.
+-Fixed defect: Max Colors and Dither edit controls did not refresh on clicking Up and Down buttons.
+
+#5.0.2.8
+
++Improved print and export to PDF: added color for 5th lines, 10th lines made double thickness.
++Grid lines and numbers colors and thickness can now be configured in options dialog.
++Added saving scheme to image files in PNG or JPG formats.
+~All settings are now preserved when upgrading to new version.
+
+#5.0.2.7
+
++Signed application and installer with digital software certificate.
+
+#5.0.2.6
+
+-Fixed defect: exception during printing and exporting to PDF.
+
+#5.0.2.5
+
+~Improved symbols layout in printed result and export to PDF (all symbols are now centered in their cells).
+-Fixed defect: in printed and pdf schemes lines separating blocks of 10x10 cells were same color as other lines.
+-Fixed wrong colors of threads 2179 and 2192 in thread kit RainBow (Doklas).
+
+#5.0.2.4
+
+Alpha release.
+
+All main functionality is now working.
+New features added:
++Export to PDF.
++Basic scheme editing/drawind functionality.
++Threads managing functionality.
+~Improved user interface and experience.
+-Fixed found defects.
+
+#5.0.1.2
+
++Added feature to hide stitches of some colors.
+~Slightly modified cross-stitches preview mode (more work will be done here in further versions).
+~Scheme properties panel made collapsible.
+
+#5.0.1.0
+
+First test release.

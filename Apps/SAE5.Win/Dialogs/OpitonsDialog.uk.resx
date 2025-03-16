@@ -160,14 +160,20 @@
   <data name="buttonCancel.Text" xml:space="preserve">
     <value>Відмінити</value>
   </data>
+  <data name="tabPageGeneral.Text" xml:space="preserve">
+    <value>Загальне</value>
+  </data>
   <data name="checkBoxCheckForUpdates.Size" type="System.Drawing.Size, System.Drawing">
     <value>311, 17</value>
   </data>
   <data name="checkBoxCheckForUpdates.Text" xml:space="preserve">
     <value>Перевіряти наявність оновлень під час старту програми</value>
   </data>
-  <data name="tabPageGeneral.Text" xml:space="preserve">
-    <value>Загальне</value>
+  <data name="tabPageGrid.Text" xml:space="preserve">
+    <value>Схема вишивки</value>
+  </data>
+  <data name="groupBoxSelectionRectColors.Text" xml:space="preserve">
+    <value>Виділення</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 13</value>
@@ -180,9 +186,6 @@
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Колір 2:</value>
-  </data>
-  <data name="groupBoxSelectionRectColors.Text" xml:space="preserve">
-    <value>Виділення</value>
   </data>
   <data name="checkBoxLine10Double.Location" type="System.Drawing.Point, System.Drawing">
     <value>175, 104</value>
@@ -229,8 +232,14 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Колір ліній:</value>
   </data>
-  <data name="tabPageGrid.Text" xml:space="preserve">
-    <value>Схема вишивки</value>
+  <data name="tabPageLocations.Text" xml:space="preserve">
+    <value>Додаткові файли</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 13</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Місце зберігання шрифтів користувача (*.ttf TrueType файли):</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 13</value>
@@ -238,10 +247,10 @@
   <data name="label6.Text" xml:space="preserve">
     <value>Місце зберігання наборів ниток користувача:</value>
   </data>
-  <data name="tabPageThreads.Text" xml:space="preserve">
-    <value>Набори ниток</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Параметри</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Мова інтерфейсу</value>
   </data>
 </root>

@@ -97,7 +97,7 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 					wizard = new SAEWizard();
 
 					wizard.SetPalettes(SAEResources.GetAllPalettes(Settings.Default.UserPalettesLocationSafe), "DMC");
-					wizard.SetSymbolFonts(SAEResources.GetAllFonts());
+					wizard.SetSymbolFonts(SAEResources.GetAllFonts(Settings.Default.UserFontsLocationSafe));
 
 					wizard.ImageCropper.PropertyChanged += WizardPropertyChanged;
 					wizard.ImageResizer.PropertyChanged += WizardPropertyChanged;

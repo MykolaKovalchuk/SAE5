@@ -14,7 +14,7 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 		[Test]
 		public void TestVisualSymbolsController()
 		{
-			var font = SAEResources.GetAllFonts().First();
+			var font = SAEResources.GetAllFonts(string.Empty).First();
 			var image = new CodedImage { Size = new Size(5, 5) };
 			var symboler = new ImageSymbolsController(new ImageSymbolsManipulator(image), new[] { font }, font);
 			using (symboler.SuspendCallManipulations())
@@ -39,7 +39,7 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 		[Test]
 		public void TestHighlightedCell()
 		{
-			var font = SAEResources.GetAllFonts().First();
+			var font = SAEResources.GetAllFonts(string.Empty).First();
 			var image = new CodedImage { Size = new Size(5, 5) };
 			var symboler = new ImageSymbolsController(new ImageSymbolsManipulator(image), new[] { font }, font);
 			using (symboler.SuspendCallManipulations())
@@ -60,7 +60,7 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 		[Test]
 		public void TestShift()
 		{
-			var font = SAEResources.GetAllFonts().First();
+			var font = SAEResources.GetAllFonts(string.Empty).First();
 			var image = new CodedImage { Size = new Size(5, 5) };
 			var symboler = new ImageSymbolsController(new ImageSymbolsManipulator(image), new[] { font }, font);
 			using (symboler.SuspendCallManipulations())
@@ -96,7 +96,7 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 		[Test]
 		public void TestMouseWheel()
 		{
-			var font = SAEResources.GetAllFonts().First();
+			var font = SAEResources.GetAllFonts(string.Empty).First();
 			var image = new CodedImage { Size = new Size(5, 5) };
 			var symboler = new ImageSymbolsController(new ImageSymbolsManipulator(image), new[] { font }, font);
 			using (symboler.SuspendCallManipulations())
@@ -128,7 +128,7 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 		[Test]
 		public void TestClick()
 		{
-			var font = SAEResources.GetAllFonts().First();
+			var font = SAEResources.GetAllFonts(string.Empty).First();
 			var image = new CodedImage { Size = new Size(5, 5) };
 			var symboler = new ImageSymbolsController(new ImageSymbolsManipulator(image), new[] { font }, font);
 			using (symboler.SuspendCallManipulations())

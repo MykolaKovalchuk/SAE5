@@ -14,52 +14,130 @@ namespace Ravlyk.SAE.Resources
 {
 	public static class SAEResources
 	{
-		public static IEnumerable<TrueTypeFont> GetAllFonts()
+		#region Fonts
+
+		public static IEnumerable<TrueTypeFont> GetAllFonts(string additionalFontsPath)
 		{
 			var assembly = Assembly.GetExecutingAssembly();
-			foreach (var name in assembly.GetManifestResourceNames())
+			foreach (var resourceName in GetAllFontsResourceNames())
 			{
-				if (name.EndsWith(".ttf", StringComparison.OrdinalIgnoreCase))
+				var fontRawData = GetFontRawDataFromResource(assembly, resourceName);
+				if (fontRawData != null)
 				{
-					using (var stream = assembly.GetManifestResourceStream(name))
+					yield return new TrueTypeFont(CutOffPathAndExtension(resourceName), fontRawData, 0);
+				}
+			}
+
+			if (!string.IsNullOrEmpty(additionalFontsPath) && Directory.Exists(additionalFontsPath))
+			{
+				foreach (var fileName in GetAllFontFilesName(additionalFontsPath))
+				{
+					var fontRawData = GetFontRawDataFromFile(fileName);
+					if (fontRawData != null)
 					{
-						if (stream != null)
+						TrueTypeFont font = null;
+
+						try
 						{
-							var buffer = new byte[stream.Length];
-							stream.Read(buffer, 0, (int)stream.Length);
-							yield return new TrueTypeFont(CutOffPathAndExtension(name), buffer, 0);
+							font = new TrueTypeFont(CutOffPathAndExtension(fileName), fontRawData, 0);
+						}
+						catch
+						{
+							// Skip any file with faulty data
+						}
+
+						if (font != null)
+						{
+							yield return font;
 						}
 					}
 				}
 			}
 		}
 
-		public static IEnumerable<string> GetAllFontNames()
+		public static byte[] GetFontRawData(string fontName, string additionalFontsPath)
 		{
 			var assembly = Assembly.GetExecutingAssembly();
-			return assembly.GetManifestResourceNames().Where(name => name.EndsWith(".ttf", StringComparison.OrdinalIgnoreCase)).Select(CutOffPathAndExtension);
-		}
-
-		public static byte[] GetFontRawData(string fontName)
-		{
-			var assembly = Assembly.GetExecutingAssembly();
-			foreach (var name in assembly.GetManifestResourceNames())
+			foreach (var resourceName in GetAllFontsResourceNames())
 			{
-				if (name.EndsWith(".ttf", StringComparison.OrdinalIgnoreCase) && fontName.Equals(CutOffPathAndExtension(name), StringComparison.OrdinalIgnoreCase))
+				if (fontName.Equals(CutOffPathAndExtension(resourceName), StringComparison.OrdinalIgnoreCase))
 				{
-					using (var stream = assembly.GetManifestResourceStream(name))
+					return GetFontRawDataFromResource(assembly, resourceName);
+				}
+			}
+
+			if (!string.IsNullOrEmpty(additionalFontsPath) && Directory.Exists(additionalFontsPath))
+			{
+				foreach (var fileName in GetAllFontFilesName(additionalFontsPath))
+				{
+					if (fontName.Equals(CutOffPathAndExtension(fileName), StringComparison.OrdinalIgnoreCase))
 					{
-						if (stream != null)
-						{
-							var buffer = new byte[stream.Length];
-							stream.Read(buffer, 0, (int)stream.Length);
-							return buffer;
-						}
+						return GetFontRawDataFromFile(fileName);
 					}
 				}
 			}
 
 			return null;
+		}
+
+		static byte[] GetFontRawDataFromResource(Assembly assembly, string resourceName)
+		{
+			using (var stream = assembly.GetManifestResourceStream(resourceName))
+			{
+				if (stream != null)
+				{
+					var buffer = new byte[stream.Length];
+					stream.Read(buffer, 0, (int)stream.Length);
+					return buffer;
+				}
+			}
+
+			return null;
+		}
+
+		static byte[] GetFontRawDataFromFile(string fileName)
+		{
+			if (File.Exists(fileName))
+			{
+				try
+				{
+					using (var stream = new FileStream(fileName, FileMode.Open))
+					{
+						var buffer = new byte[stream.Length];
+						stream.Read(buffer, 0, (int)stream.Length);
+						return buffer;
+					}
+				}
+				catch
+				{
+					// Skip any file with faulty data
+				}
+			}
+
+			return null;
+		}
+
+		public static IEnumerable<string> GetAllFontNames(string additionalFontsPath)
+		{
+			return GetAllFontsResourceNames()
+				.Concat(GetAllFontFilesName(additionalFontsPath))
+				.Select(CutOffPathAndExtension);
+		}
+
+		static IEnumerable<string> GetAllFontsResourceNames()
+		{
+			var assembly = Assembly.GetExecutingAssembly();
+			return assembly.GetManifestResourceNames().Where(name => name.EndsWith(FontFileExtension, StringComparison.OrdinalIgnoreCase));
+		}
+
+		static IEnumerable<string> GetAllFontFilesName(string additionalFontsPath)
+		{
+			if (!String.IsNullOrEmpty(additionalFontsPath) && Directory.Exists(additionalFontsPath))
+			{
+				return Directory.GetFiles(additionalFontsPath, "*" + FontFileExtension, SearchOption.TopDirectoryOnly);
+			}
+
+			return Enumerable.Empty<string>();
 		}
 
 		static string CutOffPathAndExtension(string fullName)
@@ -83,6 +161,21 @@ namespace Ravlyk.SAE.Resources
 			return result;
 		}
 
+		public static TrueTypeFont GetImageFont(CodedImage image, string additionalFontsPath)
+		{
+			var fontName = image.Palette.SymbolsFont;
+			if (fontName.Equals("Znaky SAE", StringComparison.OrdinalIgnoreCase))
+			{
+				fontName = "ZnakySAE";
+			}
+
+			return GetAllFonts(additionalFontsPath).FirstOrDefault(font => font.Name == fontName) ?? GetAllFonts(additionalFontsPath).First();
+		}
+
+		#endregion
+
+		#region Palettes
+
 		public static IEnumerable<CodedPalette> GetAllPalettes(string additionalPalettesPath)
 		{
 			var assembly = Assembly.GetExecutingAssembly();
@@ -105,7 +198,7 @@ namespace Ravlyk.SAE.Resources
 				}
 			}
 
-			if (!String.IsNullOrEmpty(additionalPalettesPath) && Directory.Exists(additionalPalettesPath))
+			if (!string.IsNullOrEmpty(additionalPalettesPath) && Directory.Exists(additionalPalettesPath))
 			{
 				foreach (var fileName in Directory.GetFiles(additionalPalettesPath, "*" + ThreadFileExtension, SearchOption.TopDirectoryOnly))
 				{
@@ -132,15 +225,7 @@ namespace Ravlyk.SAE.Resources
 			}
 		}
 
-		public static TrueTypeFont GetImageFont(CodedImage image)
-		{
-			var fontName = image.Palette.SymbolsFont;
-			if (fontName == "Znaky SAE")
-			{
-				fontName = "ZnakySAE";
-			}
-			return GetAllFonts().FirstOrDefault(font => font.Name == fontName) ?? GetAllFonts().First();
-		}
+		#endregion
 
 		public static IndexedImage GetCrossImage()
 		{
@@ -173,5 +258,6 @@ namespace Ravlyk.SAE.Resources
 		}
 
 		public const string ThreadFileExtension = ".thread";
+		public const string FontFileExtension = ".ttf";
 	}
 }

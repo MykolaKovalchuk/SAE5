@@ -58,7 +58,10 @@
 			this.label3 = new System.Windows.Forms.Label();
 			this.buttonLineArgb = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.label2 = new System.Windows.Forms.Label();
-			this.tabPageThreads = new System.Windows.Forms.TabPage();
+			this.tabPageLocations = new System.Windows.Forms.TabPage();
+			this.buttonSelectUserFontsLocation = new Ravlyk.Drawing.WinForms.FlatButton();
+			this.textBoxUserFontsLocation = new System.Windows.Forms.TextBox();
+			this.label10 = new System.Windows.Forms.Label();
 			this.buttonSelectUserPalettesLocation = new Ravlyk.Drawing.WinForms.FlatButton();
 			this.textBoxUserPalettesLocation = new System.Windows.Forms.TextBox();
 			this.label6 = new System.Windows.Forms.Label();
@@ -71,7 +74,7 @@
 			this.tabPageGeneral.SuspendLayout();
 			this.tabPageGrid.SuspendLayout();
 			this.groupBoxSelectionRectColors.SuspendLayout();
-			this.tabPageThreads.SuspendLayout();
+			this.tabPageLocations.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// panelTop
@@ -150,7 +153,7 @@
 			resources.ApplyResources(this.tabControlOptinos, "tabControlOptinos");
 			this.tabControlOptinos.Controls.Add(this.tabPageGeneral);
 			this.tabControlOptinos.Controls.Add(this.tabPageGrid);
-			this.tabControlOptinos.Controls.Add(this.tabPageThreads);
+			this.tabControlOptinos.Controls.Add(this.tabPageLocations);
 			this.tabControlOptinos.Name = "tabControlOptinos";
 			this.tabControlOptinos.SelectedIndex = 0;
 			// 
@@ -171,7 +174,8 @@
 			this.comboBoxLanguage.Items.AddRange(new object[] {
             resources.GetString("comboBoxLanguage.Items"),
             resources.GetString("comboBoxLanguage.Items1"),
-            resources.GetString("comboBoxLanguage.Items2")});
+            resources.GetString("comboBoxLanguage.Items2"),
+            resources.GetString("comboBoxLanguage.Items3")});
 			this.comboBoxLanguage.Name = "comboBoxLanguage";
 			// 
 			// label7
@@ -321,14 +325,40 @@
 			resources.ApplyResources(this.label2, "label2");
 			this.label2.Name = "label2";
 			// 
-			// tabPageThreads
+			// tabPageLocations
 			// 
-			resources.ApplyResources(this.tabPageThreads, "tabPageThreads");
-			this.tabPageThreads.Controls.Add(this.buttonSelectUserPalettesLocation);
-			this.tabPageThreads.Controls.Add(this.textBoxUserPalettesLocation);
-			this.tabPageThreads.Controls.Add(this.label6);
-			this.tabPageThreads.Name = "tabPageThreads";
-			this.tabPageThreads.UseVisualStyleBackColor = true;
+			resources.ApplyResources(this.tabPageLocations, "tabPageLocations");
+			this.tabPageLocations.Controls.Add(this.buttonSelectUserFontsLocation);
+			this.tabPageLocations.Controls.Add(this.textBoxUserFontsLocation);
+			this.tabPageLocations.Controls.Add(this.label10);
+			this.tabPageLocations.Controls.Add(this.buttonSelectUserPalettesLocation);
+			this.tabPageLocations.Controls.Add(this.textBoxUserPalettesLocation);
+			this.tabPageLocations.Controls.Add(this.label6);
+			this.tabPageLocations.Name = "tabPageLocations";
+			this.tabPageLocations.UseVisualStyleBackColor = true;
+			// 
+			// buttonSelectUserFontsLocation
+			// 
+			resources.ApplyResources(this.buttonSelectUserFontsLocation, "buttonSelectUserFontsLocation");
+			this.buttonSelectUserFontsLocation.BackColor = System.Drawing.Color.White;
+			this.buttonSelectUserFontsLocation.FlatAppearance.BorderSize = 0;
+			this.buttonSelectUserFontsLocation.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+			this.buttonSelectUserFontsLocation.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Open16;
+			this.buttonSelectUserFontsLocation.IsSelected = false;
+			this.buttonSelectUserFontsLocation.Name = "buttonSelectUserFontsLocation";
+			this.buttonSelectUserFontsLocation.UseVisualStyleBackColor = true;
+			this.buttonSelectUserFontsLocation.Click += new System.EventHandler(this.buttonSelectUserFontsLocation_Click);
+			// 
+			// textBoxUserFontsLocation
+			// 
+			resources.ApplyResources(this.textBoxUserFontsLocation, "textBoxUserFontsLocation");
+			this.textBoxUserFontsLocation.Name = "textBoxUserFontsLocation";
+			this.textBoxUserFontsLocation.ReadOnly = true;
+			// 
+			// label10
+			// 
+			resources.ApplyResources(this.label10, "label10");
+			this.label10.Name = "label10";
 			// 
 			// buttonSelectUserPalettesLocation
 			// 
@@ -379,8 +409,8 @@
 			this.tabPageGrid.PerformLayout();
 			this.groupBoxSelectionRectColors.ResumeLayout(false);
 			this.groupBoxSelectionRectColors.PerformLayout();
-			this.tabPageThreads.ResumeLayout(false);
-			this.tabPageThreads.PerformLayout();
+			this.tabPageLocations.ResumeLayout(false);
+			this.tabPageLocations.PerformLayout();
 			this.ResumeLayout(false);
 
 		}
@@ -409,7 +439,7 @@
 		private System.Windows.Forms.TextBox textBoxUserPalettesLocation;
 		private System.Windows.Forms.Label label6;
 		internal System.Windows.Forms.TabControl tabControlOptinos;
-		internal System.Windows.Forms.TabPage tabPageThreads;
+		internal System.Windows.Forms.TabPage tabPageLocations;
 		internal System.Windows.Forms.TabPage tabPageGrid;
 		private System.Windows.Forms.TabPage tabPageGeneral;
 		private System.Windows.Forms.CheckBox checkBoxCheckForUpdates;
@@ -420,5 +450,8 @@
 		private Drawing.WinForms.FlatButton buttonSelectionArgb1;
 		private System.Windows.Forms.Label label9;
 		private Drawing.WinForms.FlatButton buttonSelectionArgb2;
+		private Drawing.WinForms.FlatButton buttonSelectUserFontsLocation;
+		private System.Windows.Forms.TextBox textBoxUserFontsLocation;
+		private System.Windows.Forms.Label label10;
 	}
 }

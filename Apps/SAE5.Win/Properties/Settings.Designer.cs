@@ -202,5 +202,17 @@ namespace Ravlyk.SAE5.WinForms.Properties {
                 this["CheckForUpdatesAtStartup"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string UserFontsLocation {
+            get {
+                return ((string)(this["UserFontsLocation"]));
+            }
+            set {
+                this["UserFontsLocation"] = value;
+            }
+        }
     }
 }

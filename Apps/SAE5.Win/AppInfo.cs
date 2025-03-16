@@ -46,12 +46,12 @@ namespace Ravlyk.SAE5.WinForms
 
 		public static void GoToWebsite()
 		{
-			Process.Start("http://stitcharteasy.com");
+			Process.Start("https://github.com/MykolaKovalchuk/SAE5");
 		}
 
 		public static void EmailToSupport()
 		{
-			Process.Start($"mailto:support@stitcharteasy.com?subject={AppDescription.Replace(" ", "%20")}%20({AppVersion})");
+			Process.Start($"https://github.com/MykolaKovalchuk/SAE5/issues");
 		}
 
 		public static void CheckForUpdates(Action<string> updateAvailableCallback, Action<Exception> errorCallback, bool synchronous = false)
@@ -73,7 +73,7 @@ namespace Ravlyk.SAE5.WinForms
 
 		static void CheckForUpdatesCore(Action<string> updateAvailableCallback, Action<Exception> errorCallback, bool sayNoUpdates = false)
 		{
-			const string FileUrlTemplate = "http://stitcharteasy.com/version/winver{0}.txt";
+			const string FileUrlTemplate = "https://raw.githubusercontent.com/MykolaKovalchuk/SAE5/refs/heads/master/Setup/version/winver{0}.txt";
 			var fileUrlEn = string.Format(FileUrlTemplate, "");
 			Action checkForUpdatesEn = () => CheckForUpdatesCore(updateAvailableCallback, errorCallback, sayNoUpdates, fileUrlEn);
 

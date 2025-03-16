@@ -344,7 +344,7 @@ namespace Ravlyk.SAE5.WinForms.Dialogs
 		{
 			using (var optionsDialog = new OpitonsDialog())
 			{
-				optionsDialog.tabControlOptinos.SelectedTab = optionsDialog.tabPageThreads;
+				optionsDialog.tabControlOptinos.SelectedTab = optionsDialog.tabPageLocations;
 				if (optionsDialog.ShowDialog(this) == DialogResult.OK)
 				{
 					buttonCancelAll_Click(sender, e);

@@ -41,13 +41,13 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 			toolTip.SetToolTip(buttonWeb, Resources.HintHomeButtonWeb);
 			toolTip.SetToolTip(buttonFeedback, Resources.HintHomeButtonFeedback);
 			toolTip.SetToolTip(buttonFacebook, Resources.HintHomeButtonFacebook);
-			toolTip.SetToolTip(buttonTwitter, Resources.HintHomeButtonTwitter);
 			toolTip.SetToolTip(buttonLinkedIn, Resources.HintHomeButtonLinkedIn);
 			toolTip.SetToolTip(buttonRegister, Resources.HintHomeButtonRegister);
 
 			toolTip.SetToolTip(buttonEnglish, "English language");
 			toolTip.SetToolTip(buttonRussian, "Русский язык");
 			toolTip.SetToolTip(buttonUkrainian, "Українська мова");
+			toolTip.SetToolTip(buttonGerman, "Deutsche Sprache");
 
 			InitializeRecentFilesButtons(toolTip);
 
@@ -82,41 +82,41 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 						{
 							image = ImageSerializer.LoadFromStream(stream);
 						}
+
+						if (image != null && image.Size.Width > 0 && image.Size.Height > 0)
+						{
+							Bitmap bitmap;
+							if (image.Size.Width > 200 || image.Size.Height > 200)
+							{
+								var maxLength = Math.Max(image.Size.Width, image.Size.Height);
+								var newSize = new Size(image.Size.Width * 200 / maxLength, image.Size.Height * 200 / maxLength);
+								bitmap = new ImageResampler().Resample(image, newSize, ImageResampler.FilterType.Box).ToBitmap();
+							}
+							else
+							{
+								bitmap = image.ToBitmap();
+							}
+
+							var imageButton = new FlatButton();
+							imageButton.Size = new System.Drawing.Size(250, 250);
+							imageButton.Image = bitmap;
+							imageButton.Text = Environment.NewLine + Path.GetFileNameWithoutExtension(fileName);
+							imageButton.Tag = fileName;
+							imageButton.TextAlign = ContentAlignment.BottomCenter;
+							imageButton.ImageAlign = ContentAlignment.MiddleCenter;
+							imageButton.FlatAppearance.BorderSize = 0;
+							imageButton.Click += ImageButton_Click;
+
+							var tooltip = fileName + Environment.NewLine +
+								string.Format(Resources.ImageInfoTooltip, image.Size.Width, image.Size.Height, image.Palette.Count);
+							toolTip.SetToolTip(imageButton, tooltip);
+
+							panelLastOpenFiles.Controls.Add(imageButton);
+						}
 					}
-					catch (IOException)
+					catch
 					{
 						continue;
-					}
-
-					if (image != null && image.Size.Width > 0 && image.Size.Height > 0)
-					{
-						Bitmap bitmap;
-						if (image.Size.Width > 200 || image.Size.Height > 200)
-						{
-							var maxLength = Math.Max(image.Size.Width, image.Size.Height);
-							var newSize = new Size(image.Size.Width * 200 / maxLength, image.Size.Height * 200 / maxLength);
-							bitmap = new ImageResampler().Resample(image, newSize, ImageResampler.FilterType.Box).ToBitmap();
-						}
-						else
-						{
-							bitmap = image.ToBitmap();
-						}
-
-						var imageButton = new FlatButton();
-						imageButton.Size = new System.Drawing.Size(250, 250);
-						imageButton.Image = bitmap;
-						imageButton.Text = Environment.NewLine + Path.GetFileNameWithoutExtension(fileName);
-						imageButton.Tag = fileName;
-						imageButton.TextAlign = ContentAlignment.BottomCenter;
-						imageButton.ImageAlign = ContentAlignment.MiddleCenter;
-						imageButton.FlatAppearance.BorderSize = 0;
-						imageButton.Click += ImageButton_Click;
-
-						var tooltip = fileName + Environment.NewLine +
-							string.Format(Resources.ImageInfoTooltip, image.Size.Width, image.Size.Height, image.Palette.Count);
-						toolTip.SetToolTip(imageButton, tooltip);
-
-						panelLastOpenFiles.Controls.Add(imageButton);
 					}
 				}
 			}
@@ -186,11 +186,6 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 			Process.Start("http://facebook.com/stitcharteasy5");
 		}
 
-		void buttonTwitter_Click(object sender, EventArgs e)
-		{
-			Process.Start("http://twitter.com/StitchArtEasy");
-		}
-
 		void buttonLinkedIn_Click(object sender, EventArgs e)
 		{
 			Process.Start("http://linkedin.com/in/mykolakovalchuk");
@@ -245,6 +240,9 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 				case "uk":
 					buttonUkrainian.IsSelected = true;
 					break;
+				case "de":
+					buttonGerman.IsSelected = true;
+					break;
 				default:
 					buttonEnglish.IsSelected = true;
 					break;
@@ -264,6 +262,11 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 		void buttonUkrainian_Click(object sender, EventArgs e)
 		{
 			SetLanguage("uk");
+		}
+
+		private void buttonGerman_Click(object sender, EventArgs e)
+		{
+			SetLanguage("de");
 		}
 
 		void SetLanguage(string cultureName)

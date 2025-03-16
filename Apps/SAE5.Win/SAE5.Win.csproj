@@ -31,7 +31,6 @@
     <ApplicationVersion>5.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <ReleaseVersion>5.0.1.33</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -65,6 +64,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.Ribbon35">
+      <HintPath>..\..\Ravlyk.UI\System.Windows.Forms.Ribbon\obj\Debug\System.Windows.Forms.Ribbon35.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -161,6 +163,9 @@
     <Compile Include="UserControls\WizardUserControl.Designer.cs">
       <DependentUpon>WizardUserControl.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Dialogs\AboutDialog.de.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\AboutDialog.resx">
       <DependentUpon>AboutDialog.cs</DependentUpon>
     </EmbeddedResource>
@@ -169,6 +174,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\AboutDialog.uk.resx">
       <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\InputDialog.de.resx">
+      <DependentUpon>InputDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\InputDialog.resx">
       <DependentUpon>InputDialog.cs</DependentUpon>
@@ -179,6 +187,9 @@
     <EmbeddedResource Include="Dialogs\InputDialog.uk.resx">
       <DependentUpon>InputDialog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\OpitonsDialog.de.resx">
+      <DependentUpon>OpitonsDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\OpitonsDialog.resx">
       <DependentUpon>OpitonsDialog.cs</DependentUpon>
     </EmbeddedResource>
@@ -187,6 +198,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\OpitonsDialog.uk.resx">
       <DependentUpon>OpitonsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\RegisterDialog.de.resx">
+      <DependentUpon>RegisterDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\RegisterDialog.resx">
       <DependentUpon>RegisterDialog.cs</DependentUpon>
@@ -197,6 +211,9 @@
     <EmbeddedResource Include="Dialogs\RegisterDialog.uk.resx">
       <DependentUpon>RegisterDialog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SymbolsDialog.de.resx">
+      <DependentUpon>SymbolsDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\SymbolsDialog.resx">
       <DependentUpon>SymbolsDialog.cs</DependentUpon>
     </EmbeddedResource>
@@ -205,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\SymbolsDialog.uk.resx">
       <DependentUpon>SymbolsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ThreadsDialog.de.resx">
+      <DependentUpon>ThreadsDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\ThreadsDialog.resx">
       <DependentUpon>ThreadsDialog.cs</DependentUpon>
@@ -215,6 +235,9 @@
     <EmbeddedResource Include="Dialogs\ThreadsDialog.uk.resx">
       <DependentUpon>ThreadsDialog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ThreadsManagementDialog.de.resx">
+      <DependentUpon>ThreadsManagementDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\ThreadsManagementDialog.resx">
       <DependentUpon>ThreadsManagementDialog.cs</DependentUpon>
     </EmbeddedResource>
@@ -223,6 +246,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\ThreadsManagementDialog.uk.resx">
       <DependentUpon>ThreadsManagementDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\UpdateDialog.de.resx">
+      <DependentUpon>UpdateDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\UpdateDialog.resx">
       <DependentUpon>UpdateDialog.cs</DependentUpon>
@@ -236,6 +262,7 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.de.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -246,9 +273,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Properties\Resources.ru.resx">
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.uk.resx">
+    <EmbeddedResource Include="Properties\Resources.ru.resx" />
+    <EmbeddedResource Include="Properties\Resources.uk.resx" />
+    <EmbeddedResource Include="UserControls\HomeUserControl.de.resx">
+      <DependentUpon>HomeUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\HomeUserControl.resx">
       <DependentUpon>HomeUserControl.cs</DependentUpon>
@@ -258,6 +286,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\HomeUserControl.uk.resx">
       <DependentUpon>HomeUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PaletteUserControl.de.resx">
+      <DependentUpon>PaletteUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\PaletteUserControl.resx">
       <DependentUpon>PaletteUserControl.cs</DependentUpon>
@@ -271,6 +302,9 @@
     <EmbeddedResource Include="UserControls\PrintUserControl.resx">
       <DependentUpon>PrintUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SchemeUserControl.de.resx">
+      <DependentUpon>SchemeUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\SchemeUserControl.resx">
       <DependentUpon>SchemeUserControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -280,12 +314,14 @@
     <EmbeddedResource Include="UserControls\SchemeUserControl.uk.resx">
       <DependentUpon>SchemeUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\WizardUserControl.de.resx">
+      <DependentUpon>WizardUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\WizardUserControl.resx">
       <DependentUpon>WizardUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\WizardUserControl.ru.resx">
       <DependentUpon>WizardUserControl.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\WizardUserControl.uk.resx">
       <DependentUpon>WizardUserControl.cs</DependentUpon>
@@ -323,10 +359,6 @@
     <ProjectReference Include="..\..\Ravlyk.UI\Ravlyk.Drawing.WinForms\Ravlyk.Drawing.WinForms.csproj">
       <Project>{b03f57fa-ff3a-4a48-bad9-2b44c57adacf}</Project>
       <Name>Ravlyk.Drawing.WinForms</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Ravlyk.UI\System.Windows.Forms.Ribbon\System.Windows.Forms.Ribbon35.csproj">
-      <Project>{46a18a55-5ae8-49ce-91cd-c7421b642e7e}</Project>
-      <Name>System.Windows.Forms.Ribbon35</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Ravlyk\Ravlyk.Common\Ravlyk.Common.csproj">
       <Project>{5c554a7e-24f7-46da-b65d-4fc4cb132547}</Project>
@@ -439,9 +471,17 @@
     <None Include="Resources\Page16.png" />
     <None Include="Resources\ImageFile24.png" />
     <None Include="Resources\Xls24.png" />
+    <None Include="Resources\De24.bmp" />
+    <None Include="Resources\De24.png" />
+    <None Include="Resources\hand_painted_watercolour_ukraine_flag_2403.jpg" />
+    <None Include="Resources\ua_flag_bg.jpg" />
     <Content Include="thimble.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
