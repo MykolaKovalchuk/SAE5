@@ -38,7 +38,7 @@ namespace Ravlyk.SAE5.WinForms.Dialogs
 
 		void OpenDownloadPage()
 		{
-			Process.Start("http://stitcharteasy.com/download.aspx");
+			Process.Start("https://github.com/MykolaKovalchuk/SAE5/releases");
 		}
 	}
 }

@@ -19,8 +19,9 @@ namespace Ravlyk.Drawing.WinForms
 		/// Returns FontFamily from font data in resources by its name.
 		/// </summary>
 		/// <param name="fontName">Font name.</param>
+		/// <param name="additionalFontsPath">Path to additional font files.</param>
 		/// <returns>FontFamily instance.</returns>
-		public static FontFamily GetFontFamily(string fontName)
+		public static FontFamily GetFontFamily(string fontName, string additionalFontsPath)
 		{
 			FontFamily fontFamily;
 			if (cachedFontFamilies.TryGetValue(fontName, out fontFamily))
@@ -28,7 +29,7 @@ namespace Ravlyk.Drawing.WinForms
 				return fontFamily;
 			}
 
-			var fontData = SAEResources.GetFontRawData(fontName);
+			var fontData = SAEResources.GetFontRawData(fontName, additionalFontsPath);
 			if (fontData == null)
 			{
 				return FontFamily.Families.FirstOrDefault(family => family.Name == fontName);
@@ -58,11 +59,22 @@ namespace Ravlyk.Drawing.WinForms
 	public class SaeFontResolver : IFontResolver
 	{
 		/// <summary>
+		/// Initialize SAE fonts resolver.
+		/// </summary>
+		/// <param name="additionalFontsPath">Path to additional font files.</param>
+		public SaeFontResolver(string additionalFontsPath)
+		{
+			this.additionalFontsPath = additionalFontsPath;
+		}
+
+		readonly string additionalFontsPath;
+
+		/// <summary>
 		/// Setups pdf font resolver.
 		/// </summary>
-		public static void Setup()
+		public static void Setup(string additionalFontsPath)
 		{
-			GlobalFontSettings.FontResolver = new SaeFontResolver();
+			GlobalFontSettings.FontResolver = new SaeFontResolver(additionalFontsPath);
 			GlobalFontSettings.DefaultFontEncoding = PdfFontEncoding.Unicode;
 		}
 
@@ -73,9 +85,9 @@ namespace Ravlyk.Drawing.WinForms
 		/// <returns>Byte array with font file data.</returns>
 		public byte[] GetFont(string faceName)
 		{
-			if (SAEResources.GetAllFontNames().Any(s => s.Equals(faceName, StringComparison.OrdinalIgnoreCase)))
+			if (SAEResources.GetAllFontNames(additionalFontsPath).Any(s => s.Equals(faceName, StringComparison.OrdinalIgnoreCase)))
 			{
-				return SAEResources.GetFontRawData(faceName);
+				return SAEResources.GetFontRawData(faceName, additionalFontsPath);
 			}
 			throw new ArgumentException($"Cannot resolve font with faceName '{faceName}'.");
 		}
@@ -89,7 +101,7 @@ namespace Ravlyk.Drawing.WinForms
 		/// <returns>Font info with font file name specified family name and font options.</returns>
 		public FontResolverInfo ResolveTypeface(string familyName, bool isBold, bool isItalic)
 		{
-			if (SAEResources.GetAllFontNames().Any(s => s.Equals(familyName, StringComparison.OrdinalIgnoreCase)))
+			if (SAEResources.GetAllFontNames(additionalFontsPath).Any(s => s.Equals(familyName, StringComparison.OrdinalIgnoreCase)))
 			{
 				return new FontResolverInfo(familyName);
 			}

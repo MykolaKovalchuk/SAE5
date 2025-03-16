@@ -29,12 +29,16 @@ namespace Ravlyk.SAE5.WinForms.Dialogs
 				case "uk":
 					comboBoxLanguage.SelectedIndex = 2;
 					break;
+				case "de":
+					comboBoxLanguage.SelectedIndex = 3;
+					break;
 				default:
 					comboBoxLanguage.SelectedIndex = 0;
 					break;
 			}
 
 			textBoxUserPalettesLocation.Text = Settings.Default.UserPalettesLocationSafe;
+			textBoxUserFontsLocation.Text = Settings.Default.UserFontsLocationSafe;
 
 			SetButtonColor(buttonLineArgb, GridPainterSettings.Default.LineArgb.ToArgb());
 			SetButtonColor(buttonLine5Argb, GridPainterSettings.Default.Line5Argb.ToArgb());
@@ -87,6 +91,7 @@ namespace Ravlyk.SAE5.WinForms.Dialogs
 		{
 			Settings.Default.CheckForUpdatesAtStartup = checkBoxCheckForUpdates.Checked;
 			Settings.Default.UserPalettesLocation = textBoxUserPalettesLocation.Text;
+			Settings.Default.UserFontsLocation = textBoxUserFontsLocation.Text;
 
 			switch (comboBoxLanguage.SelectedIndex)
 			{
@@ -95,6 +100,9 @@ namespace Ravlyk.SAE5.WinForms.Dialogs
 					break;
 				case 2:
 					AppInfo.SetSelectedLanguage("uk", true);
+					break;
+				case 3:
+					AppInfo.SetSelectedLanguage("de", true);
 					break;
 				default:
 					AppInfo.SetSelectedLanguage("en", true);
@@ -156,6 +164,18 @@ namespace Ravlyk.SAE5.WinForms.Dialogs
 				if (folderDialog.ShowDialog(this) == DialogResult.OK)
 				{
 					textBoxUserPalettesLocation.Text = folderDialog.SelectedPath;
+				}
+			}
+		}
+
+		private void buttonSelectUserFontsLocation_Click(object sender, EventArgs e)
+		{
+			using (var folderDialog = new FolderBrowserDialog { ShowNewFolderButton = true })
+			{
+				folderDialog.SelectedPath = textBoxUserFontsLocation.Text;
+				if (folderDialog.ShowDialog(this) == DialogResult.OK)
+				{
+					textBoxUserFontsLocation.Text = folderDialog.SelectedPath;
 				}
 			}
 		}

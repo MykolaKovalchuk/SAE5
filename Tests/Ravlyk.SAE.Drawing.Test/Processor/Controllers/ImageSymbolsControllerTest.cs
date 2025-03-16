@@ -47,7 +47,7 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 		[Test]
 		public void TestSymbolsFont()
 		{
-			var font = SAEResources.GetAllFonts().First();
+			var font = SAEResources.GetAllFonts(string.Empty).First();
 			var image = new CodedImage { Size = new Size(5, 5) };
 			var symboler = new ImageSymbolsController4Test(new ImageSymbolsManipulator(image), new[] { font }, font);
 
@@ -57,7 +57,7 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 
 			symboler.CallManipulationsCoreFired = false;
 
-			var otherFont = SAEResources.GetAllFonts().First();
+			var otherFont = SAEResources.GetAllFonts(string.Empty).First();
 			otherFont.ChangeNameForTest("Other font");
 			symboler.AddSymbolsFonts(new[] { otherFont });
 
@@ -81,7 +81,7 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 		[Test]
 		public void TestAvailableSymbols()
 		{
-			var font = SAEResources.GetAllFonts().First();
+			var font = SAEResources.GetAllFonts(string.Empty).First();
 			var image = new CodedImage { Size = new Size(5, 5) };
 			var symboler = new ImageSymbolsController4Test(new ImageSymbolsManipulator(image), new[] { font }, font);
 
@@ -115,7 +115,7 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 			image.CompletePalette();
 			Assert.AreEqual(3, image.Palette.Count, "Precondition");
 
-			var font = SAEResources.GetAllFonts().First();
+			var font = SAEResources.GetAllFonts(string.Empty).First();
 			var symboler = new ImageSymbolsController4Test(new ImageSymbolsManipulator(image), new[] { font }, font);
 
 			symboler.IncludeNumbers = false;
@@ -161,9 +161,9 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 		[Test]
 		public void TestDefaultSettings()
 		{
-			var font1 = SAEResources.GetAllFonts().First();
+			var font1 = SAEResources.GetAllFonts(string.Empty).First();
 			font1.ChangeNameForTest("111");
-			var font2 = SAEResources.GetAllFonts().First();
+			var font2 = SAEResources.GetAllFonts(string.Empty).First();
 			font2.ChangeNameForTest("222");
 
 			var image = new CodedImage { Size = new Size(5, 5) };

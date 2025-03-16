@@ -39,6 +39,7 @@
 			this.labelVersion = new System.Windows.Forms.Label();
 			this.labelRegistrationInfo = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
+			this.labelTranslatedBy = new System.Windows.Forms.Label();
 			this.panelTop.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBoxTitle)).BeginInit();
 			this.panelBottom.SuspendLayout();
@@ -47,6 +48,7 @@
 			// 
 			// panelTop
 			// 
+			this.panelTop.BackColor = System.Drawing.Color.Transparent;
 			this.panelTop.Controls.Add(this.pictureBoxTitle);
 			resources.ApplyResources(this.panelTop, "panelTop");
 			this.panelTop.Name = "panelTop";
@@ -60,6 +62,7 @@
 			// 
 			// panelBottom
 			// 
+			this.panelBottom.BackColor = System.Drawing.Color.Transparent;
 			this.panelBottom.Controls.Add(this.buttonFeedback);
 			this.panelBottom.Controls.Add(this.buttonWeb);
 			this.panelBottom.Controls.Add(this.panelButtons);
@@ -116,12 +119,19 @@
 			// labelRegistrationInfo
 			// 
 			resources.ApplyResources(this.labelRegistrationInfo, "labelRegistrationInfo");
+			this.labelRegistrationInfo.BackColor = System.Drawing.Color.Transparent;
 			this.labelRegistrationInfo.Name = "labelRegistrationInfo";
 			// 
 			// label1
 			// 
 			resources.ApplyResources(this.label1, "label1");
+			this.label1.BackColor = System.Drawing.Color.Transparent;
 			this.label1.Name = "label1";
+			// 
+			// labelTranslatedBy
+			// 
+			resources.ApplyResources(this.labelTranslatedBy, "labelTranslatedBy");
+			this.labelTranslatedBy.Name = "labelTranslatedBy";
 			// 
 			// AboutDialog
 			// 
@@ -129,7 +139,9 @@
 			resources.ApplyResources(this, "$this");
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.White;
+			this.BackgroundImage = global::Ravlyk.SAE5.WinForms.Properties.Resources.ua_flag_bg;
 			this.CancelButton = this.buttonOk;
+			this.Controls.Add(this.labelTranslatedBy);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.labelRegistrationInfo);
 			this.Controls.Add(this.labelVersion);
@@ -139,6 +151,7 @@
 			this.MaximizeBox = false;
 			this.Name = "AboutDialog";
 			this.panelTop.ResumeLayout(false);
+			this.panelTop.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBoxTitle)).EndInit();
 			this.panelBottom.ResumeLayout(false);
 			this.panelButtons.ResumeLayout(false);
@@ -159,5 +172,6 @@
 		private Drawing.WinForms.FlatButton buttonFeedback;
 		private Drawing.WinForms.FlatButton buttonWeb;
 		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Label labelTranslatedBy;
 	}
 }

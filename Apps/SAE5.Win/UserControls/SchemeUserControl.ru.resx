@@ -1036,4 +1036,16 @@
   <data name="buttonPrintPrint.ToolTip" xml:space="preserve">
     <value>Напечатать все или выбранные страницы схемы на указанном принтере</value>
   </data>
+  <data name="labelFileInfo.Text" xml:space="preserve">
+    <value>Файл: {0}
+Размер: {1}x{2} стежков
+Нити: {3}
+Цвета: {4}</value>
+  </data>
+  <data name="ribbonPanelGrid.Text" xml:space="preserve">
+    <value>Схема</value>
+  </data>
+  <data name="ribbonButton1.Text" xml:space="preserve">
+    <value>Авто</value>
+  </data>
 </root>

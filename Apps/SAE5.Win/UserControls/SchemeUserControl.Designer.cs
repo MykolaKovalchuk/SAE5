@@ -40,6 +40,7 @@
 			this.menuItemLanguageEn = new System.Windows.Forms.RibbonDescriptionMenuItem();
 			this.menuItemLanguageRu = new System.Windows.Forms.RibbonDescriptionMenuItem();
 			this.menuItemLanguageUa = new System.Windows.Forms.RibbonDescriptionMenuItem();
+			this.menuItemLanguageDe = new System.Windows.Forms.RibbonDescriptionMenuItem();
 			this.ribbonOrbMenuItemOptions = new System.Windows.Forms.RibbonOrbMenuItem();
 			this.ribbonSeparator4 = new System.Windows.Forms.RibbonSeparator();
 			this.ribbonOrbMenuItemCheckForUpdates = new System.Windows.Forms.RibbonOrbMenuItem();
@@ -414,9 +415,10 @@
 			// ribbonMenuItemLanguage
 			// 
 			this.ribbonMenuItemLanguage.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Left;
-			this.ribbonMenuItemLanguage.DropDownItems.Add(this.menuItemLanguageEn);
-			this.ribbonMenuItemLanguage.DropDownItems.Add(this.menuItemLanguageRu);
 			this.ribbonMenuItemLanguage.DropDownItems.Add(this.menuItemLanguageUa);
+			this.ribbonMenuItemLanguage.DropDownItems.Add(this.menuItemLanguageEn);
+			this.ribbonMenuItemLanguage.DropDownItems.Add(this.menuItemLanguageDe);
+			this.ribbonMenuItemLanguage.DropDownItems.Add(this.menuItemLanguageRu);
 			this.ribbonMenuItemLanguage.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Globe32;
 			this.ribbonMenuItemLanguage.LargeImage = global::Ravlyk.SAE5.WinForms.Properties.Resources.Globe32;
 			this.ribbonMenuItemLanguage.Name = "ribbonMenuItemLanguage";
@@ -430,7 +432,7 @@
 			this.menuItemLanguageEn.Checked = true;
 			this.menuItemLanguageEn.CheckedGroup = "Language";
 			this.menuItemLanguageEn.Description = "English language";
-			this.menuItemLanguageEn.DescriptionBounds = new System.Drawing.Rectangle(30, 24, 293, 28);
+			this.menuItemLanguageEn.DescriptionBounds = new System.Drawing.Rectangle(30, 24, 328, 28);
 			this.menuItemLanguageEn.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Left;
 			this.menuItemLanguageEn.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.USA24;
 			this.menuItemLanguageEn.LargeImage = global::Ravlyk.SAE5.WinForms.Properties.Resources.USA24;
@@ -444,7 +446,7 @@
 			// 
 			this.menuItemLanguageRu.CheckedGroup = "Language";
 			this.menuItemLanguageRu.Description = "Русский язык";
-			this.menuItemLanguageRu.DescriptionBounds = new System.Drawing.Rectangle(30, 76, 293, 28);
+			this.menuItemLanguageRu.DescriptionBounds = new System.Drawing.Rectangle(30, 76, 328, 28);
 			this.menuItemLanguageRu.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Left;
 			this.menuItemLanguageRu.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Ru24;
 			this.menuItemLanguageRu.LargeImage = global::Ravlyk.SAE5.WinForms.Properties.Resources.Ru24;
@@ -458,7 +460,7 @@
 			// 
 			this.menuItemLanguageUa.CheckedGroup = "Language";
 			this.menuItemLanguageUa.Description = "Українська мова";
-			this.menuItemLanguageUa.DescriptionBounds = new System.Drawing.Rectangle(30, 128, 293, 28);
+			this.menuItemLanguageUa.DescriptionBounds = new System.Drawing.Rectangle(30, 128, 328, 28);
 			this.menuItemLanguageUa.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Left;
 			this.menuItemLanguageUa.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Ua24;
 			this.menuItemLanguageUa.LargeImage = global::Ravlyk.SAE5.WinForms.Properties.Resources.Ua24;
@@ -467,6 +469,20 @@
 			this.menuItemLanguageUa.SmallImage = global::Ravlyk.SAE5.WinForms.Properties.Resources.Ua24;
 			resources.ApplyResources(this.menuItemLanguageUa, "menuItemLanguageUa");
 			this.menuItemLanguageUa.Click += new System.EventHandler(this.menuItemLanguageUa_Click);
+			// 
+			// menuItemLanguageDe
+			// 
+			this.menuItemLanguageDe.CheckedGroup = "Language";
+			this.menuItemLanguageDe.Description = "Deutsche Sprache";
+			this.menuItemLanguageDe.DescriptionBounds = new System.Drawing.Rectangle(30, 180, 328, 28);
+			this.menuItemLanguageDe.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Left;
+			this.menuItemLanguageDe.Image = ((System.Drawing.Image)(resources.GetObject("menuItemLanguageDe.Image")));
+			this.menuItemLanguageDe.LargeImage = ((System.Drawing.Image)(resources.GetObject("menuItemLanguageDe.LargeImage")));
+			this.menuItemLanguageDe.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Compact;
+			this.menuItemLanguageDe.Name = "menuItemLanguageDe";
+			this.menuItemLanguageDe.SmallImage = ((System.Drawing.Image)(resources.GetObject("menuItemLanguageDe.SmallImage")));
+			resources.ApplyResources(this.menuItemLanguageDe, "menuItemLanguageDe");
+			this.menuItemLanguageDe.Click += new System.EventHandler(this.menuItemLanguageDe_Click);
 			// 
 			// ribbonOrbMenuItemOptions
 			// 
@@ -1503,5 +1519,6 @@
 		private Drawing.WinForms.ZoomSlider zoomSliderGridCellSize;
 		private System.Windows.Forms.RibbonHost hostZoomGridCellSize;
 		private System.Windows.Forms.RibbonSeparator ribbonSeparator7;
+		private System.Windows.Forms.RibbonDescriptionMenuItem menuItemLanguageDe;
 	}
 }

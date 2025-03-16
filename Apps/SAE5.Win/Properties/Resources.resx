@@ -127,6 +127,9 @@
   <data name="Trash32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Trash32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="De24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\De24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="RotateLeft24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rotate Left-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,11 +145,8 @@
   <data name="Globe32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Globe32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SchemeWhiteSymbols25" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SchemeWhiteSymbols-25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="HintHomeButtonFeedback" xml:space="preserve">
-    <value>Create new feedback email to product's support in default email application</value>
+  <data name="PrintSavingToPdf" xml:space="preserve">
+    <value>Saving to PDF</value>
   </data>
   <data name="FileFilterPDF" xml:space="preserve">
     <value>PDF document (*.pdf)|*.pdf</value>
@@ -157,8 +157,8 @@
   <data name="ErrorSaveSchema" xml:space="preserve">
     <value>Error happened while saving pattern scheme to file.</value>
   </data>
-  <data name="Next24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Next-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Refresh32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Refresh32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Dice24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dice-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -197,6 +197,9 @@
   <data name="PrintPreviewZoomAuto" xml:space="preserve">
     <value>Auto</value>
     <comment>Auto zoom to fit page</comment>
+  </data>
+  <data name="PNG24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PNG24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Return24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Return-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -264,8 +267,8 @@
   <data name="Open32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Open-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PNG24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PNG24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Next24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Next-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FileFilterAllPalettes" xml:space="preserve">
     <value>All threads palette files (*.thread, *.csv)|*.thread;*.csv</value>
@@ -331,8 +334,8 @@
   <data name="FlipVertical24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Flip Horizontal-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PrintSavingToPdf" xml:space="preserve">
-    <value>Saving to PDF</value>
+  <data name="HintHomeButtonFeedback" xml:space="preserve">
+    <value>Create new feedback email to product's support in default email application</value>
   </data>
   <data name="ErrorCheckForUpdates" xml:space="preserve">
     <value>Cannot check for updates due to error: {0}</value>
@@ -340,14 +343,17 @@
   <data name="DialogHintSelectBackgroundThread" xml:space="preserve">
     <value>Select a thread to fill cut off scheme part</value>
   </data>
-  <data name="HintOptionsReset" xml:space="preserve">
-    <value>Reset all settings to default values</value>
+  <data name="Unchecked16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Unchecked16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WizardLoadImage" xml:space="preserve">
     <value>Load image</value>
   </data>
   <data name="Open100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Open Folder-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HintOptionsReset" xml:space="preserve">
+    <value>Reset all settings to default values</value>
   </data>
   <data name="HintHomeButtonFacebook" xml:space="preserve">
     <value>Open product's Facebook page</value>
@@ -460,9 +466,6 @@
   <data name="Palette24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Palette24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Unchecked16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Unchecked16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="FileFilterSAE" xml:space="preserve">
     <value>Stitch Art Easy! scheme (*.sa4)|*.sa4</value>
   </data>
@@ -508,9 +511,6 @@ Colors: {4}</value>
   <data name="Copy24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Copy24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Refresh32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Refresh32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="HintHomeButtonTwitter" xml:space="preserve">
     <value>Open prodect's Twitter page</value>
   </data>
@@ -541,8 +541,14 @@ Colors: {4}</value>
   <data name="Ru24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ru24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SchemeWhiteSymbols25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SchemeWhiteSymbols-25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="HintHomeButtonWeb" xml:space="preserve">
     <value>Open product's home web page in default Internet browser</value>
+  </data>
+  <data name="Xls24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Xls24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MessageNoUpdatesAvailable" xml:space="preserve">
     <value>Your version is up to date.</value>
@@ -562,7 +568,7 @@ Colors: {4}</value>
   <data name="RotateRight24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rotate Right-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Xls24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Xls24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ua_flag_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ua_flag_bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
