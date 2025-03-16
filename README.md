@@ -2,15 +2,17 @@ Stitch Art Easy! 5
 ==================
 
 Cross-stitch pattern scheme generator and editor.
-https://stitcharteasy.com
-https://mykola.xyz/stitcharteasy/
 
-![IMAGE](https://mykola.xyz/wp-content/uploads/2020/04/scheme-1024x735.png)
+https://stitcharteasy.com
+
+![IMAGE](https://raw.githubusercontent.com/MykolaKovalchuk/SAE5/refs/heads/master/Resources/Images/Scrennshots/scheme-1024x735.png)
 
 Written in C# .NET with WinForms.
 
 Principal UI elements (picture boxes and pattern scheme grid) are split into 2 layers:
-abstract layer with drawing and mouse logic, and WinForms wrappers.
+  - abstract layer with drawing and mouse logic,
+  - and WinForms wrappers.
+
 This was done for future porting to other platforms.
 
 ## Assemblies
