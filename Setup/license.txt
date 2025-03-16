@@ -1,5 +1,5 @@
 Stitch Art Easy! 5
-Copyright (c) 2003-2022 Mykola Kovalchuk
+Copyright (c) 2003-2025 Mykola Kovalchuk
 
 *** END USER LICENSE AGREEMENT ***
 
