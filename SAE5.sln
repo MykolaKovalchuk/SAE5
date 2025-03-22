@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ravlyk", "Ravlyk", "{5C4D3581-B10D-4840-87E8-0F3DE2C744BE}"
 EndProject
@@ -50,6 +50,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageConverter", "Tools\ImageConverter\ImageConverter.csproj", "{42BD14D1-7EEB-463C-B7A0-F6D22B71A862}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ravlyk.Adopted.OpenXmlPackaging", "Ravlyk.Adopted\OpenXmlPackaging\Ravlyk.Adopted.OpenXmlPackaging.csproj", "{DAD3387A-470A-4484-9427-A8C8FAEC6C0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -383,88 +389,6 @@ Global
 		{39CE5F7F-FD63-4FA3-BD21-AF4EC7E925A9} = {FDA0E926-8EEA-430F-886C-E6E65B83E28D}
 		{42BD14D1-7EEB-463C-B7A0-F6D22B71A862} = {FDA0E926-8EEA-430F-886C-E6E65B83E28D}
 		{DAD3387A-470A-4484-9427-A8C8FAEC6C0F} = {07A857A5-BC3C-4DC4-BA62-0E7EC989B93E}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 20
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://stitcharteasy.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Ravlyk\\Ravlyk.Common\\Ravlyk.Common.csproj
-		SccProjectTopLevelParentUniqueName1 = SAE5.sln
-		SccProjectName1 = Ravlyk/Ravlyk.Common
-		SccLocalPath1 = Ravlyk\\Ravlyk.Common
-		SccProjectUniqueName2 = Ravlyk\\Ravlyk.Drawing\\Ravlyk.Drawing.csproj
-		SccProjectTopLevelParentUniqueName2 = SAE5.sln
-		SccProjectName2 = Ravlyk/Ravlyk.Drawing
-		SccLocalPath2 = Ravlyk\\Ravlyk.Drawing
-		SccProjectUniqueName3 = Ravlyk\\Ravlyk.Drawing.ImageProcessor\\Ravlyk.Drawing.ImageProcessor.csproj
-		SccProjectTopLevelParentUniqueName3 = SAE5.sln
-		SccProjectName3 = Ravlyk/Ravlyk.Drawing.ImageProcessor
-		SccLocalPath3 = Ravlyk\\Ravlyk.Drawing.ImageProcessor
-		SccProjectUniqueName4 = Ravlyk.SAE\\Ravlyk.SAE.Drawing\\Ravlyk.SAE.Drawing.csproj
-		SccProjectTopLevelParentUniqueName4 = SAE5.sln
-		SccProjectName4 = Ravlyk.SAE/Ravlyk.SAE.Drawing
-		SccLocalPath4 = Ravlyk.SAE\\Ravlyk.SAE.Drawing
-		SccProjectUniqueName5 = Ravlyk.UI\\Ravlyk.Drawing.WinForms\\Ravlyk.Drawing.WinForms.csproj
-		SccProjectTopLevelParentUniqueName5 = SAE5.sln
-		SccProjectName5 = Ravlyk.UI/Ravlyk.Drawing.WinForms
-		SccLocalPath5 = Ravlyk.UI\\Ravlyk.Drawing.WinForms
-		SccProjectUniqueName6 = Ravlyk.SAE\\Ravlyk.SAE.Resources\\Ravlyk.SAE.Resources.csproj
-		SccProjectTopLevelParentUniqueName6 = SAE5.sln
-		SccProjectName6 = Ravlyk.SAE/Ravlyk.SAE.Resources
-		SccLocalPath6 = Ravlyk.SAE\\Ravlyk.SAE.Resources
-		SccProjectUniqueName7 = Tests\\Ravlyk.Common.Test\\Ravlyk.Common.Test.csproj
-		SccProjectTopLevelParentUniqueName7 = SAE5.sln
-		SccProjectName7 = Tests/Ravlyk.Common.Test
-		SccLocalPath7 = Tests\\Ravlyk.Common.Test
-		SccProjectUniqueName8 = Tests\\Ravlyk.Drawing.ImageProcessor.Test\\Ravlyk.Drawing.ImageProcessor.Test.csproj
-		SccProjectTopLevelParentUniqueName8 = SAE5.sln
-		SccProjectName8 = Tests/Ravlyk.Drawing.ImageProcessor.Test
-		SccLocalPath8 = Tests\\Ravlyk.Drawing.ImageProcessor.Test
-		SccProjectUniqueName9 = Tests\\Ravlyk.Drawing.Test\\Ravlyk.Drawing.Test.csproj
-		SccProjectTopLevelParentUniqueName9 = SAE5.sln
-		SccProjectName9 = Tests/Ravlyk.Drawing.Test
-		SccLocalPath9 = Tests\\Ravlyk.Drawing.Test
-		SccProjectUniqueName10 = Tests\\Ravlyk.SAE.Drawing.Test\\Ravlyk.SAE.Drawing.Test.csproj
-		SccProjectTopLevelParentUniqueName10 = SAE5.sln
-		SccProjectName10 = Tests/Ravlyk.SAE.Drawing.Test
-		SccLocalPath10 = Tests\\Ravlyk.SAE.Drawing.Test
-		SccProjectUniqueName11 = Apps\\SAE5.Win\\SAE5.Win.csproj
-		SccProjectTopLevelParentUniqueName11 = SAE5.sln
-		SccProjectName11 = Apps/SAE5.Win
-		SccLocalPath11 = Apps\\SAE5.Win
-		SccProjectUniqueName12 = Ravlyk.Adopted\\Ravlyk.Adopted.TrueTypeSharp\\Ravlyk.Adopted.TrueTypeSharp.csproj
-		SccProjectTopLevelParentUniqueName12 = SAE5.sln
-		SccProjectName12 = Ravlyk.Adopted/Ravlyk.Adopted.TrueTypeSharp
-		SccLocalPath12 = Ravlyk.Adopted\\Ravlyk.Adopted.TrueTypeSharp
-		SccProjectUniqueName13 = Ravlyk.UI\\System.Windows.Forms.Ribbon\\System.Windows.Forms.Ribbon35.csproj
-		SccProjectTopLevelParentUniqueName13 = SAE5.sln
-		SccProjectName13 = Ravlyk.UI/System.Windows.Forms.Ribbon
-		SccLocalPath13 = Ravlyk.UI\\System.Windows.Forms.Ribbon
-		SccProjectUniqueName14 = Ravlyk.Adopted\\PdfSharp\\Ravlyk.Adopted.PdfSharp.csproj
-		SccProjectTopLevelParentUniqueName14 = SAE5.sln
-		SccLocalPath14 = .
-		SccProjectFilePathRelativizedFromConnection14 = Ravlyk.Adopted\\PdfSharp\\
-		SccProjectUniqueName15 = Register\\Sae5KeyGen\\Sae5KeyGen.csproj
-		SccProjectTopLevelParentUniqueName15 = SAE5.sln
-		SccProjectName15 = Register/Sae5KeyGen
-		SccLocalPath15 = Register\\Sae5KeyGen
-		SccProjectUniqueName16 = Register\\Ravlyk.Drawing.Tif\\Ravlyk.Drawing.Tif.csproj
-		SccProjectTopLevelParentUniqueName16 = SAE5.sln
-		SccProjectName16 = Register/Ravlyk.Drawing.Tif
-		SccLocalPath16 = Register\\Ravlyk.Drawing.Tif
-		SccProjectUniqueName17 = Tools\\PaletteFileEditor\\PaletteFileEditor.csproj
-		SccProjectTopLevelParentUniqueName17 = SAE5.sln
-		SccProjectName17 = Tools/PaletteFileEditor
-		SccLocalPath17 = Tools\\PaletteFileEditor
-		SccProjectUniqueName18 = Tools\\ImageConverter\\ImageConverter.csproj
-		SccProjectTopLevelParentUniqueName18 = SAE5.sln
-		SccProjectName18 = Tools/ImageConverter
-		SccLocalPath18 = Tools\\ImageConverter
-		SccProjectUniqueName19 = Ravlyk.Adopted\\OpenXmlPackaging\\Ravlyk.Adopted.OpenXmlPackaging.csproj
-		SccProjectTopLevelParentUniqueName19 = SAE5.sln
-		SccProjectName19 = Ravlyk.Adopted/OpenXmlPackaging
-		SccLocalPath19 = Ravlyk.Adopted\\OpenXmlPackaging
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Tests\Standalone\1stTest\1stTest.csproj
