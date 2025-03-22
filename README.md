@@ -3,7 +3,7 @@ Stitch Art Easy! 5
 
 # Cross-stitch pattern scheme generator and editor
 
-https://stitcharteasy.com
+[Download](https://github.com/MykolaKovalchuk/SAE5/releases/latest)
 
 If you or someone close to you like cross-stitches embroidery, then you will like Stitch Art Easy!\
 It is an editor which will help you to create embroidery pattern schemes from any photos and pictures in a few easy and quick steps.
@@ -54,3 +54,5 @@ This was done for future porting to other platforms.
 **Ravlyk.UI** - concrete UI controls (only for WinForms).
 
 **Apps\SAE5.Win** - WinForm GUI application.
+
+**Setup** - InnoSetup script to build installation package as single exe file. Includes .NET Framework dependance check.
