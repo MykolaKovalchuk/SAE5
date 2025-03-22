@@ -12,22 +12,22 @@ namespace Ravlyk.Common.UndoRedo.Test
 			int index = 0;
 
 			var action = new UndoRedoAction4Test("Test", () => index--, () => index++);
-			Assert.AreEqual(0, index);
+			Assert.That(index, Is.EqualTo(0));
 
 			action.Undo();
-			Assert.AreEqual(-1, index);
+			Assert.That(index, Is.EqualTo(-1));
 
 			action.Redo();
-			Assert.AreEqual(0, index);
+			Assert.That(index, Is.EqualTo(0));
 
 			action.Redo();
-			Assert.AreEqual(1, index);
+			Assert.That(index, Is.EqualTo(1));
 
 			action.Undo();
-			Assert.AreEqual(0, index);
+			Assert.That(index, Is.EqualTo(0));
 
 			action.Undo();
-			Assert.AreEqual(-1, index);
+			Assert.That(index, Is.EqualTo(-1));
 		}
 
 		internal class UndoRedoAction4Test : UndoRedoAction

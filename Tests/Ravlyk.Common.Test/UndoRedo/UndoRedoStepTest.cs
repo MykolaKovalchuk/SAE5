@@ -9,8 +9,8 @@ namespace Ravlyk.Common.UndoRedo.Test
 		[Test]
 		public void TestName()
 		{
-			Assert.AreEqual("Aaa", new UndoRedoStep("Aaa").Name);
-			Assert.AreEqual("Bbb", new UndoRedoStep(new UndoRedoActionTest.UndoRedoAction4Test("Bbb", null, null)).Name);
+			Assert.That(new UndoRedoStep("Aaa").Name, Is.EqualTo("Aaa"));
+			Assert.That(new UndoRedoStep(new UndoRedoActionTest.UndoRedoAction4Test("Bbb", null, null)).Name, Is.EqualTo("Bbb"));
 		}
 
 		[Test]
@@ -20,24 +20,24 @@ namespace Ravlyk.Common.UndoRedo.Test
 			var s = string.Empty;
 
 			step.Undo();
-			Assert.AreEqual(string.Empty, s);
+			Assert.That(s, Is.EqualTo(string.Empty));
 			step.Redo();
-			Assert.AreEqual(string.Empty, s);
+			Assert.That(s, Is.EqualTo(string.Empty));
 
 			step.AddAction(new UndoRedoActionTest.UndoRedoAction4Test(string.Empty, () => s += "x", () => s += "X"));
 
 			step.Undo();
-			Assert.AreEqual("x", s);
+			Assert.That(s, Is.EqualTo("x"));
 			step.Redo();
-			Assert.AreEqual("xX", s);
+			Assert.That(s, Is.EqualTo("xX"));
 
 			step.AddAction(new UndoRedoActionTest.UndoRedoAction4Test(string.Empty, () => s += "y", () => s += "Y"));
 
 			s = string.Empty;
 			step.Undo();
-			Assert.AreEqual("yx", s);
+			Assert.That(s, Is.EqualTo("yx"));
 			step.Redo();
-			Assert.AreEqual("yxXY", s);
+			Assert.That(s, Is.EqualTo("yxXY"));
 		}
 	}
 }

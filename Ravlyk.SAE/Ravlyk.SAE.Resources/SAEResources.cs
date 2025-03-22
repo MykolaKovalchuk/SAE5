@@ -127,7 +127,7 @@ namespace Ravlyk.SAE.Resources
 		static IEnumerable<string> GetAllFontsResourceNames()
 		{
 			var assembly = Assembly.GetExecutingAssembly();
-			return assembly.GetManifestResourceNames().Where(name => name.EndsWith(FontFileExtension, StringComparison.OrdinalIgnoreCase));
+			return assembly.GetManifestResourceNames().Where(name => name.EndsWith(FontFileExtension, StringComparison.OrdinalIgnoreCase)).OrderBy(name => name);
 		}
 
 		static IEnumerable<string> GetAllFontFilesName(string additionalFontsPath)

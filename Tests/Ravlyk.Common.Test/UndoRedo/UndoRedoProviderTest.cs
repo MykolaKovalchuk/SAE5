@@ -10,20 +10,20 @@ namespace Ravlyk.Common.UndoRedo.Test
 		public void TestCanUndoRedo()
 		{
 			var provider = new UndoRedoProvider4Test();
-			Assert.IsFalse(provider.CanUndo);
-			Assert.IsFalse(provider.CanRedo);
+			Assert.That(provider.CanUndo, Is.False);
+			Assert.That(provider.CanRedo, Is.False);
 
 			provider.AddUndoActionExposed("Test", () => { }, () => { });
-			Assert.IsTrue(provider.CanUndo);
-			Assert.IsFalse(provider.CanRedo);
+			Assert.That(provider.CanUndo, Is.True);
+			Assert.That(provider.CanRedo, Is.False);
 
 			provider.Undo();
-			Assert.IsFalse(provider.CanUndo);
-			Assert.IsTrue(provider.CanRedo);
+			Assert.That(provider.CanUndo, Is.False);
+			Assert.That(provider.CanRedo, Is.True);
 
 			provider.Redo();
-			Assert.IsTrue(provider.CanUndo);
-			Assert.IsFalse(provider.CanRedo);
+			Assert.That(provider.CanUndo, Is.True);
+			Assert.That(provider.CanRedo, Is.False);
 		}
 
 		[Test]
@@ -32,44 +32,44 @@ namespace Ravlyk.Common.UndoRedo.Test
 			var provider = new UndoRedoProvider4Test();
 			provider.AddUndoActionExposed("Aaa", () => { }, () => { });
 			provider.Undo();
-			Assert.IsTrue(provider.CanRedo);
-			Assert.AreEqual("Aaa", provider.RedoDescription);
+			Assert.That(provider.CanRedo, Is.True);
+			Assert.That(provider.RedoDescription, Is.EqualTo("Aaa"));
 
 			provider.AddUndoActionExposed("Bbb", () => { }, () => { });
-			Assert.IsFalse(provider.CanRedo);
-			Assert.AreEqual(string.Empty, provider.RedoDescription);
+			Assert.That(provider.CanRedo, Is.False);
+			Assert.That(provider.RedoDescription, Is.EqualTo(string.Empty));
 		}
 
 		[Test]
 		public void TestUndoRedoDescription()
 		{
 			var provider = new UndoRedoProvider4Test();
-			Assert.AreEqual(string.Empty, provider.UndoDescription);
-			Assert.AreEqual(string.Empty, provider.RedoDescription);
+			Assert.That(provider.UndoDescription, Is.EqualTo(string.Empty));
+			Assert.That(provider.RedoDescription, Is.EqualTo(string.Empty));
 
 			provider.AddUndoActionExposed("Aaa", () => { }, () => { });
-			Assert.AreEqual("Aaa", provider.UndoDescription);
-			Assert.AreEqual(string.Empty, provider.RedoDescription);
+			Assert.That(provider.UndoDescription, Is.EqualTo("Aaa"));
+			Assert.That(provider.RedoDescription, Is.EqualTo(string.Empty));
 
 			provider.AddUndoActionExposed("Bbb", () => { }, () => { });
-			Assert.AreEqual("Bbb", provider.UndoDescription);
-			Assert.AreEqual(string.Empty, provider.RedoDescription);
+			Assert.That(provider.UndoDescription, Is.EqualTo("Bbb"));
+			Assert.That(provider.RedoDescription, Is.EqualTo(string.Empty));
 
 			provider.Undo();
-			Assert.AreEqual("Aaa", provider.UndoDescription);
-			Assert.AreEqual("Bbb", provider.RedoDescription);
+			Assert.That(provider.UndoDescription, Is.EqualTo("Aaa"));
+			Assert.That(provider.RedoDescription, Is.EqualTo("Bbb"));
 
 			provider.Undo();
-			Assert.AreEqual(string.Empty, provider.UndoDescription);
-			Assert.AreEqual("Aaa", provider.RedoDescription);
+			Assert.That(provider.UndoDescription, Is.EqualTo(string.Empty));
+			Assert.That(provider.RedoDescription, Is.EqualTo("Aaa"));
 
 			provider.Redo();
-			Assert.AreEqual("Aaa", provider.UndoDescription);
-			Assert.AreEqual("Bbb", provider.RedoDescription);
+			Assert.That(provider.UndoDescription, Is.EqualTo("Aaa"));
+			Assert.That(provider.RedoDescription, Is.EqualTo("Bbb"));
 
 			provider.Redo();
-			Assert.AreEqual("Bbb", provider.UndoDescription);
-			Assert.AreEqual(string.Empty, provider.RedoDescription);
+			Assert.That(provider.UndoDescription, Is.EqualTo("Bbb"));
+			Assert.That(provider.RedoDescription, Is.EqualTo(string.Empty));
 		}
 
 		[Test]
@@ -79,16 +79,16 @@ namespace Ravlyk.Common.UndoRedo.Test
 			using (provider.BeginMultiActionsUndoRedoStep("Mmm"))
 			{
 				provider.AddUndoActionExposed("Aaa", () => { }, () => { });
-				Assert.AreEqual(string.Empty, provider.UndoDescription);
+				Assert.That(provider.UndoDescription, Is.EqualTo(string.Empty));
 				provider.AddUndoActionExposed("Bbb", () => { }, () => { });
-				Assert.AreEqual(string.Empty, provider.UndoDescription);
+				Assert.That(provider.UndoDescription, Is.EqualTo(string.Empty));
 			}
-			Assert.AreEqual("Mmm", provider.UndoDescription);
-			Assert.AreEqual(string.Empty, provider.RedoDescription);
+			Assert.That(provider.UndoDescription, Is.EqualTo("Mmm"));
+			Assert.That(provider.RedoDescription, Is.EqualTo(string.Empty));
 
 			provider.Undo();
-			Assert.AreEqual(string.Empty, provider.UndoDescription);
-			Assert.AreEqual("Mmm", provider.RedoDescription);
+			Assert.That(provider.UndoDescription, Is.EqualTo(string.Empty));
+			Assert.That(provider.RedoDescription, Is.EqualTo("Mmm"));
 		}
 
 		[Test]
@@ -101,23 +101,23 @@ namespace Ravlyk.Common.UndoRedo.Test
 			provider.AddUndoActionExposed(string.Empty, () => s += "b", () => s += "B");
 			provider.AddUndoActionExposed(string.Empty, () => s += "c", () => s += "C");
 
-			Assert.AreEqual(string.Empty, s);
+			Assert.That(s, Is.EqualTo(string.Empty));
 
 			provider.Undo();
-			Assert.AreEqual("c", s);
+			Assert.That(s, Is.EqualTo("c"));
 			provider.Redo();
-			Assert.AreEqual("cC", s);
+			Assert.That(s, Is.EqualTo("cC"));
 
 			s = string.Empty;
 			provider.Undo();
 			provider.Undo();
 			provider.Undo();
-			Assert.AreEqual("cba", s);
+			Assert.That(s, Is.EqualTo("cba"));
 			provider.Redo();
 			provider.Redo();
-			Assert.AreEqual("cbaAB", s);
+			Assert.That(s, Is.EqualTo("cbaAB"));
 			provider.Redo();
-			Assert.AreEqual("cbaABC", s);
+			Assert.That(s, Is.EqualTo("cbaABC"));
 		}
 
 		[Test]
@@ -137,20 +137,20 @@ namespace Ravlyk.Common.UndoRedo.Test
 				provider.AddUndoActionExposed(string.Empty, () => s += "d", () => s += "D");
 			}
 
-			Assert.AreEqual(string.Empty, s);
+			Assert.That(s, Is.EqualTo(string.Empty));
 
 			provider.Undo();
-			Assert.AreEqual("dc", s);
+			Assert.That(s, Is.EqualTo("dc"));
 			provider.Redo();
-			Assert.AreEqual("dcCD", s);
+			Assert.That(s, Is.EqualTo("dcCD"));
 
 			s = string.Empty;
 			provider.Undo();
 			provider.Undo();
-			Assert.AreEqual("dcba", s);
+			Assert.That(s, Is.EqualTo("dcba"));
 			provider.Redo();
 			provider.Redo();
-			Assert.AreEqual("dcbaABCD", s);
+			Assert.That(s, Is.EqualTo("dcbaABCD"));
 		}
 
 		[Test]
@@ -161,17 +161,17 @@ namespace Ravlyk.Common.UndoRedo.Test
 			provider.AddUndoActionExposed("Bbb", () => { }, () => { });
 			provider.Undo();
 
-			Assert.IsTrue(provider.CanUndo);
-			Assert.IsTrue(provider.CanRedo);
-			Assert.AreEqual("Aaa", provider.UndoDescription);
-			Assert.AreEqual("Bbb", provider.RedoDescription);
+			Assert.That(provider.CanUndo, Is.True);
+			Assert.That(provider.CanRedo, Is.True);
+			Assert.That(provider.UndoDescription, Is.EqualTo("Aaa"));
+			Assert.That(provider.RedoDescription, Is.EqualTo("Bbb"));
 
 			provider.ClearCache();
 
-			Assert.IsFalse(provider.CanUndo);
-			Assert.IsFalse(provider.CanRedo);
-			Assert.AreEqual(string.Empty, provider.UndoDescription);
-			Assert.AreEqual(string.Empty, provider.RedoDescription);
+			Assert.That(provider.CanUndo, Is.False);
+			Assert.That(provider.CanRedo, Is.False);
+			Assert.That(provider.UndoDescription, Is.EqualTo(string.Empty));
+			Assert.That(provider.RedoDescription, Is.EqualTo(string.Empty));
 		}
 
 		[Test]
@@ -179,16 +179,16 @@ namespace Ravlyk.Common.UndoRedo.Test
 		{
 			var provider = new UndoRedoProvider4Test();
 			provider.AddUndoActionExposed("Aaa", () => { }, () => { });
-			Assert.AreEqual("Aaa", provider.UndoDescription);
+			Assert.That(provider.UndoDescription, Is.EqualTo("Aaa"));
 
 			using (provider.SuppressUndoRegistration())
 			{
 				provider.AddUndoActionExposed("Bbb", () => { }, () => { });
-				Assert.AreEqual("Aaa", provider.UndoDescription);
+				Assert.That(provider.UndoDescription, Is.EqualTo("Aaa"));
 			}
 
 			provider.AddUndoActionExposed("Bbb", () => { }, () => { });
-			Assert.AreEqual("Bbb", provider.UndoDescription);
+			Assert.That(provider.UndoDescription, Is.EqualTo("Bbb"));
 		}
 
 		[Test]
@@ -198,34 +198,34 @@ namespace Ravlyk.Common.UndoRedo.Test
 			var counter = 0;
 
 			provider.StateChanged += (sender, e) => counter++;
-			Assert.AreEqual(0, counter);
+			Assert.That(counter, Is.EqualTo(0));
 
 			provider.AddUndoActionExposed(string.Empty, () => { }, () => { });
-			Assert.AreEqual(1, counter);
+			Assert.That(counter, Is.EqualTo(1));
 
 			provider.Undo();
-			Assert.AreEqual(2, counter);
+			Assert.That(counter, Is.EqualTo(2));
 
 			provider.Redo();
-			Assert.AreEqual(3, counter);
+			Assert.That(counter, Is.EqualTo(3));
 
 			using (provider.BeginMultiActionsUndoRedoStep(string.Empty))
 			{
 				provider.AddUndoActionExposed(string.Empty, () => { }, () => { });
-				Assert.AreEqual(3, counter);
+				Assert.That(counter, Is.EqualTo(3));
 				provider.AddUndoActionExposed(string.Empty, () => { }, () => { });
-				Assert.AreEqual(3, counter);
+				Assert.That(counter, Is.EqualTo(3));
 			}
-			Assert.AreEqual(4, counter);
+			Assert.That(counter, Is.EqualTo(4));
 
 			using (provider.SuppressUndoRegistration())
 			{
 				provider.AddUndoActionExposed(string.Empty, () => { }, () => { });
 			}
-			Assert.AreEqual(4, counter);
+			Assert.That(counter, Is.EqualTo(4));
 
 			provider.ClearCache();
-			Assert.AreEqual(5, counter);
+			Assert.That(counter, Is.EqualTo(5));
 		}
 
 		class UndoRedoProvider4Test : UndoRedoProvider

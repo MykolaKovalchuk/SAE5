@@ -12,11 +12,11 @@ namespace Ravlyk.Common.Test
 			int i = 1;
 			using (new DisposableAction(() => i = 0))
 			{
-				Assert.AreEqual(1, i);
+				Assert.That(i, Is.EqualTo(1));
 				i = 2;
-				Assert.AreEqual(2, i);
+				Assert.That(i, Is.EqualTo(2));
 			}
-			Assert.AreEqual(0, i);
+			Assert.That(i, Is.EqualTo(0));
 		}
 	}
 }
