@@ -14,6 +14,8 @@ You can print the scheme, save it for later use, or import it into image or PDF 
 ![IMAGE](https://raw.githubusercontent.com/MykolaKovalchuk/SAE5/refs/heads/master/Resources/Images/Scrennshots/wizard1.png)\
 ![IMAGE](https://raw.githubusercontent.com/MykolaKovalchuk/SAE5/refs/heads/master/Resources/Images/Scrennshots/scheme4.png)
 
+[More Screenshots](https://github.com/MykolaKovalchuk/SAE5/tree/master/Resources/Images/Scrennshots)
+
 Main features:
   - Very simple and intuitive interface;
   - High quality of produced result, including the most precise colors matching;
@@ -21,6 +23,8 @@ Main features:
   - Multiple modes of pattern scheme display, it can also print in all these modes;
   - Favourite threads suites;
   - Export to PDF, Excel, graphical formats.
+
+[Example Embroidery work made with Stitch Art Easy!](https://github.com/MykolaKovalchuk/SAE5/tree/master/Resources/Images/Works)
 
 # Technical details
 
