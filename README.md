@@ -52,11 +52,11 @@ This was done for future porting to other platforms.
  - extension of IndexedImage for cross-stitch related functionality;
  - scheme serialization;
  - painters and exporters;
- - abstart level of UI controls with all logic (drawing, mouse, undo-redo);
+ - abstract level of UI controls with all logic (drawing, mouse, undo-redo);
  - new scheme wizard.
 
 **Ravlyk.UI** - concrete UI controls (only for WinForms).
 
 **Apps\SAE5.Win** - WinForm GUI application.
 
-**Setup** - InnoSetup script to build installation package as single exe file. Includes .NET Framework dependance check.
+**Setup** - InnoSetup script to build installation package as single exe file. Includes .NET Framework dependence check.
