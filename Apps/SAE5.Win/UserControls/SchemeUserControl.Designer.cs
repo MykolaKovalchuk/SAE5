@@ -33,7 +33,8 @@
 			this.ribbonSeparator6 = new System.Windows.Forms.RibbonSeparator();
 			this.ribbonButtonOrbPdf = new System.Windows.Forms.RibbonButton();
 			this.ribbonButtonOrbXls = new System.Windows.Forms.RibbonButton();
-			this.ribbonOrbMenuItemPrint = new System.Windows.Forms.RibbonOrbMenuItem();
+            this.ribbonButtonOrbOxs = new System.Windows.Forms.RibbonButton();
+            this.ribbonOrbMenuItemPrint = new System.Windows.Forms.RibbonOrbMenuItem();
 			this.ribbonSeparator3 = new System.Windows.Forms.RibbonSeparator();
 			this.ribbonMenuManagePalettes = new System.Windows.Forms.RibbonOrbMenuItem();
 			this.ribbonMenuItemLanguage = new System.Windows.Forms.RibbonOrbMenuItem();
@@ -294,7 +295,8 @@
 			this.ribbonOrbMenuItemSave.DropDownItems.Add(this.ribbonSeparator6);
 			this.ribbonOrbMenuItemSave.DropDownItems.Add(this.ribbonButtonOrbPdf);
 			this.ribbonOrbMenuItemSave.DropDownItems.Add(this.ribbonButtonOrbXls);
-			this.ribbonOrbMenuItemSave.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Save32;
+            this.ribbonOrbMenuItemSave.DropDownItems.Add(this.ribbonButtonOrbOxs);
+            this.ribbonOrbMenuItemSave.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Save32;
 			this.ribbonOrbMenuItemSave.LargeImage = global::Ravlyk.SAE5.WinForms.Properties.Resources.Save32;
 			this.ribbonOrbMenuItemSave.Name = "ribbonOrbMenuItemSave";
 			this.ribbonOrbMenuItemSave.SmallImage = global::Ravlyk.SAE5.WinForms.Properties.Resources.Save32;
@@ -387,10 +389,19 @@
 			this.ribbonButtonOrbXls.SmallImage = global::Ravlyk.SAE5.WinForms.Properties.Resources.Xls24;
 			resources.ApplyResources(this.ribbonButtonOrbXls, "ribbonButtonOrbXls");
 			this.ribbonButtonOrbXls.Click += new System.EventHandler(this.ribbonButtonOrbXls_Click);
-			// 
-			// ribbonOrbMenuItemPrint
-			// 
-			this.ribbonOrbMenuItemPrint.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Left;
+            // 
+            // ribbonButtonOrbOxs
+            // 
+            this.ribbonButtonOrbOxs.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Oxs24;
+            this.ribbonButtonOrbOxs.LargeImage = global::Ravlyk.SAE5.WinForms.Properties.Resources.Oxs24;
+            this.ribbonButtonOrbOxs.Name = "ribbonButtonOrbOxs";
+            this.ribbonButtonOrbOxs.SmallImage = global::Ravlyk.SAE5.WinForms.Properties.Resources.Oxs24;
+            resources.ApplyResources(this.ribbonButtonOrbOxs, "ribbonButtonOrbOxs");
+            this.ribbonButtonOrbOxs.Click += new System.EventHandler(this.ribbonButtonOrbOxs_Click);
+            // 
+            // ribbonOrbMenuItemPrint
+            // 
+            this.ribbonOrbMenuItemPrint.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Left;
 			this.ribbonOrbMenuItemPrint.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Print32;
 			this.ribbonOrbMenuItemPrint.LargeImage = global::Ravlyk.SAE5.WinForms.Properties.Resources.Print32;
 			this.ribbonOrbMenuItemPrint.Name = "ribbonOrbMenuItemPrint";
@@ -1516,7 +1527,8 @@
 		private System.Windows.Forms.RibbonButton buttonPrintCellSizeInch;
 		private System.Windows.Forms.RibbonButton ribbonButtonOrbEmf;
 		private System.Windows.Forms.RibbonButton ribbonButtonOrbXls;
-		private Drawing.WinForms.ZoomSlider zoomSliderGridCellSize;
+        private System.Windows.Forms.RibbonButton ribbonButtonOrbOxs;
+        private Drawing.WinForms.ZoomSlider zoomSliderGridCellSize;
 		private System.Windows.Forms.RibbonHost hostZoomGridCellSize;
 		private System.Windows.Forms.RibbonSeparator ribbonSeparator7;
 		private System.Windows.Forms.RibbonDescriptionMenuItem menuItemLanguageDe;

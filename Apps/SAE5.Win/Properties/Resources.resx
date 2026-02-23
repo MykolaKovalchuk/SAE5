@@ -550,6 +550,9 @@ Colors: {4}</value>
   <data name="Xls24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Xls24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Oxs24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oxs24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MessageNoUpdatesAvailable" xml:space="preserve">
     <value>Your version is up to date.</value>
   </data>
@@ -570,5 +573,14 @@ Colors: {4}</value>
   </data>
   <data name="ua_flag_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ua_flag_bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileFilterOxs" xml:space="preserve">
+    <value>Open Cross Stitch File Format (*.oxs)|*.oxs</value>
+  </data>
+  <data name="FileSavingToOxs" xml:space="preserve">
+    <value>Saving to OXS</value>
+  </data>
+  <data name="FileSavingToOxsLabel" xml:space="preserve">
+    <value>Saving scheme to OXS...</value>
   </data>
 </root>
