@@ -416,6 +416,15 @@ namespace Ravlyk.SAE5.WinForms.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open Cross Stitch File Format (*.oxs)|*.oxs.
+        /// </summary>
+        internal static string FileFilterOxs {
+            get {
+                return ResourceManager.GetString("FileFilterOxs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Threads palette file (*.thread)|*.thread|Comma separated values file (*.csv)|*.csv.
         /// </summary>
         internal static string FileFilterPalette {
@@ -475,6 +484,24 @@ namespace Ravlyk.SAE5.WinForms.Properties {
         internal static string FileSavingToExcelLabel {
             get {
                 return ResourceManager.GetString("FileSavingToExcelLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Saving to OXS.
+        /// </summary>
+        internal static string FileSavingToOxs {
+            get {
+                return ResourceManager.GetString("FileSavingToOxs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Saving scheme to OXS....
+        /// </summary>
+        internal static string FileSavingToOxsLabel {
+            get {
+                return ResourceManager.GetString("FileSavingToOxsLabel", resourceCulture);
             }
         }
         
@@ -820,6 +847,16 @@ namespace Ravlyk.SAE5.WinForms.Properties {
         internal static System.Drawing.Bitmap Open32 {
             get {
                 object obj = ResourceManager.GetObject("Open32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Oxs24 {
+            get {
+                object obj = ResourceManager.GetObject("Oxs24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

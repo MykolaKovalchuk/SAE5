@@ -251,8 +251,13 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 		{
 			Save(null, SaveFormat.Excel);
 		}
+		
+        void ribbonButtonOrbOxs_Click(object sender, EventArgs e)
+        {
+            Save(null, SaveFormat.Oxs);
+        }
 
-		bool Save(string fileName, SaveFormat initialFormat = SaveFormat.Any)
+        bool Save(string fileName, SaveFormat initialFormat = SaveFormat.Any)
 		{
 			try
 			{
@@ -313,7 +318,11 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 			{
 				SaveExcel(fileName);
 			}
-		}
+            else if (format == SaveFormat.Oxs)
+            {
+                SaveOxs(fileName);
+            }
+        }
 
 		#region Save in format
 
@@ -447,48 +456,83 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 
 		void SaveExcel(string fileName)
 		{
-			Cursor = Cursors.WaitCursor;
-			try
-			{
-				using (var form = new Form
-				{
-					Text = Resources.FileSavingToExcel,
-					Size = new System.Drawing.Size(200, 130),
-					TopMost = true,
-					FormBorderStyle = FormBorderStyle.FixedDialog,
-					ShowIcon = false,
-					ControlBox = false
-				})
-				{
-					var progressLabel = new Label { Location = new Point(32, 24), Text = Resources.FileSavingToExcelLabel, AutoSize = true };
-					form.Controls.Add(progressLabel);
-					form.Show();
-					form.Invalidate();
-					form.Update();
+            SaveWithProgress(
+				Resources.FileSavingToExcel,
+				Resources.FileSavingToExcelLabel,
+				fileName,
+				() => ExcelExporter.ExportToExcel(
+					SchemeImage,
+					fileName,
+					PatternGridController.GridPainter,
+					paletteUserControl.Controller?.OrderedColors
+						?? SchemeImage.Palette.OrderByDarknes().Cast<CodedColor>().ToList()
+				)
+			);
+        }
 
-					ExcelExporter.ExportToExcel(SchemeImage, fileName, PatternGridController.GridPainter, paletteUserControl.Controller?.OrderedColors ?? SchemeImage.Palette.OrderByDarknes().Cast<CodedColor>().ToList());
-				}
+        void SaveOxs(string fileName)
+        {
+            SaveWithProgress(
+				Resources.FileSavingToOxs,
+				Resources.FileSavingToOxsLabel,
+				fileName,
+				() => OxsExporter.ExportToOxs(
+					SchemeImage,
+					fileName,
+					paletteUserControl.Controller?.OrderedColors
+						?? SchemeImage.Palette.OrderByDarknes().Cast<CodedColor>().ToList()
+				)
+			);
+        }
 
-				if (File.Exists(fileName))
-				{
-					Process.Start(fileName);
-				}
-			}
-			catch (Exception ex)
-			{
-				MessageBox.Show(Resources.ErrorCannotSaveFile + Environment.NewLine + ex.Message);
-			}
-			finally
-			{
-				Cursor = DefaultCursor;
-			}
-		}
+        void SaveWithProgress(string formText, string labelText, string fileName, Action exportAction)
+        {
+            Cursor = Cursors.WaitCursor;
+            try
+            {
+                using (var form = new Form
+                {
+                    Text = formText,
+                    Size = new System.Drawing.Size(200, 130),
+                    TopMost = true,
+                    FormBorderStyle = FormBorderStyle.FixedDialog,
+                    ShowIcon = false,
+                    ControlBox = false
+                })
+                {
+                    var progressLabel = new Label
+                    {
+                        Location = new Point(32, 24),
+                        Text = labelText,
+                        AutoSize = true
+                    };
 
-		#endregion
+                    form.Controls.Add(progressLabel);
+                    form.Show();
+                    form.Invalidate();
+                    form.Update();
 
-		#region File formats
+                    exportAction();
+                }
 
-		enum SaveFormat
+                if (File.Exists(fileName))
+                    Process.Start(fileName);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(Resources.ErrorCannotSaveFile + Environment.NewLine + ex.Message);
+            }
+            finally
+            {
+                Cursor = DefaultCursor;
+            }
+        }
+
+        #endregion
+
+        #region File formats
+
+        enum SaveFormat
 		{
 			Any,
 			Sa4,
@@ -497,7 +541,8 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 			Emf,
 			PngThumbnail,
 			Pdf,
-			Excel
+			Excel,
+			Oxs
 		}
 
 		static string GetSaveAsFilter()
@@ -510,7 +555,8 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 			sb.Append('|').AppendFormat(Resources.FileFilterThumbnail, "PNG", "png");
 			sb.Append('|').Append(Resources.FileFilterPDF);
 			sb.Append('|').Append(Resources.FileFilterExcel);
-			return sb.ToString();
+            sb.Append('|').Append(Resources.FileFilterOxs);
+            return sb.ToString();
 		}
 
 		int SaveFormatToIndex(SaveFormat format)
@@ -531,7 +577,9 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 					return 5;
 				case SaveFormat.Excel:
 					return 6;
-				default:
+                case SaveFormat.Oxs:
+                    return 7;
+                default:
 					return -1;
 			}
 		}
@@ -554,6 +602,8 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 					return SaveFormat.Pdf;
 				case 6:
 					return SaveFormat.Excel;
+                case 7:
+                    return SaveFormat.Oxs;
 				default:
 					throw new NotSupportedException("Selected file format is not supported.");
 			}

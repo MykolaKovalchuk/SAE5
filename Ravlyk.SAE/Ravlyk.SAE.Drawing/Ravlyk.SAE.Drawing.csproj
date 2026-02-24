@@ -42,6 +42,7 @@
     <Compile Include="CodedImage.cs" />
     <Compile Include="CodedPaletteOrderExtensions.cs" />
     <Compile Include="Export\ExcelExporter.cs" />
+    <Compile Include="Export\OxsExporter.cs" />
     <Compile Include="Painters\BasePainter.cs" />
     <Compile Include="Painters\EmfPainter.cs" />
     <Compile Include="Painters\GdiPainter.cs" />

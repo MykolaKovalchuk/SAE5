@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Ravlyk.Adopted.OpenXmlPackaging;
 using Ravlyk.SAE.Drawing.Grid;
 using Ravlyk.SAE.Drawing.Properties;
@@ -21,7 +20,7 @@ namespace Ravlyk.SAE.Drawing.Export
 		/// <param name="orderedColors">List of colors in current order.</param>
 		public static void ExportToExcel(CodedImage image, string fileName, PatternGridPainter gridPainter, IList<CodedColor> orderedColors)
 		{
-			using (var document = new SpreadsheetDocument(fileName))
+            using (var document = new SpreadsheetDocument(fileName))
 			{
 				CreateSchemeSheet(image, document, gridPainter);
 				CreatePaletteSheet(image, orderedColors, document, gridPainter);
@@ -268,6 +267,6 @@ namespace Ravlyk.SAE.Drawing.Export
 			cell.Value = text;
 		}
 
-		#endregion
-	}
+        #endregion
+    }
 }

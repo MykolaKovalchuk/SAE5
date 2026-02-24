@@ -459,6 +459,12 @@ Colors: {4}</value>
   <data name="ribbonButtonOrbXls.ToolTip" xml:space="preserve">
     <value>Export scheme to Excel spreadsheet</value>
   </data>
+  <data name="ribbonButtonOrbOxs.Text" xml:space="preserve">
+    <value>Export to OXS</value>
+  </data>
+  <data name="ribbonButtonOrbOxs.ToolTip" xml:space="preserve">
+    <value>Export scheme to OXS format</value>
+  </data>
   <data name="ribbonOrbMenuItemSave.Text" xml:space="preserve">
     <value>Save</value>
   </data>
@@ -1518,7 +1524,13 @@ Colors: {4}</value>
   <data name="&gt;&gt;ribbonButtonOrbXls.Name" xml:space="preserve">
     <value>ribbonButtonOrbXls</value>
   </data>
+  <data name="&gt;&gt;ribbonButtonOrbOxs.Name" xml:space="preserve">
+    <value>ribbonButtonOrbOxs</value>
+  </data>
   <data name="&gt;&gt;ribbonButtonOrbXls.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOrbOxs.Type" xml:space="preserve">
     <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.4, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;ribbonOrbMenuItemPrint.Name" xml:space="preserve">

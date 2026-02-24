@@ -297,4 +297,10 @@
   <data name="FileSavingToExcelLabel" xml:space="preserve">
     <value>Експорт схеми у Excel...</value>
   </data>
+  <data name="FileSavingToOxs" xml:space="preserve">
+    <value>Експорт у OXS</value>
+  </data>
+  <data name="FileSavingToOxsLabel" xml:space="preserve">
+    <value>Експорт схеми у OXS...</value>
+  </data>
 </root>

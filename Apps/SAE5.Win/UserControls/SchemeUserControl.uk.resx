@@ -198,6 +198,12 @@
   <data name="ribbonButtonOrbXls.ToolTip" xml:space="preserve">
     <value>Експорт схеми у документ Excel</value>
   </data>
+  <data name="ribbonButtonOrbOxs.Text" xml:space="preserve">
+    <value>Експорт у OXS</value>
+  </data>
+  <data name="ribbonButtonOrbOxs.ToolTip" xml:space="preserve">
+    <value>Експорт схеми у форматі OXS</value>
+  </data>
   <data name="ribbonOrbMenuItemPrint.Text" xml:space="preserve">
     <value>Перегляд друку</value>
   </data>

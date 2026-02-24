@@ -294,4 +294,10 @@ Farben: {4}</value>
   <data name="FileFilterExcel" xml:space="preserve">
     <value>Excel 2007 Dokument (*.xlsx)|*.xlsx</value>
   </data>
+  <data name="FileSavingToOxs" xml:space="preserve">
+    <value>Als OXS-Datei speichern</value>
+  </data>
+  <data name="FileSavingToOxsLabel" xml:space="preserve">
+    <value>Speichert Vorlage als OXS-Datei...</value>
+  </data>
 </root>

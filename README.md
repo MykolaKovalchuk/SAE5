@@ -22,7 +22,7 @@ Main features:
   - Quick responsive interaction, no need to wait for long time till scheme is regenerated after each change of any parameter;
   - Multiple modes of pattern scheme display, it can also print in all these modes;
   - Favourite threads suites;
-  - Export to PDF, Excel, graphical formats.
+  - Export to PDF, Excel, OXS, graphical formats.
 
 [Example Embroidery work made with Stitch Art Easy!](https://github.com/MykolaKovalchuk/SAE5/tree/master/Resources/Images/Works)
 
