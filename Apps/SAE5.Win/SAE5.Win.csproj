@@ -10,10 +10,6 @@
     <NoWarn>$(NoWarn);CA1416;WFO1000</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.3" />
-    <PackageReference Include="System.Drawing.Common" Version="9.0.3" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\Ravlyk.Adopted\PdfSharp\Ravlyk.Adopted.PdfSharp.csproj" />
     <ProjectReference Include="..\..\Ravlyk.Adopted\Ravlyk.Adopted.TrueTypeSharp\Ravlyk.Adopted.TrueTypeSharp.csproj" />
     <ProjectReference Include="..\..\Ravlyk.SAE\Ravlyk.SAE.Drawing\Ravlyk.SAE.Drawing.csproj" />

@@ -33,7 +33,8 @@ namespace Ravlyk.Adopted.OpenXmlPackaging {
 
             _package.CreateRelationship(Constants.WorkbookUri, TargetMode.Internal, Constants.RelationshipNamespace + "/officeDocument");
 
-            using (XmlWriter writer = XmlWriter.Create(_workbookPart.GetStream(FileMode.Create, FileAccess.Write))) {
+            using (var workbookStream = _workbookPart.GetStream(FileMode.Create, FileAccess.Write))
+            using (XmlWriter writer = XmlWriter.Create(workbookStream)) {
 
                 XElement e = new XElement(Constants.MainXNamespace + "workbook", new XAttribute(XNamespace.Xmlns + "r", Constants.RelationshipXNamespace.NamespaceName),
                                         new XElement(Constants.MainXNamespace + "sheets"));

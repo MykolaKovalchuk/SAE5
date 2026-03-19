@@ -8,9 +8,6 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="System.Drawing.Common" Version="9.0.3" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\Ravlyk.SAE\Ravlyk.SAE.Drawing\Ravlyk.SAE.Drawing.csproj" />
     <ProjectReference Include="..\..\Ravlyk.UI\Ravlyk.Drawing.WinForms\Ravlyk.Drawing.WinForms.csproj" />
     <ProjectReference Include="..\..\Ravlyk\Ravlyk.Drawing\Ravlyk.Drawing.csproj" />
