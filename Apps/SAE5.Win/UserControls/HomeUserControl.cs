@@ -183,12 +183,12 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 
 		void buttonFacebook_Click(object sender, EventArgs e)
 		{
-			Process.Start("http://facebook.com/stitcharteasy5");
+			Process.Start(new ProcessStartInfo("http://facebook.com/stitcharteasy5") { UseShellExecute = true });
 		}
 
 		void buttonLinkedIn_Click(object sender, EventArgs e)
 		{
-			Process.Start("http://linkedin.com/in/mykolakovalchuk");
+			Process.Start(new ProcessStartInfo("http://linkedin.com/in/mykolakovalchuk") { UseShellExecute = true });
 		}
 
 		#endregion

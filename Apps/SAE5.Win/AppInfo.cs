@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Globalization;
 using System.IO;
-using System.Net;
+using System.Net.Http;
 using System.Reflection;
 using System.Text;
 using System.Threading;
@@ -13,6 +13,8 @@ namespace Ravlyk.SAE5.WinForms
 {
 	public static class AppInfo
 	{
+		static readonly HttpClient _httpClient = new HttpClient();
+
 		public static string AppDescription
 		{
 			get
@@ -46,12 +48,12 @@ namespace Ravlyk.SAE5.WinForms
 
 		public static void GoToWebsite()
 		{
-			Process.Start("https://github.com/MykolaKovalchuk/SAE5");
+			Process.Start(new ProcessStartInfo("https://github.com/MykolaKovalchuk/SAE5") { UseShellExecute = true });
 		}
 
 		public static void EmailToSupport()
 		{
-			Process.Start($"https://github.com/MykolaKovalchuk/SAE5/issues");
+			Process.Start(new ProcessStartInfo($"https://github.com/MykolaKovalchuk/SAE5/issues") { UseShellExecute = true });
 		}
 
 		public static void CheckForUpdates(Action<string> updateAvailableCallback, Action<Exception> errorCallback, bool synchronous = false)
@@ -94,8 +96,7 @@ namespace Ravlyk.SAE5.WinForms
 			{
 				string result = null;
 
-				using (var webClient = new WebClient())
-				using (var stream = webClient.OpenRead(fileUrl))
+				using (var stream = _httpClient.GetStreamAsync(fileUrl).GetAwaiter().GetResult())
 				using (var reader = new StreamReader(stream))
 				{
 					var line = reader.ReadLine();

@@ -454,7 +454,7 @@ namespace System.Windows.Forms.RibbonHelpers
             // Hook
             // Ed Obeda suggestion for .net 4.0
             //_hHook = WinApi.SetWindowsHookEx(htype, _HookProc, Marshal.GetHINSTANCE(Assembly.GetExecutingAssembly().GetModules()[0]), 0);
-            _hHook = WinApi.SetWindowsHookEx(htype, _HookProc, System.Diagnostics.Process.GetCurrentProcess().MainModule.BaseAddress, 0);
+            _hHook = WinApi.SetWindowsHookEx(htype, _HookProc, System.Diagnostics.Process.GetCurrentProcess().MainModule?.BaseAddress ?? IntPtr.Zero, 0);
             
             // Error check
             if (Handle == 0) throw new Win32Exception(Marshal.GetLastWin32Error());

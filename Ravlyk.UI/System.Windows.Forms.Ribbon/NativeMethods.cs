@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace System.Windows.Forms
@@ -590,7 +591,7 @@ namespace System.Windows.Forms
       public const int WVR_VREDRAW = 0x200;
 
       // Methods
-      private NativeMethods();
+      private NativeMethods() { }
       [DllImport("user32.dll")]
       public static extern bool AdjustWindowRectEx(ref RECT lpRect, int dwStyle, bool bMenu, int dwExStyle);
       [return: MarshalAs(UnmanagedType.Bool)]
@@ -947,6 +948,8 @@ namespace System.Windows.Forms
 
       internal delegate IntPtr HookProc(int nCode, IntPtr wParam, IntPtr lParam);
 
+      public delegate void QTimerCallbackDelegate(IntPtr hwnd, uint uMsg, IntPtr nIDEvent, uint dwTime);
+
       [StructLayout(LayoutKind.Sequential)]
       public struct ICONINFO : IDisposable
       {
@@ -955,7 +958,7 @@ namespace System.Windows.Forms
          public int yHotspot;
          public IntPtr hbmMask;
          public IntPtr hbmColor;
-         public void Dispose();
+         public void Dispose() { if (hbmMask != IntPtr.Zero) { DeleteObject(hbmMask); hbmMask = IntPtr.Zero; } if (hbmColor != IntPtr.Zero) { DeleteObject(hbmColor); hbmColor = IntPtr.Zero; } }
       }
 
       [StructLayout(LayoutKind.Sequential)]
@@ -1042,7 +1045,7 @@ namespace System.Windows.Forms
          public int time;
          public int pt_x;
          public int pt_y;
-         public void Dispose();
+         public void Dispose() { }
       }
 
       [StructLayout(LayoutKind.Sequential)]
@@ -1052,7 +1055,7 @@ namespace System.Windows.Forms
          public NativeMethods.RECT rgrc1;
          public NativeMethods.RECT rgrc2;
          public IntPtr lppos;
-         public void Dispose();
+         public void Dispose() { }
       }
 
       [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Unicode)]
@@ -1101,7 +1104,7 @@ namespace System.Windows.Forms
       {
          public int x;
          public int y;
-         public POINT(int ix, int iy);
+         public POINT(int ix, int iy) { x = ix; y = iy; }
       }
 
       [StructLayout(LayoutKind.Sequential)]
@@ -1111,7 +1114,7 @@ namespace System.Windows.Forms
          public int top;
          public int right;
          public int bottom;
-         public RECT(int iLeft, int iTop, int iWidth, int iHeight);
+         public RECT(int iLeft, int iTop, int iWidth, int iHeight) { left = iLeft; top = iTop; right = iLeft + iWidth; bottom = iTop + iHeight; }
       }
 
       [StructLayout(LayoutKind.Sequential)]
@@ -1144,7 +1147,7 @@ namespace System.Windows.Forms
       {
          public int cx;
          public int cy;
-         public SIZE(int icx, int icy);
+         public SIZE(int icx, int icy) { cx = icx; cy = icy; }
       }
 
       [StructLayout(LayoutKind.Sequential)]
@@ -1198,7 +1201,7 @@ namespace System.Windows.Forms
          public uint dwFlags;
          public IntPtr hwndTrack;
          public uint dwHoverTime;
-         public void Dispose();
+         public void Dispose() { }
       }
 
       [StructLayout(LayoutKind.Sequential)]
@@ -1222,7 +1225,7 @@ namespace System.Windows.Forms
          public int cx;
          public int cy;
          public uint flags;
-         public void Dispose();
+         public void Dispose() { }
       }
 
       [StructLayout(LayoutKind.Sequential)]

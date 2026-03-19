@@ -251,7 +251,7 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 		{
 			Save(null, SaveFormat.Excel);
 		}
-		
+
         void ribbonButtonOrbOxs_Click(object sender, EventArgs e)
         {
             Save(null, SaveFormat.Oxs);
@@ -516,7 +516,9 @@ namespace Ravlyk.SAE5.WinForms.UserControls
                 }
 
                 if (File.Exists(fileName))
-                    Process.Start(fileName);
+                {
+                    Process.Start(new ProcessStartInfo(fileName) { UseShellExecute = true });
+                }
             }
             catch (Exception ex)
             {
@@ -680,7 +682,7 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 			FindForm()?.Close();
 		}
 
-		/// <summary> 
+		/// <summary>
 		/// Clean up any resources being used.
 		/// </summary>
 		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>

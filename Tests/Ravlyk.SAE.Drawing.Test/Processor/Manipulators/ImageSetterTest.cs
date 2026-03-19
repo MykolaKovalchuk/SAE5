@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using NUnit.Framework;
 using Ravlyk.Common;
 
@@ -10,7 +10,7 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 		[Test]
 		public void TestOperationsCallsOnImageChanged()
 		{
-			var imageSetter = new ImageSetter();
+			var imageSetter = new ImageSetterManipulator();
 			var childManipulator = new ImageManipulatorTest.DummyManipulator(imageSetter);
 
 			var newImage = new CodedImage { Size = new Size(5, 5) };
@@ -21,7 +21,7 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 		[Test]
 		public void TestDefaults()
 		{
-			var imageSetter = new ImageSetter();
+			var imageSetter = new ImageSetterManipulator();
 
 			Assert.NotNull(imageSetter.SourceImage);
 			Assert.NotNull(imageSetter.ManipulatedImage);
@@ -34,7 +34,7 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 		[Test]
 		public void TestSetNewImage()
 		{
-			var imageSetter = new ImageSetter();
+			var imageSetter = new ImageSetterManipulator();
 			var originalImage = imageSetter.ManipulatedImage;
 
 			var newImage = new CodedImage { Size = new Size(5, 5) };
@@ -67,7 +67,7 @@ namespace Ravlyk.SAE.Drawing.Processor.Test
 		[Test]
 		public override void TestRestoreManipulationsCore()
 		{
-			var imageSetter = new ImageSetter();
+			var imageSetter = new ImageSetterManipulator();
 			var originalImage = imageSetter.ManipulatedImage;
 
 			var newImage = new CodedImage { Size = new Size(3, 2) };

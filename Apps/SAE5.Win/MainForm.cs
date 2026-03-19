@@ -253,12 +253,12 @@ namespace SAE5.Win
 
 		ICanClose closeableControl;
 
-		protected override void OnClosing(CancelEventArgs e)
+		protected override void OnFormClosing(FormClosingEventArgs e)
 		{
 			closeableControl?.OnClosing(e);
 			if (!e.Cancel)
 			{
-				base.OnClosing(e);
+				base.OnFormClosing(e);
 			}
 
 			if (!e.Cancel)

@@ -49,7 +49,7 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 			return PrinterSettings.InstalledPrinters.Cast<string>().ToList();
 		}
 
-		/// <summary> 
+		/// <summary>
 		/// Clean up any resources being used.
 		/// </summary>
 		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
@@ -436,7 +436,7 @@ namespace Ravlyk.SAE5.WinForms.UserControls
 
 						if (File.Exists(saveDialog.FileName))
 						{
-							Process.Start(saveDialog.FileName);
+							Process.Start(new ProcessStartInfo(saveDialog.FileName) { UseShellExecute = true });
 						}
 
 						Dispose();
