@@ -2,7 +2,7 @@ using System.Runtime.InteropServices;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-// Information about this assembly is defined by the following attributes. 
+// Information about this assembly is defined by the following attributes.
 // Change them to the values specific to your project.
 
 [assembly: AssemblyTitle("Ravlyk.SAE.Drawing")]
@@ -10,7 +10,7 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Ravlyk.net")]
 [assembly: AssemblyProduct("Ravlyk.SAE.Drawing")]
-[assembly: AssemblyCopyright("Mykola Kovalchuk © 2005-2025")]
+[assembly: AssemblyCopyright("Mykola Kovalchuk Â© 2005-2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.CompilerServices;
 
 [assembly: AssemblyVersion("2.0.2.4")]
 
-// The following attributes are used to specify the signing key for the assembly, 
+// The following attributes are used to specify the signing key for the assembly,
 // if desired. See the Mono documentation for more information about signing.
 
 //[assembly: AssemblyDelaySign(false)]

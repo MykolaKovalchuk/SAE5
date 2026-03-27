@@ -1,12 +1,14 @@
+// Inno Setup Script, version 6.7.1
+
 #define MyAppName "Stitch Art Easy! 5"
-#define MyAppVersion "5.1.2"
-#define MyAppFileVersion "5.1.2.30"
+#define MyAppVersion "5.1.3"
+#define MyAppFileVersion "5.1.3.31"
 #define MyAppPublisher "Mykola Kovalchuk"
-#define MyAppCopyright "Mykola Kovalchuk © 2003-2025"
+#define MyAppCopyright "Mykola Kovalchuk (C) 2003-2026"
 #define MyAppURL "https://github.com/MykolaKovalchuk/SAE5"
 #define MyAppExeName "SAE5.exe"
 
-#include "InnoDependencyInstaller\setup.iss"
+#include "InnoDependencyInstaller\CodeDependencies.iss"
 
 [Setup]
 // NOTE: The value of AppId uniquely identifies this application.
@@ -28,15 +30,15 @@ OutputBaseFilename=sae5setup
 Compression=lzma
 SolidCompression=yes
 ChangesAssociations=yes
-WizardImageFile=compiler:wizmodernimage-is.bmp
-WizardSmallImageFile=compiler:wizmodernsmallimage-is.bmp
+WizardImageFile=compiler:WizClassicImage-IS.bmp
+WizardSmallImageFile=compiler:WizClassicSmallImage-IS.bmp
 RestartIfNeededByRun=False
 CloseApplicationsFilter=*.exe,*.dll
 VersionInfoVersion={#MyAppFileVersion}
 VersionInfoCompany={#MyAppPublisher}
 VersionInfoDescription=Cross-stitch embroidery schemes designer
 VersionInfoTextVersion={#MyAppVersion}
-VersionInfoCopyright=2003-2022 © {#MyAppPublisher}
+VersionInfoCopyright=2003-2026 (C) {#MyAppPublisher}
 VersionInfoProductName={#MyAppName}
 VersionInfoProductVersion={#MyAppFileVersion}
 
@@ -44,7 +46,7 @@ VersionInfoProductVersion={#MyAppFileVersion}
 PrivilegesRequired=admin
 
 // remove next line if you only deploy 32-bit binaries and dependencies
-ArchitecturesInstallIn64BitMode=x64
+ArchitecturesInstallIn64BitMode=x64os
 
 // dependency installation requires ready page and ready memo to be enabled (default behaviour)
 DisableReadyPage=no
@@ -58,17 +60,18 @@ Name: "ru"; MessagesFile: "compiler:Languages\Russian.isl"
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
-Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
+Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "..\Apps\SAE5.Win\bin\Release\SAE5.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\Apps\SAE5.Win\bin\Release\SAE5.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\Apps\SAE5.Win\bin\Release\*.dll"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs
+Source: "..\Apps\SAE5.Win\bin\Release\net10.0-windows\SAE5.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\Apps\SAE5.Win\bin\Release\net10.0-windows\*.json"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\Apps\SAE5.Win\bin\Release\net10.0-windows\*.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\Apps\SAE5.Win\bin\Release\net10.0-windows\*.dll"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs
 Source: "..\Resources\Images\Samples\*"; DestDir: "{app}\Samples"; Flags: ignoreversion
 Source: "..\Ravlyk.SAE\Ravlyk.SAE.Resources\Fonts\Ravlyk.Znaky.2.ttf"; DestDir: "{commonfonts}"; FontInstall: Ravlyk.Znaky.2; Flags: uninsneveruninstall onlyifdoesntexist
 Source: "..\Resources\Icons\thimble_doc.ico"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\Resources\Icons\thimble.ico"; DestDir: "{app}"; Flags: ignoreversion
-// NOTE: Don't use "Flags: ignoreversion" on any shared system files
+// NOTE: Do not use "Flags: ignoreversion" on any shared system files
 
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
@@ -88,14 +91,7 @@ Root: HKCR; Subkey: Stitch Art Easy! document\DefaultIcon; ValueType: string; Va
 [Code]
 function InitializeSetup: Boolean;
 begin
-  // https://dotnet.microsoft.com/download/dotnet-framework/net48
-  if not IsDotNetInstalled(net48, 0) then begin
-    AddDependency('dotnetfx48.exe',
-      '/lcid ' + IntToStr(GetUILanguage) + ' /passive /norestart',
-      '.NET Framework 4.8',
-      'https://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/c9b8749dd99fc0d4453b2a3e4c37ba16/ndp48-web.exe',
-      '', False, False, False);
-  end;
+  Dependency_AddDotNet100Desktop;
 
   Result := True;
 end;
