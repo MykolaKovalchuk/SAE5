@@ -38,7 +38,7 @@ namespace Ravlyk.SAE5.WinForms.Dialogs
 
 		void OpenDownloadPage()
 		{
-			Process.Start("https://github.com/MykolaKovalchuk/SAE5/releases");
+			Process.Start(new ProcessStartInfo("https://github.com/MykolaKovalchuk/SAE5/releases") { UseShellExecute = true });
 		}
 	}
 }

@@ -75,7 +75,8 @@ namespace Ravlyk.Adopted.OpenXmlPackaging {
 																				RelationshipId = sheetRelationship.Id,
 																			};
 
-					using (var writer = XmlWriter.Create(worksheetPart.GetStream(FileMode.Create, FileAccess.Write))) {
+					using (var worksheetStream = worksheetPart.GetStream(FileMode.Create, FileAccess.Write))
+					using (var writer = XmlWriter.Create(worksheetStream)) {
 						worksheet.WorksheetXml = new XDocument(new XElement(Constants.MainXNamespace + "worksheet",
 													new XAttribute(XNamespace.Xmlns + "r", Constants.RelationshipNamespace)));
 

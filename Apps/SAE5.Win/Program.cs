@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 using Ravlyk.SAE5.WinForms.Properties;
@@ -13,6 +14,8 @@ namespace SAE5.Win
 		[STAThread]
 		static void Main(string[] parameters)
 		{
+			Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
 			if (parameters.Length > 0)
 			{
 				MainForm.StartupParameter = parameters[0];

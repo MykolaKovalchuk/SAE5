@@ -18,7 +18,7 @@ namespace Ravlyk.SAE5.WinForms.Dialogs
 			}
 		}
 
-		protected override void OnClosed(EventArgs e)
+		protected override void OnFormClosed(FormClosedEventArgs e)
 		{
 			if (!RegistrationHelper.IsRegistered && RegistrationHelper.TrialDaysLeft <= 0)
 			{
@@ -26,7 +26,7 @@ namespace Ravlyk.SAE5.WinForms.Dialogs
 			}
 			else
 			{
-				base.OnClosed(e);
+				base.OnFormClosed(e);
 			}
 		}
 
@@ -37,7 +37,7 @@ namespace Ravlyk.SAE5.WinForms.Dialogs
 
 		void buttonBuy_Click(object sender, EventArgs e)
 		{
-			Process.Start("https://insert.shop.url");
+			Process.Start(new ProcessStartInfo("https://insert.shop.url") { UseShellExecute = true });
 		}
 
 		void buttonRegister_Click(object sender, EventArgs e)
