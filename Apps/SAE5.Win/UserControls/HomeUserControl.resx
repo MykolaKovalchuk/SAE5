@@ -406,7 +406,7 @@
     <value>Flat</value>
   </data>
   <data name="buttonLinkedIn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>138, 3</value>
+    <value>96, 3</value>
   </data>
   <data name="buttonLinkedIn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -436,7 +436,7 @@
     <value>Flat</value>
   </data>
   <data name="buttonFacebook.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 3</value>
+    <value>138, 3</value>
   </data>
   <data name="buttonFacebook.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>

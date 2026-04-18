@@ -2,12 +2,12 @@
 {
 	partial class HomeUserControl
 	{
-		/// <summary> 
+		/// <summary>
 		/// Required designer variable.
 		/// </summary>
 		private System.ComponentModel.IContainer components = null;
 
-		/// <summary> 
+		/// <summary>
 		/// Clean up any resources being used.
 		/// </summary>
 		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
@@ -22,8 +22,8 @@
 
 		#region Component Designer generated code
 
-		/// <summary> 
-		/// Required method for Designer support - do not modify 
+		/// <summary>
+		/// Required method for Designer support - do not modify
 		/// the contents of this method with the code editor.
 		/// </summary>
 		private void InitializeComponent()
@@ -56,29 +56,29 @@
 			this.panelMain.SuspendLayout();
 			this.panelButtons.SuspendLayout();
 			this.SuspendLayout();
-			// 
+			//
 			// panelTop
-			// 
+			//
 			this.panelTop.Controls.Add(this.labelVersion);
 			this.panelTop.Controls.Add(this.pictureBoxTitle);
 			resources.ApplyResources(this.panelTop, "panelTop");
 			this.panelTop.Name = "panelTop";
-			// 
+			//
 			// labelVersion
-			// 
+			//
 			resources.ApplyResources(this.labelVersion, "labelVersion");
 			this.labelVersion.BackColor = System.Drawing.Color.Transparent;
 			this.labelVersion.Name = "labelVersion";
-			// 
+			//
 			// pictureBoxTitle
-			// 
+			//
 			this.pictureBoxTitle.Image = global::Ravlyk.SAE5.WinForms.Properties.Resources.Title;
 			resources.ApplyResources(this.pictureBoxTitle, "pictureBoxTitle");
 			this.pictureBoxTitle.Name = "pictureBoxTitle";
 			this.pictureBoxTitle.TabStop = false;
-			// 
+			//
 			// panelBottom
-			// 
+			//
 			this.panelBottom.Controls.Add(this.panelLanguages);
 			this.panelBottom.Controls.Add(this.buttonRegister);
 			this.panelBottom.Controls.Add(this.buttonLinkedIn);
@@ -87,18 +87,18 @@
 			this.panelBottom.Controls.Add(this.buttonWeb);
 			resources.ApplyResources(this.panelBottom, "panelBottom");
 			this.panelBottom.Name = "panelBottom";
-			// 
+			//
 			// panelLanguages
-			// 
+			//
 			this.panelLanguages.Controls.Add(this.buttonGerman);
 			this.panelLanguages.Controls.Add(this.buttonUkrainian);
 			this.panelLanguages.Controls.Add(this.buttonRussian);
 			this.panelLanguages.Controls.Add(this.buttonEnglish);
 			resources.ApplyResources(this.panelLanguages, "panelLanguages");
 			this.panelLanguages.Name = "panelLanguages";
-			// 
+			//
 			// buttonGerman
-			// 
+			//
 			this.buttonGerman.BackColor = System.Drawing.Color.White;
 			this.buttonGerman.FlatAppearance.BorderSize = 0;
 			this.buttonGerman.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
@@ -108,9 +108,9 @@
 			this.buttonGerman.Name = "buttonGerman";
 			this.buttonGerman.UseVisualStyleBackColor = true;
 			this.buttonGerman.Click += new System.EventHandler(this.buttonGerman_Click);
-			// 
+			//
 			// buttonUkrainian
-			// 
+			//
 			this.buttonUkrainian.BackColor = System.Drawing.Color.White;
 			this.buttonUkrainian.FlatAppearance.BorderSize = 0;
 			this.buttonUkrainian.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
@@ -120,9 +120,9 @@
 			this.buttonUkrainian.Name = "buttonUkrainian";
 			this.buttonUkrainian.UseVisualStyleBackColor = true;
 			this.buttonUkrainian.Click += new System.EventHandler(this.buttonUkrainian_Click);
-			// 
+			//
 			// buttonRussian
-			// 
+			//
 			this.buttonRussian.BackColor = System.Drawing.Color.White;
 			this.buttonRussian.FlatAppearance.BorderSize = 0;
 			this.buttonRussian.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
@@ -132,9 +132,9 @@
 			this.buttonRussian.Name = "buttonRussian";
 			this.buttonRussian.UseVisualStyleBackColor = true;
 			this.buttonRussian.Click += new System.EventHandler(this.buttonRussian_Click);
-			// 
+			//
 			// buttonEnglish
-			// 
+			//
 			this.buttonEnglish.BackColor = System.Drawing.Color.White;
 			this.buttonEnglish.FlatAppearance.BorderSize = 0;
 			this.buttonEnglish.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
@@ -144,9 +144,9 @@
 			this.buttonEnglish.Name = "buttonEnglish";
 			this.buttonEnglish.UseVisualStyleBackColor = true;
 			this.buttonEnglish.Click += new System.EventHandler(this.buttonEnglish_Click);
-			// 
+			//
 			// buttonRegister
-			// 
+			//
 			this.buttonRegister.BackColor = System.Drawing.Color.White;
 			this.buttonRegister.FlatAppearance.BorderSize = 0;
 			this.buttonRegister.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
@@ -156,9 +156,9 @@
 			this.buttonRegister.Name = "buttonRegister";
 			this.buttonRegister.UseVisualStyleBackColor = true;
 			this.buttonRegister.Click += new System.EventHandler(this.buttonRegister_Click);
-			// 
+			//
 			// buttonLinkedIn
-			// 
+			//
 			this.buttonLinkedIn.BackColor = System.Drawing.Color.White;
 			this.buttonLinkedIn.FlatAppearance.BorderSize = 0;
 			this.buttonLinkedIn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
@@ -168,9 +168,9 @@
 			this.buttonLinkedIn.Name = "buttonLinkedIn";
 			this.buttonLinkedIn.UseVisualStyleBackColor = true;
 			this.buttonLinkedIn.Click += new System.EventHandler(this.buttonLinkedIn_Click);
-			// 
+			//
 			// buttonFacebook
-			// 
+			//
 			this.buttonFacebook.BackColor = System.Drawing.Color.White;
 			this.buttonFacebook.FlatAppearance.BorderSize = 0;
 			this.buttonFacebook.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
@@ -179,10 +179,11 @@
 			this.buttonFacebook.IsSelected = false;
 			this.buttonFacebook.Name = "buttonFacebook";
 			this.buttonFacebook.UseVisualStyleBackColor = true;
+			this.buttonFacebook.Visible = false;
 			this.buttonFacebook.Click += new System.EventHandler(this.buttonFacebook_Click);
-			// 
+			//
 			// buttonFeedback
-			// 
+			//
 			this.buttonFeedback.BackColor = System.Drawing.Color.White;
 			this.buttonFeedback.FlatAppearance.BorderSize = 0;
 			this.buttonFeedback.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
@@ -192,9 +193,9 @@
 			this.buttonFeedback.Name = "buttonFeedback";
 			this.buttonFeedback.UseVisualStyleBackColor = true;
 			this.buttonFeedback.Click += new System.EventHandler(this.buttonFeedback_Click);
-			// 
+			//
 			// buttonWeb
-			// 
+			//
 			this.buttonWeb.BackColor = System.Drawing.Color.White;
 			this.buttonWeb.FlatAppearance.BorderSize = 0;
 			this.buttonWeb.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
@@ -204,34 +205,34 @@
 			this.buttonWeb.Name = "buttonWeb";
 			this.buttonWeb.UseVisualStyleBackColor = true;
 			this.buttonWeb.Click += new System.EventHandler(this.buttonWeb_Click);
-			// 
+			//
 			// panelMain
-			// 
+			//
 			this.panelMain.Controls.Add(this.panelLastOpenFiles);
 			this.panelMain.Controls.Add(this.panelLastOpenFilesTop);
 			this.panelMain.Controls.Add(this.panelButtons);
 			resources.ApplyResources(this.panelMain, "panelMain");
 			this.panelMain.Name = "panelMain";
-			// 
+			//
 			// panelLastOpenFiles
-			// 
+			//
 			resources.ApplyResources(this.panelLastOpenFiles, "panelLastOpenFiles");
 			this.panelLastOpenFiles.Name = "panelLastOpenFiles";
-			// 
+			//
 			// panelLastOpenFilesTop
-			// 
+			//
 			resources.ApplyResources(this.panelLastOpenFilesTop, "panelLastOpenFilesTop");
 			this.panelLastOpenFilesTop.Name = "panelLastOpenFilesTop";
-			// 
+			//
 			// panelButtons
-			// 
+			//
 			this.panelButtons.Controls.Add(this.buttonOpen);
 			this.panelButtons.Controls.Add(this.buttonNew);
 			resources.ApplyResources(this.panelButtons, "panelButtons");
 			this.panelButtons.Name = "panelButtons";
-			// 
+			//
 			// buttonOpen
-			// 
+			//
 			this.buttonOpen.BackColor = System.Drawing.Color.White;
 			this.buttonOpen.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
 			resources.ApplyResources(this.buttonOpen, "buttonOpen");
@@ -240,9 +241,9 @@
 			this.buttonOpen.Name = "buttonOpen";
 			this.buttonOpen.UseVisualStyleBackColor = true;
 			this.buttonOpen.Click += new System.EventHandler(this.buttonOpen_Click);
-			// 
+			//
 			// buttonNew
-			// 
+			//
 			this.buttonNew.BackColor = System.Drawing.Color.White;
 			this.buttonNew.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
 			resources.ApplyResources(this.buttonNew, "buttonNew");
@@ -251,9 +252,9 @@
 			this.buttonNew.Name = "buttonNew";
 			this.buttonNew.UseVisualStyleBackColor = true;
 			this.buttonNew.Click += new System.EventHandler(this.buttonNew_Click);
-			// 
+			//
 			// HomeUserControl
-			// 
+			//
 			resources.ApplyResources(this, "$this");
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.White;
